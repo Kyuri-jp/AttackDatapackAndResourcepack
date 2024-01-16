@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/netherite_sword"
+    },
+
+    "overrides": [
+      {"predicate": {"custom_model_data":1}, "model": "attack:item/weapons/swords/wither"},
+      {"predicate": {"custom_model_data":2}, "model": "attack:item/weapons/swords/end"},
+      {"predicate": {"custom_model_data":3}, "model": "attack:item/weapons/swords/photon"}
+    ]
+  }

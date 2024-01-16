@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/diamond_sword"
+    },
+
+    "overrides": [
+      {"predicate": {"custom_model_data":1}, "model": "attack:item/weapons/swords/eternal"},
+      {"predicate": {"custom_model_data":2}, "model": "attack:item/weapons/swords/spider"},
+      {"predicate": {"custom_model_data":3}, "model": "attack:item/weapons/swords/magnet"}
+    ]
+  }

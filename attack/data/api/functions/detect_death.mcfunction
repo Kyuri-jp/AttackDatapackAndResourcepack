@@ -1,0 +1,1 @@
+execute as @a[scores={detectDeath=1..}] at @s run function systems:game/died/add_tags

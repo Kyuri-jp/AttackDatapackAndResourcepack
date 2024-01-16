@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "damaged": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "minecraft:swords",
+                "nbt": "{weaponTag:freezeSword}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "systems:weapons/swords/freeze"
+  }
+}

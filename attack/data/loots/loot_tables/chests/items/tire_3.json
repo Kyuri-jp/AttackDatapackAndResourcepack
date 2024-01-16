@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\": \"Wind Sword\",\"color\": \"gray\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:windSword}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\": \"Gravity Sword\",\"color\": \"light_purple\",\"italic\": false}'},Unbreakable:true,CustomModelData:2,weaponTag:gravitySword}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\": \"Freeze Sword\",\"color\": \"blue\",\"italic\": false}'},Unbreakable:true,CustomModelData:3,weaponTag:freezeSword}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:swiftness\"}"
+              }
+            ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              }
+            ]
+        }
+      ]
+    }
+  ]
+}
