@@ -5,37 +5,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Eternal Sword\",\"color\": \"dark_purple\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:eternalSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/eternal"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Spider Sword\",\"color\": \"white\",\"italic\": false}'},Unbreakable:true,CustomModelData:2,weaponTag:spiderSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/spider"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Magnet Sword\",\"color\": \"red\",\"italic\": false}'},Unbreakable:true,CustomModelData:3,weaponTag:magnetSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/magnet"
         }
       ]
     },
@@ -45,9 +27,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:golden_apple",
-          "functions": [
-          ]
+          "name": "minecraft:golden_apple"
         },
         {
           "type": "minecraft:item",

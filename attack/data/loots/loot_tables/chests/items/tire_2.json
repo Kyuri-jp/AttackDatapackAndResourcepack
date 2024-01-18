@@ -5,37 +5,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "minecraft:stone_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Optical Sword\",\"color\": \"white\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:opticalSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/optical"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "minecraft:stone_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Plateau Sword\",\"color\": \"gold\",\"italic\": false}'},Unbreakable:true,CustomModelData:2,weaponTag:plateauSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/plateau"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:stone_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Aqua Sword\",\"color\": \"dark_aqua\",\"italic\": false}'},Unbreakable:true,CustomModelData:3,weaponTag:aquaSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/aqua"
         }
       ]
     },

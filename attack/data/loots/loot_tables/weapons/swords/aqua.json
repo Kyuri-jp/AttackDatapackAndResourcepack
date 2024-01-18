@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\": \"Aqua Sword\",\"color\": \"dark_aqua\",\"italic\": false}'},Unbreakable:true,CustomModelData:3,weaponTag:aquaSword}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

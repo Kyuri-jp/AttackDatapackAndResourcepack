@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 10
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{mana:true,CustomModelData:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

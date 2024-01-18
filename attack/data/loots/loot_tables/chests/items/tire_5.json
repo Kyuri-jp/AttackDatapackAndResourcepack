@@ -5,37 +5,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 8,
-          "name": "minecraft:netherite_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Wither Sword\",\"color\": \"dark_gray\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:witherSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/wither"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:netherite_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"End Sword\",\"color\": \"black\",\"italic\": false}'},Unbreakable:true,CustomModelData:2,weaponTag:endSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/end"
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "minecraft:netherite_sword",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Photon Sword\",\"color\": \"green\",\"italic\": false}'},Unbreakable:true,CustomModelData:3,weaponTag:photonSword}"
-            }
-          ]
+          "name": "loots:weapons/swords/photon"
         }
       ]
     },

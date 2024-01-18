@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\": \"Magnet Sword\",\"color\": \"red\",\"italic\": false}'},Unbreakable:true,CustomModelData:3,weaponTag:magnetSword}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

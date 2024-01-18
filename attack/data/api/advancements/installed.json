@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "player_joined": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "core:installed/message"
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\": \"Wither Sword\",\"color\": \"dark_gray\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:witherSword}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
