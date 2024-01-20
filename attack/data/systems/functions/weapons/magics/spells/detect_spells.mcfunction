@@ -5,3 +5,8 @@ scoreboard players add @s countMana 1
 execute if predicate api:items/weapons/magics/spells/get_some_mana run function systems:weapons/magics/spells/effects/get_some_mana
 execute if predicate api:items/weapons/magics/spells/random_loot_chance run function systems:weapons/magics/spells/effects/random_loot_chance
 execute if predicate api:items/weapons/magics/spells/chest_reload run function systems:weapons/magics/spells/effects/chest_reload
+execute if predicate api:items/weapons/magics/spells/heal run function systems:weapons/magics/spells/effects/heal
+
+#break
+item replace entity @s weapon.mainhand with air
+playsound entity.item.break player @s ~ ~ ~

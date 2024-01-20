@@ -44,6 +44,24 @@
           "name": "minecraft:cooked_beef"
         }
       ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/spells/spells"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/spells/mana"
+        }
+      ]
     }
   ]
 }

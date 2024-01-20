@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/spells/chest_reload"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/spells/get_some_mana"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/spells/heal"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/spells/random_loot_chance"
+          }
+        ]
+      },
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name":"loots:weapons/"
+          }
+        ]
+      }
+    ]
+  }
+  
