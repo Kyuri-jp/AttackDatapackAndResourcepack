@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+
+    "overrides": [
+      {"predicate": {"custom_model_data":1}, "model": "attack:item/weapons/magics/rods/basic_rod"},
+      {"predicate": {"custom_model_data":2}, "model": "attack:item/weapons/magics/rods/elemental_rod_air"},
+      {"predicate": {"custom_model_data":3}, "model": "attack:item/weapons/magics/rods/elemental_rod_dirt"},
+      {"predicate": {"custom_model_data":4}, "model": "attack:item/weapons/magics/rods/elemental_rod_fire"},
+      {"predicate": {"custom_model_data":5}, "model": "attack:item/weapons/magics/rods/elemental_rod_water"}
+    ]
+  }

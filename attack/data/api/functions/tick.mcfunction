@@ -1,2 +1,0 @@
-function api:player_count
-function api:detect_death

@@ -1,20 +1,39 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\": \"Gravity Sword\",\"color\": \"light_purple\",\"italic\": false}'},Unbreakable:true,CustomModelData:2,weaponTag:gravitySword}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Gravity Sword",
+                "color": "light_purple",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "攻撃した相手を燃焼させる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:true,CustomModelData:2,weaponTag:gravitySword}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

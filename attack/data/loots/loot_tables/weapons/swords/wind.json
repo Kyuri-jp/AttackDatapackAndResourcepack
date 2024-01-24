@@ -1,20 +1,39 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\": \"Wind Sword\",\"color\": \"gray\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:windSword}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Wind Sword",
+                "color": "gray",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "攻撃した相手を高く打ち上げる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:true,CustomModelData:1,weaponTag:windSword}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

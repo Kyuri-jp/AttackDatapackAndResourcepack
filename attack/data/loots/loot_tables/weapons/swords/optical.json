@@ -1,20 +1,39 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\": \"Optical Sword\",\"color\": \"white\",\"italic\": false}'},Unbreakable:true,CustomModelData:1,weaponTag:opticalSword}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Optical Sword",
+                "color": "red",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "攻撃した相手を発光させる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:true,CustomModelData:1,weaponTag:opticalSword}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

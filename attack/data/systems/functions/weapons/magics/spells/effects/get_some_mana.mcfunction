@@ -1,7 +1,7 @@
 #mana check
-execute if score @s countMana < $attack.mana.getSomeMana spellsUseMana run tellraw @s {"text":"マナが足りません！","bold":true}
-execute if score @s countMana < $attack.mana.getSomeMana spellsUseMana run give @s arrow{mana:true,CustomModelData:1}
-execute if score @s countMana < $attack.mana.getSomeMana spellsUseMana run return 0
+execute if score @s countMana < $attack.mana.getSomeMana constants run tellraw @s {"text":"マナが足りません！","bold":true}
+execute if score @s countMana < $attack.mana.getSomeMana constants run loot give @s loot loots:weapons/spells/mana
+execute if score @s countMana < $attack.mana.getSomeMana constants run return 0
 
 #vfx
 playsound entity.experience_orb.pickup player @s ~ ~ ~
@@ -12,3 +12,6 @@ loot give @s loot loots:spells/get_some_mana
 
 #consume
 clear @s arrow{mana:true} 2
+
+#break
+function systems:weapons/magics/spells/break

@@ -1,20 +1,39 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\": \"Spider Sword\",\"color\": \"white\",\"italic\": false}'},Unbreakable:true,CustomModelData:2,weaponTag:spiderSword}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Spider Sword",
+                "color": "white",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "攻撃した相手が持っているアイテムを奪う",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:true,CustomModelData:2,weaponTag:spiderSword}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -34,12 +34,11 @@ team modify preparation friendlyFire false
 scoreboard objectives add TeamList dummy
 scoreboard objectives add Settings dummy
 scoreboard objectives add Scores dummy
-
 scoreboard objectives add useCarrotStick used:carrot_on_a_stick
 scoreboard objectives add useFungusStick used:warped_fungus_on_a_stick
 scoreboard objectives add useBow dummy
 scoreboard objectives add countMana dummy
-scoreboard objectives add spellsUseMana dummy
+scoreboard objectives add constants dummy
 scoreboard objectives add detectDeath deathCount
 scoreboard objectives add constants dummy
 scoreboard objectives add bool dummy
@@ -52,6 +51,7 @@ scoreboard objectives add random dummy
 #set scores
 function core:set_values
 function core:set_using_mana
+function core:set_using_mp
 
 execute store result bossbar attack.settings.gui.preparation_time max run scoreboard players get $attack.settings.preparationTime.double defaultSettingValue
 execute store result bossbar attack.settings.gui.game_time max run scoreboard players get $attack.settings.gameTime.double defaultSettingValue
@@ -60,4 +60,4 @@ execute store result bossbar attack.settings.gui.cd_time max run scoreboard play
 
 #end
 scoreboard players set $attack.core.installed bool 1
-advancement revoke @a only api:installed
+advancement revoke @a only libs:installed

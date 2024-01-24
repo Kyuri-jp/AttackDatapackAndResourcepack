@@ -13,6 +13,6 @@ execute if score $attack.system.start.timer timer matches ..0 run playsound ui.b
 
 scoreboard players remove $attack.system.start.timer timer 1
 
-execute unless score $attack.system.start.timer timer matches ..0 run schedule function systems:items/operator/timer/start 1t
+execute unless score $attack.system.start.timer timer matches ..0 run schedule function systems:game/start/lets 1t
 execute if score $attack.system.start.timer timer matches ..0 run function systems:game/start/game/start
 execute if score $attack.system.start.timer timer matches ..0 run scoreboard players reset $attack.system.start.timer timer

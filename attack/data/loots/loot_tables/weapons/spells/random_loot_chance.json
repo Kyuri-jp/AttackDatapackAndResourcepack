@@ -1,20 +1,55 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\": \"Random Loot Chance\",\"italic\": false}'},spell:true,spellTag:randomLootChance,CustomModelData:1,Enchantments:[{}]}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Random Loot Chance",
+                "color": "gold",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "ランダムな宝箱の中身を手に入れる",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "使用マナ : ",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "$attack.mana.randomLootChance",
+                      "objective": "constants"
+                    },
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{spell:true,spellTag:randomLootChance,CustomModelData:1,Unbreakable:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Magic Book [Explosion]",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "使用MP : ",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "score": {
+                      "name": "$attack.mp.explosion",
+                      "objective": "constants"
+                    },
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "当たった相手を爆発させる",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "火属性",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,magicBook:true,element:fire,bookTag:explosion}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

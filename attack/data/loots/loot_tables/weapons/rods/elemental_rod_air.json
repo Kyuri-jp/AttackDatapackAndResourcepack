@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Elemental Rod [Air]",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "空気属性の杖。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "空気属性+20%",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "土属性-20%",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,rod:true,weaponTag:airRod}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

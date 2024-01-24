@@ -1,0 +1,2 @@
+function libs:player_count
+function libs:detect_death

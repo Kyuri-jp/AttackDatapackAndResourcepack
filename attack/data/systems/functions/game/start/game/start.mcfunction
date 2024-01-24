@@ -24,6 +24,7 @@ tag @a[team=redTeam] add team.red
 tag @a[team=blueTeam] add team.blue
 clear @a
 tag @a add game.players.playing
+execute as @a run attribute @s generic.max_health base set 40
 
 #watcher
 gamemode spectator @a[team=watch]

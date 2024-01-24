@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Elemental Rod [Water]",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "水属性の杖。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "水属性 +20%",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "火属性 -20%",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,rod:true,weaponTag:blueRod}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
 #functions
-function api:tick
+function libs:tick
 function systems:tick
 function scores:tick

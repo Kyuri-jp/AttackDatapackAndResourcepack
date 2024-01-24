@@ -4,19 +4,15 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:arrow",
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/spells/mana",
             "functions": [
               {
-                "function": "minecraft:set_count",
-                "count": {
+                "function":"minecraft:set_count",
+                "count":{
                   "min": 3,
                   "max": 10
                 }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{mana:true,CustomModelData:1}"
               }
             ]
           }

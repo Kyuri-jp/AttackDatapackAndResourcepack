@@ -1,7 +1,7 @@
 #mana check
-execute if score @s countMana < $attack.mana.chestReload spellsUseMana run tellraw @s {"text":"マナが足りません！","bold":true}
-execute if score @s countMana < $attack.mana.chestReload spellsUseMana run give @s arrow{mana:true,CustomModelData:1}
-execute if score @s countMana < $attack.mana.chestReload spellsUseMana run return 0
+execute if score @s countMana < $attack.mana.chestReload constants run tellraw @s {"text":"マナが足りません！","bold":true}
+execute if score @s countMana < $attack.mana.chestReload constants run loot give @s loot loots:weapons/spells/mana
+execute if score @s countMana < $attack.mana.chestReload constants run return 0
 
 #vfx
 playsound block.chest.locked player @s ~ ~ ~
@@ -13,3 +13,6 @@ function systems:preparation/chests/set/chests/start
 
 #consume
 clear @s arrow{mana:true} 4
+
+#break
+function systems:weapons/magics/spells/break

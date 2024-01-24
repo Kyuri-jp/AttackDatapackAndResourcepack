@@ -1,20 +1,55 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\": \"Chest Reload\",\"italic\": false}'},spell:true,spellTag:chestReload,CustomModelData:1,Enchantments:[{}]}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Chest Reload",
+                "color": "gold",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "配置されているチェストを再設置する",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "使用マナ : ",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "$attack.mana.chestReload",
+                      "objective": "constants"
+                    },
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{spell:true,spellTag:chestReload,CustomModelData:1,Unbreakable:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
