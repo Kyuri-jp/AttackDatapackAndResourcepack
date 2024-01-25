@@ -1,5 +1,6 @@
 #mp
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run tellraw @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] {"text": "MPが足りません!","bold": true}  
+execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run kill @s
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run return 0
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. if score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run scoreboard players remove @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp 20
 
