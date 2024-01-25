@@ -5,14 +5,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Get Some Mana",
-                "color": "green",
+                "text": "Magic Book [Meteor]",
+                "color": "red",
                 "italic": false
               }
             },
@@ -20,32 +20,37 @@
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
-                {
-                  "text": "ランダムな数のマナを手に入れる",
-                  "color": "gray",
-                  "italic": false
-                },
                 [
                   {
-                    "text": "使用マナ : ",
-                    "color": "aqua",
-                    "italic": false
+                    "text": "使用MP : ",
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "score": {
-                      "name": "$attack.mana.getSomeMana",
+                      "name": "$attack.mp.meteor",
                       "objective": "constants"
                     },
                     "color": "aqua",
                     "bold": true,
                     "italic": false
                   }
-                ]
+                ],
+                {
+                  "text": "当たった相手に強い衝撃と爆発を起こす",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "火属性",
+                  "color": "red",
+                  "italic": false
+                }
               ]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{spell:true,spellTag:getSomeMana,CustomModelData:1,Unbreakable:true}"
+              "tag": "{CustomModelData:1,magicBook:true,element:fire,bookTag:meteor}"
             }
           ]
         }

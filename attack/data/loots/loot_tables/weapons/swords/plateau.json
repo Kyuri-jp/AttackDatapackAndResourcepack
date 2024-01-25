@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:1,weaponTag:plateauSword}"
+              "tag": "{Unbreakable:true,CustomModelData:3,weaponTag:plateauSword}"
             }
           ]
         }

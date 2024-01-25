@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手を燃焼させる",
+                  "text": "攻撃した相手をたまに1ブロック下に下げる",
                   "color": "gray",
                   "italic": false
                 }

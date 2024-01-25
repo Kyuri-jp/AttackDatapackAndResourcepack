@@ -1,0 +1,1 @@
+execute if predicate libs:items/weapons/magics/books/explosion

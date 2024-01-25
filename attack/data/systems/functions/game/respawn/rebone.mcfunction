@@ -4,5 +4,5 @@ effect give @s instant_health 3 5
 effect give @s saturation 3 5
 effect clear @s
 tag @s remove game.coolDownNow
-scoreboard players reset @s timer
+scoreboard players reset @s datas
 attribute @s generic.max_health base set 40

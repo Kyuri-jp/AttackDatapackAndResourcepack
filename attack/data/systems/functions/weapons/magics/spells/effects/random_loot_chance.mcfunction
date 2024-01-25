@@ -1,17 +1,17 @@
-#mana check
-execute if score @s countMana < $attack.mana.randomLootChance constants run tellraw @s {"text":"マナが足りません！","bold":true}
-execute if score @s countMana < $attack.mana.randomLootChance constants run loot give @s loot loots:weapons/spells/mana
-execute if score @s countMana < $attack.mana.randomLootChance constants run return 0
+# mana check
+execute if score @s datas < $attack.mana.datasLootChance constants run tellraw @s {"text":"マナが足りません！","bold":true}
+execute if score @s datas < $attack.mana.datasLootChance constants run loot give @s loot loots:weapons/spells/mana
+execute if score @s datas < $attack.mana.datasLootChance constants run return 0
 
-#vfx
+# vfx
 playsound block.chest.open player @s ~ ~ ~
 particle composter ~ ~ ~ 1 1 1 0.5 200 normal
 
-#call
+# call
 loot give @s loot loots:spells/random_loot_chance
 
-#consume
+# consume
 clear @s arrow{mana:true} 7
 
-#break
+# break
 function systems:weapons/magics/spells/break

@@ -5,9 +5,9 @@
       "equipment": {
         "mainhand": {
           "items": [
-            "minecraft:book"
+            "minecraft:warped_fungus_on_a_stick"
           ],
-          "nbt": "{bookTag:flash}"
+          "nbt": "{weaponTag:airRod}"
         }
       }
     }
