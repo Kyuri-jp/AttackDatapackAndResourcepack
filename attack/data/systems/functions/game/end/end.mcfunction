@@ -14,6 +14,7 @@ clear @a
 effect clear @a
 effect give @a instant_health 2 20
 effect give @a saturation 2 20
+execute at @e[type=armor_stand,tag=waitRoom.anchor.default.position] run spawnpoint @a ~ ~ ~
 tag @a remove game.players.playing
 tag @a remove game.coolDownNow
 

@@ -9,6 +9,8 @@ scoreboard players set $attack.settings.preparationTime constants 2400
 scoreboard players set $attack.settings.exTime constants 2400
 scoreboard players set $attack.settings.exGame constants 1
 
+scoreboard players set $attack.magics.rods.scope constants 15
+
 # setBossbarMaxValue
 scoreboard players operation $attack.settings.preparationTime.double constants = $attack.settings.preparationTime constants
 scoreboard players operation $attack.settings.gameTime.double constants = $attack.settings.gameTime constants

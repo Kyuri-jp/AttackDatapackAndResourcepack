@@ -41,6 +41,7 @@ scoreboard objectives add mp dummy
 scoreboard objectives add constants dummy
 scoreboard objectives add datas dummy
 scoreboard objectives add counter dummy
+scoreboard objectives add deathCount deathCount
 
 # set scores
 function core:set_values
