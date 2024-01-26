@@ -10,7 +10,7 @@ bossbar set attack.settings.gui.preparation_time visible false
 bossbar set attack.settings.gui.game_time visible false
 bossbar set attack.settings.gui.ex_time visible false
 bossbar set attack.settings.gui.cd_time visible false
-bossbar set attack.game.datas players @a
+bossbar set attack.game.timer players @a
 
 # initScores
 scoreboard players set RedTeamScore Scores 0
@@ -18,6 +18,8 @@ scoreboard players set BlueTeamScore Scores 0
 
 # initPlayres
 function systems:game/start/set_spawn_point
+scoreboard players reset @s killCount
+scoreboard players reset @s deathCounter
 effect give @a instant_health 3 5
 effect give @a saturation 3 5
 tag @a[team=redTeam] add team.red

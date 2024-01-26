@@ -1,5 +1,10 @@
 # result
-tellraw @a ["",{"text":"====================","color":"gold"},{"text":"\n"},{"text":"Red Team Score : [","color":"red"},{"score":{"name":"RedTeamScore","objective":"Scores"},"color":"red"},{"text":"]","color":"red"},{"text":"\n"},{"text":"Blue Team Score : [","color":"blue"},{"score":{"name":"BlueTeamScore","objective":"Scores"},"color":"blue"},{"text":"]","color":"blue"},{"text":"\n"},{"text":"====================","color":"gold"}]
+tellraw @a {"text":"====================","color":"gold"}
+tellraw @a [{"text":"Red Team Score : [","color":"red"},{"score":{"name":"RedTeamScore","objective":"Scores"},"color":"red"},{"text":"]","color":"red"}]
+tellraw @a [{"text":"Blue Team Score : [","color":"blue"},{"score":{"name":"BlueTeamScore","objective":"Scores"},"color":"blue"},{"text":"]","color":"blue"}]
+tellraw @a ""
+tellraw @a ["",{"selector":"@s","bold":true},{"text":" : "},{"text":"[","color":"red"},{"score":{"name":"@s","objective":"killCount"},"color":"red"},{"text":"]Kill","color":"red"},{"text":" | "},{"text":"[","color":"blue"},{"score":{"name":"@s","objective":"deathCount"},"color":"blue"},{"text":"]Death","color":"blue"}]
+tellraw @a {"text":"====================","color":"gold"}
 
 # diff
 difficulty peaceful

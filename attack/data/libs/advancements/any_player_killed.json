@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "killed": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "scores:count/killed/add/any_player_killed"
+    }
+  }
+  
