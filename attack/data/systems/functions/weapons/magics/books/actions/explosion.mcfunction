@@ -1,20 +1,25 @@
+#element
+scoreboard players set $attack.magics.rods.elements.just mp 3
+
 #mp
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run tellraw @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] {"text": "MPが足りません!","bold": true}  
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run kill @s
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run return 0
 execute unless score $attack.counter.magics.rods.scope counter matches 1.. if score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants run scoreboard players remove @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp 20
+execute unless score $attack.counter.magics.rods.scope counter matches 1.. if score @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.mp.explosion constants if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just mp as @a[tag=attack.weapons.magics.rods.user,sort=nearest,limit=1] at @s run playsound entity.blaze.shoot player @s ~ ~ ~
 
 # pros
 tp ^ ^ ^0.5
 particle end_rod ~ ~ ~ 0 0 0 0 2 normal
+execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just mp run particle flame ~ ~ ~ 0.2 0.2 0.2 0.1 10 normal 
 execute if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run tag @s add attack.magics.rod.detect.player
 
+# 0:normal 1:air 2:dirt 3:fire 4:water
 execute if score $attack.weapons.magics.rods.elements datas matches 0 if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run damage @a[distance=..0.5,limit=1] 5 explosion by @a[tag=attack.weapons.magics.rods.user,limit=1]
 execute if score $attack.weapons.magics.rods.elements datas matches 1 if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run damage @a[distance=..0.5,limit=1] 5 explosion by @a[tag=attack.weapons.magics.rods.user,limit=1]
 execute if score $attack.weapons.magics.rods.elements datas matches 2 if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run damage @a[distance=..0.5,limit=1] 1 explosion by @a[tag=attack.weapons.magics.rods.user,limit=1]
 execute if score $attack.weapons.magics.rods.elements datas matches 3 if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run damage @a[distance=..0.5,limit=1] 6 explosion by @a[tag=attack.weapons.magics.rods.user,limit=1]
 execute if score $attack.weapons.magics.rods.elements datas matches 4 if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run damage @a[distance=..0.5,limit=1] 1 explosion by @a[tag=attack.weapons.magics.rods.user,limit=1]
-
 
 execute if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] run playsound entity.lightning_bolt.impact player @a[distance=..0.5,limit=1]
 execute if entity @a[distance=..0.5,limit=1,sort=nearest,tag=!attack.weapons.magics.rods.user] at @a[distance=..0.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 3 normal

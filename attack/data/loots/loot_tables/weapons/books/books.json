@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/books/dark"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/books/drain"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/books/explosion"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/books/lightning"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/books/meteor"
+          }
+        ]
+      }
+    ]
+  }
+  

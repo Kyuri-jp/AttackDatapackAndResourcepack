@@ -18,6 +18,10 @@
           {
             "type": "minecraft:loot_table",
             "name": "loots:weapons/spells/random_loot_chance"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/spells/heal_mp"
           }
         ]
       },

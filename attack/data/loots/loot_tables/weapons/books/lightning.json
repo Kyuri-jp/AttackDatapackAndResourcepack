@@ -12,7 +12,7 @@
               "entity": "this",
               "name": {
                 "text": "Magic Book [Lightning]",
-                "color": "red",
+                "color": "aqua",
                 "italic": false
               }
             },
@@ -43,7 +43,7 @@
                 },
                 {
                   "text": "空気属性",
-                  "color": "gold",
+                  "color": "aqua",
                   "italic": false
                 }
               ]

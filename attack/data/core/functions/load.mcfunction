@@ -6,8 +6,8 @@ scoreboard players set $attack.core.installed.checked datas 0
 gamerule doImmediateRespawn true
 
 # bossbar
-bossbar add attack.game.datas {"text":"Time remaining:any seconds"}
-bossbar set attack.game.datas color red
+bossbar add attack.game.timer {"text":"Time remaining:any seconds"}
+bossbar set attack.game.timer color red
 bossbar add attack.settings.gui.preparation_time {"text":"Preparation Game Time"}
 bossbar set attack.settings.gui.preparation_time color blue
 bossbar add attack.settings.gui.game_time {"text":"Main Game Time"}

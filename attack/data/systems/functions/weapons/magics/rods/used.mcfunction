@@ -17,3 +17,7 @@ execute as @e[type=armor_stand,tag=attack.anchor.magics.rods,distance=..0.01,lim
 
 # books
 execute if predicate libs:items/weapons/magics/books/explosion run function systems:weapons/magics/books/detect_books
+
+#vfx
+particle end_rod ~ ~ ~ 0 0 0 0.2 10 normal
+playsound block.beacon.activate player @s ~ ~ ~ 1 1.5

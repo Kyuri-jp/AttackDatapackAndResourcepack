@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "name": "minecraft:bow",
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Magic Book [Dark]",
+                "text": "Heal MP",
                 "color": "aqua",
                 "italic": false
               }
@@ -20,37 +20,32 @@
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
+                {
+                  "text": "MPを20回復する",
+                  "color": "gray",
+                  "italic": false
+                },
                 [
                   {
-                    "text": "使用MP : ",
-                    "italic": false,
-                    "color": "aqua"
+                    "text": "使用マナ : ",
+                    "color": "aqua",
+                    "italic": false
                   },
                   {
                     "score": {
-                      "name": "$attack.mp.dark",
+                      "name": "$attack.mana.healMp",
                       "objective": "constants"
                     },
                     "color": "aqua",
                     "bold": true,
                     "italic": false
                   }
-                ],
-                {
-                  "text": "当たった相手の視界を奪う",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "空気属性",
-                  "color": "aqua",
-                  "italic": false
-                }
+                ]
               ]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,magicBook:true,element:air,bookTag:dark}"
+              "tag": "{spell:true,spellTag:healMp,CustomModelData:1,Unbreakable:true}"
             }
           ]
         }

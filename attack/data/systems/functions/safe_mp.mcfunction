@@ -1,0 +1,1 @@
+execute if score @s mp > $attack.mp.default.max mp run scoreboard players operation @s mp = $attack.mp.default.max mp

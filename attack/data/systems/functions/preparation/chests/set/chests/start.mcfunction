@@ -6,4 +6,4 @@ execute at @e[type=armor_stand,tag=game.anchor.set.chest.tire5] run setblock ~ ~
 scoreboard players reset $attack.game.count.set.chest counter
 
 # call
-function systems:preparation/chests/set/chests/datas/set
+function systems:preparation/chests/set/chests/random/set

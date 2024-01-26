@@ -1,11 +1,26 @@
 {
-    "criteria": {
-      "player_joined": {
-        "trigger": "minecraft:location"
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "$attack.core.installed.checked"
+              },
+              "score": "datas"
+            },
+            "range": 0
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "core:installed/message"
     }
+  },
+  "rewards": {
+    "function": "core:installed/message"
   }
-  
+}
