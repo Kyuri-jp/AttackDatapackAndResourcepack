@@ -111,6 +111,6 @@ functions/tags/load,tickが定義されています。呼び出される関数�
 - 自作発言はお控えください。
 
 # License
-[Datapack](https://github.com/Kyuri-jp/AttackDatapack/blob/master/attack) : [Creative Commons Zero v1](https://github.com/Kyuri-jp/AttackDatapack/blob/master/attack/licence.txt)
+[Datapack](attack) : [Creative Commons Zero v1](attack/licence.txt)
 
-[ResourcePack](https://github.com/Kyuri-jp/AttackDatapack/blob/master/attack_resource) : [MIT License](https://github.com/Kyuri-jp/AttackDatapack/blob/master/attack_resource/licence.txt)
+[ResourcePack](attack_resource) : [MIT License](attack_resource/licence.txt)
