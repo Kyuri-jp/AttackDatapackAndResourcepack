@@ -3,7 +3,7 @@
 ## About
 マインクラフトのマップであるAttack!のデータパックです
 
-# 改造について
+# About modification
 DatapackのLicenseはCC0なので自由に改造,再配布をしていただいて構いません。ただし,無改造のままでの配布はお控えください。
 > 再配布する場合はforkをしてくださると見つけやすいので助かります。
 
@@ -109,6 +109,14 @@ functions/tags/load,tickが定義されています。呼び出される関数�
 - 無改造での状態での再配布はお控えください
 - 著作権表記は不必要ですが,「原作者:Kyuri」等の情報を書いてくださると作者が喜びます。
 - 自作発言はお控えください。
+
+# Environment
+## Code Editor
+[Visual Studio Code](https://github.com/microsoft/vscode)
+
+## Extensions
+[Datapack Helper Plus](https://github.com/SpyglassMC/vscode-datapack)
+[MC Datapack Utility](https://github.com/ChenCMD/MC-Datapack-Utility)
 
 # License
 [Datapack](attack) : [Creative Commons Zero v1](attack/licence.txt)
