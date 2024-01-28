@@ -8,4 +8,4 @@
 
 詳細については以下を参照してください
 - データパック [ReadMe-Datapack](attack/ReadMe-Datapack.md)
-- リソースパック[ReadMe-Resourcepack](attack_resource/ReadMe-Resource.md)
+- リソースパック[ReadMe-Resourcepack](attack_resource/ReadMe-Resourcepack.md)
