@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,rod:true,weaponTag:dirtRod}"
+              "tag": "{CustomModelData:3,rod:true,WeaponTag:DirtRod}"
             }
           ]
         }

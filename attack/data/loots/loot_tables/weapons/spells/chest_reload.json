@@ -32,10 +32,8 @@
                     "italic": false
                   },
                   {
-                    "score": {
-                      "name": "$attack.mana.chestReload",
-                      "objective": "constants"
-                    },
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.ChestReload",
+                    "storage": "storage:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false
@@ -45,7 +43,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{spell:true,spellTag:chestReload,CustomModelData:1,Unbreakable:true}"
+              "tag": "{spell:true,SpellTag:ChestReload,CustomModelData:1,Unbreakable:true}"
             }
           ]
         }

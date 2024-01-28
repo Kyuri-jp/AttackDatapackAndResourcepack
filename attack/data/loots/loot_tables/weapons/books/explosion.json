@@ -27,10 +27,8 @@
                     "color": "aqua"
                   },
                   {
-                    "score": {
-                      "name": "$attack.mp.explosion",
-                      "objective": "constants"
-                    },
+                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.Explosion",
+                    "storage": "storage:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false
@@ -50,7 +48,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,magicBook:true,element:fire,bookTag:explosion}"
+              "tag": "{CustomModelData:1,MagicBook:true,Element:Fire,BookTag:Explosion}"
             }
           ]
         }

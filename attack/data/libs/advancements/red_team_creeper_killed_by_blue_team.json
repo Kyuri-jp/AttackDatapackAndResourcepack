@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "died": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "team": "redTeam"
+              }
+            }
+          ],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:creeper",
+                "team": "blueTeam"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "scores:count/killed/add/blues_score"
+    }
+  }
+  

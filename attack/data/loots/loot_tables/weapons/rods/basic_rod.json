@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,rod:true,weaponTag:basicRod}"
+              "tag": "{CustomModelData:1,rod:true,WeaponTag:BasicRod}"
             }
           ]
         }

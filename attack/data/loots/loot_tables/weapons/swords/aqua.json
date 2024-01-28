@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:3,weaponTag:aquaSword}"
+              "tag": "{Unbreakable:true,CustomModelData:3,WeaponTag:AquaSword}"
             }
           ]
         }

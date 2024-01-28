@@ -32,10 +32,8 @@
                     "italic": false
                   },
                   {
-                    "score": {
-                      "name": "$attack.mana.getSomeMana",
-                      "objective": "constants"
-                    },
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.GetSomeMana",
+                    "storage": "storage:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false
@@ -45,7 +43,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{spell:true,spellTag:getSomeMana,CustomModelData:1,Unbreakable:true}"
+              "tag": "{spell:true,SpellTag:GetSomeMana,CustomModelData:1,Unbreakable:true}"
             }
           ]
         }

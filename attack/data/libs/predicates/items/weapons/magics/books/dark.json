@@ -7,7 +7,7 @@
           "items": [
             "minecraft:book"
           ],
-          "nbt": "{bookTag:dark}"
+          "nbt": "{BookTag:Dark}"
         }
       }
     }

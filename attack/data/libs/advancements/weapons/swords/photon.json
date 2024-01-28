@@ -9,7 +9,7 @@
             "equipment": {
               "mainhand": {
                 "tag": "minecraft:swords",
-                "nbt": "{weaponTag:photonSword}"
+                "nbt": "{WeaponTag:PhotonSword}"
               }
             }
           }

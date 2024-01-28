@@ -3,8 +3,11 @@
     "entity": "this",
     "predicate": {
       "equipment": {
-        "mainhand": {
-          "nbt": "{spellTag:stepGameTime}"
+        "offhand": {
+          "items": [
+            "minecraft:book"
+          ],
+          "nbt": "{Element:None}"
         }
       }
     }

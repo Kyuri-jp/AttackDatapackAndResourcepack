@@ -1,2 +1,2 @@
-scoreboard players operation $attack.settings.coolTime Settings = $attack.settings.coolTime constants
+data modify storage storage:settings Main.Custom.Times.Game.CoolDown set from storage storage:settings Main.Default.Times.Game.CoolDown
 function systems:setting/modify/message

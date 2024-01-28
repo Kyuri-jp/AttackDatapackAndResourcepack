@@ -1,2 +1,2 @@
-scoreboard players set $attack.settings.exGame Settings 1
+data modify storage storage:settings Main.Custom.Switch.Ex set value true
 function systems:setting/modify/message

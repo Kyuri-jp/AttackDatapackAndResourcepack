@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:2,weaponTag:gravitySword}"
+              "tag": "{Unbreakable:true,CustomModelData:2,WeaponTag:GravitySword}"
             }
           ]
         }

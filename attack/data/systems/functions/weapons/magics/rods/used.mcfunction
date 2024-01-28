@@ -1,5 +1,5 @@
 scoreboard players reset @s useFungusStick
-execute unless predicate libs:items/weapons/magics/books/any_books run tellraw @s {"text": "本を左手に持ってください","bold": true}
+execute unless predicate libs:items/weapons/magics/books/any_books run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Missing.Book","storage":"storage:messages"}
 execute unless predicate libs:items/weapons/magics/books/any_books run return 0
 tag @s add attack.weapons.magics.rods.user
 
@@ -16,7 +16,7 @@ data modify entity @e[type=armor_stand,tag=attack.anchor.magics.rods,distance=..
 execute as @e[type=armor_stand,tag=attack.anchor.magics.rods,distance=..0.01,limit=1] at @s run tp @s ~ ~1 ~
 
 # books
-execute if predicate libs:items/weapons/magics/books/explosion run function systems:weapons/magics/books/detect_books
+function systems:weapons/magics/books/detect_books
 
 #vfx
 particle end_rod ~ ~ ~ 0 0 0 0.2 10 normal

@@ -1,1 +1,0 @@
-scoreboard players reset @a[scores={useCarrotStick=1..}] useCarrotStick

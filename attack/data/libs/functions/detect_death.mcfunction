@@ -1,1 +1,1 @@
-execute as @a[scores={deathCount=1..}] at @s run function systems:game/died/add_tags
+execute as @a[scores={deathDetecter=1..}] at @s run function systems:game/died/add_tags

@@ -32,10 +32,8 @@
                     "italic": false
                   },
                   {
-                    "score": {
-                      "name": "$attack.mana.randomLootChance",
-                      "objective": "constants"
-                    },
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.RandomLootChance",
+                    "storage": "storage:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false
@@ -45,7 +43,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{spell:true,spellTag:randomLootChance,CustomModelData:1,Unbreakable:true}"
+              "tag": "{spell:true,SpellTag:RandomLootChance,CustomModelData:1,Unbreakable:true}"
             }
           ]
         }

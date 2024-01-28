@@ -1,4 +1,17 @@
-execute store result bossbar attack.game.timer max run scoreboard players get $attack.settings.exTime Settings
-scoreboard players operation $attack.timer.exTime datas = $attack.settings.exTime Settings
-bossbar set attack.game.timer color red
-function systems:game/ex/start_timer
+# get data
+    execute store result bossbar attack.game.timer max run data get storage storage:settings Main.Custom.Times.Game.Ex
+    execute store result bossbar attack.game.timer value run data get storage storage:settings Main.Custom.Times.Game.Ex
+    execute store result score $attack.timer.exTime counter run data get storage storage:settings Main.Custom.Times.Game.Ex
+
+# color change
+    bossbar set attack.game.timer color red
+
+# vfx
+    title @a title {"text": "Start Exhibition Game!","color": "red"}
+    execute as @a at @s run playsound block.end_portal.spawn player @s ~ ~ ~
+
+# set bool
+    data modify storage storage:booleans Main.Game.Ex set value true
+
+# start
+    function systems:game/ex/start_timer

@@ -1,12 +1,18 @@
+# temp
+execute store result score $attack.mp.default.max temporary run data get storage storage:registry Main.Weapons.Magics.Mp.Max
+execute store result score $attack.mp.default.xp.smooth temporary run data get storage storage:registry Main.Weapons.Magics.Mp.Smooth
+execute store result score $attack.constants.value.1000 temporary run data get storage storage:registry Main.Const.Thousand
+
+# get
 xp set @s 129 levels
 execute store result score $attack.xp.point mp run xp query @s points
 
 # calc
 scoreboard players operation $attack.xp.percent mp = @s mp
-scoreboard players operation $attack.xp.percent mp *= $attack.constants.value.1000 constants
-scoreboard players operation $attack.xp.percent mp /= $attack.mp.default.max mp
+scoreboard players operation $attack.xp.percent mp *= $attack.constants.value.1000 temporary
+scoreboard players operation $attack.xp.percent mp /= $attack.mp.default.max temporary
 scoreboard players operation $attack.xp.percent mp -= $attack.xp.point mp
-scoreboard players operation $attack.xp.percent mp /= $attack.mp.default.xp.smooth mp
+scoreboard players operation $attack.xp.percent mp /= $attack.mp.default.xp.smooth temporary
 scoreboard players operation $attack.xp.point mp += $attack.xp.percent mp
 
 # point
@@ -54,6 +60,9 @@ execute if score $attack.xp.level mp matches 1.. run scoreboard players remove $
 scoreboard players reset $attack.xp.level mp
 scoreboard players reset $attack.xp.point mp
 scoreboard players reset $attack.xp.percent mp
+scoreboard players reset $attack.constants.value.1000 temporary
+scoreboard players reset $attack.mp.default.max temporary
+scoreboard players reset $attack.mp.default.xp.smooth temporary
 
 #stopsound
-stopsound @s player entity.player.levelup
+stopsound @a player entity.player.levelup

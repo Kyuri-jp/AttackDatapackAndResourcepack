@@ -1,4 +1,4 @@
 scoreboard players reset @s useCarrotStick
-scoreboard players set $attack.system.start.datas datas 100
+scoreboard players set $attack.system.start.timer counter 120
 function systems:preparation/reset
-execute as @a at @s run function systems:game/start/lets
+function systems:game/start/lets

@@ -1,1 +1,2 @@
-execute if score @s mp > $attack.mp.default.max mp run scoreboard players operation @s mp = $attack.mp.default.max mp
+execute store result score $attack.mp.default.max temporary run data get storage storage:registry Main.Weapons.Magics.Mp.Max
+execute if score @s mp > $attack.mp.default.max temporary run scoreboard players operation @s mp = $attack.mp.default.max temporary

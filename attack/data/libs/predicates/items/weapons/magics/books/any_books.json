@@ -7,7 +7,7 @@
           "items": [
             "minecraft:book"
           ],
-          "nbt": "{magicBook:true}"
+          "nbt": "{MagicBook:true}"
         }
       }
     }

@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{spellTag:chestReload}"
+          "nbt": "{SpellTag:ChestReload}"
         }
       }
     }

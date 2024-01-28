@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "OtherTeamKilledByBlueTeam": {
+    "OtherTeamKilledByRedTeam": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": [
@@ -9,14 +9,12 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:player",
-              "team": "blueTeam"
+              "team": "redTeam"
             }
           }
         ],
         "entity": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
@@ -24,12 +22,12 @@
                 "team": "blueTeam"
               }
             }
-          }
+          
         ]
       }
     }
   },
   "rewards": {
-    "function": "scores:count/killed/add/blues_score"
+    "function": "scores:count/killed/add/reds_score"
   }
 }
