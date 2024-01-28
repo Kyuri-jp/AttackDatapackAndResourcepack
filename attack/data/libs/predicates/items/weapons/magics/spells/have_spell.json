@@ -7,7 +7,7 @@
         "items": [
           "minecraft:bow"
         ],
-        "nbt": "{spell:true}"
+        "nbt": "{Spell:true}"
       }
     }
   }

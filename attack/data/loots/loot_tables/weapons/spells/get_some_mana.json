@@ -43,7 +43,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{spell:true,SpellTag:GetSomeMana,CustomModelData:1,Unbreakable:true}"
+              "tag": "{Spell:true,SpellTag:GetSomeMana,CustomModelData:1,Unbreakable:true}"
             }
           ]
         }
