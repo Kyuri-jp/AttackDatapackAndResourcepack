@@ -22,6 +22,19 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/books/books"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/rods/rods"
+        }
+      ]
+    },
+    {
       "rolls": 5,
       "entries": [
         {

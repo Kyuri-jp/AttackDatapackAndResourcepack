@@ -1,6 +1,8 @@
-function core:initialize_storage_datas
+# init
+    function core:initialize_storage_datas
 
-data merge storage storage:booleans {}
-data merge storage storage:registry {}
-data merge storage storage:settings {}
-data merge storage storage:messages {}
+# create
+    data merge storage storage:booleans {}
+    data merge storage storage:registry {}
+    data merge storage storage:settings {}
+    data merge storage storage:messages {}

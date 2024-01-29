@@ -1,8 +1,17 @@
-data modify entity @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1] Rotation set from entity @s Rotation
-tp @s @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1]
-effect give @s instant_health 3 10
-effect give @s saturation 3 5
-effect clear @s
-tag @s remove game.coolDownNow
-scoreboard players reset @s coolDownCounter
-attribute @s generic.max_health base set 40
+# set rotation
+    data modify entity @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1] Rotation set from entity @s Rotation
+
+# teleport
+    tp @s @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1]
+
+# reset players
+    ## heal
+        attribute @s generic.max_health base set 40
+        effect give @s instant_health 3 10
+        effect give @s saturation 3 10
+
+    ## remove tag
+        tag @s remove game.coolDownNow
+
+    ## reset scores
+        scoreboard players reset @s coolDownCounter

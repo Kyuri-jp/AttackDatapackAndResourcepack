@@ -23,6 +23,19 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/books/books"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/rods/rods"
+        }
+      ]
+    },
+    {
       "rolls": 5,
       "entries": [
         {
@@ -64,29 +77,11 @@
       ]
     },
     {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "loots:weapons/spells/spells"
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "loots:weapons/books/books"
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "loots:weapons/rods/rods"
+          "name": "loots:weapons/spells/spells"
         }
       ]
     }

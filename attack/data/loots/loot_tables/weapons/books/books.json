@@ -4,22 +4,27 @@
         "rolls": 1,
         "entries": [
           {
+            "weight": 10,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/books/dark"
           },
           {
+            "weight": 7,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/books/drain"
           },
           {
+            "weight": 5,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/books/explosion"
           },
           {
+            "weight": 4,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/books/lightning"
           },
           {
+            "weight": 1,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/books/meteor"
           }

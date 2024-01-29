@@ -4,22 +4,27 @@
         "rolls": 2,
         "entries": [
           {
+            "weight": 3,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/spells/chest_reload"
           },
           {
+            "weight": 7,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/spells/get_some_mana"
           },
           {
+            "weight": 10,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/spells/heal"
           },
           {
+            "weight": 6,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/spells/random_loot_chance"
           },
           {
+            "weight": 8,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/spells/heal_mp"
           }

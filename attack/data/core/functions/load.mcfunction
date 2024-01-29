@@ -54,7 +54,6 @@
     scoreboard objectives add manaCounter dummy
     scoreboard objectives add counter dummy
     scoreboard objectives add coolDownCounter dummy
-    scoreboard objectives add deathDetecter deathCount
     scoreboard objectives add killCounter dummy
     scoreboard objectives add deathCounter deathCount
 

@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "died": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": [],
+        "entity": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "libs:detected_death"
+  }
+}

@@ -1,2 +1,2 @@
-item replace entity @a[tag=operator,tag=!game.players.playing] hotbar.0 with carrot_on_a_stick{display:{Name:'{"text": "Start","color": "green"}'},ButtomTag:Start,CustomModelData:1}
-item replace entity @a[tag=operator,tag=!game.players.playing] hotbar.1 with carrot_on_a_stick{display:{Name:'{"text": "Setting","color": "gray"}'},ButtomTag:Setting,CustomModelData:2}
+item replace entity @a[tag=operator,tag=!game.players.playing] hotbar.0 with carrot_on_a_stick{display:{Name:'{"text": "Start","color": "green","italic": false}'},ButtomTag:Start,CustomModelData:1}
+item replace entity @a[tag=operator,tag=!game.players.playing] hotbar.1 with carrot_on_a_stick{display:{Name:'{"text": "Setting","color": "gray","italic": false}'},ButtomTag:Setting,CustomModelData:2}
