@@ -4,6 +4,7 @@
 
 # set tag
     tag @s add weapons.swords.damage.additional_damage.freeze
+    execute on attacker run scoreboard players operation @p[tag=weapons.swords.damage.additional_damage.freeze,limit=1] attackerID = @s playerID
 
 # damage
     function systems:weapons/swords/additional_damage/freeze

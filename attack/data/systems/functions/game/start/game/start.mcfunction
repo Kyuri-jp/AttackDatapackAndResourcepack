@@ -16,16 +16,21 @@
     ## scores
         scoreboard players set RedTeamScore Scores 0
         scoreboard players set BlueTeamScore Scores 0
+        scoreboard players reset $attack.players.ID playerID
     ## datas
         data modify storage storage:booleans Main.Game.Ex set value false
 
 # initPlayres
+    ## set player ID
+        execute as @a run function systems:game/start/game/set_player_id
+
     ## set spawn point
         function systems:game/start/set_spawn_point
 
-    ## reset kill,deathcount
+    ## reset scores
         scoreboard players set @a killCounter 0
         scoreboard players set @a deathCounter 0
+        scoreboard players reset @a attackerID
 
     ## init mp
         execute store result score @s mp run data get storage storage:registry Main.Weapons.Mp.Max
@@ -53,7 +58,7 @@
     scoreboard objectives setdisplay sidebar Scores
 
 # teleport
-    data modify entity @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1] Rotation set value [90.0f,0.0f]
+    data modify entity @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1] Rotation set value [90.0f, 0.0f]
     tp @a @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1]
 
 # giveItems

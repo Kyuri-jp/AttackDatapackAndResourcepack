@@ -9,7 +9,7 @@ DatapackのLicenseはCC0なので自由に改造,再配布をしていただい�
 **CC0は私が著作者であることを放棄するわけではありません。**
 > 再配布する場合はforkをしてくださると見つけやすいので助かります。
 
-ResourcePackのLicenseはMIT Licenseなので改造,再配布をしていただいて構いません。だたし,著作権を明記することを忘れないでください。
+ResourcepackのLicenseはMIT Licenseなので改造,再配布をしていただいて構いません。だたし,著作権を明記することを忘れないでください。
 `Copyright (c) 2024 Kyuri`
 
 # Cautions on modification

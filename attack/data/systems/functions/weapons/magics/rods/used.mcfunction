@@ -8,7 +8,7 @@
             execute unless predicate libs:items/weapons/magics/books/any_books run return 0
 
         # set tag
-            tag @s add attack.weapons.magics.rods.user
+            tag @s add weapons.magics.rods.user
 
         # emelemnts
             scoreboard players set $attack.weapons.magics.rods.elements datas 0

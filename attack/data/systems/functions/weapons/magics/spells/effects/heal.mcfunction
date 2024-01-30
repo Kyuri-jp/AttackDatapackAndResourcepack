@@ -11,11 +11,11 @@
     particle heart ~ ~ ~ 1 1 1 0.5 100 normal
 
 # call
-    effect give @s instant_health 1 10 false
-    effect give @s saturation 1 10 false
+    effect give @s instant_health 1 1 false
+    effect give @s saturation 1 1 false
 
 # consume
-    clear @s arrow{mana:true} 1
+    function systems:weapons/magics/spells/consume_mana
 
 # break
     function systems:weapons/magics/spells/break

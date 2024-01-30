@@ -42,7 +42,7 @@
         team modify preparation friendlyFire false
 
 # scores
-    scoreboard objectives add TeamList dummy 
+    scoreboard objectives add TeamList dummy
     scoreboard objectives add Scores dummy {"text": "|Scores|","bold": true,"color": "gold"}
     scoreboard objectives add useCarrotStick used:carrot_on_a_stick
     scoreboard objectives add useFungusStick used:warped_fungus_on_a_stick
@@ -50,6 +50,8 @@
     scoreboard objectives add mp dummy
     scoreboard objectives add temporary dummy
     scoreboard objectives add datas dummy
+    scoreboard objectives add attackerID dummy
+    scoreboard objectives add playerID dummy
     scoreboard objectives add scopeOver dummy
     scoreboard objectives add manaCounter dummy
     scoreboard objectives add counter dummy

@@ -4,6 +4,7 @@
 
 # add tag
     tag @s add weapons.swords.damage.additional_damage.aqua
+    execute on attacker run scoreboard players operation @p[tag=weapons.swords.damage.additional_damage.aqua,limit=1] attackerID = @s playerID
 
 # damage
     function systems:weapons/swords/additional_damage/aqua

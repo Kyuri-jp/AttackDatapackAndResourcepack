@@ -15,7 +15,7 @@
     function systems:safe_mp
 
 # consume
-    clear @s arrow{mana:true} 2
+    function systems:weapons/magics/spells/consume_mana
 
 # break
     function systems:weapons/magics/spells/break

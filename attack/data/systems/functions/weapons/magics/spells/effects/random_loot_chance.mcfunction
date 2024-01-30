@@ -14,7 +14,7 @@
     loot give @s loot loots:spells/random_loot_chance
 
 # consume
-    clear @s arrow{mana:true} 7
+    function systems:weapons/magics/spells/consume_mana
 
 # break
     function systems:weapons/magics/spells/break
