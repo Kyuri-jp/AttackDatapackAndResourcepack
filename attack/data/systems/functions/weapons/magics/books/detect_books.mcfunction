@@ -15,6 +15,8 @@
         execute if predicate libs:items/weapons/magics/books/dark as @e[type=armor_stand,tag=attack.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/dark
         execute if predicate libs:items/weapons/magics/books/drain as @e[type=armor_stand,tag=attack.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/drain
         execute if predicate libs:items/weapons/magics/books/meteor as @e[type=armor_stand,tag=attack.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/meteor
+        execute if predicate libs:items/weapons/magics/books/water_chain as @e[type=armor_stand,tag=attack.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/water_chain
+        execute if predicate libs:items/weapons/magics/books/flash as @e[type=armor_stand,tag=attack.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/flash
 
     # remove tag
         tag @s remove weapons.magics.rods.user

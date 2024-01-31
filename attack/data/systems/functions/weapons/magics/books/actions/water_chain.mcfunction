@@ -5,7 +5,7 @@
     data modify storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun set value false
 
 # get using mp
-    execute store result score $attack.using.mp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.Dark
+    execute store result score $attack.using.mp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.WaterChain
 
 # mp
     ## lack mp
@@ -31,8 +31,8 @@
             execute if entity @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run tag @s add attack.magics.rod.detect.player
 
         ## action
-        #darkness
-            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run effect give @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] darkness 5 0
+        #give effect
+            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run effect give @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] slowness 15 2
             #normal
             execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
             #just
@@ -41,8 +41,8 @@
             execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
 
         ## hit player
-            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound entity.warden.angry player @a[distance=..2,limit=1]
-            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] at @a[distance=..2,limit=1] run particle dust 0 0 0 1 ~ ~ ~ 2 2 2 1 20 normal
+            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound block.grass.break player @a[distance=..2,limit=1]
+            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] at @a[distance=..2,limit=1] run particle splash ~ ~ ~ 2 2 2 1 100 normal
 
         ## kill stand(player detect) and can retrun
             execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=attack.magics.rod.detect.player]
@@ -62,4 +62,4 @@
             execute if score $attack.counter.magics.rods.scope counter >= $attack.magics.rods.scope temporary run return 0
 
         ## recall
-            execute positioned as @s run function systems:weapons/magics/books/actions/dark
+            execute positioned as @s run function systems:weapons/magics/books/actions/water_chain

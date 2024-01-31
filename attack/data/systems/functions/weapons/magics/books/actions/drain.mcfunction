@@ -32,7 +32,7 @@
 
         ## action
         #heal
-            execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run effect give @a[tag=weapons.magics.rods.user,limit=1] instant_health 1 5
+            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run effect give @a[tag=weapons.magics.rods.user,limit=1] instant_health 1 5
             #normal
             execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
             #just
