@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Magic Book [Reel]",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "使用MP : ",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.Reel",
+                    "storage": "storage:settings",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "当たった相手に向かって自身を引き寄せる",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "土属性",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,MagicBook:true,Element:Dirt,BookTag:Reel}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

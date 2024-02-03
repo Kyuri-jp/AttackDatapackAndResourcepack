@@ -37,6 +37,11 @@
             "weight": 9,
             "type": "minecraft:loot_table",
             "name": "loots:weapons/books/flash"
+          },
+          {
+            "weight": 6,
+            "type": "minecraft:loot_table",
+            "name": "loots:weapons/books/reel"
           }
         ]
       }

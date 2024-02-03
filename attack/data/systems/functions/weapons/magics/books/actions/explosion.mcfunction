@@ -28,19 +28,19 @@
             execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas run function systems:weapons/magics/books/vfx/just_element_particle
 
         ## player detect
-            execute if entity @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run tag @s add attack.magics.rod.detect.player
+            execute if entity @a[distance=0.01..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run tag @s add attack.magics.rod.detect.player
 
         ## action
         #normal
-            execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
+            execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
             #just
-            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3.6 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
+            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3.6 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
             #un just
-            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
+            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=0.01..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
 
         ## hit player
-            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound entity.lightning_bolt.impact player @a[distance=..2,limit=1]
-            execute if entity @a[distance=..2,limit=1,sort=nearest,tag=!weapons.magics.rods.user] at @a[distance=..2,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
+            execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
+            execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] at @a[distance=..1.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
 
         ## kill stand(player detect) and can retrun
             execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=attack.magics.rod.detect.player]
@@ -50,7 +50,7 @@
             execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=attack.magics.rod.detect.wall]
 
         ## retrun
-            execute if data storage storage:booleans {Main:{Magics:{Rods:{Shot:{Retrun:1b}}}}} run return 0
+            execute if data storage storage:booleans {Main:{Weapons:{Magics:{Rods:{Shot:{Retrun:1b}}}}}} run return 0
 
         ## counter
             scoreboard players add $attack.counter.magics.rods.scope counter 1

@@ -37,6 +37,16 @@
           "weight": 3,
           "type": "minecraft:loot_table",
           "name": "loots:weapons/spells/heal_mp_plus"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/spells/layer_mover"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/spells/wither_skeleton_remover"
         }
       ]
     },
@@ -51,7 +61,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 5
               }
             }
           ]

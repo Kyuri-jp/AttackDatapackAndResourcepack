@@ -11,8 +11,8 @@
     particle heart ~ ~ ~ 1 1 1 0.5 100 normal
 
 # call
-    effect give @s instant_health 1 1 false
-    effect give @s saturation 1 1 false
+    effect give @s instant_health 1 7 false
+    effect give @s saturation 1 7 false
 
 # consume
     function systems:weapons/magics/spells/consume_mana

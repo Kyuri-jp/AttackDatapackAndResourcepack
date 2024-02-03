@@ -1,10 +1,7 @@
 # get using mana
-    execute unless score $attack.using.mana.count temporary matches 1.. run scoreboard players operation $attack.using.mana.count counter = $attack.using.mana temporary
+    execute unless score $attack.using.mana.count temporary matches 1.. run scoreboard players operation $attack.using.mana.count temporary = $attack.using.mana temporary
     execute unless score $attack.using.mana.count counter matches 1.. run scoreboard players remove $attack.using.mana.count temporary 1
     execute unless score $attack.using.mana.count counter matches 1.. run scoreboard players operation $attack.using.mana.count counter = $attack.using.mana.count temporary
-
-# reset
-    scoreboard players reset $attack.using.mana.count temporary
 
 # remove
     clear @s arrow{Mana:true} 1

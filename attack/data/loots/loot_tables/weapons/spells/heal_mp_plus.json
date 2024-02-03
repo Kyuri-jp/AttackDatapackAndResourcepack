@@ -32,7 +32,7 @@
                     "italic": false
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.HealMpplus",
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.HealMpPlus",
                     "storage": "storage:settings",
                     "color": "aqua",
                     "bold": true,

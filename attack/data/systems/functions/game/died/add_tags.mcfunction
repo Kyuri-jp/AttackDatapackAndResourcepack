@@ -6,3 +6,6 @@
 
 # set timer
     execute if entity @s[tag=game.players.playing] run function systems:game/died/set_timer
+
+# reset
+    scoreboard players reset @s deathDetecter

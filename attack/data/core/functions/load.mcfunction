@@ -58,6 +58,7 @@
     scoreboard objectives add coolDownCounter dummy
     scoreboard objectives add killCounter dummy
     scoreboard objectives add deathCounter deathCount
+    scoreboard objectives add deathDetecter deathCount
 
 # set scores,storage
     function core:create_storages
@@ -67,6 +68,12 @@
     execute store result bossbar attack.settings.gui.game_time max run data get storage storage:settings Main.Default.Times.Game.MainGame 2
     execute store result bossbar attack.settings.gui.ex_time max run data get storage storage:settings Main.Default.Times.Game.Ex 2
     execute store result bossbar attack.settings.gui.cd_time max run data get storage storage:settings Main.Default.Times.Game.CoolDown 2
+
+# set displays
+    kill @e[type=item_display,tag=display.item.gallery]
+    kill @e[type=item_display,tag=display.text.team]
+    function systems:wait_room/gallery/set_item_displays
+    function systems:wait_room/team/display/set
 
 # end
     execute store result score $attack.core.installed.checked datas run data get storage storage:booleans Main.Core.PlayerJoindBeforeInstalled

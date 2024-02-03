@@ -1,5 +1,5 @@
 # action
-    summon minecraft:area_effect_cloud ~ ~ ~ {Duration:6,Age:4,Effects:[{Id:25,ShowParticles:false,ShowIcon:false,Duration:2,Amplifier:100}]}
+    summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0.3f,Duration:6,Age:4,Effects:[{Id:25,ShowParticles:false,ShowIcon:false,Duration:2,Amplifier:100}]}
 
 # vfx
     particle minecraft:sweep_attack ~ ~1 ~ 1 3 1 0.1 20

@@ -1,0 +1,260 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:fire_resistance"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:long_fire_resistance",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:healing"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_healing",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:invisibility"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:long_invisibility",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:leaping"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_leaping",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:regeneration"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_regeneration",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:slow_falling"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:long_slow_falling",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strength"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_strength",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:swiftness"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_swiftness",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:turtle_master"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_turtle_master",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:harming"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:harming",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:poison"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_poison",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:slowness"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_slowness",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lingering_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:weakness"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

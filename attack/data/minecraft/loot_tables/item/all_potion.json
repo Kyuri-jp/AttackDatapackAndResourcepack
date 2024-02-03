@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 10,
+            "type": "minecraft:loot_table",
+            "name": "minecraft:item/potion"
+          },
+          {
+            "weight": 8,
+            "type": "minecraft:loot_table",
+            "name": "minecraft:item/splash_potion"
+          },
+          {
+            "weight": 4,
+            "type": "minecraft:loot_table",
+            "name": "minecraft:item/lingering_potion"
+          }
+        ]
+      }
+    ]
+  }
+  

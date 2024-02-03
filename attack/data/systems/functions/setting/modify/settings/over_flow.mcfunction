@@ -20,3 +20,9 @@
     ## cool down 
     execute if score $attack.settings.coolTime temporary matches ..20 run data modify storage storage:settings Main.Custom.Times.Game.CoolDown set value 20
     execute if score $attack.settings.coolTime temporary matches ..20 run data modify storage storage:settings Main.Custom.Times.Game.CoolDown set value 20
+
+# reset
+    scoreboard players reset $attack.settings.gameTime temporary
+    scoreboard players reset $attack.settings.preparationTime temporary
+    scoreboard players reset $attack.settings.exTime temporary
+    scoreboard players reset $attack.settings.coolTime temporary

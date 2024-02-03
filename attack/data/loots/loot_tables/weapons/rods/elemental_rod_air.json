@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,rod:true,WeaponTag:AirRod}"
+              "tag": "{CustomModelData:2,Rod:true,WeaponTag:AirRod}"
             }
           ]
         }

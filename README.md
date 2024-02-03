@@ -2,10 +2,10 @@
 マインクラフトの配布マップ「Attack!」のデータパックとリソースパックです。
 
 # License
-[Datapack](attack) : [Creative Commons Zero v1](attack/licence.txt)
+[Datapack](Attack) : [Creative Commons Zero v1](Attack/licence.txt)
 
-[ResourcePack](attack_resource) : [MIT License](attack_resource/licence.txt)
+[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/licence.txt)
 
 詳細については以下を参照してください
-- データパック [ReadMe-Datapack](attack/ReadMe-Datapack.md)
-- リソースパック[ReadMe-Resourcepack](attack_resource/ReadMe-Resourcepack.md)
+- データパック [ReadMe-Datapack](Attack/ReadMe-Datapack.md)
+- リソースパック[ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)

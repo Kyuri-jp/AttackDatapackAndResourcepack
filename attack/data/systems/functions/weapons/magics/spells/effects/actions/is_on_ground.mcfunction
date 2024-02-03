@@ -1,0 +1,2 @@
+execute if block ~ ~-1 ~ #libs:as_air run function systems:weapons/magics/spells/effects/actions/layer_mover_down
+execute unless block ~ ~-1 ~ #libs:as_air positioned ~ ~-1 ~ run function systems:weapons/magics/spells/effects/actions/layer_mover_down

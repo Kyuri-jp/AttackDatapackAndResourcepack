@@ -22,7 +22,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -43,53 +43,26 @@
           "name": "minecraft:golden_apple"
         },
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:splash_potion",
+          "type": "minecraft:loot_table",
+          "name": "minecraft:item/all_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:splash_potion",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
             }
           ]
         }
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "name": "loots:weapons/spells/spells"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "loots:weapons/books/books"
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "loots:weapons/rods/rods"
         }
       ]
     }

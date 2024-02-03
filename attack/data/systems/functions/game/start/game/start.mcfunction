@@ -2,6 +2,10 @@
     difficulty peaceful
     gamerule fallDamage false
 
+# stage reset
+    kill @e[type=item]
+    kill @e[type=wither_skeleton]
+
 # bossBars
     ## settings
         bossbar set attack.settings.gui.preparation_time visible false
@@ -42,7 +46,7 @@
 
     ## team flag
         tag @a[team=redTeam] add team.red
-        tag @a[team=blueTeam] add team.bluea
+        tag @a[team=blueTeam] add team.blue
 
     ## clear items
         clear @a
