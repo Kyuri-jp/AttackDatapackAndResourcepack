@@ -1,6 +1,6 @@
 # vfx
     particle minecraft:falling_water ~ ~1 ~ 0 0 0 0.1 500
-    playsound minecraft:block.grass.break player @s ~ ~ ~
+    playsound minecraft:entity.player.splash player @s ~ ~ ~
 
 # add tag
     tag @s add weapons.swords.damage.additional_damage.aqua

@@ -5,4 +5,4 @@
 #fire
     execute if score $attack.magics.rods.elements.just datas matches 3 run playsound entity.blaze.shoot player @s ~ ~ ~
 #water
-    execute if score $attack.magics.rods.elements.just datas matches 4 run playsound block.grass.break player @s ~ ~ ~ 5
+    execute if score $attack.magics.rods.elements.just datas matches 4 run playsound entity.player.splash player @s ~ ~ ~ 5

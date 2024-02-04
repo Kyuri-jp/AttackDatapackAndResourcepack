@@ -4,7 +4,7 @@
 # damage and vfx
     execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run damage @s 0.2 player_attack by @p[distance=0.01..,tag=weapons.swords.attacker.aqua]
     execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run particle minecraft:falling_water ~ ~1 ~ 0 0 0 0.1 500
-    execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run playsound minecraft:block.grass.break player @s ~ ~ ~
+    execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run playsound minecraft:entity.player.splash player @s ~ ~ ~
 
 # remove tag
     tag @p[tag=weapons.swords.attacker.aqua,limit=1] remove weapons.swords.attacker.aqua
