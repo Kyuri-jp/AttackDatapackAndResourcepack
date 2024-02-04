@@ -1,20 +1,21 @@
-loot spawn ~ ~ ~ loot loots:weapons/spells/chest_reload
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-1 loot loots:weapons/spells/get_some_mana
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-2 loot loots:weapons/spells/get_some_mana_plus
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-3 loot loots:weapons/spells/heal
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-4 loot loots:weapons/spells/heal_plus
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-5 loot loots:weapons/spells/heal_mp
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-6 loot loots:weapons/spells/heal_mp_plus
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-7 loot loots:weapons/spells/layer_mover
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-8 loot loots:weapons/spells/random_loot_chance
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-loot spawn ~ ~ ~-9 loot loots:weapons/spells/wither_skeleton_remover
-execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+# set
+    loot spawn ~ ~ ~ loot loots:weapons/spells/chest_reload
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-1 loot loots:weapons/spells/get_some_mana
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-2 loot loots:weapons/spells/get_some_mana_plus
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-3 loot loots:weapons/spells/heal
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-4 loot loots:weapons/spells/heal_plus
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-5 loot loots:weapons/spells/heal_mp
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-6 loot loots:weapons/spells/heal_mp_plus
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-7 loot loots:weapons/spells/layer_mover
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-8 loot loots:weapons/spells/random_loot_chance
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~ ~ ~-9 loot loots:weapons/spells/wither_skeleton_remover
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data

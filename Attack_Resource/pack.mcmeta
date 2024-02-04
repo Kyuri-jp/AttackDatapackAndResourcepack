@@ -5,6 +5,6 @@
   },
   "ifYouCustom":{
     "write->":"\nCustomed by [your name]",
-    "add description." :""
+    "add description." :"↑"
   }
 }
