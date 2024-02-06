@@ -17,7 +17,7 @@
     scoreboard players remove $attack.system.start.timer counter 1
 
 # recall
-    execute unless score $attack.system.start.timer counter matches ..0 run schedule function systems:game/start/lets 1t
+    execute unless score $attack.system.start.timer counter matches ..0 run schedule function systems:game/start/ 1t
 
 # start
     execute if score $attack.system.start.timer counter matches ..0 run function systems:game/start/game/start

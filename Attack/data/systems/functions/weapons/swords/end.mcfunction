@@ -7,7 +7,7 @@
 
 # damage
     execute on attacker run tag @s add weapons.swords.attacker.end
-    execute if predicate libs:end run function systems:weapons/swords/additional_damage/end
+    execute if predicate libs:items/weapons/swords/random/end run function systems:weapons/swords/additional_damage/end
 
 # reset
     scoreboard players reset @s attackerID

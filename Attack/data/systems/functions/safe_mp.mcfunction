@@ -3,3 +3,6 @@
 
 # set
     execute if score @s mp > $attack.mp.default.max temporary run scoreboard players operation @s mp = $attack.mp.default.max temporary
+
+# reset
+    scoreboard players reset $attack.mp.default.max temporary

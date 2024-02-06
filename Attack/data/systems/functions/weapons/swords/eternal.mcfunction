@@ -4,11 +4,11 @@
 
 # damage
     execute on attacker run tag @s add weapons.swords.attacker.eternal
-    execute if predicate libs:eternal run function systems:weapons/swords/additional_damage/eternal
+    execute if predicate libs:items/weapons/swords/random/eternal run function systems:weapons/swords/additional_damage/eternal
 
 # reset
     scoreboard players reset @s attackerID
-    tag @p[tag=attack.attacker.eternal] remove attack.attacker.eternal
+    tag @p[tag=attack.attacker.eternal] remove weapons.swords.attacker.eternal
 
 # revoke
     advancement revoke @s only libs:weapons/swords/eternal

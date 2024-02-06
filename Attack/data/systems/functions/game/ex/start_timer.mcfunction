@@ -21,7 +21,7 @@ tellraw @a "ex"
     scoreboard players reset $attack.constants.counter.sec temporary
 
 # end count
-    execute if score $attack.timer.exTime counter matches ..0 run function systems:game/end/judgment/detect
+    execute if score $attack.timer.exTime counter matches ..0 run function systems:game/end/judgment/
     ## reset
         execute if score $attack.timer.exTime counter matches ..0 run scoreboard players reset $attack.timer.exTime counter
 

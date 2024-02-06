@@ -18,9 +18,9 @@
         execute if score $attack.magics.spells.layerMover counter matches ..0 run return 0
 
     ##teleport
-        data modify entity @e[type=area_effect_cloud,tag=attack.anchor.magics.spells.layerMover,limit=1] Rotation set from entity @s Rotation
-        tp @s @e[type=area_effect_cloud,tag=attack.anchor.magics.spells.layerMover,limit=1]
-        kill @e[type=area_effect_cloud,tag=attack.anchor.magics.spells.layerMover,distance=..0.01]
+        data modify entity @e[type=area_effect_cloud,tag=weapons.anchor.magics.spells.layerMover,limit=1] Rotation set from entity @s Rotation
+        tp @s @e[type=area_effect_cloud,tag=weapons.anchor.magics.spells.layerMover,limit=1]
+        kill @e[type=area_effect_cloud,tag=weapons.anchor.magics.spells.layerMover,distance=..0.01]
     ##reset
         scoreboard players reset $attack.magics.spells.layerMover counter
 

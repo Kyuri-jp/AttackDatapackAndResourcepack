@@ -13,4 +13,4 @@
   
 # non play ex
     execute if data storage storage:settings {Main:{Custom:{Switch:{Ex:1b}}}} run return 0
-    execute if data storage storage:settings {Main:{Custom:{Switch:{Ex:0b}}}} run function systems:game/end/end
+    execute if data storage storage:settings {Main:{Custom:{Switch:{Ex:0b}}}} run function systems:game/end/

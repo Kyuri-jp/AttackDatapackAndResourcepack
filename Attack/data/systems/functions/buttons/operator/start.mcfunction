@@ -5,4 +5,4 @@
         function systems:preparation/reset
 
 # call
-    function systems:game/start/lets
+    function systems:game/start/

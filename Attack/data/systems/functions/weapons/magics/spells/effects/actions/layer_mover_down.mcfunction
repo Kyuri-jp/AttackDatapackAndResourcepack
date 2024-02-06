@@ -1,5 +1,5 @@
 scoreboard players remove $attack.magics.spells.layerMover counter 1
-execute unless block ~ ~-1 ~ #libs:as_air if block ~ ~ ~ #libs:as_air run summon area_effect_cloud ~ ~ ~ {Tags:["attack.anchor.magics.spells.layerMover"]}
+execute unless block ~ ~-1 ~ #libs:as_air if block ~ ~ ~ #libs:as_air run summon area_effect_cloud ~ ~ ~ {Tags:["weapons.anchor.magics.spells.layerMover"]}
 execute unless block ~ ~-1 ~ #libs:as_air if block ~ ~ ~ #libs:as_air run return 0
 execute unless block ~ ~-1 ~ #libs:as_air unless block ~ ~ ~ #libs:as_air run loot give @s loot loots:weapons/spells/mana
 execute unless block ~ ~-1 ~ #libs:as_air unless block ~ ~ ~ #libs:as_air run scoreboard players set $attack.magics.spells.layerMover counter -1

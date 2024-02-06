@@ -1,5 +1,5 @@
 # action
-    execute if predicate libs:gravity run tp @s ~ ~-1 ~
+    execute if predicate libs:items/weapons/swords/random/gravity run tp @s ~ ~-1 ~
 
 # vfx
     particle minecraft:witch ~ ~1 ~ 0 0 0 0.1 500
