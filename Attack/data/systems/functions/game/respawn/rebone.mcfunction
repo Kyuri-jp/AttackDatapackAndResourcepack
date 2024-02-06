@@ -15,3 +15,6 @@
 
     ## reset scores
         scoreboard players reset @s coolDownCounter
+
+    ## give items
+        function libs:player_item_storage/get
