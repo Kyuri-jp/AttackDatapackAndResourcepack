@@ -3,7 +3,7 @@
     #declare tag waitRoom.anchor.default.position "wait room's default pos"
     #declare tag game.players.playing "playing player"
     #declare tag weapons.magics.rods.user "magic user(rod shot)"
-
+    
 # score holders
     #declare score_holder $attack.core.installed "installed check"
     #declare score_holder $attack.core.installed.checked "player join before installed"
