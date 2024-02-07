@@ -61,8 +61,8 @@
     scoreboard objectives add deathDetecter deathCount {"text": "event:プレイヤーが死亡した時"}
 
 # set scores,storage
-    function core:create_storages
-    function core:set_values
+    function core:storage/create_storages
+    function core:storage/set_values
 
     execute store result bossbar attack.settings.gui.preparation_time max run data get storage storage:settings Main.Default.Times.Game.Preparation 2
     execute store result bossbar attack.settings.gui.game_time max run data get storage storage:settings Main.Default.Times.Game.MainGame 2

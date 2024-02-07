@@ -6,7 +6,7 @@
     scoreboard players reset $attack.game.count.set.chest counter
 
 # call
-    function systems:preparation/chests/set/chests/random/set
+    function systems:preparation/chests/set/chests/random/
 
 # reset
     scoreboard players reset $attack.game.count.set.chest counter

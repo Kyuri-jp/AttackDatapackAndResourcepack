@@ -5,7 +5,7 @@
     scoreboard players remove @a[tag=game.coolDownNow] coolDownCounter 1
 
 # rebone
-    execute as @a[tag=game.coolDownNow] if score @s coolDownCounter matches ..0 run function systems:game/respawn/rebone
+    execute as @a[tag=game.coolDownNow] if score @s coolDownCounter matches ..0 run function systems:game/respawn/
 
 # return
     execute unless entity @a[tag=game.coolDownNow] run return 0

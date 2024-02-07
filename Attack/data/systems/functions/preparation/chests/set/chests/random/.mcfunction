@@ -19,4 +19,4 @@
     scoreboard players add $attack.game.count.set.chest counter 1
 
 # re call
-    function systems:preparation/chests/set/chests/random/set
+    function systems:preparation/chests/set/chests/random/

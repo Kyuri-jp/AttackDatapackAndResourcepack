@@ -1,5 +1,5 @@
 # init
-    function core:initialize_storage_datas
+    function core:storage/initialize_storage_datas
 
 # create
     data merge storage storage:booleans {}
