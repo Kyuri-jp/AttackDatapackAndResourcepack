@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "attack:item/weapons/magics/rods/basic_rod",
-		"particle": "attack:item/weapons/magics/rods/basic_rod"
+		"0": "basic_rod",
+		"particle": "basic_rod"
 	},
 	"elements": [
 		{
@@ -173,7 +173,8 @@
 		},
 		"ground": {
 			"rotation": [0, 0, 36],
-			"translation": [0, 15.75, 0]
+			"translation": [0, 8.5, 0],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
 			"rotation": [0, 0, 124],

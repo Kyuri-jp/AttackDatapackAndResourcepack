@@ -110,7 +110,8 @@
 			"scale": [0.68, 0.68, 0.68]
 		},
 		"ground": {
-			"translation": [0, 5.75, 7]
+			"translation": [0, 1.5, 4.25],
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"gui": {
 			"translation": [0.5, 0.5, 0]
