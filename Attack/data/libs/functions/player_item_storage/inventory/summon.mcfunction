@@ -1,5 +1,5 @@
 # retrun
-    execute unless entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] run tellraw @a ["",{"text":"[Error](libs:player_item_storage/inventory/summon)","bold":true,"color":"dark_red"},{"text":"エンティティが存在しません (libs:player_item_storage/inventory/summon)"}]
+    execute unless entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] run tellraw @a ["",{"text":"[Error](libs:player_item_storage/inventory/summon)","bold":true,"color":"dark_red"},{"text":"エンティティが存在しません (not found storage.players.items.marker.here)"}]
     execute unless entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] run return 0
 
     execute if data entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] {HandItems:[{tag:{Inventory:[]}},{}]} run return 0
@@ -16,7 +16,7 @@
         execute unless data entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] HandItems[0].tag.Inventory[0].tag.display run data remove entity @e[type=item,tag=storage.players.items.generated,distance=..0.01,limit=1] Item.tag.display
 
     ## remove data
-    data remove entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] HandItems[0].tag.Inventory[0]
+        data remove entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] HandItems[0].tag.Inventory[0]
 
 # remove tag
     tag @e[type=item,tag=storage.players.items.generated,distance=..0.01,limit=1] remove storage.players.items.generated

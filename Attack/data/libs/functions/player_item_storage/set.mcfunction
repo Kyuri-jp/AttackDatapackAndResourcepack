@@ -1,5 +1,5 @@
 # summon key item
-    summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1,tag:{display:{Name:'{"text": "Item Of Null"}'}}},Tags:["storage.players.items"],Invulnerable:true,NoGravity:true,PickupDelay:100}
+    summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1,tag:{display:{Name:'{"text": "Data Key"}'}}},Tags:["storage.players.items"],Invulnerable:true,NoGravity:true,PickupDelay:100}
 
 # set data
     data modify entity @e[type=item,distance=..0.01,limit=1] Item.tag.PlayerUUID set from entity @s UUID

@@ -5,7 +5,7 @@
     function systems:game/died/set_timer
 
 # set items
-    function libs:player_item_storage/set
+    execute positioned ~ ~10 ~ run function libs:player_item_storage/set
 
 # clear
     clear @s
