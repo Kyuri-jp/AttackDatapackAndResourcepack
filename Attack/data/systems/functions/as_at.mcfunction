@@ -4,4 +4,4 @@ execute if entity @e[type=arrow,distance=..2,limit=1,sort=nearest] if predicate 
 execute unless predicate libs:items/weapons/magics/spells/have_spell run scoreboard players reset @s useBow
 execute if predicate libs:items/weapons/magics/spells/have_spell_in_off_hand run function systems:weapons/magics/spells/have_offhand
 execute run function systems:buttons/used
-execute if entity @s[tag=game.players.playing] run function libs:show_player_info
+execute if entity @s[tag=game.players.playing] run function libs:players/show_player_info

@@ -24,8 +24,8 @@
         scoreboard players reset @e[type=armor_stand,tag=!storage.players.items.get.lv4] temporary
 
 # result
-    tag @e[type=armor_stand,tag=storage.players.items.marker,predicate=libs:player_item_storage/have_all_tag] add storage.players.items.marker.here
-    execute as @e[type=armor_stand,tag=storage.players.items.marker] run function libs:player_item_storage/entity/remove_all_tag
+    tag @e[type=armor_stand,tag=storage.players.items.marker,predicate=libs:players/player_item_storage/have_all_tag] add storage.players.items.marker.here
+    execute as @e[type=armor_stand,tag=storage.players.items.marker] run function libs:players/player_item_storage/entity/remove_all_tag
 
 # reset
     scoreboard players reset @s temporary
