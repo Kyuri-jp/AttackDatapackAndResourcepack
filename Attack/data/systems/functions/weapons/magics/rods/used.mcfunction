@@ -19,8 +19,8 @@
 
         # summon
             summon armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:["weapons.anchor.magics.rods"]}
-            data modify entity @e[type=armor_stand,tag=weapons.anchor.magics.rods,distance=..0.01,limit=1] Rotation set from entity @s Rotation
-            execute as @e[type=armor_stand,tag=weapons.anchor.magics.rods,distance=..0.01,limit=1] at @s run tp @s ~ ~1 ~
+            execute as @e[type=armor_stand,tag=weapons.anchor.magics.rods,distance=..0.01,limit=1] at @s run tp @s ~ ~1.5 ~
+            data modify entity @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
         # books
             function systems:weapons/magics/books/detect_books
