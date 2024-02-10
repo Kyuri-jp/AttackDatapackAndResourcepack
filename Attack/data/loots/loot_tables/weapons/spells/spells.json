@@ -47,6 +47,16 @@
           "weight": 4,
           "type": "minecraft:loot_table",
           "name": "loots:weapons/spells/wither_skeleton_remover"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/spells/get_some_mana_plus"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "name": "loots:weapons/spells/illumination"
         }
       ]
     },

@@ -9,6 +9,7 @@
     execute if predicate libs:items/weapons/magics/spells/heal_mp_plus run function systems:weapons/magics/spells/effects/heal_mp_plus
     execute if predicate libs:items/weapons/magics/spells/layer_mover run function systems:weapons/magics/spells/effects/layer_mover
     execute if predicate libs:items/weapons/magics/spells/wither_skeleton_remover run function systems:weapons/magics/spells/effects/wither_skeleton_remover
+    execute if predicate libs:items/weapons/magics/spells/illumination run function systems:weapons/magics/spells/effects/illumination
 
 # reset
     scoreboard players reset $attack.using.mana temporary

@@ -19,3 +19,5 @@
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
     loot spawn ~ ~ ~-9 loot loots:weapons/spells/wither_skeleton_remover
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~-1 ~1 ~ loot loots:weapons/spells/illumination
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
