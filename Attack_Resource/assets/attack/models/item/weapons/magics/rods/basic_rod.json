@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "basic_rod",
-		"particle": "basic_rod"
+		"0": "attack:item/weapons/magics/rods/elemental_rod_air"
 	},
 	"elements": [
 		{

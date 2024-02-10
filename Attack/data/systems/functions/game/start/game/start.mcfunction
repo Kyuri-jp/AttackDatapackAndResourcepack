@@ -1,6 +1,7 @@
-# gamemode and diff
+# gamemode,rule and diff
     difficulty peaceful
     gamerule fallDamage false
+    gamemode adventure @a
 
 # stage reset
     kill @e[type=item]
