@@ -10,6 +10,17 @@
     execute if predicate libs:items/weapons/magics/spells/layer_mover run function systems:weapons/magics/spells/effects/layer_mover
     execute if predicate libs:items/weapons/magics/spells/wither_skeleton_remover run function systems:weapons/magics/spells/effects/wither_skeleton_remover
     execute if predicate libs:items/weapons/magics/spells/illumination run function systems:weapons/magics/spells/effects/illumination
+    execute if predicate libs:items/weapons/magics/spells/debility run function systems:weapons/magics/spells/effects/debility
+    execute if predicate libs:items/weapons/magics/spells/invincible run function systems:weapons/magics/spells/effects/invincible
+    execute if predicate libs:items/weapons/magics/spells/rescues run function systems:weapons/magics/spells/effects/rescues
+    execute if predicate libs:items/weapons/magics/spells/underground run function systems:weapons/magics/spells/effects/underground
+    execute if predicate libs:items/weapons/magics/spells/mana_magnet run function systems:weapons/magics/spells/effects/mana_magnet
+    execute if predicate libs:items/weapons/magics/spells/effect_restore run function systems:weapons/magics/spells/effects/effect_restore
+    execute if predicate libs:items/weapons/magics/spells/mp_drain run function systems:weapons/magics/spells/effects/mp_drain
+    execute if predicate libs:items/weapons/magics/spells/random_sword_chance run function systems:weapons/magics/spells/effects/random_sword_chance
+    execute if predicate libs:items/weapons/magics/spells/random_rod_chance run function systems:weapons/magics/spells/effects/random_rod_chance
+    execute if predicate libs:items/weapons/magics/spells/random_spell_chance run function systems:weapons/magics/spells/effects/random_spell_chance
+    execute if predicate libs:items/weapons/magics/spells/random_book_chance run function systems:weapons/magics/spells/effects/random_book_chance
 
 # reset
     scoreboard players reset $attack.using.mana temporary

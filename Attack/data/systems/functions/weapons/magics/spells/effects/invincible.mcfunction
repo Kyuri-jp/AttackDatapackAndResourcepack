@@ -1,5 +1,5 @@
 # data get
-    execute store result score $attack.using.mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.Illumination
+    execute store result score $attack.using.mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.Invincible
 
 # mana check
     execute if score @s manaCounter < $attack.using.mana temporary run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Lack.Mana","storage":"storage:messages"}
@@ -7,12 +7,12 @@
     execute if score @s manaCounter < $attack.using.mana temporary run return 0
 
 # vfx
-    playsound block.beacon.activate player @s ~ ~ ~
-    particle end_rod ~ ~ ~ 1 1 1 0.5 100 normal
+    playsound ui.button.click player @s ~ ~ ~ 
+    particle dust 1 0.933 0 1 ~ ~ ~ 1 1 1 0.5 100 normal
 
 # call
-    execute if entity @s[team=redTeam] run effect give @a[team=blueTeam] glowing 15 0 true
-    execute if entity @s[team=blueTeam] run effect give @a[team=redTeam] glowing 15 0 true
+    effect give @s resistance 12 9 true
+    effect give @s regeneration 12 9 true
 
 # consume
     function systems:weapons/magics/spells/consume_mana

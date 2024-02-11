@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Random Spell Chance",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "ランダムな呪文を手に入れる",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "使用マナ : ",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.RandomSpellChance",
+                    "storage": "storage:settings",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Spell:true,SpellTag:RandomSpellChance,CustomModelData:1,Unbreakable:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

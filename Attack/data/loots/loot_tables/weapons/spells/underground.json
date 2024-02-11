@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Underground",
+                "color": "dark_gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "相手チームのプレイヤーにウィザースケルトンを召喚する",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "使用マナ : ",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.Underground",
+                    "storage": "storage:settings",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Spell:true,SpellTag:Underground,CustomModelData:1,Unbreakable:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
