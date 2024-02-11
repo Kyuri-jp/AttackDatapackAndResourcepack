@@ -18,6 +18,8 @@
         execute if predicate libs:items/weapons/magics/books/water_chain as @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/water_chain
         execute if predicate libs:items/weapons/magics/books/flash as @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/flash
         execute if predicate libs:items/weapons/magics/books/reel as @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/reel
+        execute if predicate libs:items/weapons/magics/books/poison_drink as @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/poison_drink
+        execute if predicate libs:items/weapons/magics/books/inferno as @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/inferno
 
     # remove tag
         tag @s remove weapons.magics.rods.user
@@ -25,6 +27,7 @@
     # reset
         scoreboard players reset $attack.magics.rods.scope temporary
         scoreboard players reset $attack.using.mp temporary
+        scoreboard players reset $attack.magics.rods.books.inferno.removeItem temporary
         scoreboard players reset $attack.counter.magics.rods.scope counter
         scoreboard players reset $attack.weapons.magics.rods.elements datas
         scoreboard players reset $attack.magics.rods.elements.just datas
