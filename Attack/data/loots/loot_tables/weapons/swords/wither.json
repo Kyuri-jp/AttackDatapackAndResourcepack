@@ -14,7 +14,20 @@
                 "text": "Wither Sword",
                 "color": "dark_gray",
                 "italic": false
-              }
+              }              
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "",
+                  "amount": -2,
+                  "operation": "addition",
+                  "id": "7e46e17a-c234-4df7-8cf3-b5c2fd43f848",
+                  "slot": "mainhand"
+                }
+              ]
             },
             {
               "function": "minecraft:set_lore",

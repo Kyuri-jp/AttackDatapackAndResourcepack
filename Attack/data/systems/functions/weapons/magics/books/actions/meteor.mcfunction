@@ -26,7 +26,7 @@
             execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas run particle dust 0 0 0 1 ~ ~ ~ 0.2 0.2 0.2 0.1 10 normal
 
         ## player detect
-            execute if entity @a[distance=0.01..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run tag @s add attack.magics.rod.detect.player
+            execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run tag @s add attack.magics.rod.detect.player
 
         ## action
             execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] at @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] if entity @a[tag=weapons.magics.rods.user,limit=1,team=redTeam] run summon creeper ~ ~ ~ {Fuse:0,ExplosionRadius:1,CustomName:'{"text": "Meteor"}',Team:redTeam,active_effects:[{id:"minecraft:invisibility",show_particles:false,duration:1}]}
