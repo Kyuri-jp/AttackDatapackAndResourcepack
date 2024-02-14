@@ -34,11 +34,11 @@
         #give effect
             execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run effect give @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] poison 10 5
             #normal
-            execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 5 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
+            execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 5 libs:poison_drink by @a[tag=weapons.magics.rods.user,limit=1]
             #just
-            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 6 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
+            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 6 libs:poison_drink by @a[tag=weapons.magics.rods.user,limit=1]
             #un just
-            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 4 player_attack by @a[tag=weapons.magics.rods.user,limit=1]
+            execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 4 libs:poison_drink by @a[tag=weapons.magics.rods.user,limit=1]
 
         ## hit player
             execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound entity.witch.drink player @a[distance=..1.5,limit=1]

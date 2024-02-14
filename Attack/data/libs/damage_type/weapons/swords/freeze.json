@@ -1,0 +1,7 @@
+{
+    "message_id": "sword.freeze",
+    "exhaustion": 0.1,
+    "scaling": "always",
+    "effects": "freezing"
+  }
+  
