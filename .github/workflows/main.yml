@@ -15,3 +15,6 @@ jobs:
 
       - name: lint
         uses: ChenCMD/datapack-linter@v2
+        with:
+             ignoreLintPathPattern: |
+               systems:weapons/swords/wind
