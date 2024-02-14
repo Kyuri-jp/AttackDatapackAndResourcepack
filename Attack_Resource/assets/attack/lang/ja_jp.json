@@ -13,8 +13,8 @@
     "death.attack.magic.reel":"%1$sは%2$sに背後を取られた",
     "death.attack.magic.water_chain":"%1$sは%2$sに身動きを封じられた",
 
-    "death.attack.sword.aqua":"%1$sは%2$sの水に溺れた",
-    "death.attack.sword.end":"%1$sは%2$sの邪気に飲み込まれた",
-    "death.attack.sword.eternal":"%1$sは%2$sの神秘によって浄化された",
-    "death.attack.sword.freeze":"%1$sは%2$sの冷気によって凍結した"
+    "death.attack.sword.adv.aqua":"%1$sは%2$sの水に溺れた",
+    "death.attack.sword.adv.end":"%1$sは%2$sの邪気に飲み込まれた",
+    "death.attack.sword.adv.eternal":"%1$sは%2$sの神秘によって浄化された",
+    "death.attack.sword.adv.freeze":"%1$sは%2$sの冷気によって凍結した"
 }
