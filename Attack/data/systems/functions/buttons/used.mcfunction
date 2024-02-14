@@ -1,4 +1,4 @@
-# retrun
+# return
     execute unless score @s useCarrotStick matches 1.. run return 0
 
 # start button

@@ -6,14 +6,14 @@
     execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer] run data modify entity @s Rotation set from entity @e[type=minecraft:armor_stand,tag=game.anchor.set.chest.placer.base,limit=1] Rotation
 
 # set chests
-    execute if predicate libs:random_set as @e[type=armor_stand,tag=game.anchor.set.chest.placer.1] at @s run setblock ^20 ^ ^ chest{LootTable:"loots:chests/items/tire_1"} keep
-    execute if predicate libs:random_set as @e[type=armor_stand,tag=game.anchor.set.chest.placer.2] at @s run setblock ^29 ^ ^ chest{LootTable:"loots:chests/items/tire_2"} keep
-    execute if predicate libs:random_set as @e[type=armor_stand,tag=game.anchor.set.chest.placer.3] at @s run setblock ^19 ^ ^ chest{LootTable:"loots:chests/items/tire_4"} keep
+    execute if predicate libs:random_set as @e[type=armor_stand,tag=game.anchor.set.chest.placer.1] at @s run setblock ^20 ^ ^ chest{LootTable: "loots:chests/items/tire_1"} keep
+    execute if predicate libs:random_set as @e[type=armor_stand,tag=game.anchor.set.chest.placer.2] at @s run setblock ^29 ^ ^ chest{LootTable: "loots:chests/items/tire_2"} keep
+    execute if predicate libs:random_set as @e[type=armor_stand,tag=game.anchor.set.chest.placer.3] at @s run setblock ^19 ^ ^ chest{LootTable: "loots:chests/items/tire_4"} keep
 
 # set anchor
-    execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.1] at @s if block ^20 ^ ^ chest{LootTable:"loots:chests/items/tire_1"} positioned ^20 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags:["game.anchor.break.chest"]}
-    execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.2] at @s if block ^29 ^ ^ chest{LootTable:"loots:chests/items/tire_2"} positioned ^29 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags:["game.anchor.break.chest"]}
-    execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.3] at @s if block ^19 ^ ^ chest{LootTable:"loots:chests/items/tire_4"} positioned ^19 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags:["game.anchor.break.chest"]}
+    execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.1] at @s if block ^20 ^ ^ chest{LootTable: "loots:chests/items/tire_1"} positioned ^20 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["game.anchor.break.chest"]}
+    execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.2] at @s if block ^29 ^ ^ chest{LootTable: "loots:chests/items/tire_2"} positioned ^29 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["game.anchor.break.chest"]}
+    execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.3] at @s if block ^19 ^ ^ chest{LootTable: "loots:chests/items/tire_4"} positioned ^19 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["game.anchor.break.chest"]}
 
 # add count
     scoreboard players add $attack.game.count.set.chest counter 1
