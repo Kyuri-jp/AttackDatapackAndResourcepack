@@ -1,4 +1,8 @@
 # Attack Datapack and Resourcepack
+[![lint-datapack](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/actions/workflows/LintDatapack.yml/badge.svg)](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/actions/workflows/LintDatapack.yml)
+[![activity](https://img.shields.io/github/commit-activity/m/Kyuri-jp/AttackDatapackAndResourcepack?label=commit&logo=github)](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/commits/master)
+[![downloads](https://img.shields.io/github/downloads/Kyuri-jp/AttackDatapackAndResourcepack/total?logo=github)](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/releases/latest)
+
 マインクラフトの配布マップ「Attack!」のデータパックとリソースパックです。
 
 # License
