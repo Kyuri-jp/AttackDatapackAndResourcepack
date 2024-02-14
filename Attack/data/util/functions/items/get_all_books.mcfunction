@@ -6,3 +6,5 @@ loot give @s loot loots:weapons/books/meteor
 loot give @s loot loots:weapons/books/reel
 loot give @s loot loots:weapons/books/water_chain
 loot give @s loot loots:weapons/books/flash
+loot give @s loot loots:weapons/books/inferno
+loot give @s loot loots:weapons/books/poison_drink
