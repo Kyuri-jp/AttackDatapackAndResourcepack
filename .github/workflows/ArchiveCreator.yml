@@ -16,7 +16,12 @@ jobs:
       env:
         TZ: 'Asia/Tokyo'
       run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d_%H:%M:%S')" >> $GITHUB_ENV
-    
+      
+    - name: Set Time tag
+      env:
+        TZ: 'Asia/Tokyo'
+      run: echo "CURRENT_DATETIME_TAG=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+      
     - run: echo "RELEASE_FILENAME=release_${{ env.CURRENT_DATETIME }}.zip" >> $GITHUB_ENV
     - run: echo "COMMIT_MESSAGE=${{ github.event.head_commit.message }}" >> $GITHUB_ENV
       
@@ -33,7 +38,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ env.CURRENT_DATETIME }}
+        tag_name: ${{ env.CURRENT_DATETIME_TAG }}
         name: ${{ env.COMMIT_MESSAGE }}
         draft: false
         prerelease: true
