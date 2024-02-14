@@ -1,0 +1,20 @@
+{
+    "death.fell.scope_over":"%1$sはフィールドの外に落ちた",
+    "death.attack.scope_over.player": "%1$sは%2$sによってフィールドの外に落とされた",
+
+    "death.attack.magic.dark":"%1$sは%2$sが放った闇に飲み込まれた",
+    "death.attack.magic.drain":"%1$sは%2$sに生気を吸い取られた",
+    "death.attack.magic.explosion":"%1$sは%2$sに跡形もなく爆破された",
+    "death.attack.magic.flash":"%1$sは%2$sが放った閃光によって目を傷めた",
+    "death.attack.magic.inferno":"%1$sは%2$sによって燃やされてしまった",
+    "death.attack.magic.lightning":"%1$sは%2$sによって雷に打たれた",
+    "death.attack.magic.meteor":"%1$sは%2$sによって吹き飛ばされた",
+    "death.attack.magic.poison_drink":"%1$sは%2$sによって毒殺された",
+    "death.attack.magic.reel":"%1$sは%2$sに背後を取られた",
+    "death.attack.magic.water_chain":"%1$sは%2$sに身動きを封じられた",
+
+    "death.attack.sword.adv.aqua":"%1$sは%2$sの水に溺れた",
+    "death.attack.sword.adv.end":"%1$sは%2$sの邪気に飲み込まれた",
+    "death.attack.sword.adv.eternal":"%1$sは%2$sの神秘によって浄化された",
+    "death.attack.sword.adv.freeze":"%1$sは%2$sの冷気によって凍結した"
+}
