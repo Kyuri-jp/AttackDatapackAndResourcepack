@@ -28,6 +28,7 @@
         scoreboard players reset $attack.magics.rods.scope temporary
         scoreboard players reset $attack.using.mp temporary
         scoreboard players reset $attack.magics.rods.books.inferno.removeItem temporary
+        scoreboard players reset $attack.weapons.magics.books.lackMp temporary
         scoreboard players reset $attack.counter.magics.rods.scope counter
         scoreboard players reset $attack.weapons.magics.rods.elements datas
         scoreboard players reset $attack.magics.rods.elements.just datas
