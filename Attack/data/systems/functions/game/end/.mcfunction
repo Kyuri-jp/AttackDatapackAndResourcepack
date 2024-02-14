@@ -2,12 +2,12 @@
     data modify storage storage:booleans Main.Game.Playing set value false
 
 # result
-    tellraw @a {"text":"====================","color":"gold"}
+    tellraw @a {"text":"========================================","color":"gold"}
     tellraw @a [{"text":"Red Team Score : [","color":"red"},{"score":{"name":"RedTeamScore","objective":"Scores"},"color":"red"},{"text":"]","color":"red"}]
     tellraw @a [{"text":"Blue Team Score : [","color":"blue"},{"score":{"name":"BlueTeamScore","objective":"Scores"},"color":"blue"},{"text":"]","color":"blue"}]
     tellraw @a ""
     execute as @a run tellraw @a ["",{"selector":"@s","bold":true},{"text":" : "},{"text":"[","color":"red"},{"score":{"name":"@s","objective":"killCounter"},"color":"red"},{"text":"]Kill","color":"red"},{"text":" | "},{"text":"[","color":"blue"},{"score":{"name":"@s","objective":"deathCounter"},"color":"blue"},{"text":"]Death","color":"blue"}]
-    tellraw @a {"text":"====================","color":"gold"}
+    tellraw @a {"text":"========================================","color":"gold"}
 
 #scores
     schedule clear systems:preparation/bossbar/preparation_time/start_timer

@@ -7,7 +7,7 @@
     bossbar set attack.game.timer color red
 
 # vfx
-    title @a title {"text": "Start Exhibition Game!","color": "red"}
+    tellraw @a {"text": "Start Exhibition Game!","color": "red"}
     execute as @a at @s run playsound block.end_portal.spawn player @s ~ ~ ~
 
 # set bool

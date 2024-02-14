@@ -1,5 +1,3 @@
-tellraw @a "ex"
-
 # data get
     execute store result score $attack.constants.counter.sec temporary run data get storage storage:registry Main.Calculation.Seconds
 
@@ -21,7 +19,7 @@ tellraw @a "ex"
     scoreboard players reset $attack.constants.counter.sec temporary
 
 # end count
-    execute if score $attack.timer.exTime counter matches ..0 run function systems:game/end/judgment/
+    execute if score $attack.timer.exTime counter matches ..0 run function systems:game/end/judgment/ex
     ## reset
         execute if score $attack.timer.exTime counter matches ..0 run scoreboard players reset $attack.timer.exTime counter
 
