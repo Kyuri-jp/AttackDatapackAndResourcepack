@@ -35,5 +35,5 @@ jobs:
         tag_name: ${{ env.CURRENT_DATETIME }}
         name: ${{ env.CURRENT_DATETIME }}
         draft: false
-        prerelease: false
+        prerelease: true
         files: ${{ env.RELEASE_FILENAME }}
