@@ -22,7 +22,7 @@
               "lore": [
                 [
                   {
-                    "text": "使用MP : ",
+                    "translate": "item.lore.weapons.magics.spells.usingMana",
                     "italic": false,
                     "color": "aqua"
                   },
@@ -35,12 +35,12 @@
                   }
                 ],
                 {
-                  "text": "当たった相手の体力を奪い取る",
+                  "text": "item.lore.weapons.magics.books.drain",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "土属性",
+                  "text": "item.lore.weapons.magics.element.dirt",
                   "color": "gold",
                   "italic": false
                 }

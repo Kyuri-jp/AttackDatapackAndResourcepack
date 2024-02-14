@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "一般的な無属性の杖",
+                  "translate": "item.lore.weapons.magics.rods.basicRod",
                   "color": "gray",
                   "italic": false
                 }

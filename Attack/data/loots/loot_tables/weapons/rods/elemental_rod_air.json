@@ -21,17 +21,33 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "空気属性の杖。",
+                  "translate": "item.lore.weapons.magics.rods.elemental.air",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "空気属性+20%",
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.air"
+                      },
+                      {
+                        "text": "+20%"
+                      }
+                  ],
                   "color": "blue",
                   "italic": false
                 },
                 {
-                  "text": "土属性-20%",
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.dirt"
+                    },
+                    {
+                      "text": "-20%"
+                    }
+                ],
                   "color": "red",
                   "italic": false
                 }

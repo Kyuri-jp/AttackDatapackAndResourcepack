@@ -22,7 +22,7 @@
               "lore": [
                 [
                   {
-                    "text": "使用MP : ",
+                    "translate": "item.lore.weapons.magics.spells.usingMana",
                     "italic": false,
                     "color": "aqua"
                   },
@@ -35,12 +35,12 @@
                   }
                 ],
                 {
-                  "text": "当たった相手の視界を奪う",
+                  "translate": "item.lore.weapons.magics.books.dark",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "空気属性",
+                  "translate": "item.lore.weapons.magics.element.air",
                   "color": "aqua",
                   "italic": false
                 }

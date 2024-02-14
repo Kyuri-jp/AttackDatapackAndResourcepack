@@ -21,17 +21,33 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "火属性の杖。",
+                  "translate": "item.lore.weapons.magics.rods.elemental.fire",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "火属性 +20%",
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.fire"
+                      },
+                      {
+                        "text": "+20%"
+                      }
+                  ],
                   "color": "blue",
                   "italic": false
                 },
                 {
-                  "text": "水属性 -20%",
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.water"
+                    },
+                    {
+                      "text": "-20%"
+                    }
+                ],
                   "color": "red",
                   "italic": false
                 }

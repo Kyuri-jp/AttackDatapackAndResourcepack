@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "2段階で攻撃をする",
+                  "text": "連続で攻撃を与える",
                   "color": "gray",
                   "italic": false
                 }
