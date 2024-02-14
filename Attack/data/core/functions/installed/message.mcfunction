@@ -1,7 +1,7 @@
 # modify data
     ## error
-        execute unless data storage storage:booleans {Main:{Core:{Installed:1b}}} run tellraw @a ["",{"text":"Error>>","bold":true,"color":"dark_red"},{"text": "(core:installed/message)","color": "dark_red"},{"text":"データパックの導入に失敗しました (storage:booleans Main.Core.Installed isn't true)"}]
-        execute unless data storage storage:booleans {Main:{Core:{Installed:1b}}} run return 0
+        execute unless data storage storage:booleans {Main: {Core: {Installed: 1b}}} run tellraw @a ["",{"text":"Error>>","bold":true,"color":"dark_red"},{"text": "(core:installed/message)","color": "dark_red"},{"text":"データパックの導入に失敗しました (storage:booleans Main.Core.Installed isn't true)"}]
+        execute unless data storage storage:booleans {Main: {Core: {Installed: 1b}}} run return 0
 
 # checked
     scoreboard players set $attack.core.installed.checked datas 1
