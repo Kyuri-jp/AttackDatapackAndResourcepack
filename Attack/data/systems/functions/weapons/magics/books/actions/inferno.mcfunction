@@ -1,22 +1,22 @@
 # get using mp
-    execute store result score $attack.using.mp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.Inferno
+    execute store result score $using.mp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.Inferno
 
 # element
     function systems:weapons/magics/books/un_just
 
 # call common pros
     function systems:weapons/magics/books/common/
-    execute if score $attack.weapons.magics.books.lackMp temporary matches 1 run return 0
+    execute if score $weapons.magics.books.lackMp temporary matches 1 run return 0
 
 # action
     # lost
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] unless score $attack.magics.rods.books.inferno.removeItem temporary matches 1.. store success score $attack.magics.rods.books.inferno.removeItem temporary run clear @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] book{MagicBook: true} 1
+    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] unless score $magics.rods.books.inferno.removeItem temporary matches 1.. store success score $magics.rods.books.inferno.removeItem temporary run clear @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] book{MagicBook: true} 1
     #normal
-    execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 libs:inferno by @a[tag=weapons.magics.rods.user,limit=1]
+    execute unless score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas unless score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 libs:inferno by @a[tag=weapons.magics.rods.user,limit=1]
     #just
-    execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3.6 libs:inferno by @a[tag=weapons.magics.rods.user,limit=1]
+    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3.6 libs:inferno by @a[tag=weapons.magics.rods.user,limit=1]
     #un just
-    execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 libs:inferno by @a[tag=weapons.magics.rods.user,limit=1]
+    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 libs:inferno by @a[tag=weapons.magics.rods.user,limit=1]
 
 # hit player
     execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound item.shield.break player @a[distance=..1.5,limit=1]

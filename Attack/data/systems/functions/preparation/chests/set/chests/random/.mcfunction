@@ -2,7 +2,7 @@
 # @within systems:preparation/chests/set/chests/
 
 # retrun
-    execute if score $attack.game.count.set.chest counter matches 720.. run return 0
+    execute if score $game.count.set.chest counter matches 720.. run return 0
 
 # turn anchors
     execute as @e[type=minecraft:armor_stand,tag=game.anchor.set.chest.placer.base,limit=1] at @s run tp @s ~ ~ ~ ~0.5 ~
@@ -19,7 +19,7 @@
     execute as @e[type=armor_stand,tag=game.anchor.set.chest.placer.3] at @s if block ^19 ^ ^ chest{LootTable: "loots:chests/items/tire_4"} positioned ^19 ^ ^ unless entity @e[type=text_display,tag=game.anchor.break.chest,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["game.anchor.break.chest"]}
 
 # add count
-    scoreboard players add $attack.game.count.set.chest counter 1
+    scoreboard players add $game.count.set.chest counter 1
 
 # re call
     function systems:preparation/chests/set/chests/random/

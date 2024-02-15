@@ -1,19 +1,19 @@
 # get using mp
-    execute store result score $attack.using.mp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.Dark
+    execute store result score $using.mp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.Dark
 
 # call common pros
     function systems:weapons/magics/books/common/
-    execute if score $attack.weapons.magics.books.lackMp temporary matches 1 run return 0
+    execute if score $weapons.magics.books.lackMp temporary matches 1 run return 0
 
 # action
     #darkness
     execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run effect give @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] darkness 5 0
     #normal
-    execute unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas unless score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 libs:dark by @a[tag=weapons.magics.rods.user,limit=1]
+    execute unless score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas unless score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3 libs:dark by @a[tag=weapons.magics.rods.user,limit=1]
     #just
-    execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3.6 libs:dark by @a[tag=weapons.magics.rods.user,limit=1]
+    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 3.6 libs:dark by @a[tag=weapons.magics.rods.user,limit=1]
     #un just
-    execute if score $attack.weapons.magics.rods.elements datas = $attack.magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 libs:dark by @a[tag=weapons.magics.rods.user,limit=1]
+    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 2.4 libs:dark by @a[tag=weapons.magics.rods.user,limit=1]
 
 # hit player
     execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound entity.warden.angry player @a[distance=..1.5,limit=1]

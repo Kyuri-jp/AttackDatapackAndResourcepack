@@ -5,12 +5,12 @@
 # @within systems:weapons/magics/rods/used
 
 # init?
-    scoreboard players reset $attack.counter.magics.rods.scope counter
+    scoreboard players reset $counter.magics.rods.scope counter
 
 # get
     ## shot scope
     #shot用アマスタは0.5ずつ進んでいるので2倍(scale -> 2)
-        execute store result score $attack.magics.rods.scope temporary run data get storage storage:settings Main.Weapons.Magics.Rods.Shot.Scope 2
+        execute store result score $magics.rods.scope temporary run data get storage storage:settings Main.Weapons.Magics.Rods.Shot.Scope 2
 
     # just element
         function systems:weapons/magics/books/just
@@ -31,11 +31,11 @@
         tag @s remove weapons.magics.rods.user
 
     # reset
-        scoreboard players reset $attack.magics.rods.scope temporary
-        scoreboard players reset $attack.using.mp temporary
-        scoreboard players reset $attack.magics.rods.books.inferno.removeItem temporary
-        scoreboard players reset $attack.weapons.magics.books.lackMp temporary
-        scoreboard players reset $attack.counter.magics.rods.scope counter
-        scoreboard players reset $attack.weapons.magics.rods.elements datas
-        scoreboard players reset $attack.magics.rods.elements.just datas
-        scoreboard players reset $attack.magics.rods.elements.unJust datas
+        scoreboard players reset $magics.rods.scope temporary
+        scoreboard players reset $using.mp temporary
+        scoreboard players reset $magics.rods.books.inferno.removeItem temporary
+        scoreboard players reset $weapons.magics.books.lackMp temporary
+        scoreboard players reset $counter.magics.rods.scope counter
+        scoreboard players reset $weapons.magics.rods.elements datas
+        scoreboard players reset $magics.rods.elements.just datas
+        scoreboard players reset $magics.rods.elements.unJust datas

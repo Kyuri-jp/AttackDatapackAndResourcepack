@@ -1,6 +1,6 @@
 # reset
-    scoreboard players reset $attack.timer.gameTime counter
-    scoreboard players reset $attack.timer.preparationTime counter
+    scoreboard players reset $timer.gameTime counter
+    scoreboard players reset $timer.preparationTime counter
 
 # judgement
     ## win red

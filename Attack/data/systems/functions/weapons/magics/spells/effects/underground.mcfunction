@@ -1,9 +1,9 @@
 # data get
-    execute store result score $attack.using.mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.Underground
+    execute store result score $using.mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.Underground
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack
-    execute if score $attack.weapons.magics.books.lackMp temporary matches 1 run return 0
+    execute if score $weapons.magics.books.lackMp temporary matches 1 run return 0
 
 # vfx
     playsound entity.ender_dragon.ambient player @s ~ ~ ~

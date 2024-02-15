@@ -10,7 +10,7 @@
               "type": "minecraft:score",
               "target": {
                 "type": "minecraft:fixed",
-                "name": "$attack.core.installed.checked"
+                "name": "$core.installed.checked"
               },
               "score": "datas"
             },

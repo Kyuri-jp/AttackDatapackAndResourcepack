@@ -2,12 +2,12 @@
 # @user
 
 # get data -> set value -> change value
-    execute store result score $attack.settings.coolTime temporary run data get storage storage:settings Main.Custom.Times.Game.CoolDown 1
-    scoreboard players add $attack.settings.coolTime temporary 200
-    execute store result storage storage:settings Main.Custom.Times.Game.CoolDown int 1 run scoreboard players get $attack.settings.coolTime temporary
+    execute store result score $settings.coolTime temporary run data get storage storage:settings Main.Custom.Times.Game.CoolDown 1
+    scoreboard players add $settings.coolTime temporary 200
+    execute store result storage storage:settings Main.Custom.Times.Game.CoolDown int 1 run scoreboard players get $settings.coolTime temporary
 
 # reset
-    scoreboard players reset $attack.settings.coolTime temporary
+    scoreboard players reset $settings.coolTime temporary
 
 # reshow
     function systems:setting/modify/message

@@ -12,8 +12,8 @@
     execute if data storage storage:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Retrun: 1b}}}}}} run return 0
 
 # counter
-    scoreboard players add $attack.counter.magics.rods.scope counter 1
+    scoreboard players add $counter.magics.rods.scope counter 1
 
 # scope over
-    execute if score $attack.counter.magics.rods.scope counter >= $attack.magics.rods.scope temporary run kill @s
-    execute if score $attack.counter.magics.rods.scope counter >= $attack.magics.rods.scope temporary run return 0
+    execute if score $counter.magics.rods.scope counter >= $magics.rods.scope temporary run kill @s
+    execute if score $counter.magics.rods.scope counter >= $magics.rods.scope temporary run return 0

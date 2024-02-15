@@ -26,10 +26,10 @@
     execute if predicate libs:items/weapons/magics/spells/random_book_chance run function systems:weapons/magics/spells/effects/random_book_chance
 
 # reset
-    scoreboard players reset $attack.using.mana temporary
-    scoreboard players reset $attack.using.mana.count temporary
-    scoreboard players reset $attack.weapons.magics.books.lackMp temporary
-    scoreboard players reset $attack.using.mana.count counter
+    scoreboard players reset $using.mana temporary
+    scoreboard players reset $using.mana.count temporary
+    scoreboard players reset $weapons.magics.books.lackMp temporary
+    scoreboard players reset $using.mana.count counter
 
 # mana count
     function systems:weapons/magics/spells/count_mana

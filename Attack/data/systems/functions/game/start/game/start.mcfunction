@@ -21,7 +21,7 @@
     ## scores
         scoreboard players set RedTeamScore Scores 0
         scoreboard players set BlueTeamScore Scores 0
-        scoreboard players reset $attack.players.ID playerID
+        scoreboard players reset $players.ID playerID
     ## datas
         data modify storage storage:booleans Main.Game.Ex set value false
 
