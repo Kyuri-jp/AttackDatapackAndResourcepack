@@ -1,0 +1,10 @@
+{
+    "datapack.env.cmdVersion": "1.20",
+    "workbench.iconTheme": "material-icon-theme",
+    "datapack.lint.strictFunctionCheck": null,
+    "datapack.lint.strictStorageCheck": null,
+    "datapack.lint.strictLootTableCheck": null,
+    "datapack.lint.strictFunctionTagCheck": null,
+    "datapack.lint.strictAdvancementCheck": null,
+    "datapack.lint.nbtCompoundSortKeys": null,
+}
