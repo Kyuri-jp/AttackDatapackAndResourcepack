@@ -1,3 +1,6 @@
+#> systems:tick
+# @within function core:tick
+
 function systems:operator/items/buttons
 function systems:wait_room/team/set
 function systems:game/set/

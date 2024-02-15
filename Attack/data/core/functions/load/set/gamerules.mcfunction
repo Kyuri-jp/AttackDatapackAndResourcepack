@@ -1,3 +1,6 @@
+#> core:load/set/gamerules
+# @within function core:load/
+
 # set
     gamerule doImmediateRespawn true
     gamerule mobGriefing false

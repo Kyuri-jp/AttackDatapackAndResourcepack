@@ -1,3 +1,6 @@
+#> libs:players/player_item_storage/entity/same_uuid
+# @within function libs:players/player_item_storage/get
+
 # detect uuid
     ## 0
         execute store result score @s temporary run data get entity @s UUID[0]

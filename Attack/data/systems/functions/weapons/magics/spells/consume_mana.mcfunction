@@ -1,3 +1,6 @@
+#> systems:weapons/magics/spells/consume_mana
+# @within systems:weapons/magics/spells/effects/common/finish
+
 # get using mana
     execute unless score $attack.using.mana.count temporary matches 1.. run scoreboard players operation $attack.using.mana.count temporary = $attack.using.mana temporary
     execute unless score $attack.using.mana.count counter matches 1.. run scoreboard players remove $attack.using.mana.count temporary 1

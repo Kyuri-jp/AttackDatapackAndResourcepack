@@ -1,3 +1,6 @@
+#> systems:buttons/operator/setting
+# @within systems:buttons/used
+
 # reset
     scoreboard players reset @s useCarrotStick
 

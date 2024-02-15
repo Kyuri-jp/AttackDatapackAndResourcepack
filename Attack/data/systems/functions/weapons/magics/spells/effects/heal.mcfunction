@@ -2,9 +2,8 @@
     execute store result score $attack.using.mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.Heal
 
 # mana check
-    execute if score @s manaCounter < $attack.using.mana temporary run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Lack.Mana","storage":"storage:messages"}
-    execute if score @s manaCounter < $attack.using.mana temporary run loot give @s loot loots:weapons/spells/mana
-    execute if score @s manaCounter < $attack.using.mana temporary run return 0
+    function systems:weapons/magics/spells/effects/common/lack
+    execute if score $attack.weapons.magics.books.lackMp temporary matches 1 run return 0
 
 # vfx
     playsound block.brewing_stand.brew player @s ~ ~ ~
@@ -15,7 +14,4 @@
     effect give @s saturation 1 2 false
 
 # consume
-    function systems:weapons/magics/spells/consume_mana
-
-# break
-    function systems:weapons/magics/spells/break
+    function systems:weapons/magics/spells/effects/common/finish

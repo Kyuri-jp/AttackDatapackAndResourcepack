@@ -1,3 +1,6 @@
+#> core:load/add/scoreboards
+# @within function core:load/
+
 # set
     scoreboard objectives add TeamList dummy {"text": "|Teams|","bold": true,"color": "gold"}
     scoreboard objectives add Scores dummy {"text": "|Scores|","bold": true,"color": "gold"}

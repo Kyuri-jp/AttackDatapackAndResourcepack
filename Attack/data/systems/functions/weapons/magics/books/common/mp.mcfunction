@@ -1,3 +1,6 @@
+#> systems:weapons/magics/books/common/mp
+# @within systems:weapons/magics/books/common/
+
 # mp
     ## lack mp
         execute unless score $attack.counter.magics.rods.scope counter matches 1.. unless score @a[tag=weapons.magics.rods.user,sort=nearest,limit=1] mp >= $attack.using.mp temporary run tellraw @a[tag=weapons.magics.rods.user,sort=nearest,limit=1] {"interpret":true,"nbt":"Main.Weapons.Lack.Mp","storage":"storage:messages"}

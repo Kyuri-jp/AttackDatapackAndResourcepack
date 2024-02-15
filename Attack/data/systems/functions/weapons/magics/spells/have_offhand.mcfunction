@@ -1,3 +1,6 @@
+#> systems:weapons/magics/spells/have_offhand
+# @handles systems:as_at
+
 # summon null
     summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1b,tag:{display:{Name:'{"text": "Item Of Null"}'}}},PickupDelay:0s}
 

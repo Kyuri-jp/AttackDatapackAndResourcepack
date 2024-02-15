@@ -1,3 +1,6 @@
+#> core:load/add/teams
+# @within function core:load/
+
 # set
     ## create
         team add redTeam

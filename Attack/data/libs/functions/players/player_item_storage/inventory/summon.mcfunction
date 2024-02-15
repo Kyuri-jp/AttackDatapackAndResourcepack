@@ -1,3 +1,6 @@
+#> libs:players/player_item_storage/inventory/summon
+# @within function libs:players/player_item_storage/get
+
 # retrun
     execute unless entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] run tellraw @a ["",{"text":"Error>>","bold":true,"color":"dark_red"},{"text": "(libs:players/player_item_storage/inventory/summon)","color": "dark_red"},{"text":"エンティティが存在しません (not found storage.players.items.marker.here)"}]
     execute unless entity @e[type=armor_stand,tag=storage.players.items.marker.here,limit=1] run return 0

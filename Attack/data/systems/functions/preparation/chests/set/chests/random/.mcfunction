@@ -1,3 +1,6 @@
+#> systems:preparation/chests/set/chests/random/
+# @within systems:preparation/chests/set/chests/
+
 # retrun
     execute if score $attack.game.count.set.chest counter matches 720.. run return 0
 

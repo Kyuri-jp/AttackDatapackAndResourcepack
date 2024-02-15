@@ -1,3 +1,6 @@
+#> systems:setting/modify/settings/cool_down/20
+# @user
+
 # get data -> set value -> change value
     execute store result score $attack.settings.coolTime temporary run data get storage storage:settings Main.Custom.Times.Game.CoolDown 1
     scoreboard players add $attack.settings.coolTime temporary 20

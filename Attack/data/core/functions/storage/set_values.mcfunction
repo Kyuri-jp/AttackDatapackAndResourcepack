@@ -21,3 +21,5 @@
 
     #missing
         data merge storage storage:messages {Main: {Weapons: {Missing: {Book: '{"text":"本を左手に持ってください","bold":true}'}}}}
+
+        function core:

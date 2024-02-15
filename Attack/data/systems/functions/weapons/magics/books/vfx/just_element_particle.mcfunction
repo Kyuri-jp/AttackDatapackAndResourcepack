@@ -1,3 +1,6 @@
+#> systems:weapons/magics/books/vfx/just_element_particle
+# @within systems:weapons/magics/books/common/move
+
 #air
     execute if score $attack.magics.rods.elements.just datas matches 1 run particle sweep_attack ~ ~ ~ 0.2 0.2 0.2 0.1 5
 #dirt

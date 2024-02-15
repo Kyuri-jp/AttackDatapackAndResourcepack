@@ -1,3 +1,9 @@
+#> systems:wait_room/team/set
+#
+# チーム決め
+#
+# @within systems:wait_room/team/set
+
 # sound
     execute as @a[team=!redTeam] at @s if entity @e[type=armor_stand,tag=waitRoom.anchor.set.team.red,distance=..2] run playsound ui.button.click player @s ~ ~ ~
     execute as @a[team=!blueTeam] at @s if entity @e[type=armor_stand,tag=waitRoom.anchor.set.team.blue,distance=..2] run playsound ui.button.click player @s ~ ~ ~

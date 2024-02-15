@@ -1,7 +1,7 @@
-# tick
-    ## player count
-        function libs:players/player_count
+#> libs:tick
+# @within function core:tick
 
+# tick
     ## sync xp and mp
         execute as @a run function libs:players/synchronize_xp_and_mp
 

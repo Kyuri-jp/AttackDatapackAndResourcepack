@@ -1,3 +1,5 @@
+#> libs:tick
+# @within function score:tick
+
 # tick
-    function scores:gui_bars/settings/reload
     function scores:list/team/set

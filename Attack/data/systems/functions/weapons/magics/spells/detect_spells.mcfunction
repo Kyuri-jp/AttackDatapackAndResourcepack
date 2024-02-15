@@ -1,3 +1,6 @@
+#> systems:weapons/magics/spells/detect_spells
+# @handles systems:as_at
+
 # detect
     execute if predicate libs:items/weapons/magics/spells/get_some_mana run function systems:weapons/magics/spells/effects/get_some_mana
     execute if predicate libs:items/weapons/magics/spells/get_some_mana_plus run function systems:weapons/magics/spells/effects/get_some_mana_plus
@@ -25,6 +28,7 @@
 # reset
     scoreboard players reset $attack.using.mana temporary
     scoreboard players reset $attack.using.mana.count temporary
+    scoreboard players reset $attack.weapons.magics.books.lackMp temporary
     scoreboard players reset $attack.using.mana.count counter
 
 # mana count

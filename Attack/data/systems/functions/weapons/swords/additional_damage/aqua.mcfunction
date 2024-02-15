@@ -1,3 +1,6 @@
+#> systems:weapons/swords/additional_damage/aqua
+# @within systems:weapons/swords/aqua
+
 # attacker detect
     execute as @a if score @s playerID = @a[tag=weapons.swords.damage.additional_damage.aqua,limit=1] attackerID run tag @s add weapons.swords.attacker.aqua
 

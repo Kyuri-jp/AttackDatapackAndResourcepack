@@ -1,3 +1,9 @@
+#> systems:weapons/magics/books/detect_books
+#
+# 魔法の分岐
+#
+# @within systems:weapons/magics/rods/used
+
 # init?
     scoreboard players reset $attack.counter.magics.rods.scope counter
 

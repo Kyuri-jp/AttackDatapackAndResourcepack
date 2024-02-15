@@ -1,3 +1,6 @@
+#> systems:weapons/magics/books/common/move
+# @within systems:weapons/magics/books/actions/*
+
 # pros
     ## teleport
         tp ^ ^ ^0.5

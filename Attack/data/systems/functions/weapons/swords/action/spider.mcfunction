@@ -1,3 +1,6 @@
+#> systems:weapons/swords/action/spider
+# @within systems:weapons/swords/spider
+
 # have any items in offhand
     execute as @p[tag=attack.weapons.swords.spider.attacker,limit=1] unless predicate libs:dont_have_any_items_of_off_hand run return 0
 

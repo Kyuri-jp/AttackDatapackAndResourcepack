@@ -1,3 +1,6 @@
+#> systems:wait_room/gallery/set_item_displays
+# @within systems:wait_room/gallery/set_item_displays
+
 # set
     execute positioned -95.9 -24.5 32.5 run function systems:wait_room/gallery/sword
     execute positioned -95.9 -24.5 32.5 positioned ~ ~ ~-11 run function systems:wait_room/gallery/rod
@@ -6,5 +9,4 @@
 
 # set rotation
     execute as @e[type=item_display,tag=display.item.gallery] run data modify entity @s Rotation set value [-90.0f,0f]
-
-function systems:wait_room/gallery/set_size_and_rotation
+    function systems:wait_room/gallery/set_size_and_rotation

@@ -1,3 +1,6 @@
+#> systems:wait_room/back_for_room
+# @within systems:as_at
+
 # vfx
     playsound ui.button.click player @s ~ ~ ~
     particle minecraft:enchant ~ ~ ~ 0 0 0 1.5 1000

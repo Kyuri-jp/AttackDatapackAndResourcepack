@@ -1,3 +1,9 @@
+#> core:load/
+#
+# load処理
+#
+# @within tag/function minecraft:load
+
 # reset
     data modify storage storage:booleans Main.Core.Installed set value 0b
     data modify storage storage:booleans Main.Core.PlayerJoindBeforeInstalled set value 0b
@@ -5,7 +11,7 @@
 # gamerule
     function core:load/set/gamerules
 
-#time,weather
+# time,weather
     time set day
     weather clear
 
@@ -22,6 +28,7 @@
     function core:storage/create_storages
     function core:storage/set_values
     function core:load/set/bossbar/max
+
 # set displays
     kill @e[type=item_display,tag=display.item.gallery]
     kill @e[type=item_display,tag=display.text.team]

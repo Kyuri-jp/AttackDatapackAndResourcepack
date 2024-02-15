@@ -1,3 +1,6 @@
+#> systems:weapons/magics/spells/detect_used
+# @handles systems:as_at
+
 # kill arrow
     kill @e[type=arrow,sort=nearest,limit=1]
 

@@ -1,3 +1,5 @@
+#> systems:setting/modify/settings/over_flow
+# @user
 # data get
     execute store result score $attack.settings.gameTime temporary run data get storage storage:settings Main.Custom.Times.Game.MainGame
     execute store result score $attack.settings.preparationTime temporary run data get storage storage:settings Main.Custom.Times.Game.Preparation

@@ -1,3 +1,7 @@
+#> systems:weapons/magics/rods/used
+# @handles systems:as_at
+# @within systems:as_at
+
 # reset
     scoreboard players reset @s useFungusStick
 

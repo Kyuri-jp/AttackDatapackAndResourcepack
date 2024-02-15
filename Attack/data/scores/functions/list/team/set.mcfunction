@@ -1,3 +1,6 @@
+#> scores:list/team/set
+# @within scores:tick
+
 # list set
     scoreboard players set @a[team=redTeam] TeamList 3
     scoreboard players set @a[team=blueTeam] TeamList 2

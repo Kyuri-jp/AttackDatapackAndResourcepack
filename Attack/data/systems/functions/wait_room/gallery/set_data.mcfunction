@@ -1,3 +1,6 @@
+#> systems:wait_room/gallery/set_data
+# @within systems:wait_room/gallery/*
+
 # summon
     execute positioned as @e[type=item,sort=nearest,limit=1] run summon item_display ~ ~ ~ {CustomNameVisible:true,item:{Count:1b},Tags:["display.item.gallery"]}
 

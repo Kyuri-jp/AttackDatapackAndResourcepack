@@ -1,3 +1,6 @@
+#> systems:setting/modify/settings/cool_down/reset
+# @user
+
 # get data -> set value
     data modify storage storage:settings Main.Custom.Times.Game.CoolDown set from storage storage:settings Main.Default.Times.Game.CoolDown
 

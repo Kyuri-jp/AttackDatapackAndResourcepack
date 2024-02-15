@@ -1,3 +1,6 @@
+#> core:load/add/bossbars
+# @within function core:load/
+
 # set
     bossbar add attack.game.timer {"text":"Time remaining:any seconds"}
     bossbar set attack.game.timer color red

@@ -1,3 +1,9 @@
+#> systems:weapons/magics/books/common/
+#
+# 共通している処理
+#
+# @within systems:weapons/magics/books/actions/*
+
 # element
     function systems:weapons/magics/books/un_just
 

@@ -1,3 +1,6 @@
+#> systems:setting/modify/settings/ex_time/-200
+# @user
+
 # get data -> set value -> change value
     execute store result score $attack.settings.exTime temporary run data get storage storage:settings Main.Custom.Times.Game.Ex 1
     scoreboard players remove $attack.settings.exTime temporary 200

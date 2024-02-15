@@ -1,3 +1,6 @@
+#> systems:weapons/swords/additional_damage/freeze
+# @within systems:weapons/swords/freeze
+
 # attacker detect
     execute as @a if score @s playerID = @a[tag=weapons.swords.damage.additional_damage.freeze,limit=1] attackerID run tag @s add weapons.swords.attacker.freeze
 
