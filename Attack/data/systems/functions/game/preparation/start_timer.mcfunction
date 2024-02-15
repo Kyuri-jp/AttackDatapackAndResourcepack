@@ -24,4 +24,4 @@
         execute if score $attack.timer.preparationTime counter matches ..0 run scoreboard players reset $attack.timer.preparationTime counter
 
 # recall
-    execute if score $attack.timer.preparationTime counter matches 1.. run schedule function systems:preparation/bossbar/preparation_time/start_timer 1t
+    execute if score $attack.timer.preparationTime counter matches 1.. run schedule function systems:game/prepation/start_timer 1t

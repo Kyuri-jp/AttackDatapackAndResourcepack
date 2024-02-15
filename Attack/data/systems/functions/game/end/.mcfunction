@@ -10,7 +10,7 @@
     tellraw @a {"text":"========================================","color":"gold"}
 
 #scores
-    schedule clear systems:preparation/bossbar/preparation_time/start_timer
+    schedule clear systems:game/prepation/start_timer
     schedule clear systems:game/main_game/start_timer
     schedule clear systems:game/ex/start_timer
     scoreboard players reset $attack.timer.preparationTime counter

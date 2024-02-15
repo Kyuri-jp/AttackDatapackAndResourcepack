@@ -1,4 +1,4 @@
-#> systems:buttons/operator/setting
+#> systems:buttons/actions/setting
 # @within systems:buttons/used
 
 # reset
