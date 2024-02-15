@@ -5,8 +5,8 @@
     "ui.gui.settingBar.cdTime": "クールダウン時間",
     "ui.gui.gameTimeBar": "[%1$s]残り時間:%2$s秒",
 
-    "item.lore.weapons.magics.books.usingMP": "使用マナ : %1$s",
-    "item.lore.weapons.magics.spells.usingMana": "使用MP : %1$s",
+    "item.lore.weapons.magics.books.usingMP": "使用マナ : ",
+    "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
 
     "item.lore.weapons.magics.element.air": "空気属性",
     "item.lore.weapons.magics.element.dirt": "土属性",
