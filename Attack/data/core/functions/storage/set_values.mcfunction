@@ -17,9 +17,7 @@
         data merge storage storage:messages {Main: {WaitRoom: {Team: {Red: '{"text":"Red Team","bold":"true","color":"red"}', Blue: '{"text":"Blue Team","bold":true,"color":"blue"}', Watch: '{"text":"Watch Team","bold":true,"color":"gray"}'}}}}
 
     #lack
-        data merge storage storage:messages {Main: {Weapons: {Lack: {Mp: '{"text":"MPが足りません!","bold":"true"}', Mana: '{"text":"マナが足りません!","bold":true}'}}}}
+        data merge storage storage:messages {Main: {Weapons: {Lack: {Mp: '{"translate":"item.lore.weapons.magics.lack.mp","bold":"true"}', Mana: '{"translate":"item.lore.weapons.magics.lack.mana","bold":true}'}}}}
 
     #missing
-        data merge storage storage:messages {Main: {Weapons: {Missing: {Book: '{"text":"本を左手に持ってください","bold":true}'}}}}
-
-        function core:
+        data merge storage storage:messages {Main: {Weapons: {Missing: {Book: '{"translate":"item.lore.weapons.magics.missing.book","bold":true}'}}}}
