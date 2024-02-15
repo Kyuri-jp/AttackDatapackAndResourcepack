@@ -22,7 +22,7 @@
               "lore": [
                 [
                   {
-                    "translate": "item.lore.weapons.magics.spells.usingMana",
+                    "translate": "item.lore.weapons.magics.spells.usingMp",
                     "italic": false,
                     "color": "aqua"
                   },
