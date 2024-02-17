@@ -1,14 +1,14 @@
 # show info
-    execute as @a[tag=game.coolDownNow] at @s run function systems:game/respawn/cool_time/info
+    execute as @a[tag=Player.CoolDownNow] at @s run function systems:game/respawn/cool_time/info
 
 # remove counter
-    scoreboard players remove @a[tag=game.coolDownNow] coolDownCounter 1
+    scoreboard players remove @a[tag=Player.CoolDownNow] coolDownCounter 1
 
 # rebone
-    execute as @a[tag=game.coolDownNow] if score @s coolDownCounter matches ..0 run function systems:game/respawn/
+    execute as @a[tag=Player.CoolDownNow] if score @s coolDownCounter matches ..0 run function systems:game/respawn/
 
 # return
-    execute unless entity @a[tag=game.coolDownNow] run return 0
+    execute unless entity @a[tag=Player.CoolDownNow] run return 0
 
 # recall
     schedule function systems:game/respawn/cool_time/count_down 1t

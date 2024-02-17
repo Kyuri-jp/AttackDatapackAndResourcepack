@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:armor_stand,tag=waitRoom.anchor] run data modify entity @s Marker set value false

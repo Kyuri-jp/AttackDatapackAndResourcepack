@@ -6,19 +6,19 @@
     difficulty normal
 
 # team join
-    team join redTeam @a[tag=team.red]
-    team join blueTeam @a[tag=team.blue]
+    team join redTeam @a[tag=Player.Team.Red]
+    team join blueTeam @a[tag=Player.Team.Blue]
     ## tag remove
-        tag @a remove team.red
-        tag @a remove team.blue
+        tag @a remove Player.Team.Red
+        tag @a remove Player.Team.Blue
 
 # data get
-    execute store result bossbar attack.game.timer max run data get storage storage:settings Main.Custom.Times.Game.MainGame
-    execute store result bossbar attack.game.timer value run data get storage storage:settings Main.Custom.Times.Game.MainGame
-    execute store result score $timer.gameTime counter run data get storage storage:settings Main.Custom.Times.Game.MainGame
+    execute store result bossbar main.timer max run data get storage storage:settings Main.Custom.Times.Game.MainGame
+    execute store result bossbar main.timer value run data get storage storage:settings Main.Custom.Times.Game.MainGame
+    execute store result score $Timer.MainGame counter run data get storage storage:settings Main.Custom.Times.Game.MainGame
 
 #color change
-    bossbar set attack.game.timer color green
+    bossbar set main.timer color green
 
 # call
 function systems:game/main_game/start_timer

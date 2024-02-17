@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "nbt": "{Tags:[\"storage.players.items.get.lv1\",\"storage.players.items.get.lv2\",\"storage.players.items.get.lv3\",\"storage.players.items.get.lv4\"]}"
+      "nbt": "{Tags:[\"Pis.matchUUID.lv1\",\"Pis.matchUUID.lv2\",\"Pis.matchUUID.lv3\",\"Pis.matchUUID.lv4\"]}"
     }
   }
   

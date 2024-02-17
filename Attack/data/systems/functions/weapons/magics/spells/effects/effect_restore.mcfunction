@@ -1,9 +1,9 @@
 # data get
-    execute store result score $using.mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.EffectRestore
+    execute store result score #Magic.Using.Mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.EffectRestore
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack
-    execute if score $weapons.magics.books.lackMp temporary matches 1 run return 0
+    execute if score #Magic.Spell.LackMana temporary matches 1 run return 0
 
 # vfx
     playsound block.brewing_stand.brew player @s ~ ~ ~

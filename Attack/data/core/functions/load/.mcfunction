@@ -4,6 +4,16 @@
 #
 # @within tag/function minecraft:load
 
+#> tag
+# @within
+#   core:load/
+#   systems:wait_room/gallery/*
+    #declare tag Entity.Display.Item.Gallery
+# @within
+#   core:load/
+#   systems:wait_room/team/display/set
+    #declare tag Entity.Display.Text.Info.Team
+
 # reset
     data modify storage storage:booleans Main.Core.Installed set value 0b
     data modify storage storage:booleans Main.Core.PlayerJoindBeforeInstalled set value 0b
@@ -30,12 +40,12 @@
     function core:load/set/bossbar/max
 
 # set displays
-    kill @e[type=item_display,tag=display.item.gallery]
-    kill @e[type=item_display,tag=display.text.team]
+    kill @e[type=item_display,tag=Entity.Display.Item.Gallery]
+    kill @e[type=item_display,tag=Entity.Display.Text.Info.Team]
     function systems:wait_room/gallery/set_item_displays
     function systems:wait_room/team/display/set
 
 # end
-    execute store result score $core.installed.checked datas run data get storage storage:booleans Main.Core.PlayerJoindBeforeInstalled
+    execute store result score $Core.Installed.Checked datas run data get storage storage:booleans Main.Core.PlayerJoindBeforeInstalled
     data modify storage storage:booleans Main.Core.Installed set value 1b
     advancement revoke @a only assets:installed

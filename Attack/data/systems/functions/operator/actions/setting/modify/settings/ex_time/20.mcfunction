@@ -2,12 +2,12 @@
 # @user
 
 # get data -> set value -> change value
-    execute store result score $settings.exTime temporary run data get storage storage:settings Main.Custom.Times.Game.Ex 1
-    scoreboard players add $settings.exTime temporary 20
-    execute store result storage storage:settings Main.Custom.Times.Game.Ex int 1 run scoreboard players get $settings.exTime temporary
+    execute store result score $Setting.Time.ExGame temporary run data get storage storage:settings Main.Custom.Times.Game.Ex 1
+    scoreboard players add $Setting.Time.ExGame temporary 20
+    execute store result storage storage:settings Main.Custom.Times.Game.Ex int 1 run scoreboard players get $Setting.Time.ExGame temporary
 
 # reset
-    scoreboard players reset $settings.exTime temporary
+    scoreboard players reset $Setting.Time.ExGame temporary
 
 # reshow
     function systems:operator/actions/setting/modify/message
