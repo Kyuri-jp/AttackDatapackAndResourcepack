@@ -6,7 +6,7 @@
     scoreboard players reset $game.count.set.chest counter
 
 # call
-    function systems:game/structure/set/blocks/chests/set/chests/random/
+    function systems:game/structure/set/blocks/chests/set/random/
 
 # reset
     scoreboard players reset $game.count.set.chest counter

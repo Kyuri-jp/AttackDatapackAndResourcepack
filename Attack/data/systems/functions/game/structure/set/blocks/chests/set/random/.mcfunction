@@ -1,5 +1,5 @@
-#> systems:game/structure/set/blocks/chests/set/chests/random/
-# @within systems:game/structure/set/blocks/chests/set/chests/
+#> systems:game/structure/set/blocks/chests/set/random/
+# @within systems:game/structure/set/blocks/chests/set/
 
 # retrun
     execute if score $game.count.set.chest counter matches 720.. run return 0
@@ -22,4 +22,4 @@
     scoreboard players add $game.count.set.chest counter 1
 
 # re call
-    function systems:game/structure/set/blocks/chests/set/chests/random/
+    function systems:game/structure/set/blocks/chests/set/random/
