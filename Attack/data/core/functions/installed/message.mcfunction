@@ -14,7 +14,6 @@
     tellraw @a {"text":"Attack!","color":"red","bold": true}
     tellraw @a {"text":"Made by Kyuri\n","color":"green"}
     #tellraw @a {"text":"Moded by [your name]\n","color":"green"}
-    tellraw @a [{"text":"Version ","color":"green"},{"nbt":"Main.Sys.Version","storage":"storage:registry","color": "green"}]
     tellraw @a [{"text":"Datapack Version ","color":"aqua"},{"nbt":"Main.Sys.DataPackVersion","storage":"storage:registry","color": "aqua"}]
     tellraw @a [{"text":"Resourcepack Version ","color":"aqua"},{"nbt":"Main.Sys.ResourcePackVersion","storage":"storage:registry","color": "aqua"}]
     tellraw @a {"text":"Datapack License : Creative Commons Zero v1.0","color":"aqua"}

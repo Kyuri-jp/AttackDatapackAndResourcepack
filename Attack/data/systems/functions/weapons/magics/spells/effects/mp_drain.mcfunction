@@ -14,7 +14,7 @@
     execute if entity @s[team=blueTeam] store result score $magics.spells.mpDrain.count temporary run scoreboard players get @p[team=redTeam] mp
 
     scoreboard players operation @s mp += $magics.spells.mpDrain.count temporary
-    function systems:safe_mp
+    function systems:util/safe_mp
 
     execute if entity @s[team=redTeam] store result score $magics.spells.mpDrain.count temporary run scoreboard players set @p[team=blueTeam] mp 0
     execute if entity @s[team=blueTeam] store result score $magics.spells.mpDrain.count temporary run scoreboard players set @p[team=redTeam] mp 0

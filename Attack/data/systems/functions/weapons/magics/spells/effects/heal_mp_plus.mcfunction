@@ -11,7 +11,7 @@
 
 # call
     scoreboard players add @s mp 50
-    function systems:safe_mp
+    function systems:util/safe_mp
 
 # consume
     function systems:weapons/magics/spells/effects/common/finish

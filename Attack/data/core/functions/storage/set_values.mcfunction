@@ -1,7 +1,7 @@
 # set datas
     ## registry
         data merge storage storage:registry {Main: {Calculation: {Seconds: 20}, Const: {Two: 2, Thousand: 1000}, Weapons: {Magics: {Mp: {Max: 100, Smooth: 6}}}}}
-        data merge storage storage:registry {Main: {Sys: {Version: 0.0.1, DataPackVersion: 0.0.0.alpha, ResourcePackVersion: 0.0.1}}}
+        data merge storage storage:registry {Main: {Sys: {DataPackVersion: 0.0.0.alpha, ResourcePackVersion: 0.0.1}}}
 
     ## settings
         data merge storage storage:settings {Main: {Default: {Times: {Game: {CoolDown: 500, MainGame: 3600, Preparation: 2400, Ex: 2400}}, Switch: {Ex: false}}}}
