@@ -37,7 +37,7 @@ advancementやpredicate,loot_tableが定義されています。
 ## [misc](damage_type/misc/)
 
 # [LootTable](loot_tables/)
-ほとんどのアイテムには独自NBTが使用されています。詳細は[こちら](/Attack\data\assets\loot_tables\weapons\About_NBTs.md)
+ほとんどのアイテムには独自NBTが使用されています。詳細は[こちら](/Attack/data/assets/loot_tables/weapons/About_NBTs.md)
 
 ## [chests/](loot_tables/chests/)[items](loot_tables/chests/items/)
 Tireは高ければ高いほど強い武器,アイテムが手に入る
