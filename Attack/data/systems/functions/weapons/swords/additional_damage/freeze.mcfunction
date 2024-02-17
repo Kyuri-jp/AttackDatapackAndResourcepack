@@ -8,7 +8,7 @@
     attribute @s generic.movement_speed base set 0
 
 # damage
-    execute as @a[tag=weapons.swords.damage.additional_damage.freeze] at @s run damage @s 0.1 libs:freeze by @p[distance=0.01..,tag=weapons.swords.attacker.freeze]
+    execute as @a[tag=weapons.swords.damage.additional_damage.freeze] at @s run damage @s 0.1 libs:weapons/swords/freeze by @p[distance=0.01..,tag=weapons.swords.attacker.freeze]
 
 # add count
     scoreboard players add @a[tag=weapons.swords.damage.additional_damage.freeze] counter 1

@@ -22,8 +22,7 @@
             execute if predicate libs:items/weapons/magics/rods/water_rod run scoreboard players set $weapons.magics.rods.elements datas 4
 
         # summon
-            summon armor_stand ~ ~ ~ {Marker: true, Invisible: true, Tags: ["weapons.anchor.magics.rods"]}
-            execute as @e[type=armor_stand,tag=weapons.anchor.magics.rods,distance=..0.01,limit=1] at @s run tp @s ~ ~1.5 ~
+            execute anchored eyes run summon armor_stand ^ ^ ^ {Marker: true, Invisible: true, Tags: ["weapons.anchor.magics.rods"]}
             data modify entity @e[type=armor_stand,tag=weapons.anchor.magics.rods,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
         # books

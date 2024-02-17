@@ -10,7 +10,7 @@
     playsound minecraft:entity.spider.ambient player @s ~ ~ ~
 
 # actions
-    execute as @p[attack.weapons.swords.spider.vehicle] at @s run function systems:weapons/swords/action/spider
+    execute as @p[tag=attack.weapons.swords.spider.vehicle] at @s run function systems:weapons/swords/action/spider
 
 # revoke
     advancement revoke @s only libs:weapons/swords/spider

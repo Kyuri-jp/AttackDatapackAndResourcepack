@@ -22,7 +22,7 @@
               "lore": [
                 [
                   {
-                    "translate": "item.lore.weapons.magics.spells.usingMp",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "italic": false,
                     "color": "aqua"
                   },
@@ -35,12 +35,12 @@
                   }
                 ],
                 {
-                  "text": "item.lore.weapons.magics.books.drain",
+                  "translate": "item.lore.weapons.magics.books.drain",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "item.lore.weapons.magics.element.dirt",
+                  "translate": "item.lore.weapons.magics.element.dirt",
                   "color": "gold",
                   "italic": false
                 }

@@ -2,7 +2,7 @@
 # @within systems:weapons/magics/books/actions/
 
 #air
-    execute if score $magics.rods.elements.just datas matches 1 run playsound block.beacon.activate player @s ~ ~ ~
+    execute if score $magics.rods.elements.just datas matches 1 run playsound entity.player.attack.sweep player @s ~ ~ ~
 #dirt
     execute if score $magics.rods.elements.just datas matches 2 run playsound block.stone.break player @s ~ ~ ~ 5
 #fire

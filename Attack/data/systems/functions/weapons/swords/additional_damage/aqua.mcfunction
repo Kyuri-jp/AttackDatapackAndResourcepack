@@ -5,7 +5,7 @@
     execute as @a if score @s playerID = @a[tag=weapons.swords.damage.additional_damage.aqua,limit=1] attackerID run tag @s add weapons.swords.attacker.aqua
 
 # damage and vfx
-    execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run damage @s 0.2 libs:aqua by @p[distance=0.01..,tag=weapons.swords.attacker.aqua]
+    execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run damage @s 0.2 libs:weapons/swords/aqua by @p[distance=0.01..,tag=weapons.swords.attacker.aqua]
     execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run particle minecraft:falling_water ~ ~1 ~ 0 0 0 0.1 500
     execute as @a[tag=weapons.swords.damage.additional_damage.aqua] at @s run playsound minecraft:entity.player.splash player @s ~ ~ ~
 

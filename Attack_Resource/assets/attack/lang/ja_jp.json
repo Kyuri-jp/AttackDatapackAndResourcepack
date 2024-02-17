@@ -5,7 +5,7 @@
     "ui.gui.settingBar.cdTime": "クールダウン時間",
     "ui.gui.gameTimeBar": "[%1$s]残り時間:%2$s秒",
 
-    "item.lore.weapons.magics.books.usingMP": "使用マナ : ",
+    "item.lore.weapons.magics.books.usingMp": "使用マナ : ",
     "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
 
     "item.lore.weapons.magics.lack.mana": "マナが足りません!",
@@ -19,7 +19,7 @@
     "item.lore.weapons.magics.element.water": "水属性",
     "item.lore.weapons.magics.element.none": "無属性",
 
-    "item.lore.weapons.magics.element.info.damage": "%1$s属性%2$s",
+    "item.lore.weapons.magics.element.info.damage": "%1$s%2$s ",
 
     "item.lore.weapons.swords.aqua": "連続で攻撃を与える",
     "item.lore.weapons.swords.end": "攻撃した相手の視界を奪い,低確率で超大ダメージを与える",
