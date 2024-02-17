@@ -10,7 +10,7 @@
     particle enchant ~ ~ ~ 1 1 1 0.5 1000 normal
 
 # call
-    function systems:preparation/reset
+    function systems:game/structure/set/blocks/chests/
 
 # finish
     function systems:weapons/magics/spells/effects/common/finish

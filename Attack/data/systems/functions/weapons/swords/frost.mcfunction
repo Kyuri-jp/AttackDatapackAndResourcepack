@@ -6,4 +6,4 @@
     playsound minecraft:block.glass.break player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/frost
+    advancement revoke @s only assets:weapons/swords/frost

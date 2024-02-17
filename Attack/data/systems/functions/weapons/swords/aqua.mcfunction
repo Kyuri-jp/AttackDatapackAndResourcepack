@@ -10,4 +10,4 @@
     function systems:weapons/swords/additional_damage/aqua
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/aqua
+    advancement revoke @s only assets:weapons/swords/aqua

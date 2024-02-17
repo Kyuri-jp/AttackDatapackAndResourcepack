@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "assets:weapons/swords/flame"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "assets:weapons/swords/frost"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "assets:weapons/swords/poison"
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:bread"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/spells"
+        }
+      ]
+    }
+  ]
+}

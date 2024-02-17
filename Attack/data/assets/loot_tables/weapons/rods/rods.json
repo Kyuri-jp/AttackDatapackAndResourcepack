@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 10,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/basic_rod"
+          },
+          {
+            "weight": 8,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/elemental_rod_air"
+          },
+          {
+            "weight": 8,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/elemental_rod_dirt"
+          },
+          {
+            "weight": 8,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/elemental_rod_fire"
+          },
+          {
+            "weight": 8,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/elemental_rod_water"
+          }
+        ]
+      }
+    ]
+  }
+  

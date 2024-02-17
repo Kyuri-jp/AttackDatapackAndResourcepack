@@ -1,5 +1,5 @@
 #> core:installed/message
-# @within advancement libs:installed
+# @within advancement assets:installed
 
 # modify data
     ## error

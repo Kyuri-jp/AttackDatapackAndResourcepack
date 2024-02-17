@@ -1,0 +1,84 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 4,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/aqua"
+          },
+          {
+            "weight": 1,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/end"
+          },
+          {
+            "weight": 2,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/eternal"
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/flame"
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/freeze"
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/frost"
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/gravity"
+          },
+          {
+            "weight": 2,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/magnet"
+          },
+          {
+            "weight": 4,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/optical"
+          },
+          {
+            "weight": 1,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/photon"
+          },
+          {
+            "weight": 4,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/plateau"
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/poison"
+          },
+          {
+            "weight": 4,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/spider"
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/wind"
+          },
+          {
+            "weight": 1,
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/swords/wither"
+          }
+        ]
+      }
+    ]
+  }

@@ -10,4 +10,4 @@
     function systems:weapons/swords/additional_damage/freeze
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/freeze
+    advancement revoke @s only assets:weapons/swords/freeze

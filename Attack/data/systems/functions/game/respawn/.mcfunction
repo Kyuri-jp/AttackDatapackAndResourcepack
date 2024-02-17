@@ -17,4 +17,4 @@
         scoreboard players reset @s coolDownCounter
 
     ## give items
-        execute positioned as @s run function libs:players/player_item_storage/get
+        execute positioned as @s run function libs:player_item_storage/get

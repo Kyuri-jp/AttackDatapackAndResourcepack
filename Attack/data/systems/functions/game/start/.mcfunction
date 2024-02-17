@@ -20,7 +20,7 @@
     execute unless score $system.start.timer counter matches ..0 run schedule function systems:game/start/ 1t
 
 # start
-    execute if score $system.start.timer counter matches ..0 run function systems:game/start/game/start
+    execute if score $system.start.timer counter matches ..0 run function systems:game/start/game/
 
 # reset counter
     execute if score $system.start.timer counter matches ..0 run scoreboard players reset $system.start.timer counter

@@ -13,7 +13,7 @@
     execute as @p[tag=attack.weapons.swords.spider.vehicle] at @s run function systems:weapons/swords/action/spider
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/spider
+    advancement revoke @s only assets:weapons/swords/spider
 
 # remove tags
     tag @s remove attack.weapons.swords.spider.vehicle

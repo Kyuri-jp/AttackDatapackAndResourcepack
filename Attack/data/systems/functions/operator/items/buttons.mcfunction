@@ -1,5 +1,5 @@
 #> systems:operator/items/buttons
-# @within systems:tick
+# @within systems:tick/
 
 # set
     item replace entity @a[tag=operator,tag=!game.players.playing] hotbar.0 with carrot_on_a_stick{display: {Name: '{"text": "Start","color": "green","italic": false}'}, ButtonTag: Start, CustomModelData: 1}

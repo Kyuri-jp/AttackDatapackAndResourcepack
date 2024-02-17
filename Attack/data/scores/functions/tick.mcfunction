@@ -1,4 +1,4 @@
-#> libs:tick
+#> assets:tick
 # @within function score:tick
 
 # tick

@@ -11,8 +11,8 @@
 
 # call
     scoreboard players set $magics.spells.layerMover counter 15
-    execute unless predicate libs:is_sneaking run function systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up
-    execute if predicate libs:is_sneaking run function systems:weapons/magics/spells/effects/actions/layer_mover/is_on_ground
+    execute unless predicate assets:is_sneaking run function systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up
+    execute if predicate assets:is_sneaking run function systems:weapons/magics/spells/effects/actions/layer_mover/is_on_ground
     ##retrun
         execute if score $magics.spells.layerMover counter matches ..0 run return 0
 

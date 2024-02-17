@@ -6,4 +6,4 @@
     playsound minecraft:block.anvil.destroy player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/wind
+    advancement revoke @s only assets:weapons/swords/wind

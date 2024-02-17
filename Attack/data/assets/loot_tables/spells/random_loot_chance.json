@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "assets:chests/items/tire_1"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "assets:chests/items/tire_2"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "assets:chests/items/tire_3"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "assets:chests/items/tire_4"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "assets:chests/items/tire_5"
+          }
+        ]
+      }
+    ]
+  }
+  

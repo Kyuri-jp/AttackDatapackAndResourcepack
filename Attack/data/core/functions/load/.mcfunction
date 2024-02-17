@@ -38,4 +38,4 @@
 # end
     execute store result score $core.installed.checked datas run data get storage storage:booleans Main.Core.PlayerJoindBeforeInstalled
     data modify storage storage:booleans Main.Core.Installed set value 1b
-    advancement revoke @a only libs:installed
+    advancement revoke @a only assets:installed

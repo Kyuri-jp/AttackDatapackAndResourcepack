@@ -12,4 +12,4 @@
     playsound minecraft:entity.spider.ambient player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/wither
+    advancement revoke @s only assets:weapons/swords/wither

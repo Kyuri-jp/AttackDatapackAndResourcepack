@@ -6,4 +6,4 @@
     playsound minecraft:block.grass.break player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/plateau
+    advancement revoke @s only assets:weapons/swords/plateau

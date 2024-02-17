@@ -19,7 +19,7 @@
     scoreboard players reset $constants.counter.sec temporary
 
 # end count
-    execute if score $timer.preparationTime counter matches ..0 run function systems:game/main_game/set_values
+    execute if score $timer.preparationTime counter matches ..0 run function systems:game/main_game/
     ## reset
         execute if score $timer.preparationTime counter matches ..0 run scoreboard players reset $timer.preparationTime counter
 

@@ -1,5 +1,5 @@
 #> systems:wait_room/back_for_room
-# @within systems:as_at
+# @within systems:tick/as_at
 
 # vfx
     playsound ui.button.click player @s ~ ~ ~

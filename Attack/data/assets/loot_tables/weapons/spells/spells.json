@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/chest_reload"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/get_some_mana"
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/heal"
+        },
+        {
+          "weight": 6,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/random_loot_chance"
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/heal_mp"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/heal_plus"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/heal_mp_plus"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/layer_mover"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/wither_skeleton_remover"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/get_some_mana_plus"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/illumination"
+        },
+        {
+          "weight": 6,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/rescues"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/underground"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/debility"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/invincible"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/mana_magnet"
+        },
+        {
+          "weight": 7,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/effect_restore"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/mp_drain"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/random_sword_chance"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/random_rod_chance"
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/random_spell_chance"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/mana",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

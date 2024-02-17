@@ -10,7 +10,7 @@
     particle composter ~ ~ ~ 1 1 1 0.5 200 normal
 
 # call
-    loot give @s loot loots:weapons/rods/rods
+    loot give @s loot assets:weapons/rods/rods
 
 # consume
     function systems:weapons/magics/spells/effects/common/finish

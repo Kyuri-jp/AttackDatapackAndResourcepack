@@ -6,4 +6,4 @@
     playsound minecraft:entity.ender_pearl.throw player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/magnet
+    advancement revoke @s only assets:weapons/swords/magnet

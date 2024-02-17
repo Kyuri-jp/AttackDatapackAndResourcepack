@@ -1,6 +1,6 @@
 {
     "values": [
-        "libs:weapons/swords/aqua",
-        "libs:weapons/swords/freeze"
+        "assets:weapons/swords/aqua",
+        "assets:weapons/swords/freeze"
     ]
 }

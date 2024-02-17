@@ -6,4 +6,4 @@
     playsound minecraft:block.brewing_stand.brew player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/poison
+    advancement revoke @s only assets:weapons/swords/poison

@@ -11,11 +11,11 @@
 # action
     execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] at @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run particle dust 0.816 1 0 2 ~ ~10 ~ 0 5 0 0.1 200 normal
     #normal
-    execute unless score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas unless score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 10 libs:weapons/magics/books/lightning by @a[tag=weapons.magics.rods.user,limit=1]
+    execute unless score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas unless score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 10 assets:weapons/magics/books/lightning by @a[tag=weapons.magics.rods.user,limit=1]
     #just
-    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 12 libs:weapons/magics/books/lightning by @a[tag=weapons.magics.rods.user,limit=1]
+    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 12 assets:weapons/magics/books/lightning by @a[tag=weapons.magics.rods.user,limit=1]
     #un just
-    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 8 libs:weapons/magics/books/lightning by @a[tag=weapons.magics.rods.user,limit=1]
+    execute if score $weapons.magics.rods.elements datas = $magics.rods.elements.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] 8 assets:weapons/magics/books/lightning by @a[tag=weapons.magics.rods.user,limit=1]
 
 # hit player
     execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!weapons.magics.rods.user] run playsound entity.warden.angry player @a[distance=..1.5,limit=1]

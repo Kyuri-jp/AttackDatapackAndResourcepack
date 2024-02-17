@@ -1,5 +1,5 @@
 # give
-    loot give @s loot loots:weapons/spells/mana
+    loot give @s loot assets:weapons/spells/mana
 
 # remove count
     scoreboard players remove $magics.spells.manaMagnet.count temporary 1

@@ -6,4 +6,4 @@
     playsound minecraft:entity.blaze.shoot player @s ~ ~ ~
 
 # revoke
-    advancement revoke @s only libs:weapons/swords/flame
+    advancement revoke @s only assets:weapons/swords/flame

@@ -1,6 +1,6 @@
 {
     "values": [
-        "libs:weapons/magics/books/explosion",
-        "libs:weapons/magics/books/meteor"
+        "assets:weapons/magics/books/explosion",
+        "assets:weapons/magics/books/meteor"
     ]
 }

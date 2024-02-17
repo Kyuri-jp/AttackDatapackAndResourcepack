@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/spells/mana",
+            "functions": [
+              {
+                "function":"minecraft:set_count",
+                "count":{
+                  "min": 10,
+                  "max": 20
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
