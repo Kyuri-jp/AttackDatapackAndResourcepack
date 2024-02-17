@@ -6,8 +6,8 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "assets:weapons/swords/eternal"
+          "weight": 3,
+          "name": "assets:weapons/swords/magnet"
         },
         {
           "type": "minecraft:loot_table",
@@ -16,8 +16,8 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 3,
-          "name": "assets:weapons/swords/magnet"
+          "weight": 1,
+          "name": "assets:weapons/swords/eternal"
         }
       ]
     },
