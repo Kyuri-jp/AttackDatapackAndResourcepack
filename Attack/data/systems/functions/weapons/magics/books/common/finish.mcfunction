@@ -1,8 +1,8 @@
 #> systems:weapons/magics/books/common/finish
 # @within systems:weapons/magics/books/actions/*
 
-# kill stand(player detect) and can return
-    execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=attack.magics.rod.detect.player]
+# return
+    execute if data storage storage:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Retrun: 1b}}}}}} run return 0
 
 # wall detect and can return
     execute unless block ~ ~ ~ #libs:as_air run tag @s add attack.magics.rod.detect.wall
@@ -16,4 +16,4 @@
 
 # scope over
     execute if score $counter.magics.rods.scope counter >= $magics.rods.scope temporary run kill @s
-    execute if score $counter.magics.rods.scope counter >= $magics.rods.scope temporary run return 0
+    execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 if score $counter.magics.rods.scope counter >= $magics.rods.scope temporary
