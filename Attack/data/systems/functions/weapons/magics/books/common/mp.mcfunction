@@ -10,3 +10,7 @@
         execute unless score $counter.magics.rods.scope counter matches 1.. if score @a[tag=weapons.magics.rods.user,sort=nearest,limit=1] mp >= $using.mp temporary run scoreboard players operation @a[tag=weapons.magics.rods.user,sort=nearest,limit=1] mp -= $using.mp temporary
         #just
         execute unless score $counter.magics.rods.scope counter matches 1.. if score @a[tag=weapons.magics.rods.user,sort=nearest,limit=1] mp >= $using.mp temporary if score $weapons.magics.rods.elements datas = $magics.rods.elements.just datas as @a[tag=weapons.magics.rods.user,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/vfx/just_element_sound
+
+# call
+    function systems:weapons/magics/books/common/move
+    return 0
