@@ -7,4 +7,6 @@
     "datapack.lint.strictFunctionTagCheck": null,
     "datapack.lint.strictAdvancementCheck": null,
     "datapack.lint.nbtCompoundSortKeys": null,
+    "datapack.lint.strictObjectiveCheck": null,
+    "datapack.lint.strictPredicateCheck": null,
 }
