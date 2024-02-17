@@ -1,15 +1,46 @@
 {
     "datapack.env.cmdVersion": "1.20",
     "workbench.iconTheme": "material-icon-theme",
-    "datapack.lint.strictFunctionCheck": null,
-    "datapack.lint.strictStorageCheck": null,
-    "datapack.lint.strictLootTableCheck": null,
-    "datapack.lint.strictFunctionTagCheck": null,
-    "datapack.lint.strictAdvancementCheck": null,
     "datapack.lint.nbtCompoundSortKeys": null,
-    "datapack.lint.strictObjectiveCheck": null,
-    "datapack.lint.strictPredicateCheck": null,
-    "datapack.lint.strictScoreHolderCheck": null,
-    "datapack.lint.strictTagCheck": null,
-    "datapack.lint.strictTeamCheck": null
+    "datapack.lint.strictFunctionCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictStorageCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictLootTableCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictFunctionTagCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictAdvancementCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictObjectiveCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictPredicateCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictTeamCheck": [
+        "error",
+        true
+    ],
+    "datapack.lint.strictScoreHolderCheck": [
+        "warning",
+        true
+    ],
+    "datapack.lint.strictTagCheck": [
+        "warning",
+        true
+    ],
+    "mcdutil.mcfFormatter.doInsertIMPDocument": true
 }
