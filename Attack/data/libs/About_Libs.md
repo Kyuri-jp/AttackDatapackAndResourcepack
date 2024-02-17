@@ -41,4 +41,4 @@
 ### [player_item_storage](predicates/player_item_storage/)
 |Function名|定義|
 |----|----|
-|[`have_all_tag`](predicates/player_item_storage/have_all_tag.json)|`Pis.matchUUID.lv1`~`Pis.matchUUID.lv4`までのタグを持っている|
+|[`have_all_tag`](predicates/player_item_storage/have_all_tag.json)|`Pis.MatchUUID.lv1`~`Pis.MatchUUID.lv4`までのタグを持っている|
