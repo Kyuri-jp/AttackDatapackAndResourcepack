@@ -9,4 +9,7 @@
     "datapack.lint.nbtCompoundSortKeys": null,
     "datapack.lint.strictObjectiveCheck": null,
     "datapack.lint.strictPredicateCheck": null,
+    "datapack.lint.strictScoreHolderCheck": null,
+    "datapack.lint.strictTagCheck": null,
+    "datapack.lint.strictTeamCheck": null
 }
