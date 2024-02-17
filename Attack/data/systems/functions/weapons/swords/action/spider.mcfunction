@@ -8,5 +8,5 @@
     execute if predicate assets:dont_have_any_items run particle spit ~ ~1 ~ 0 0 0 0.1 200
 
 # set item
-    execute unless predicate assets:dont_have_any_items run item replace entity @s weapon.offhand from entity @p[tag=attack.weapons.swords.spider.attacker,limit=1] weapon.mainhand
+    execute unless predicate assets:dont_have_any_items run item replace entity @p[tag=attack.weapons.swords.spider.attacker,limit=1] weapon.offhand from entity @s weapon.mainhand
     execute unless predicate assets:dont_have_any_items run item replace entity @s weapon.mainhand with air
