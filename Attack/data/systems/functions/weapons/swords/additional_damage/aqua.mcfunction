@@ -16,7 +16,7 @@
     scoreboard players add @a[tag=weapons.swords.damage.additional_damage.aqua] counter 1
 
 # recall
-    execute as @a[tag=weapons.swords.damage.additional_damage.aqua,limit=1] unless score @s counter matches 3.. run schedule function systems:weapons/swords/additional_damage/aqua 1t
+    execute as @a[tag=weapons.swords.damage.additional_damage.aqua,limit=1] unless score @s counter matches 5.. run schedule function systems:weapons/swords/additional_damage/aqua 1t
 
 # reset
-    execute as @a[tag=weapons.swords.damage.additional_damage.aqua,limit=1] if score @s counter matches 3.. run function systems:weapons/swords/additional_damage/reset/aqua
+    execute as @a[tag=weapons.swords.damage.additional_damage.aqua,limit=1] if score @s counter matches 5.. run function systems:weapons/swords/additional_damage/reset/aqua
