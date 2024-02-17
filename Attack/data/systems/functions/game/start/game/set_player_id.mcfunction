@@ -1,2 +1,2 @@
-scoreboard players add $players.ID playerID 1
-scoreboard players operation @s playerID = $players.ID playerID
+scoreboard players add $Player.ID playerID 1
+scoreboard players operation @s playerID = $Player.ID playerID

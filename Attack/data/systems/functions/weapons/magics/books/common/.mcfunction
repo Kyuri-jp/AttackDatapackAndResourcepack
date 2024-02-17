@@ -1,8 +1,10 @@
 #> systems:weapons/magics/books/common/
-#
-# 共通している処理
-#
 # @within systems:weapons/magics/books/actions/*
+
+#> tag
+# @within systems:weapons/magics/books/common/*
+    #declare tag Magics.Shot.DetectedPlayer
+
 
 # element
     function systems:weapons/magics/books/un_just
@@ -11,7 +13,7 @@
     data modify storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun set value false
 
 # call
-    execute store result score $weapons.magics.books.lackMp temporary run function systems:weapons/magics/books/common/mp
+    execute store result score #Magic.Shot.LackMp temporary run function systems:weapons/magics/books/common/mp
 
 # kill stand(player detect) and can return
-    execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=attack.magics.rod.detect.player]
+    execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=Magics.Shot.DetectedPlayer]

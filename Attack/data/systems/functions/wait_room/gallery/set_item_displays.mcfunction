@@ -8,5 +8,5 @@
     execute positioned -95.9 -24.5 32.5 positioned ~ ~ ~-35 run function systems:wait_room/gallery/spell
 
 # set rotation
-    execute as @e[type=item_display,tag=display.item.gallery] run data modify entity @s Rotation set value [-90.0f,0f]
+    execute as @e[type=item_display,tag=Entity.Display.Item.Gallery] run data modify entity @s Rotation set value [-90.0f,0f]
     function systems:wait_room/gallery/set_size_and_rotation

@@ -1,2 +1,8 @@
+#> systems:game/structure/set/blocks/pressures/set
+
+#> tag
+# @private
+    #declare tag Anchor.Pressure.Placer
+
 # replace
-    execute as @e[type=armor_stand,tag=game.anchor.set.pressure] at @s run setblock ~ ~ ~ dark_oak_pressure_plate keep
+    execute as @e[type=armor_stand,tag=Anchor.Pressure.Placer] at @s run setblock ~ ~ ~ dark_oak_pressure_plate keep

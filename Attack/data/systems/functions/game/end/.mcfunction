@@ -10,12 +10,12 @@
     tellraw @a {"text":"========================================","color":"gold"}
 
 #scores
-    schedule clear systems:game/prepation/start_timer
+    schedule clear systems:game/preparation/start_timer
     schedule clear systems:game/main_game/start_timer
     schedule clear systems:game/ex/start_timer
-    scoreboard players reset $timer.preparationTime counter
-    scoreboard players reset $timer.gameTime counter
-    scoreboard players reset $timer.exTime counter
+    scoreboard players reset $Timer.Preparation counter
+    scoreboard players reset $Timer.MainGame counter
+    scoreboard players reset $Timer.Ex counter
 
 # diff
     difficulty peaceful
@@ -30,26 +30,26 @@
     effect clear @a
     effect give @a instant_health 2 20
     effect give @a saturation 2 20
-    execute at @e[type=armor_stand,tag=waitRoom.anchor.default.position] run spawnpoint @a ~ ~ ~
-    tag @a remove game.players.playing
-    tag @a remove game.coolDownNow
+    execute at @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition] run spawnpoint @a ~ ~ ~
+    tag @a remove Player.Playing
+    tag @a remove Player.CoolDownNow
 
 # entities
-    kill @e[type=armor_stand,tag=storage.players.items.marker]
+    kill @e[type=armor_stand,tag=Pis.marker]
 
 # teleport
-    tp @a @e[type=armor_stand,tag=waitRoom.anchor.default.position,limit=1]
+    tp @a @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition,limit=1]
 
 # bossbars
-    bossbar set attack.game.timer visible false
-    bossbar set attack.settings.gui.preparation_time players @a
-    bossbar set attack.settings.gui.game_time players @a
-    bossbar set attack.settings.gui.ex_time players @a
-    bossbar set attack.settings.gui.cd_time players @a
-    bossbar set attack.settings.gui.preparation_time visible true
-    bossbar set attack.settings.gui.game_time visible true
-    bossbar set attack.settings.gui.ex_time visible true
-    bossbar set attack.settings.gui.cd_time visible true
+    bossbar set main.timer visible false
+    bossbar set settings.gui.preparation_time players @a
+    bossbar set settings.gui.game_time players @a
+    bossbar set settings.gui.ex_time players @a
+    bossbar set settings.gui.cd_time players @a
+    bossbar set settings.gui.preparation_time visible true
+    bossbar set settings.gui.game_time visible true
+    bossbar set settings.gui.ex_time visible true
+    bossbar set settings.gui.cd_time visible true
 
 # setSideBar
     scoreboard objectives setdisplay sidebar TeamList

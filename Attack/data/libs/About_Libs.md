@@ -20,10 +20,10 @@
 
 |Function名|定義|
 |----|----|
-|[`.mcfunction`](functions/show_player_info/.mcfunction)|Kill数,Death数,Mana数を`game.players.playing`のTagを持っているプレイヤーに表示|
+|[`.mcfunction`](functions/show_player_info/.mcfunction)|Kill数,Death数,Mana数を`Player.Playing`のTagを持っているプレイヤーに表示|
 |[`get_cool_down_time`](functions/show_player_info/get_cool_down_time.mcfunction)|実行者の`coolDownCounter`の値を取得|
 
-> `get_cool_down_time`は`.mcfunction`の実行者に`game.coolDownNow`のTagが付いている場合に呼び出されます
+> `get_cool_down_time`は`.mcfunction`の実行者に`Player.CoolDownNow`のTagが付いている場合に呼び出されます
 
 ### [synchronize_xp_and_mp](functions/synchronize_xp_and_mp/)
 経験値バーとMPを同期します
@@ -41,4 +41,4 @@
 ### [player_item_storage](predicates/player_item_storage/)
 |Function名|定義|
 |----|----|
-|[`have_all_tag`](predicates/player_item_storage/have_all_tag.json)|`storage.players.items.get.lv1`~`storage.players.items.get.lv4`までのタグを持っている|
+|[`have_all_tag`](predicates/player_item_storage/have_all_tag.json)|`Pis.matchUUID.lv1`~`Pis.matchUUID.lv4`までのタグを持っている|

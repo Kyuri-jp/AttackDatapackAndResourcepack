@@ -1,3 +1,19 @@
+#> systems:game/start/game/
+
+#> score holder
+# @within
+#   systems:game/start/game/
+#   systems:game/start/game/set_player_id
+    #declare score_holder $Player.ID
+
+#> tag
+# @within
+#   systems:game/start/game/
+#   systems:game/main_game/
+    #declare tag Player.Team.Red
+    #declare tag Player.Player.Team.Blue
+
+
 # gamemode,rule and diff
     difficulty peaceful
     gamerule fallDamage false
@@ -9,19 +25,19 @@
 
 # bossBars
     ## settings
-        bossbar set attack.settings.gui.preparation_time visible false
-        bossbar set attack.settings.gui.game_time visible false
-        bossbar set attack.settings.gui.ex_time visible false
-        bossbar set attack.settings.gui.cd_time visible false
+        bossbar set settings.gui.preparation_time visible false
+        bossbar set settings.gui.game_time visible false
+        bossbar set settings.gui.ex_time visible false
+        bossbar set settings.gui.cd_time visible false
 
     ## timer
-        bossbar set attack.game.timer players @a
+        bossbar set main.timer players @a
 
 # initScores,Datas
     ## scores
         scoreboard players set RedTeamScore Scores 0
         scoreboard players set BlueTeamScore Scores 0
-        scoreboard players reset $players.ID playerID
+        scoreboard players reset $Player.ID playerID
     ## datas
         data modify storage storage:booleans Main.Game.Ex set value false
 
@@ -46,14 +62,14 @@
         effect give @a saturation 3 10
 
     ## team flag
-        tag @a[team=redTeam] add team.red
-        tag @a[team=blueTeam] add team.blue
+        tag @a[team=redTeam] add Player.Team.Red
+        tag @a[team=blueTeam] add Player.Team.Blue
 
     ## clear items
         clear @a
 
     ## set tag
-        tag @a add game.players.playing
+        tag @a add Player.Playing
 
 # watcher
     gamemode spectator @a[team=watch]
@@ -63,8 +79,8 @@
     scoreboard objectives setdisplay sidebar Scores
 
 # teleport
-    data modify entity @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1] Rotation set value [90.0f, 0.0f]
-    tp @a @e[type=armor_stand,tag=game.anchor.set.spawn,limit=1]
+    data modify entity @e[type=armor_stand,tag=Anchor.DefaultSpawnPoint,limit=1] Rotation set value [90.0f, 0.0f]
+    tp @a @e[type=armor_stand,tag=Anchor.DefaultSpawnPoint,limit=1]
 
 # giveItems
     execute as @a at @s run loot give @s loot assets:chests/items/tire_1

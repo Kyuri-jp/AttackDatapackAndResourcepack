@@ -1,6 +1,12 @@
 #> systems:weapons/magics/spells/detect_spells
 # @handles systems:tick/as_at
 
+#> score holder
+# @within systems:weapons/magics/spells/*
+    #declare score_holder #Magic.Using.Mana
+    #declare score_holder #Magic.Mana.Count
+    #declare score_holder #Magic.Spell.LackMana
+
 # detect
     execute if predicate assets:items/weapons/magics/spells/get_some_mana run function systems:weapons/magics/spells/effects/get_some_mana
     execute if predicate assets:items/weapons/magics/spells/get_some_mana_plus run function systems:weapons/magics/spells/effects/get_some_mana_plus
@@ -26,10 +32,10 @@
     execute if predicate assets:items/weapons/magics/spells/random_book_chance run function systems:weapons/magics/spells/effects/random_book_chance
 
 # reset
-    scoreboard players reset $using.mana temporary
-    scoreboard players reset $using.mana.count temporary
-    scoreboard players reset $weapons.magics.books.lackMp temporary
-    scoreboard players reset $using.mana.count counter
+    scoreboard players reset #Magic.Using.Mana temporary
+    scoreboard players reset #Magic.Mana.Count temporary
+    scoreboard players reset #Magic.Spell.LackMana temporary
+    scoreboard players reset #Magic.Mana.Count counter
 
 # mana count
     function systems:weapons/magics/spells/count_mana

@@ -7,7 +7,7 @@
         execute unless data storage storage:booleans {Main: {Core: {Installed: 1b}}} run return 0
 
 # checked
-    scoreboard players set $core.installed.checked datas 1
+    scoreboard players set $Core.Installed.Checked datas 1
 
 # mes
     tellraw @a {"text":"=============================================","color":"gold","bold": true}

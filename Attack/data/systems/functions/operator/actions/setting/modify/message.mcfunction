@@ -1,3 +1,12 @@
+#> systems:operator/actions/setting/modify/message
+
+#> score holder
+# @within systems:operator/actions/setting/modify/*
+    #declare score_holder $Setting.Time.MainGame
+    #declare score_holder $Setting.Time.Preparation
+    #declare score_holder $Setting.Time.ExGame
+    #declare score_holder $Setting.Time.CoolDown
+
 # show empty
     function systems:operator/actions/setting/empty
 

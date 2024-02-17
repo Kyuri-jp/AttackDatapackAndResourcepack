@@ -1,5 +1,5 @@
 # add tag
-    tag @s add game.coolDownNow
+    tag @s add Player.CoolDownNow
 
 # set timer
     function systems:game/died/set_timer

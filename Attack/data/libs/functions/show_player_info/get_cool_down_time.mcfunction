@@ -1,3 +1,8 @@
+#> libs:show_player_info/get_cool_down_time
+
+#> score holder
+# @private
+    #declare score_holder #Player.CoolTime.Sec
 # reset
     scoreboard players reset @s temporary
 
@@ -5,10 +10,10 @@
     scoreboard players operation @s temporary = @s coolDownCounter
 
 # get data
-    execute store result score $constans.sec temporary run data get storage storage:registry Main.Calculation.Seconds
+    execute store result score #Player.CoolTime.Sec temporary run data get storage storage:registry Main.Calculation.Seconds
 
 # to sec.
-    scoreboard players operation @s temporary /= $constans.sec temporary
+    scoreboard players operation @s temporary /= #Player.CoolTime.Sec temporary
 
 # reset
-    scoreboard players reset $constans.sec temporary
+    scoreboard players reset #Player.CoolTime.Sec temporary
