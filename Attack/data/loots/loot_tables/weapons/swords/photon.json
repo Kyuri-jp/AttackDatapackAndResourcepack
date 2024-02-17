@@ -42,7 +42,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:3,WeaponTag:PhotonSword}"
+              "tag": "{Unbreakable:true,CustomModelData:3,HideFlags:6,WeaponTag:PhotonSword}"
             }
           ]
         }

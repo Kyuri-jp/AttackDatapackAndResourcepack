@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:1,WeaponTag:EternalSword}"
+              "tag": "{Unbreakable:true,CustomModelData:1,HideFlags:6,WeaponTag:EternalSword}"
             }
           ]
         }

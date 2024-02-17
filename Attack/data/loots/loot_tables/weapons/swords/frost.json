@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:2,WeaponTag:FrostSword}"
+              "tag": "{Unbreakable:true,CustomModelData:2,HideFlags:6,WeaponTag:FrostSword}"
             }
           ]
         }
