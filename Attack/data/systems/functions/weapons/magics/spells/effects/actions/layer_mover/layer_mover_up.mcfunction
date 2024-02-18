@@ -1,5 +1,7 @@
 #> systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up
-# @within systems:weapons/magics/spells/effects/layer_mover
+# @within
+#   systems:weapons/magics/spells/effects/layer_mover
+#   systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up
 
 scoreboard players remove #Magic.Spell.LayerMover.Scope counter 1
 execute unless block ~ ~ ~ #assets:as_air if block ~ ~1 ~ #assets:as_air run summon area_effect_cloud ~ ~1 ~ {Tags:["Anchor.Magic.Spell.LayerMover"]}

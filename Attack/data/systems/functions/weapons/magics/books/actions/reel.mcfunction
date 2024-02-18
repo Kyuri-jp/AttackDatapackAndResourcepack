@@ -10,18 +10,18 @@
 
 # action
     #teleport
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run tp @a[tag=Player.Magic.This,limit=1] @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This]
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] as @a[tag=Player.Magic.This,limit=1] at @s if block ^ ^ ^-1 #assets:as_air run tp @s ^ ^ ^-1
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run tp @a[tag=Player.Magic.This,limit=1] @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1]
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] as @a[tag=Player.Magic.This,limit=1] at @s if block ^ ^ ^-1 #assets:as_air run tp @s ^ ^ ^-1
     #normal
-    execute unless score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas unless score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 3 assets:weapons/magics/books/reel by @a[tag=Player.Magic.This,limit=1]
+    execute unless score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas unless score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3 assets:weapons/magics/books/reel by @a[tag=Player.Magic.This,limit=1]
     #just
-    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 3.6 assets:weapons/magics/books/reel by @a[tag=Player.Magic.This,limit=1]
+    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3.6 assets:weapons/magics/books/reel by @a[tag=Player.Magic.This,limit=1]
     #un just
-    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 2.4 assets:weapons/magics/books/reel by @a[tag=Player.Magic.This,limit=1]
+    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 2.4 assets:weapons/magics/books/reel by @a[tag=Player.Magic.This,limit=1]
 
 # hit player
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run playsound entity.enderman.teleport player @a[distance=..1.5,limit=1]
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] at @a[distance=..1.5,limit=1] run particle dust 0.427 0.051 0.404 1 ~ ~ ~ 2 2 2 1 20 normal
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.enderman.teleport player @a[distance=..1.5,limit=1]
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle dust 0.427 0.051 0.404 1 ~ ~ ~ 2 2 2 1 20 normal
 
 # finish
     function systems:weapons/magics/books/common/finish

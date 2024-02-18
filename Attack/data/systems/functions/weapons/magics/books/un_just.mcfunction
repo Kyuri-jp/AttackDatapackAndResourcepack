@@ -1,5 +1,7 @@
 #> systems:weapons/magics/books/un_just
-# @within systems:weapons/magics/books/common/
+# @within
+#   systems:weapons/magics/books/common/
+#   systems:weapons/magics/books/actions/*
 
 # set
     execute if score #Magic.Rod.Element.Just datas matches 0 run scoreboard players set #Magic.Rod.Element.unJust datas 0

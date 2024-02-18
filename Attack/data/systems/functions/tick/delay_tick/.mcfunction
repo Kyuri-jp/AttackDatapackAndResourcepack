@@ -2,7 +2,7 @@
 # @within systems:tick/
 
 #> score holder
-# @within systems:tick/delay_tick/
+# @within systems:tick/delay_tick/*
     #declare score_holder #System.DelayTick.5
     #declare score_holder #System.DelayTick.10
     #declare score_holder #System.DelayTick.20

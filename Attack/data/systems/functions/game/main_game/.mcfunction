@@ -1,3 +1,12 @@
+#> systems:game/main_game/
+
+#> score holder
+# @within
+#   systems:game/main_game/*
+#   systems:game/end/**
+    #declare score_holder $Timer.MainGame
+
+
 # sounds
     execute as @a at @s run playsound block.end_portal.spawn player @s ~ ~ ~
 

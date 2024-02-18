@@ -6,12 +6,12 @@
 
 #> tag
 # @within
-#   systems:weapons/magics/books/*
+#   systems:weapons/magics/books/**
     #declare score_holder #Magic.UsingMp
     #declare score_holder #Magic.Shot.ScopeLimit
+    #declare score_holder $Magic.Shot.NowScope
     #declare score_holder $Magic.Shot.Inferno.RemovedItem
     #declare score_holder #Magic.Shot.LackMp
-    #declare score_holder #Magics.Rod.Element
     #declare score_holder #Magic.Rod.Element.Just
     #declare score_holder #Magic.Rod.Element.unJust
 

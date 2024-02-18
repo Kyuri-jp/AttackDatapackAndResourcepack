@@ -1,7 +1,9 @@
 #> libs:player_item_storage/get
 
 #> tag
-# @private
+# @within
+#   libs:player_item_storage/get
+#   libs:player_item_storage/entity/same_uuid
     #declare tag Pis.This
 
 # set player

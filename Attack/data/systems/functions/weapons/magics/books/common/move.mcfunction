@@ -1,5 +1,5 @@
 #> systems:weapons/magics/books/common/move
-# @within systems:weapons/magics/books/commom/mp
+# @within systems:weapons/magics/books/common/mp
 
 # pros
     ## teleport
@@ -11,4 +11,4 @@
         execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas run function systems:weapons/magics/books/vfx/just_element_particle
 
     ## player detect
-        execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run tag @s add Magics.Shot.DetectedPlayer
+        execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run tag @s add Magics.Shot.DetectedPlayer

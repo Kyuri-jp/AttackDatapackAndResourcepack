@@ -1,5 +1,7 @@
 #> libs:player_item_storage/inventory/summon
-# @within function libs:player_item_storage/get
+# @within
+#   libs:player_item_storage/get
+#   libs:player_item_storage/inventory/summon
 
 #> tag
 # @private

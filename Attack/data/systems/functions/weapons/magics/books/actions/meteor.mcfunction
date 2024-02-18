@@ -9,13 +9,13 @@
     execute if score #Magic.Shot.LackMp temporary matches 1 run return 0
 
 # action
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] at @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] if entity @a[tag=Player.Magic.This,limit=1,team=redTeam] run summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 1, CustomName: '{"text": "Meteor"}', Team: redTeam, active_effects: [{id: "minecraft:invisibility", show_particles: false, duration: 1}]}
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] at @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] if entity @a[tag=Player.Magic.This,limit=1,team=blueTeam] run summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 1, CustomName: '{"text": "Meteor"}', Team: blueTeam, active_effects: [{id: "minecraft:invisibility", show_particles: false, duration: 1}]}
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] at @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] if entity @a[tag=Player.Magic.This,limit=1,team=blueTeam] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 8 assets:weapons/magics/books/meteor by @a[tag=Player.Magic.This,limit=1]
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=redTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 1, CustomName: '{"text": "Meteor"}', Team: redTeam, ActiveEffects: [{Id: 14, ShowParticles: false, Duration: 1}]}
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 1, CustomName: '{"text": "Meteor"}', Team: blueTeam, ActiveEffects: [{Id: 14, ShowParticles: false, Duration: 1}]}
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 8 assets:weapons/magics/books/meteor by @a[tag=Player.Magic.This,limit=1]
 
 # hit player
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] at @a[distance=..1.5,limit=1] run particle explosion_emitter ~ ~ ~ 1 1 1 1 3 normal
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle explosion_emitter ~ ~ ~ 1 1 1 1 3 normal
 
 # finish
     function systems:weapons/magics/books/common/finish

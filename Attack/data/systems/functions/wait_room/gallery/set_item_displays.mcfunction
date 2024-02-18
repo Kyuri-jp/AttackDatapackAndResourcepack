@@ -1,5 +1,5 @@
 #> systems:wait_room/gallery/set_item_displays
-# @within systems:wait_room/gallery/set_item_displays
+# @within core:load/
 
 # set
     execute positioned -95.9 -24.5 32.5 run function systems:wait_room/gallery/sword

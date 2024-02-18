@@ -2,7 +2,7 @@
 # @handles systems:tick/as_at
 
 #> score holder
-# @within systems:weapons/magics/spells/*
+# @within systems:weapons/magics/spells/**
     #declare score_holder #Magic.Using.Mana
     #declare score_holder #Magic.Mana.Count
     #declare score_holder #Magic.Spell.LackMana

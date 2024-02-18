@@ -4,15 +4,23 @@
 #
 # @within tag/function minecraft:load
 
-#> tag
+#> gallery
 # @within
 #   core:load/
 #   systems:wait_room/gallery/*
     #declare tag Entity.Display.Item.Gallery
+
+#> text
 # @within
 #   core:load/
 #   systems:wait_room/team/display/set
     #declare tag Entity.Display.Text.Info.Team
+
+#> install
+# @within
+#   core:load/
+#   core:installed/message
+    #declare score_holder $Core.Installed.Checked
 
 # reset
     data modify storage storage:booleans Main.Core.Installed set value 0b

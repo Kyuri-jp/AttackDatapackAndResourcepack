@@ -1,6 +1,6 @@
 #> libs:synchronize_xp_and_mp/
 
-#> score holder
+#> SyncXM
 # @within libs:synchronize_xp_and_mp/*
     #declare score_holder #Magics.Mp.Max
     #declare score_holder $SyncXM.Bar.Smooth

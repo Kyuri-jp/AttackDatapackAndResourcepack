@@ -6,4 +6,4 @@
     scoreboard players reset @s counter
     scoreboard players reset @s attackerID
     tag @s remove Player.Sword.Damaged.Freeze
-    tag @p[distance=0.01..,tag=Player.Sword.Attacker.Freeze] remove Player.Sword.Attacker.Freeze
+    tag @p[tag=Player.Sword.Attacker.Freeze,distance=0.01..] remove Player.Sword.Attacker.Freeze

@@ -11,7 +11,7 @@
 #   systems:game/start/game/
 #   systems:game/main_game/
     #declare tag Player.Team.Red
-    #declare tag Player.Player.Team.Blue
+    #declare tag Player.Team.Blue
 
 
 # gamemode,rule and diff

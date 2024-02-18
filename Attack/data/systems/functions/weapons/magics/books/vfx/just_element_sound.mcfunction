@@ -1,5 +1,5 @@
 #> systems:weapons/magics/books/vfx/just_element_sound
-# @within systems:weapons/magics/books/actions/
+# @within systems:weapons/magics/books/common/mp
 
 #air
     execute if score #Magic.Rod.Element.Just datas matches 1 run playsound entity.player.attack.sweep player @s ~ ~ ~

@@ -1,3 +1,9 @@
+#> systems:game/main_game/start_timer
+
+#> score holder
+# @private
+    #declare score_holder $Timer.MainGame.Sec
+
 # data get
     execute store result score $Const.Timer.Sec temporary run data get storage storage:registry Main.Calculation.Seconds
 

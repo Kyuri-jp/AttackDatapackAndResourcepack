@@ -12,7 +12,7 @@
     execute if entity @s[y=-32,dy=0] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Teleporter,distance=..18] run function systems:wait_room/back_for_room
 
 # spell
-    execute if entity @e[type=arrow,distance=..2,limit=1,sort=nearest] if predicate assets:items/weapons/magics/spells/have_spell run function systems:weapons/magics/spells/detect_used
+    execute if entity @e[type=arrow,distance=..2,sort=nearest,limit=1] if predicate assets:items/weapons/magics/spells/have_spell run function systems:weapons/magics/spells/detect_used
     execute unless predicate assets:items/weapons/magics/spells/have_spell run scoreboard players reset @s useBow
     execute if predicate assets:items/weapons/magics/spells/have_spell_in_off_hand run function systems:weapons/magics/spells/have_offhand
 

@@ -1,3 +1,11 @@
+#> systems:game/ex/
+
+#> score holder
+# @within
+#   systems:game/ex/*
+#   systems:game/end/**
+    #declare score_holder $Timer.Ex
+
 # get data
     execute store result bossbar main.timer max run data get storage storage:settings Main.Custom.Times.Game.Ex
     execute store result bossbar main.timer value run data get storage storage:settings Main.Custom.Times.Game.Ex

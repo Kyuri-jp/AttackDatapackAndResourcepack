@@ -10,17 +10,17 @@
 
 # action
     # lost
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] unless score $Magic.Shot.Inferno.RemovedItem temporary matches 1.. store success score $Magic.Shot.Inferno.RemovedItem temporary run clear @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] book{MagicBook: true} 1
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] unless score $Magic.Shot.Inferno.RemovedItem temporary matches 1.. store success score $Magic.Shot.Inferno.RemovedItem temporary run clear @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] book{MagicBook: true} 1
     #normal
-    execute unless score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas unless score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 3 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
+    execute unless score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas unless score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
     #just
-    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 3.6 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
+    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.Just datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3.6 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
     #un just
-    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run damage @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] 2.4 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
+    execute if score #Magics.Rod.Element datas = #Magic.Rod.Element.unJust datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 2.4 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
 
 # hit player
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] run playsound item.shield.break player @a[distance=..1.5,limit=1]
-    execute if entity @a[distance=..1.5,limit=1,sort=nearest,tag=!Player.Magic.This] at @a[distance=..1.5,limit=1] run particle flame ~ ~ ~ 1 1 1 1 5 normal
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound item.shield.break player @a[distance=..1.5,limit=1]
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle flame ~ ~ ~ 1 1 1 1 5 normal
 
 # finish
     function systems:weapons/magics/books/common/finish

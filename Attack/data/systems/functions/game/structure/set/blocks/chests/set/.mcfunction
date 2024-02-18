@@ -1,11 +1,13 @@
 #> systems:game/structure/set/blocks/chests/set/
 
 #> score holder
-# @within systems:game/structure/set/blocks/chests/set/*
+# @within
+#   systems:game/structure/set/blocks/chests/set/
+#   systems:game/structure/set/blocks/chests/set/random/
     #declare score_holder $Structure.Chest.Count
 
 #> tag
-# @within systems:game/structure/set/blocks/chests/set/*
+# @within systems:game/structure/set/blocks/chests/**
     #declare tag Anchor.Chest.Tire1
     #declare tag Anchor.Chest.Tire2
     #declare tag Anchor.Chest.Tire3

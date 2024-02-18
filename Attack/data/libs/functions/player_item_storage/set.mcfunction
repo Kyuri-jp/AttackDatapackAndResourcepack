@@ -5,7 +5,9 @@
     #declare tag Pis.Key
 
 #> common
-# @within libs:player_item_storage/*
+# @within
+#   libs:player_item_storage/**
+#   systems:game/end/
     #declare tag Pis.Marker
 
 # summon key item

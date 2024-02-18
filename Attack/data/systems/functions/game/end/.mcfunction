@@ -35,7 +35,7 @@
     tag @a remove Player.CoolDownNow
 
 # entities
-    kill @e[type=armor_stand,tag=Pis.marker]
+    kill @e[type=armor_stand,tag=Pis.Marker]
 
 # teleport
     tp @a @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition,limit=1]

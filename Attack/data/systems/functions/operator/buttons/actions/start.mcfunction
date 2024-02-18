@@ -1,9 +1,9 @@
-#> systems:operator/buttons/operator/start
+#> systems:operator/buttons/actions/start
 # @within systems:operator/buttons/used
 
 #> score holder
 # @within
-#   systems:operator/buttons/operator/start
+#   systems:operator/buttons/actions/start
 #   systems:game/start/
     #declare score_holder $Timer.GameStart
 

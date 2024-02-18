@@ -1,13 +1,21 @@
 #> systems:game/structure/set/blocks/chests/set/random/
-# @within systems:game/structure/set/blocks/chests/set/
+# @within
+#   systems:game/structure/set/blocks/chests/set/
+#   systems:game/structure/set/blocks/chests/set/random/
 
-#> tag
+#> Chest Placer
 # @private
     #declare tag Anchor.Chest.Placer
     #declare tag Anchor.Chest.Placer.Base
     #declare tag Anchor.Chest.Placer.1
     #declare tag Anchor.Chest.Placer.2
     #declare tag Anchor.Chest.Placer.3
+
+#> Chest Breaker
+# @within
+#   systems:game/structure/set/blocks/chests/set/random/
+#   systems:game/structure/set/blocks/chests/break/
+    #declare tag Anchor.Chest.Break
 
 # retrun
     execute if score $Structure.Chest.Count counter matches 720.. run return 0

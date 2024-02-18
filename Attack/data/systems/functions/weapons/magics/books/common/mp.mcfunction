@@ -1,6 +1,5 @@
 #> systems:weapons/magics/books/common/mp
 # @within systems:weapons/magics/books/common/
-
 # mp
     ## lack mp
         execute unless score $Magic.Shot.NowScope counter matches 1.. unless score @a[tag=Player.Magic.This,sort=nearest,limit=1] mp >= #Magic.UsingMp temporary run tellraw @a[tag=Player.Magic.This,sort=nearest,limit=1] {"interpret":true,"nbt":"Main.Weapons.Lack.Mp","storage":"storage:messages"}

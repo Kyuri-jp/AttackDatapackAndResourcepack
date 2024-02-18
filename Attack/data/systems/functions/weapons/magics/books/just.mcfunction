@@ -1,5 +1,5 @@
 #> systems:weapons/magics/books/just
-# @within systems:weapons/magics/books/just
+# @within systems:weapons/magics/books/detect_books
 
 # set
     execute if predicate assets:items/weapons/magics/books/elements/none run scoreboard players set #Magic.Rod.Element.Just datas 0

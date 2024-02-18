@@ -1,5 +1,5 @@
 #> systems:wait_room/team/set
-# @within systems:wait_room/team/set
+# @within systems:tick/
 
 #> tag
 # @within

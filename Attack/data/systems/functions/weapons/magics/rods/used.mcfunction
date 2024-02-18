@@ -2,12 +2,18 @@
 # @handles systems:tick/as_at
 # @within systems:tick/as_at
 
-#> within
-# @within function
-#   systems:weapons/magics/books/*
-#   systems:weapons/magics/rods/*
-#declare tag Player.Magic.This
-#declare tag Anchor.MagicShot
+#> tag
+# @within
+#   systems:weapons/magics/books/**
+#   systems:weapons/magics/rods/used
+    #declare tag Player.Magic.This
+    #declare tag Anchor.MagicShot
+
+#> score holder
+# @within
+#   systems:weapons/magics/books/**
+#   systems:weapons/magics/rods/used
+    #declare score_holder #Magics.Rod.Element
 
 # reset
     scoreboard players reset @s useFungusStick

@@ -1,3 +1,12 @@
+#> systems:game/preparation/
+
+#> score holder
+# @within
+#   systems:game/preparation/*
+#   systems:game/end/**
+    #declare score_holder $Timer.Preparation
+
+
 # get data -> set values
     ## bossbar
         execute store result bossbar main.timer max run data get storage storage:settings Main.Custom.Times.Game.Preparation

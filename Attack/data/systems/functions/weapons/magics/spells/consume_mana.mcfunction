@@ -1,5 +1,7 @@
 #> systems:weapons/magics/spells/consume_mana
-# @within systems:weapons/magics/spells/effects/common/finish
+# @within
+#   systems:weapons/magics/spells/effects/common/finish
+#   systems:weapons/magics/spells/consume_mana
 
 # get using mana
     execute unless score #Magic.Mana.Count temporary matches 1.. run scoreboard players operation #Magic.Mana.Count temporary = #Magic.Using.Mana temporary
