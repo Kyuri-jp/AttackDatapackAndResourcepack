@@ -4,4 +4,4 @@
 # mana check
     execute if score @s manaCounter < #Magic.Using.Mana temporary run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Lack.Mana","storage":"storage:messages"}
     execute if score @s manaCounter < #Magic.Using.Mana temporary run loot give @s loot assets:weapons/spells/mana
-    execute if score @s manaCounter < #Magic.Using.Mana temporary run scoreboard players set $Magic.Spell.LackMana temporary 1
+    execute if score @s manaCounter < #Magic.Using.Mana temporary run scoreboard players set #Magic.Spell.LackMana temporary 1
