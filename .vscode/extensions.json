@@ -3,6 +3,7 @@
         "spgoding.datapack-language-server",
         "arcensoth.language-mcfunction",
         "equinusocio.vsc-material-theme",
-        "minecraftcommands.syntax-mcfunction"
+        "minecraftcommands.syntax-mcfunction",
+        "ms-ceintl.vscode-language-pack-ja"
     ]
 }
