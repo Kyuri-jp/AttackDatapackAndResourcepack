@@ -1,22 +1,19 @@
 #> core:load/
-#
-# load処理
-#
 # @within tag/function minecraft:load
 
-#> gallery
+#> Gallery
 # @within
 #   core:load/
 #   systems:wait_room/gallery/*
     #declare tag Entity.Display.Item.Gallery
 
-#> text
+#> Text
 # @within
 #   core:load/
 #   systems:wait_room/team/display/set
     #declare tag Entity.Display.Text.Info.Team
 
-#> install
+#> Install
 # @within
 #   core:load/
 #   core:installed/message
