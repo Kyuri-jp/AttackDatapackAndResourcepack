@@ -7,8 +7,8 @@
     #declare tag Player.Sword.Attacker.Eternal
 
 # vfx
-    particle minecraft:enchant ~ ~1 ~ 0 0 0 0.1 500
-    playsound minecraft:block.beacon.activate player @s ~ ~ ~
+    particle enchant ~ ~1 ~ 0 0 0 0.1 500
+    playsound block.beacon.activate player @s ~ ~ ~
 
 # damage
     execute on attacker run tag @s add Player.Sword.Attacker.Eternal

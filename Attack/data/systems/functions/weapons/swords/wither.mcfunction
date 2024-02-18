@@ -8,8 +8,8 @@
     data modify entity @e[type=wither_skeleton,distance=..0.01,limit=1] Health set value 4
 
 # vfx
-    particle minecraft:dust 0 0 0 1 ~ ~1 ~ 0 0 0 0.1 500
-    playsound minecraft:entity.spider.ambient player @s ~ ~ ~
+    particle dust 0 0 0 1 ~ ~1 ~ 0 0 0 0.1 500
+    playsound entity.spider.ambient player @s ~ ~ ~
 
 # revoke
     advancement revoke @s only assets:weapons/swords/wither

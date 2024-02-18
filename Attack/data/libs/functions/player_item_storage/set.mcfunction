@@ -18,7 +18,7 @@
     data modify entity @e[type=item,distance=..0.01,limit=1] Item.tag.Inventory set from entity @s Inventory
 
 # summon storage
-    summon armor_stand ~ ~ ~ {Tags: ["Pis.Marker"], Marker: true, Invisible: true}
+    summon armor_stand ~ ~ ~ {Invisible: true, Marker: true, Tags: ["Pis.Marker"]}
     data modify entity @e[type=armor_stand,tag=Pis.Marker,distance=..0.01,limit=1] HandItems[0] set from entity @e[type=item,tag=Pis.Key,distance=..0.01,limit=1] Item
 
 # kill key item

@@ -8,8 +8,8 @@
     #declare tag Player.Sword.Damaged.Aqua
 
 # vfx
-    particle minecraft:falling_water ~ ~1 ~ 0 0 0 0.1 500
-    playsound minecraft:entity.player.splash player @s ~ ~ ~
+    particle falling_water ~ ~1 ~ 0 0 0 0.1 500
+    playsound entity.player.splash player @s ~ ~ ~
 
 # add tag
     tag @s add Player.Sword.Damaged.Aqua

@@ -3,7 +3,7 @@
 
 # vfx
     playsound ui.button.click player @s ~ ~ ~
-    particle minecraft:enchant ~ ~ ~ 0 0 0 1.5 1000
+    particle enchant ~ ~ ~ 0 0 0 1.5 1000
 
 # set rotation
     data modify entity @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition,limit=1] Rotation set from entity @s Rotation

@@ -1,5 +1,6 @@
 {
     "datapack.env.cmdVersion": "1.20",
+    "datapack.env.dataVersion": "1.20",
     "workbench.iconTheme": "material-icon-theme",
     "datapack.lint.selectorSortKeys": [
         "warning",
@@ -74,17 +75,9 @@
         "warning",
         true
     ],
-    "datapack.lint.nbtCompoundSortKeys": [
-        "warning",
-        "alphabetically"
-    ],
     "datapack.lint.blockStateSortKeys": [
         "warning",
         "alphabetically"
-    ],
-    "datapack.lint.idOmitDefaultNamespace": [
-        "hint",
-        true
     ],
     "datapack.lint.nbtBoolean": [
         "hint",

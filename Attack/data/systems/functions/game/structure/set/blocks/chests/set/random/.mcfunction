@@ -21,8 +21,8 @@
     execute if score $Structure.Chest.Count counter matches 720.. run return 0
 
 # turn anchors
-    execute as @e[type=minecraft:armor_stand,tag=Anchor.Chest.Placer.Base,limit=1] at @s run tp @s ~ ~ ~ ~0.5 ~
-    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer] run data modify entity @s Rotation set from entity @e[type=minecraft:armor_stand,tag=Anchor.Chest.Placer.Base,limit=1] Rotation
+    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.Base,limit=1] at @s run tp @s ~ ~ ~ ~0.5 ~
+    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer] run data modify entity @s Rotation set from entity @e[type=armor_stand,tag=Anchor.Chest.Placer.Base,limit=1] Rotation
 
 # set chests
     execute if predicate assets:random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.1] at @s run setblock ^20 ^ ^ chest{LootTable: "assets:chests/items/tire_1"} keep

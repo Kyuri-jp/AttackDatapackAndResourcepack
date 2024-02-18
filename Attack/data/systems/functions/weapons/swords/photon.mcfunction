@@ -7,8 +7,8 @@
     execute if predicate assets:items/weapons/swords/random/photon run effect give @s glowing 10 0 false
 
 # vfx
-    particle minecraft:explosion ~ ~1 ~ 0 0 0 0.5 10
-    playsound minecraft:block.beacon.activate player @s ~ ~ ~ 1 0.5
+    particle explosion ~ ~1 ~ 0 0 0 0.5 10
+    playsound block.beacon.activate player @s ~ ~ ~ 1 0.5
 
 # revoke
     advancement revoke @s only assets:weapons/swords/photon

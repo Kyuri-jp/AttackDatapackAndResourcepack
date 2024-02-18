@@ -15,8 +15,8 @@
     effect give @s poison 2 0 false
 
 # vfx
-    particle minecraft:spit ~ ~1 ~ 0 0 0 0.1 500
-    playsound minecraft:entity.spider.ambient player @s ~ ~ ~
+    particle spit ~ ~1 ~ 0 0 0 0.1 500
+    playsound entity.spider.ambient player @s ~ ~ ~
 
 # actions
     execute as @p[tag=Player.Sword.Damaged.Spider] at @s run function systems:weapons/swords/action/spider

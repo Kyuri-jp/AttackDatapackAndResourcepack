@@ -9,8 +9,8 @@
     execute if score #Magic.Shot.LackMp temporary matches 1 run return 0
 
 # action
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=redTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 1, CustomName: '{"text": "Meteor"}', Team: redTeam, ActiveEffects: [{Id: 14, ShowParticles: false, Duration: 1}]}
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 1, CustomName: '{"text": "Meteor"}', Team: blueTeam, ActiveEffects: [{Id: 14, ShowParticles: false, Duration: 1}]}
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=redTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {ActiveEffects: [{Duration: 1, Id: 14, ShowParticles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: 1, Fuse: 0, Team: redTeam}
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {ActiveEffects: [{Duration: 1, Id: 14, ShowParticles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: 1, Fuse: 0, Team: blueTeam}
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 8 assets:weapons/magics/books/meteor by @a[tag=Player.Magic.This,limit=1]
 
 # hit player

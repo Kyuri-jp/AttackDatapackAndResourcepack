@@ -35,7 +35,7 @@
             execute if predicate assets:items/weapons/magics/rods/water_rod run scoreboard players set #Magics.Rod.Element datas 4
 
         # summon
-            execute anchored eyes run summon armor_stand ^ ^ ^ {Marker: true, Invisible: true, Tags: ["Anchor.MagicShot"]}
+            execute anchored eyes run summon armor_stand ^ ^ ^ {Invisible: true, Marker: true, Tags: ["Anchor.MagicShot"]}
             data modify entity @e[type=armor_stand,tag=Anchor.MagicShot,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
         # books
