@@ -15,7 +15,7 @@
     #declare tag Anchor.Chest.Tire5
 
 # set fix chests
-    execute at @e[type=armor_stand,tag=Anchor.Chest.Tire3] run setblock ~ ~ ~ chest{LootTable:"assets:chests/items/tire_3"}
+    execute at @e[type=armor_stand,tag=Anchor.Chest.Tire4] run setblock ~ ~ ~ chest{LootTable:"assets:chests/items/tire_4"}
     execute at @e[type=armor_stand,tag=Anchor.Chest.Tire5] run setblock ~ ~ ~ chest{LootTable:"assets:chests/items/tire_5"}
 
 # init

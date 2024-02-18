@@ -4,3 +4,5 @@
     #declare storage storage:registry
     #declare storage storage:settings
     #declare storage storage:messages
+
+    #declare storage psi:storage
