@@ -11,12 +11,12 @@
     playsound minecraft:block.beacon.activate player @s ~ ~ ~
 
 # damage
-    execute on attacker run tag @s add weapons.swords.attacker.eternal
+    execute on attacker run tag @s add Player.Sword.Attacker.Eternal
     execute if predicate assets:items/weapons/swords/random/eternal run function systems:weapons/swords/additional_damage/eternal
 
 # reset
     scoreboard players reset @s attackerID
-    tag @p[tag=Player.Sword.Attacker.Eternal] remove weapons.swords.attacker.eternal
+    tag @p[tag=Player.Sword.Attacker.Eternal] remove Player.Sword.Attacker.Eternal
 
 # revoke
     advancement revoke @s only assets:weapons/swords/eternal

@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "spgoding.datapack-language-server"
+        "spgoding.datapack-language-server",
+        "arcensoth.language-mcfunction",
+        "equinusocio.vsc-material-theme",
+        "minecraftcommands.syntax-mcfunction"
     ]
 }
