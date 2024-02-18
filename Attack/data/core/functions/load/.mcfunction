@@ -20,7 +20,7 @@
 # @within
 #   core:load/
 #   core:installed/message
-#   assets:installed
+#   advancement assets:installed
     #declare score_holder $Core.Installed.Checked
 
 # reset
