@@ -3,7 +3,7 @@
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack
-    execute if score #Magic.Spell.LackMana temporary matches 1 run return 0
+    execute if score #Magic.Spell.LackMana temporary matches 1 run return fail
 
 # vfx
     playsound entity.wither_skeleton.death player @s ~ ~ ~
