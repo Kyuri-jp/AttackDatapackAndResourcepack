@@ -11,7 +11,8 @@
     scoreboard players reset $Pis.Slot temporary
 
 # retrun
-    execute unless entity @e[type=armor_stand,tag=Pis.Marker.Here,limit=1] run tellraw @a ["",{"text":"Error>>","bold":true,"color":"dark_red"},{"text": "(libs:player_item_storage/inventory/summon)","color": "dark_red"},{"text":"エンティティが存在しません (not found Pis.Marker.Here)"}]
+    execute unless entity @e[type=armor_stand,tag=Pis.Marker.Here,limit=1] run data merge storage error:info {Level: "error", Path: "libs:player_item_storage/inventory/summon", Message: "エンティティが存在しません", StackTrace: "Pis.Marker.Here not found"}
+    execute unless entity @e[type=armor_stand,tag=Pis.Marker.Here,limit=1] run function api:system/util/error_notice/
     execute unless entity @e[type=armor_stand,tag=Pis.Marker.Here,limit=1] run return 0
 
     execute if data entity @e[type=armor_stand,tag=Pis.Marker.Here,limit=1] {HandItems: [{tag: {Inventory: []}}, {}]} run return 0

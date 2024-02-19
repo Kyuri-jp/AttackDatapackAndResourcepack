@@ -3,7 +3,8 @@
 
 # modify data
     ## error
-        execute unless data storage attack:booleans {Main: {Core: {Installed: 1b}}} run tellraw @a ["",{"text":"Error>>","bold":true,"color":"dark_red"},{"text": "(core:installed/message)","color": "dark_red"},{"text":"データパックの導入に失敗しました (attack:booleans Main.Core.Installed isn't true)"}]
+        execute unless data storage attack:booleans {Main: {Core: {Installed: 1b}}} run data merge storage error:info {Level: "error", Path: "core:installed/message", Message: "データパックの導入に失敗しました", StackTrace: "attack:booleans Main.Core.Installed is not true."}
+        execute unless data storage attack:booleans {Main: {Core: {Installed: 1b}}} run function api:system/util/error_notice/
         execute unless data storage attack:booleans {Main: {Core: {Installed: 1b}}} run return 0
 
 # checked
