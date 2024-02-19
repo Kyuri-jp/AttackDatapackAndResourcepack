@@ -2,7 +2,8 @@
 本データパックはアイテムの判別に独自nbtタグを使用しています。nbtタグの一覧は以下の通りです。
 |nbtタグ|型|概要|
 |----|----|----|
-|SwordTag|String|剣,杖の種類|
+|SwordTag|String|剣の種類|
+|RodTag|String|杖の種類|
 |SpellTag|String|呪文の種類|
 |BookTag|String|「本」の種類|
 |Element|String|「本」が持っている属性|
