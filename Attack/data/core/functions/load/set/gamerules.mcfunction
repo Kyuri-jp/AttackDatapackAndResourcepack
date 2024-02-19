@@ -8,3 +8,6 @@
     gamerule doMobSpawning false
     gamerule doDaylightCycle false
     gamerule doWeatherCycle false
+    gamerule mobGriefing false
+    gamerule fireDamage true
+    gamerule freezeDamage true
