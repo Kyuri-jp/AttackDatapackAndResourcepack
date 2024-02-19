@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5,Rod:true,WeaponTag:WaterRod}"
+              "tag": "{CustomModelData:5,Rod:true,RodTag:WaterRod}"
             }
           ]
         }

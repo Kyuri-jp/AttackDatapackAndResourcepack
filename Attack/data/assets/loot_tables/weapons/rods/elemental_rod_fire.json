@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,Rod:true,WeaponTag:FireRod}"
+              "tag": "{CustomModelData:4,Rod:true,RodTag:FireRod}"
             }
           ]
         }
