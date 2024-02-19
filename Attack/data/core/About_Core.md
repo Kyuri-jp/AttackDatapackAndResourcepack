@@ -23,11 +23,11 @@ load処理やtick処理に関わる関数が定義されています
 ## [storage](functions/storage/)
 Storageについては[こちら](functions/storage/About_Storages.md)
 
-`storage:registry`に定義されるVersionsについては[こちら](functions/storage/About_Versions.md)
+`attack:registry`に定義されるVersionsについては[こちら](functions/storage/About_Versions.md)
 
 |Function名|定義|
 |----|----|
-|[`copy_default_settings`](functions/storage/copy_default_settings.mcfunction)|`storage:setting`の`Main.Default`を`Main.Custom`としてコピーする|
+|[`copy_default_settings`](functions/storage/copy_default_settings.mcfunction)|`attack:setting`の`Main.Default`を`Main.Custom`としてコピーする|
 |[`create_storages`](functions/storage/create_storages.mcfunction)|Storageの作成|
 |[`initialize_storage_datas`](functions/storage/initialize_storage_datas.mcfunction)|Storageの初期化|
 |[`set_values`](functions/storage/set_values.mcfunction)|Storageの値を定義|

@@ -1,5 +1,5 @@
 # data get
-    execute store result score #Magic.Using.Mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.Rescues
+    execute store result score #Magic.Using.Mana temporary run data get storage attack:settings Main.Weapons.Magics.Spells.UsingMana.Rescues
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack

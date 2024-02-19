@@ -20,7 +20,7 @@
 
 # message
     ## no book
-        execute unless predicate assets:items/weapons/magics/books/any_books run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Missing.Book","storage":"storage:messages"}
+        execute unless predicate assets:items/weapons/magics/books/any_books run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Missing.Book","storage":"attack:messages"}
         ## retrun
             execute unless predicate assets:items/weapons/magics/books/any_books run return 0
 

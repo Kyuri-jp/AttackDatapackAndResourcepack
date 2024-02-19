@@ -5,7 +5,7 @@
     #declare score_holder $Magic.Spell.MpDrain.Count
 
 # data get
-    execute store result score #Magic.Using.Mana temporary run data get storage storage:settings Main.Weapons.Magics.Spells.UsingMana.MpDrain
+    execute store result score #Magic.Using.Mana temporary run data get storage attack:settings Main.Weapons.Magics.Spells.UsingMana.MpDrain
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack

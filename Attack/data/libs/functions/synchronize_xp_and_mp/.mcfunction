@@ -15,9 +15,9 @@
     ## https://youtu.be/Dtn_FQcDF8E
 
 # get data
-    execute store result score #Magics.Mp.Max temporary run data get storage storage:registry Main.Weapons.Magics.Mp.Max
-    execute store result score $SyncXM.Bar.Smooth temporary run data get storage storage:registry Main.Weapons.Magics.Mp.Smooth
-    execute store result score #Const.1000 temporary run data get storage storage:registry Main.Const.Thousand
+    execute store result score #Magics.Mp.Max temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Max
+    execute store result score $SyncXM.Bar.Smooth temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Smooth
+    execute store result score #Const.1000 temporary run data get storage attack:registry Main.Const.Thousand
 
 # get point
     ## levels reset

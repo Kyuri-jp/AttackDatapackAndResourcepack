@@ -1,5 +1,5 @@
 # get using mp
-    execute store result score #Magic.UsingMp temporary run data get storage storage:settings Main.Weapons.Magics.Rods.UsingMp.Lightning
+    execute store result score #Magic.UsingMp temporary run data get storage attack:settings Main.Weapons.Magics.Rods.UsingMp.Lightning
 
 # element
     function systems:weapons/magics/books/un_just
@@ -23,7 +23,7 @@
 
 # finish
     function systems:weapons/magics/books/common/finish
-    execute if data storage storage:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Retrun: 1b}}}}}} run return 0
+    execute if data storage attack:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Retrun: 1b}}}}}} run return 0
 
 # recall
     execute positioned as @s run function systems:weapons/magics/books/actions/lightning

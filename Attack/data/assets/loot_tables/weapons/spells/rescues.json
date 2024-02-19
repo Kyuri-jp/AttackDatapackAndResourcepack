@@ -33,7 +33,7 @@
                   },
                   {
                     "nbt": "Main.Weapons.Magics.Spells.UsingMana.Rescues",
-                    "storage": "storage:settings",
+                    "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false

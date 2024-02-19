@@ -9,11 +9,11 @@
 
 # get data -> set values
     ## bossbar
-        execute store result bossbar main.timer max run data get storage storage:settings Main.Custom.Times.Game.Preparation
-        execute store result bossbar main.timer value run data get storage storage:settings Main.Custom.Times.Game.Preparation
+        execute store result bossbar main.timer max run data get storage attack:settings Main.Custom.Times.Game.Preparation
+        execute store result bossbar main.timer value run data get storage attack:settings Main.Custom.Times.Game.Preparation
 
     ## counter
-    execute store result score $Timer.Preparation counter run data get storage storage:settings Main.Custom.Times.Game.Preparation
+    execute store result score $Timer.Preparation counter run data get storage attack:settings Main.Custom.Times.Game.Preparation
 
 # change bossbar properties
     bossbar set main.timer visible true

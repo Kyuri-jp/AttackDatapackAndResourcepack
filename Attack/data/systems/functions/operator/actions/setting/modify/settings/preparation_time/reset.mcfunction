@@ -2,7 +2,7 @@
 # @user
 
 # reset
-    data modify storage storage:settings Main.Custom.Times.Game.Preparation set from storage storage:settings Main.Default.Times.Game.Preparation
+    data modify storage attack:settings Main.Custom.Times.Game.Preparation set from storage attack:settings Main.Default.Times.Game.Preparation
 
 # reshow
     function systems:operator/actions/setting/modify/message

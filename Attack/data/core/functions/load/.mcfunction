@@ -21,8 +21,8 @@
     #declare score_holder $Core.Installed.Checked
 
 # reset
-    data modify storage storage:booleans Main.Core.Installed set value 0b
-    data modify storage storage:booleans Main.Core.PlayerJoindBeforeInstalled set value 0b
+    data modify storage attack:booleans Main.Core.Installed set value 0b
+    data modify storage attack:booleans Main.Core.PlayerJoindBeforeInstalled set value 0b
 
 # gamerule
     function core:load/set/gamerules
@@ -41,7 +41,7 @@
     function core:load/add/scoreboards
 
 # set scores,storage
-    function core:storage/create_storages
+    function core:storage/initialize_storage_datas
     function core:storage/set_values
     function core:load/set/bossbar/max
 
@@ -52,6 +52,6 @@
     function systems:wait_room/team/display/set
 
 # end
-    execute store result score $Core.Installed.Checked datas run data get storage storage:booleans Main.Core.PlayerJoindBeforeInstalled
-    data modify storage storage:booleans Main.Core.Installed set value 1b
+    execute store result score $Core.Installed.Checked datas run data get storage attack:booleans Main.Core.PlayerJoindBeforeInstalled
+    data modify storage attack:booleans Main.Core.Installed set value 1b
     advancement revoke @a only assets:installed

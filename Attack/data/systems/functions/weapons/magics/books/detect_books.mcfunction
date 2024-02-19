@@ -21,7 +21,7 @@
 # get
     ## shot scope
     #shot用アマスタは0.5ずつ進んでいるので2倍(scale -> 2)
-        execute store result score #Magic.Shot.ScopeLimit temporary run data get storage storage:settings Main.Weapons.Magics.Rods.Shot.Scope 2
+        execute store result score #Magic.Shot.ScopeLimit temporary run data get storage attack:settings Main.Weapons.Magics.Rods.Shot.Scope 2
 
     # just element
         function systems:weapons/magics/books/just

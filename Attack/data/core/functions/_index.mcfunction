@@ -1,8 +1,10 @@
 #> storages
 # @public
-    #declare storage storage:booleans
-    #declare storage storage:registry
-    #declare storage storage:settings
-    #declare storage storage:messages
+    #declare storage attack:booleans
+    #declare storage attack:registry
+    #declare storage attack:settings
+    #declare storage attack:messages
 
     #declare storage psi:storage
+
+    #declare storage error:info

@@ -27,7 +27,7 @@ ResourcePackのLicenseはMIT Licenseなので改造,再配布をしていただ�
 
 # Cautions on modification
 データパックを改造する場合は以下のことに注意してください
-- `storage:registry`の`Main.Sys.DatapackVersion` `Main.Sys.ResourcepackVersion`は改造版であることが分かるように変更すること
+- `attack:registry`の`Main.Sys.DatapackVersion` `Main.Sys.ResourcepackVersion`は改造版であることが分かるように変更すること
   > 変更は改造した要素だけで構いません。
 - 無改造での状態での再配布はお控えください
 - 著作権表記は不必要ですが,「原作者:Kyuri」等の情報を書いてくださると作者が喜びます。

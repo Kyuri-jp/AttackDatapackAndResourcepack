@@ -10,7 +10,7 @@
     scoreboard players operation @s temporary = @s coolDownCounter
 
 # get data
-    execute store result score #Player.CoolTime.Sec temporary run data get storage storage:registry Main.Calculation.Seconds
+    execute store result score #Player.CoolTime.Sec temporary run data get storage attack:registry Main.Calculation.Seconds
 
 # to sec.
     scoreboard players operation @s temporary /= #Player.CoolTime.Sec temporary

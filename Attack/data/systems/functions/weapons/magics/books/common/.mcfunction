@@ -10,10 +10,10 @@
     function systems:weapons/magics/books/un_just
 
 # init
-    data modify storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun set value false
+    data modify storage attack:booleans Main.Weapons.Magics.Rods.Shot.Retrun set value false
 
 # call
     execute store result score #Magic.Shot.LackMp temporary run function systems:weapons/magics/books/common/mp
 
 # kill stand(player detect) and can return
-    execute store success storage storage:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=Magics.Shot.DetectedPlayer]
+    execute store success storage attack:booleans Main.Weapons.Magics.Rods.Shot.Retrun byte 1 run kill @s[tag=Magics.Shot.DetectedPlayer]

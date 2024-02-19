@@ -2,7 +2,7 @@
 # @user
 
 # get data -> set value
-    data modify storage storage:settings Main.Custom.Switch.Ex set from storage storage:settings Main.Default.Switch.Ex
+    data modify storage attack:settings Main.Custom.Switch.Ex set from storage attack:settings Main.Default.Switch.Ex
 
 # reshow
     function systems:operator/actions/setting/modify/message

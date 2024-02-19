@@ -1,2 +1,2 @@
 # copy
-    data modify storage storage:settings Main.Custom set from storage storage:settings Main.Default
+    data modify storage attack:settings Main.Custom set from storage attack:settings Main.Default

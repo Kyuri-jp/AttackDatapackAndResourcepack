@@ -9,7 +9,7 @@
     #declare score_holder $Timer.Preparation.Sec
 
 # data get
-    execute store result score $Const.Timer.Sec temporary run data get storage storage:registry Main.Calculation.Seconds
+    execute store result score $Const.Timer.Sec temporary run data get storage attack:registry Main.Calculation.Seconds
 
 # remove count
     scoreboard players remove $Timer.Preparation counter 1

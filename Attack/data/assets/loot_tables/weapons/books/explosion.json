@@ -28,7 +28,7 @@
                   },
                   {
                     "nbt": "Main.Weapons.Magics.Rods.UsingMp.Explosion",
-                    "storage": "storage:settings",
+                    "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false

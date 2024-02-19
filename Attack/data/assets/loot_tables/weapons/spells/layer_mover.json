@@ -43,7 +43,7 @@
                   },
                   {
                     "nbt": "Main.Weapons.Magics.Spells.UsingMana.LayerMover",
-                    "storage": "storage:settings",
+                    "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,
                     "italic": false

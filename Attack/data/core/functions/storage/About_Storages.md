@@ -1,6 +1,6 @@
 # Discription
 ## Storages
-本データパックで使用されるストレージは全て`storage:`という名前空間を使用しています
+本データパックで使用されるストレージは全て`attack:`という名前空間を使用しています
 |ストレージ名|保存されるデータ|
 |----|----|
 |booleans|true,falseのboolean形式のデータ|
@@ -12,7 +12,7 @@
 - `core:set_values`:射程,使用MP等はこのファイルを参照してください。
 - 全てのデータは`Main`に保存されています
   - つまり`Main`を消去すれば全てのデータが消去されます
-- `storage:registory`に保存されている`ResourcePackVersion`には対応しているリソースパックのバージョンを記入してください
+- `attack:registory`に保存されている`ResourcePackVersion`には対応しているリソースパックのバージョンを記入してください
   - **`registory`を変更する場合は十分注意してください。**
 - `settings`に保存されているデータには多く分けて`Default`,`Custom`の2種類があります
   1. `Default`:設定のデフォルト値です。`core:copy_default_settings`が呼び出された場合,`Default`をコピーした`Custom`が生成されます

@@ -39,7 +39,7 @@
         scoreboard players set BlueTeamScore Scores 0
         scoreboard players reset $Player.ID playerID
     ## datas
-        data modify storage storage:booleans Main.Game.Ex set value false
+        data modify storage attack:booleans Main.Game.Ex set value false
 
 # initPlayres
     ## set player ID
@@ -54,7 +54,7 @@
         scoreboard players reset @a attackerID
 
     ## init mp
-        execute store result score @s mp run data get storage storage:registry Main.Weapons.Mp.Max
+        execute store result score @s mp run data get storage attack:registry Main.Weapons.Mp.Max
 
     ## heal
         execute as @a run attribute @s generic.max_health base set 40
@@ -86,7 +86,7 @@
     execute as @a at @s run loot give @s loot assets:chests/items/tire_1
 
 # set flag
-    data modify storage storage:booleans Main.Game.Playing set value true
+    data modify storage attack:booleans Main.Game.Playing set value true
 
 # start game
     function systems:game/preparation/

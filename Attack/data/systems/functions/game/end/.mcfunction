@@ -1,5 +1,5 @@
 # data set
-    data modify storage storage:booleans Main.Game.Playing set value false
+    data modify storage attack:booleans Main.Game.Playing set value false
 
 # result
     tellraw @a {"text":"========================================","color":"gold"}
