@@ -20,7 +20,7 @@
 
 # message
     ## no book
-        execute unless predicate assets:items/weapons/magics/books/any_books run return run tellraw @s {"interpret":true,"nbt":"Main.Weapons.Missing.Book","storage":"attack:messages"}
+        execute unless predicate assets:items/weapons/magics/books/any_books run return run tellraw @s {"translate":"item.lore.weapons.magics.missing.book","bold":true}
 
         # set tag
             tag @s add Player.Magic.This
