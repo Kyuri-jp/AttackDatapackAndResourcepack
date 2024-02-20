@@ -6,7 +6,7 @@
 
 # call common pros
     function systems:weapons/magics/books/common/
-    execute if score #Magic.Shot.LackMp temporary matches 1 run return 0
+    execute if score #Magic.Shot.LackMp temporary matches 1 run return fail
 
 # action
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run particle dust 0.816 1 0 2 ~ ~10 ~ 0 5 0 0.1 200 normal
@@ -23,7 +23,7 @@
 
 # finish
     function systems:weapons/magics/books/common/finish
-    execute if data storage attack:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Retrun: 1b}}}}}} run return 0
+    execute if data storage attack:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Return: 1b}}}}}} run return 0
 
 # recall
     execute positioned as @s run function systems:weapons/magics/books/actions/lightning

@@ -8,10 +8,10 @@
         execute unless data storage error:info Message run tellraw @a [{"text": "Error>>","bold": true,"color": "dark_red"},{"text": "(api:system/util/error_notice)","bold": false},{"text": "Messageが存在しません (error:info \"Message\" is not found)"}]
         execute unless data storage error:info StackTrace run tellraw @a [{"text": "Error>>","bold": true,"color": "dark_red"},{"text": "(api:system/util/error_notice)","bold": false},{"text": "StackTraceが存在しません (error:info \"StackTrace\" is not found)"}]
 
-        execute unless data storage error:info Level run return 0
-        execute unless data storage error:info Path run return 0
-        execute unless data storage error:info Message run return 0
-        execute unless data storage error:info StackTrace run return 0
+        execute unless data storage error:info Level run return fail
+        execute unless data storage error:info Path run return fail
+        execute unless data storage error:info Message run return fail
+        execute unless data storage error:info StackTrace run return fail
 
     ## level
         execute unless data storage error:info {Level:"error"} unless data storage error:info {Level:"warn"} unless data storage error:info {Level:"info"} run tellraw @a [{"text": "Error>>","bold": true,"color": "dark_red"},{"text": "(api:system/util/error_notice)","bold": false},{"text": "Levelの値が間違っています (error:info \"Level\" is not correct)"}]

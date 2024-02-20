@@ -17,7 +17,7 @@
 #   systems:game/structure/set/blocks/chests/break/
     #declare tag Anchor.Chest.Break
 
-# retrun
+# return
     execute if score $Structure.Chest.Count counter matches 720.. run return 0
 
 # turn anchors

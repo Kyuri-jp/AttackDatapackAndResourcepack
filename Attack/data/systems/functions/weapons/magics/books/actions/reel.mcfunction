@@ -6,7 +6,7 @@
 
 # call common pros
     function systems:weapons/magics/books/common/
-    execute if score #Magic.Shot.LackMp temporary matches 1 run return 0
+    execute if score #Magic.Shot.LackMp temporary matches 1 run return fail
 
 # action
     #teleport
@@ -25,7 +25,7 @@
 
 # finish
     function systems:weapons/magics/books/common/finish
-    execute if data storage attack:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Retrun: 1b}}}}}} run return 0
+    execute if data storage attack:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Return: 1b}}}}}} run return 0
            
 # recall
     execute positioned as @s run function systems:weapons/magics/books/actions/reel

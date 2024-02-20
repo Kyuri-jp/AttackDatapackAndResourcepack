@@ -14,10 +14,4 @@
 
     ## messages
     #text display
-        data merge storage attack:messages {Main: {WaitRoom: {Team: {Blue: '{"text":"Blue Team","bold":true,"color":"blue"}', Red: '{"text":"Red Team","bold":"true","color":"red"}', Watch: '{"text":"Watch Team","bold":true,"color":"gray"}'}}}}
-
-    #lack
-        data merge storage attack:messages {Main: {Weapons: {Lack: {Mana: '{"translate":"item.lore.weapons.magics.lack.mana","bold":true}', Mp: '{"translate":"item.lore.weapons.magics.lack.mp","bold":"true"}'}}}}
-
-    #missing
-        data merge storage attack:messages {Main: {Weapons: {Missing: {Book: '{"translate":"item.lore.weapons.magics.missing.book","bold":true}'}}}}
+        data merge storage attack:messages {Main: {WaitRoom: {Team: {Blue: '{"text":"Blue Team","bold":true,"color":"blue"}', Red: '{"text":"Red Team","bold":true,"color":"red"}', Watch: '{"text":"Watch Team","bold":true,"color":"gray"}'}}}}

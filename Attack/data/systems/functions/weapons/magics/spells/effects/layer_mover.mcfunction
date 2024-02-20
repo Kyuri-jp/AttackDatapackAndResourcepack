@@ -17,7 +17,7 @@
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack
-    execute if score #Magic.Spell.LackMana temporary matches 1 run return 0
+    execute if score #Magic.Spell.LackMana temporary matches 1 run return fail
 
 # vfx
     playsound entity.enderman.teleport player @s ~ ~ ~
@@ -27,7 +27,7 @@
     scoreboard players set #Magic.Spell.LayerMover.Scope counter 15
     execute unless predicate assets:is_sneaking run function systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up
     execute if predicate assets:is_sneaking run function systems:weapons/magics/spells/effects/actions/layer_mover/is_on_ground
-    ##retrun
+    ##return
         execute if score #Magic.Spell.LayerMover.Scope counter matches ..0 run return 0
 
     ##teleport
