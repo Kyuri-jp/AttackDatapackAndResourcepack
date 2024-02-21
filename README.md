@@ -10,6 +10,9 @@
 # About
 マインクラフトの配布マップ Attack! のベースデータパックとリソースパックです。
 
+# Develop
+[ワールドデータについてはこちら](https://github.com/Kyuri-jp/Attack-WorldData)
+
 # License
 [Datapack](Attack) : [Creative Commons Zero v1](Attack/licence.txt)
 
