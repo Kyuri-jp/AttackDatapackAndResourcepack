@@ -1,6 +1,6 @@
 {
     "datapack.env.cmdVersion": "1.20.3",
-    "datapack.env.dataVersion": "Latest release",
+    "datapack.env.dataVersion": "1.20.4",
     "workbench.iconTheme": "material-icon-theme",
     "datapack.lint.selectorSortKeys": [
         "warning",
