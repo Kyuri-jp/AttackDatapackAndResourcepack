@@ -6,7 +6,7 @@
 プレイヤーのInventoryを記録します
 
 |Function名|定義|
-|----|----|----|
+|----|----|
 |[`get`](functions/player_item_storage/get.mcfunction)|setの実行者に記録したアイテムを与える|
 |[`set`](functions/player_item_storage/set.mcfunction)|実行者のInventoryを記録|
 |[`entity/remove_all_tag`](functions/player_item_storage/entity/remove_all_tag.mcfunction)|一時的に付与したTagを全て削除|
