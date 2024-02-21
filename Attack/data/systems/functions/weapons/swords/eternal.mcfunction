@@ -15,7 +15,7 @@
     execute if predicate assets:items/weapons/swords/random/eternal run function systems:weapons/swords/additional_damage/eternal
 
 # reset
-    scoreboard players reset @s attackerID
+    scoreboard players reset @s AttackerID
     tag @p[tag=Player.Sword.Attacker.Eternal] remove Player.Sword.Attacker.Eternal
 
 # revoke

@@ -16,12 +16,12 @@
     #declare score_holder #Magic.Rod.Element.unJust
 
 # init?
-    scoreboard players reset $Magic.Shot.NowScope counter
+    scoreboard players reset $Magic.Shot.NowScope Counter
 
 # get
     ## shot scope
     #shot用アマスタは0.5ずつ進んでいるので2倍(scale -> 2)
-        execute store result score #Magic.Shot.ScopeLimit temporary run data get storage attack:settings Main.Weapons.Magics.Rods.Shot.Scope 2
+        execute store result score #Magic.Shot.ScopeLimit Temporary run data get storage attack:settings Main.Weapons.Magics.Rods.Shot.Scope 2
 
     # just element
         function systems:weapons/magics/books/just
@@ -42,11 +42,11 @@
         tag @s remove Player.Magic.This
 
     # reset
-        scoreboard players reset #Magic.Shot.ScopeLimit temporary
-        scoreboard players reset #Magic.UsingMp temporary
-        scoreboard players reset $Magic.Shot.Inferno.RemovedItem temporary
-        scoreboard players reset #Magic.Shot.LackMp temporary
-        scoreboard players reset $Magic.Shot.NowScope counter
-        scoreboard players reset #Magics.Rod.Element datas
-        scoreboard players reset #Magic.Rod.Element.Just datas
-        scoreboard players reset #Magic.Rod.Element.unJust datas
+        scoreboard players reset #Magic.Shot.ScopeLimit Temporary
+        scoreboard players reset #Magic.UsingMp Temporary
+        scoreboard players reset $Magic.Shot.Inferno.RemovedItem Temporary
+        scoreboard players reset #Magic.Shot.LackMp Temporary
+        scoreboard players reset $Magic.Shot.NowScope Counter
+        scoreboard players reset #Magics.Rod.Element Datas
+        scoreboard players reset #Magic.Rod.Element.Just Datas
+        scoreboard players reset #Magic.Rod.Element.unJust Datas

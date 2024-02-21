@@ -1,12 +1,12 @@
 # get using mp
-    execute store result score #Magic.UsingMp temporary run data get storage attack:settings Main.Weapons.Magics.Rods.UsingMp.Meteor
+    execute store result score #Magic.UsingMp Temporary run data get storage attack:settings Main.Weapons.Magics.Rods.UsingMp.Meteor
 
 # element
     function systems:weapons/magics/books/un_just
 
 # call common pros
     function systems:weapons/magics/books/common/
-    execute if score #Magic.Shot.LackMp temporary matches 1 run return fail
+    execute if score #Magic.Shot.LackMp Temporary matches 1 run return fail
 
 # action
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=redTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {active_effects: [{duration: 1, id: "minecraft:invisibility", show_particles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: -1, Fuse: 0, Team: redTeam}

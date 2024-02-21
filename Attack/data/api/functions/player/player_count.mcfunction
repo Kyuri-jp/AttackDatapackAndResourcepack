@@ -9,13 +9,13 @@
     #declare score_holder $Count.Players.Watch
 
 # all
-    execute store result score $Count.Players datas if entity @a
+    execute store result score $Count.Players Datas if entity @a
 
 # red
-    execute store result score $Count.Players.Red datas if entity @a[team=redTeam]
+    execute store result score $Count.Players.Red Datas if entity @a[team=redTeam]
 
 # blue
-    execute store result score $Count.Players.Blue datas if entity @a[team=blueTeam]
+    execute store result score $Count.Players.Blue Datas if entity @a[team=blueTeam]
 
 # watch
-    execute store result score $Count.Players.Watch datas if entity @a[team=watch]
+    execute store result score $Count.Players.Watch Datas if entity @a[team=watch]

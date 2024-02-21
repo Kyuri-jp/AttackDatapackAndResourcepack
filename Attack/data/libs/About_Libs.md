@@ -21,7 +21,7 @@
 |Function名|定義|
 |----|----|
 |[`.mcfunction`](functions/show_player_info/.mcfunction)|Kill数,Death数,Mana数を`Player.Playing`のTagを持っているプレイヤーに表示|
-|[`get_cool_down_time`](functions/show_player_info/get_cool_down_time.mcfunction)|実行者の`coolDownCounter`の値を取得|
+|[`get_cool_down_time`](functions/show_player_info/get_cool_down_time.mcfunction)|実行者の`CoolDownCounter`の値を取得|
 
 > `get_cool_down_time`は`.mcfunction`の実行者に`Player.CoolDownNow`のTagが付いている場合に呼び出されます
 

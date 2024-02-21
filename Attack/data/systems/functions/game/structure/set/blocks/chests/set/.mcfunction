@@ -19,10 +19,10 @@
     execute at @e[type=armor_stand,tag=Anchor.Chest.Tire5] run setblock ~ ~ ~ chest{LootTable:"assets:chests/items/tire_5"}
 
 # init
-    scoreboard players reset $Structure.Chest.Count counter
+    scoreboard players reset $Structure.Chest.Count Counter
 
 # call
     function systems:game/structure/set/blocks/chests/set/random/
 
 # reset
-    scoreboard players reset $Structure.Chest.Count counter
+    scoreboard players reset $Structure.Chest.Count Counter

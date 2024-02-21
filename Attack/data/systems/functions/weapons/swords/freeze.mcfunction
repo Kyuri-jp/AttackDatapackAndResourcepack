@@ -11,7 +11,7 @@
 
 # set tag
     tag @s add Player.Sword.Damaged.Freeze
-    execute on attacker run scoreboard players operation @p[tag=Player.Sword.Damaged.Freeze,limit=1] attackerID = @s playerID
+    execute on attacker run scoreboard players operation @p[tag=Player.Sword.Damaged.Freeze,limit=1] AttackerID = @s PlayerID
 
 # damage
     function systems:weapons/swords/additional_damage/freeze

@@ -16,7 +16,7 @@
     #declare score_holder #Magics.Rod.Element
 
 # reset
-    scoreboard players reset @s useFungusStick
+    scoreboard players reset @s UseFungusStick
 
 # message
     ## no book
@@ -26,11 +26,11 @@
             tag @s add Player.Magic.This
 
         # emelemnts
-            scoreboard players set #Magics.Rod.Element datas 0
-            execute if predicate assets:items/weapons/magics/rods/air_rod run scoreboard players set #Magics.Rod.Element datas 1
-            execute if predicate assets:items/weapons/magics/rods/dirt_rod run scoreboard players set #Magics.Rod.Element datas 2
-            execute if predicate assets:items/weapons/magics/rods/fire_rod run scoreboard players set #Magics.Rod.Element datas 3
-            execute if predicate assets:items/weapons/magics/rods/water_rod run scoreboard players set #Magics.Rod.Element datas 4
+            scoreboard players set #Magics.Rod.Element Datas 0
+            execute if predicate assets:items/weapons/magics/rods/air_rod run scoreboard players set #Magics.Rod.Element Datas 1
+            execute if predicate assets:items/weapons/magics/rods/dirt_rod run scoreboard players set #Magics.Rod.Element Datas 2
+            execute if predicate assets:items/weapons/magics/rods/fire_rod run scoreboard players set #Magics.Rod.Element Datas 3
+            execute if predicate assets:items/weapons/magics/rods/water_rod run scoreboard players set #Magics.Rod.Element Datas 4
 
         # summon
             execute anchored eyes run summon armor_stand ^ ^ ^ {Invisible: true, Marker: true, Tags: ["Anchor.MagicShot"]}

@@ -5,4 +5,4 @@
     execute if entity @s[tag=Player.Playing] run function systems:game/died/playing
 
 # reset
-    scoreboard players reset @s deathDetecter
+    scoreboard players reset @s DeathDetecter

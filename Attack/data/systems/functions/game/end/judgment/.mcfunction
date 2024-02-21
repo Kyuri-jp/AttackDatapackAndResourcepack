@@ -1,6 +1,6 @@
 # reset
-    scoreboard players reset $Timer.MainGame counter
-    scoreboard players reset $Timer.Preparation counter
+    scoreboard players reset $Timer.MainGame Counter
+    scoreboard players reset $Timer.Preparation Counter
 
 # judgement
     ## win red

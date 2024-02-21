@@ -52,6 +52,6 @@
     function systems:wait_room/team/display/set
 
 # end
-    execute store result score $Core.Installed.Checked datas run data get storage attack:booleans Main.Core.PlayerJoindBeforeInstalled
+    execute store result score $Core.Installed.Checked Datas run data get storage attack:booleans Main.Core.PlayerJoindBeforeInstalled
     data modify storage attack:booleans Main.Core.Installed set value 1b
     advancement revoke @a only assets:installed

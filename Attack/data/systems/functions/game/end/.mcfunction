@@ -6,16 +6,16 @@
     tellraw @a [{"text":"Red Team Score : [","color":"red"},{"score":{"name":"RedTeamScore","objective":"Scores"},"color":"red"},{"text":"]","color":"red"}]
     tellraw @a [{"text":"Blue Team Score : [","color":"blue"},{"score":{"name":"BlueTeamScore","objective":"Scores"},"color":"blue"},{"text":"]","color":"blue"}]
     tellraw @a ""
-    execute as @a run tellraw @a ["",{"selector":"@s","bold":true},{"text":" : "},{"text":"[","color":"red"},{"score":{"name":"@s","objective":"killCounter"},"color":"red"},{"text":"]Kill","color":"red"},{"text":" | "},{"text":"[","color":"blue"},{"score":{"name":"@s","objective":"deathCounter"},"color":"blue"},{"text":"]Death","color":"blue"}]
+    execute as @a run tellraw @a ["",{"selector":"@s","bold":true},{"text":" : "},{"text":"[","color":"red"},{"score":{"name":"@s","objective":"KillCounter"},"color":"red"},{"text":"]Kill","color":"red"},{"text":" | "},{"text":"[","color":"blue"},{"score":{"name":"@s","objective":"DeathCounter"},"color":"blue"},{"text":"]Death","color":"blue"}]
     tellraw @a {"text":"========================================","color":"gold"}
 
 #scores
     schedule clear systems:game/preparation/start_timer
     schedule clear systems:game/main_game/start_timer
     schedule clear systems:game/ex/start_timer
-    scoreboard players reset $Timer.Preparation counter
-    scoreboard players reset $Timer.MainGame counter
-    scoreboard players reset $Timer.Ex counter
+    scoreboard players reset $Timer.Preparation Counter
+    scoreboard players reset $Timer.MainGame Counter
+    scoreboard players reset $Timer.Ex Counter
 
 # diff
     difficulty peaceful
@@ -25,7 +25,7 @@
     scoreboard players reset RedTeamScore Scores
     scoreboard players reset BlueTeamScore Scores
     scoreboard players reset @a
-    scoreboard players set @a mp 0
+    scoreboard players set @a Mp 0
     clear @a
     effect clear @a
     effect give @a instant_health 2 20
