@@ -13,7 +13,7 @@
         execute as @e[type=text_display,tag=Anchor.Chest.Break] at @s run fill ~3 ~ ~3 ~-3 ~ ~-3 air replace chest
 
     ## fix chest
-        execute at @e[type=armor_stand,tag=Anchor.Chest.Tire3] run fill ~3 ~ ~3 ~-3 ~ ~-3 air replace chest
+        execute at @e[type=armor_stand,tag=Anchor.Chest.Tire4] run fill ~3 ~ ~3 ~-3 ~ ~-3 air replace chest
         execute at @e[type=armor_stand,tag=Anchor.Chest.Tire5] run fill ~3 ~ ~3 ~-3 ~ ~-3 air replace chest
 
 # removeItems
