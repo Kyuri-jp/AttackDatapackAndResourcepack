@@ -3,7 +3,10 @@
 [![activity](https://img.shields.io/github/commit-activity/m/Kyuri-jp/AttackDatapackAndResourcepack?label=commit&logo=github)](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/commits/master)
 [![downloads](https://img.shields.io/github/downloads/Kyuri-jp/AttackDatapackAndResourcepack/total?logo=github)](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/releases/latest)
 
-マインクラフトの配布マップ「Attack!」のデータパックとリソースパックです。
+![attack](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/assets/107470858/6d898546-001b-4045-b3e6-1e0e74d58438)
+
+# About
+マインクラフトの配布マップ Attack! のベースデータパックとリソースパックです。
 
 # License
 [Datapack](Attack) : [Creative Commons Zero v1](Attack/licence.txt)
