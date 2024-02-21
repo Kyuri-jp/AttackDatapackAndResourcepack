@@ -15,15 +15,15 @@
     ## https://youtu.be/Dtn_FQcDF8E
 
 # get data
-    execute store result score #Magics.Mp.Max temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Max
-    execute store result score $SyncXM.Bar.Smooth temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Smooth
-    execute store result score #Const.1000 temporary run data get storage attack:registry Main.Const.Thousand
+    execute store result score #Magics.Mp.Max Temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Max
+    execute store result score $SyncXM.Bar.Smooth Temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Smooth
+    execute store result score #Const.1000 Temporary run data get storage attack:registry Main.Const.Thousand
 
 # get point
     ## levels reset
         xp set @s 129 levels
     ## get
-        execute store result score $Player.Xp.Point mp run xp query @s points
+        execute store result score $Player.Xp.Point Mp run xp query @s points
 
 # calc
     function libs:synchronize_xp_and_mp/calculate
@@ -35,12 +35,12 @@
     function libs:synchronize_xp_and_mp/set_level
 
 # reset
-    scoreboard players reset $Player.Xp.Level mp
-    scoreboard players reset $Player.Xp.Point mp
-    scoreboard players reset $SyncMX.Percent mp
-    scoreboard players reset #Const.1000 temporary
-    scoreboard players reset #Magics.Mp.Max temporary
-    scoreboard players reset $SyncXM.Bar.Smooth temporary
+    scoreboard players reset $Player.Xp.Level Mp
+    scoreboard players reset $Player.Xp.Point Mp
+    scoreboard players reset $SyncMX.Percent Mp
+    scoreboard players reset #Const.1000 Temporary
+    scoreboard players reset #Magics.Mp.Max Temporary
+    scoreboard players reset $SyncXM.Bar.Smooth Temporary
 
 # stopsound
     stopsound @a player entity.player.levelup

@@ -18,7 +18,7 @@
     #declare tag Anchor.Chest.Break
 
 # return
-    execute if score $Structure.Chest.Count counter matches 720.. run return 0
+    execute if score $Structure.Chest.Count Counter matches 720.. run return 0
 
 # turn anchors
     execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.Base,limit=1] at @s run tp @s ~ ~ ~ ~0.5 ~
@@ -35,7 +35,7 @@
     execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.3] at @s if block ^19 ^ ^ chest{LootTable: "assets:chests/items/tire_3"} positioned ^19 ^ ^ unless entity @e[type=text_display,tag=Anchor.Chest.Break,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
 
 # add count
-    scoreboard players add $Structure.Chest.Count counter 1
+    scoreboard players add $Structure.Chest.Count Counter 1
 
 # re call
     function systems:game/structure/set/blocks/chests/set/random/

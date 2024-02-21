@@ -37,8 +37,8 @@
     ## scores
         scoreboard players set RedTeamScore Scores 0
         scoreboard players set BlueTeamScore Scores 0
-        scoreboard players reset $Player.ID playerID
-    ## datas
+        scoreboard players reset $Player.ID PlayerID
+    ## Datas
         data modify storage attack:booleans Main.Game.Ex set value false
 
 # initPlayres
@@ -49,12 +49,12 @@
         function systems:game/start/game/set_spawn_point
 
     ## reset scores
-        scoreboard players set @a killCounter 0
-        scoreboard players set @a deathCounter 0
-        scoreboard players reset @a attackerID
+        scoreboard players set @a KillCounter 0
+        scoreboard players set @a DeathCounter 0
+        scoreboard players reset @a AttackerID
 
-    ## init mp
-        execute store result score @s mp run data get storage attack:registry Main.Weapons.Mp.Max
+    ## init Mp
+        execute store result score @s Mp run data get storage attack:registry Main.Weapons.Mp.Max
 
     ## heal
         execute as @a run attribute @s generic.max_health base set 40

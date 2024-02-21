@@ -1,2 +1,2 @@
 # detect
-    execute if score @s deathDetecter matches 1.. run function systems:game/died/
+    execute if score @s DeathDetecter matches 1.. run function systems:game/died/

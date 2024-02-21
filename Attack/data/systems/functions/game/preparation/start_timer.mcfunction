@@ -9,29 +9,29 @@
     #declare score_holder $Timer.Preparation.Sec
 
 # data get
-    execute store result score $Const.Timer.Sec temporary run data get storage attack:registry Main.Calculation.Seconds
+    execute store result score $Const.Timer.Sec Temporary run data get storage attack:registry Main.Calculation.Seconds
 
 # remove count
-    scoreboard players remove $Timer.Preparation counter 1
+    scoreboard players remove $Timer.Preparation Counter 1
 
 # calculate
-    scoreboard players operation $Timer.Preparation.Sec temporary = $Timer.Preparation counter
-    scoreboard players operation $Timer.Preparation.Sec temporary /= $Const.Timer.Sec temporary
+    scoreboard players operation $Timer.Preparation.Sec Temporary = $Timer.Preparation Counter
+    scoreboard players operation $Timer.Preparation.Sec Temporary /= $Const.Timer.Sec Temporary
 
 # bossber change
     ## name
-        bossbar set main.timer name [{"text":"[Preparation Time]Time remaining:"},{"score":{"name":"$Timer.Preparation.Sec","objective":"temporary"}},{"text":" seconds"}]
+        bossbar set main.timer name [{"text":"[Preparation Time]Time remaining:"},{"score":{"name":"$Timer.Preparation.Sec","objective":"Temporary"}},{"text":" seconds"}]
     ## value
-    execute store result bossbar main.timer value run scoreboard players get $Timer.Preparation counter
+    execute store result bossbar main.timer value run scoreboard players get $Timer.Preparation Counter
 
 # reset
-    scoreboard players reset $Timer.Preparation.Sec temporary
-    scoreboard players reset $Const.Timer.Sec temporary
+    scoreboard players reset $Timer.Preparation.Sec Temporary
+    scoreboard players reset $Const.Timer.Sec Temporary
 
 # end count
-    execute if score $Timer.Preparation counter matches ..0 run function systems:game/main_game/
+    execute if score $Timer.Preparation Counter matches ..0 run function systems:game/main_game/
     ## reset
-        execute if score $Timer.Preparation counter matches ..0 run scoreboard players reset $Timer.Preparation counter
+        execute if score $Timer.Preparation Counter matches ..0 run scoreboard players reset $Timer.Preparation Counter
 
 # recall
-    execute if score $Timer.Preparation counter matches 1.. run schedule function systems:game/preparation/start_timer 1t
+    execute if score $Timer.Preparation Counter matches 1.. run schedule function systems:game/preparation/start_timer 1t

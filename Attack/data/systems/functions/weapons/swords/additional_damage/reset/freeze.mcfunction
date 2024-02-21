@@ -3,7 +3,7 @@
 
 # reset
     attribute @s generic.movement_speed base set 0.10000000149011612
-    scoreboard players reset @s counter
-    scoreboard players reset @s attackerID
+    scoreboard players reset @s Counter
+    scoreboard players reset @s AttackerID
     tag @s remove Player.Sword.Damaged.Freeze
     tag @p[tag=Player.Sword.Attacker.Freeze,distance=0.01..] remove Player.Sword.Attacker.Freeze

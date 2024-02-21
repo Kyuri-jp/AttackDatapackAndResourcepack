@@ -24,7 +24,7 @@
 # data get
     execute store result bossbar main.timer max run data get storage attack:settings Main.Custom.Times.Game.MainGame
     execute store result bossbar main.timer value run data get storage attack:settings Main.Custom.Times.Game.MainGame
-    execute store result score $Timer.MainGame counter run data get storage attack:settings Main.Custom.Times.Game.MainGame
+    execute store result score $Timer.MainGame Counter run data get storage attack:settings Main.Custom.Times.Game.MainGame
 
 #color change
     bossbar set main.timer color green

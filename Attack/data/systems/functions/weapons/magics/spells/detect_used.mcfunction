@@ -5,10 +5,10 @@
     kill @e[type=arrow,sort=nearest,limit=1]
 
 # not enough charge
-    execute unless score @s useBow matches 20.. run loot give @s loot assets:weapons/spells/mana
+    execute unless score @s UseBow matches 20.. run loot give @s loot assets:weapons/spells/mana
 
 # enough charge
-    execute if score @s useBow matches 20.. run function systems:weapons/magics/spells/detect_spells
+    execute if score @s UseBow matches 20.. run function systems:weapons/magics/spells/detect_spells
 
 # reset
-    scoreboard players reset @s useBow
+    scoreboard players reset @s UseBow

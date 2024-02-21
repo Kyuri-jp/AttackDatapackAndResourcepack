@@ -32,10 +32,10 @@
     execute if predicate assets:items/weapons/magics/spells/random_book_chance run function systems:weapons/magics/spells/effects/random_book_chance
 
 # reset
-    scoreboard players reset #Magic.Using.Mana temporary
-    scoreboard players reset #Magic.Mana.Count temporary
-    scoreboard players reset #Magic.Spell.LackMana temporary
-    scoreboard players reset #Magic.Mana.Count counter
+    scoreboard players reset #Magic.Using.Mana Temporary
+    scoreboard players reset #Magic.Mana.Count Temporary
+    scoreboard players reset #Magic.Spell.LackMana Temporary
+    scoreboard players reset #Magic.Mana.Count Counter
 
 # mana count
     function systems:weapons/magics/spells/count_mana

@@ -2,7 +2,7 @@
 # @within advancement assets:count/items/using_bow
 
 # add count
-    scoreboard players add @s useBow 1
+    scoreboard players add @s UseBow 1
 
 # revoke    
     advancement revoke @s only assets:count/items/using_bow

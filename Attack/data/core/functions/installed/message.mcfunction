@@ -6,7 +6,7 @@
         execute unless data storage attack:booleans {Main: {Core: {Installed: 1b}}} run data merge storage error:info {Level: "error", Path: "core:installed/message", Message: "データパックの導入に失敗しました", StackTrace: "attack:booleans Main.Core.Installed is not true."}
         execute unless data storage attack:booleans {Main: {Core: {Installed: 1b}}} run return run function api:system/util/error_notice/
 # checked
-    scoreboard players set $Core.Installed.Checked datas 1
+    scoreboard players set $Core.Installed.Checked Datas 1
 
 # mes
     tellraw @a {"text":"=============================================","color":"gold","bold": true}

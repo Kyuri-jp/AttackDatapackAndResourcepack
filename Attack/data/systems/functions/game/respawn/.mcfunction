@@ -14,7 +14,7 @@
         tag @s remove Player.CoolDownNow
 
     ## reset scores
-        scoreboard players reset @s coolDownCounter
+        scoreboard players reset @s CoolDownCounter
 
     ## give items
         execute positioned as @s run function libs:player_item_storage/get

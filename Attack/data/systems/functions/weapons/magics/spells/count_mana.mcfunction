@@ -1,2 +1,2 @@
 # count mana
-    execute store result score @s manaCounter run clear @s arrow{Mana:true} 0
+    execute store result score @s ManaCounter run clear @s arrow{Mana:true} 0

@@ -1,9 +1,9 @@
 # data get
-    execute store result score #Magic.Using.Mana temporary run data get storage attack:settings Main.Weapons.Magics.Spells.UsingMana.Rescues
+    execute store result score #Magic.Using.Mana Temporary run data get storage attack:settings Main.Weapons.Magics.Spells.UsingMana.Rescues
 
 # mana check
     function systems:weapons/magics/spells/effects/common/lack
-    execute if score #Magic.Spell.LackMana temporary matches 1 run return fail
+    execute if score #Magic.Spell.LackMana Temporary matches 1 run return fail
 
 # vfx
     playsound block.beacon.deactivate player @s ~ ~ ~

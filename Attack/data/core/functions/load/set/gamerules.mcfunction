@@ -11,3 +11,4 @@
     gamerule mobGriefing false
     gamerule fireDamage true
     gamerule freezeDamage true
+    gamerule spawnRadius 0

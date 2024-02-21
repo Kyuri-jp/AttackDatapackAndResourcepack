@@ -15,9 +15,9 @@
 # return
     execute if data storage attack:booleans {Main: {Weapons: {Magics: {Rods: {Shot: {Return: 1b}}}}}} run return 0
 
-# counter
-    scoreboard players add $Magic.Shot.NowScope counter 1
+# Counter
+    scoreboard players add $Magic.Shot.NowScope Counter 1
 
 # scope over
-    execute if score $Magic.Shot.NowScope counter >= #Magic.Shot.ScopeLimit temporary run kill @s
-    execute store success storage attack:booleans Main.Weapons.Magics.Rods.Shot.Return byte 1 if score $Magic.Shot.NowScope counter >= #Magic.Shot.ScopeLimit temporary
+    execute if score $Magic.Shot.NowScope Counter >= #Magic.Shot.ScopeLimit Temporary run kill @s
+    execute store success storage attack:booleans Main.Weapons.Magics.Rods.Shot.Return byte 1 if score $Magic.Shot.NowScope Counter >= #Magic.Shot.ScopeLimit Temporary
