@@ -43,7 +43,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Spell:true,SpellTag:EffectRestore,CustomModelData:1,Unbreakable:true}"
+              "tag": "{HideFlags:4,Spell:true,SpellTag:EffectRestore,CustomModelData:1,Unbreakable:true}"
             }
           ]
         }
