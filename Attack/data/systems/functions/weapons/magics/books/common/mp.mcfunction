@@ -2,7 +2,7 @@
 # @within systems:weapons/magics/books/common/
 # mp
     ## lack mp
-        execute unless score $Magic.Shot.NowScope Counter matches 1.. unless score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary run tellraw @a[tag=Player.Magic.This,sort=nearest,limit=1] {"translate":"item.lore.weapons.magics.lack.Mp","bold":true}
+        execute unless score $Magic.Shot.NowScope Counter matches 1.. unless score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary run tellraw @a[tag=Player.Magic.This,sort=nearest,limit=1] {"translate":"item.lore.weapons.magics.lack.mp","bold":true}
         execute unless score $Magic.Shot.NowScope Counter matches 1.. unless score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary run kill @s
         execute unless score $Magic.Shot.NowScope Counter matches 1.. unless score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary run return 1
     ## enough mp
