@@ -9,13 +9,11 @@
     execute if score #Magic.Shot.LackMp Temporary matches 1 run return fail
 
 # action
+    #particle
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run particle dust 0.816 1 0 2 ~ ~10 ~ 0 5 0 0.1 200 normal
-    #normal
-    execute unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 10 assets:weapons/magics/books/lightning by @a[tag=Player.Magic.This,limit=1]
-    #just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 12 assets:weapons/magics/books/lightning by @a[tag=Player.Magic.This,limit=1]
-    #un just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 8 assets:weapons/magics/books/lightning by @a[tag=Player.Magic.This,limit=1]
+
+    #damage
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/lightning"}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.warden.angry player @a[distance=..1.5,limit=1]

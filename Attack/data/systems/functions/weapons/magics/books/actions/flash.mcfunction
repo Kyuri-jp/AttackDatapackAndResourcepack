@@ -12,12 +12,9 @@
     #show title
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run title @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] title {"text": "\uE000"}
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run title @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] times 5t 5t 5t
-    #normal
-    execute unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 4 assets:weapons/magics/books/flash by @a[tag=Player.Magic.This,limit=1]
-    #just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 4.8 assets:weapons/magics/books/flash by @a[tag=Player.Magic.This,limit=1]
-    #un just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3.2 assets:weapons/magics/books/flash by @a[tag=Player.Magic.This,limit=1]
+
+    #damage
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/flash"}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound block.beacon.deactivate player @a[distance=..1.5,limit=1]

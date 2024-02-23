@@ -9,14 +9,11 @@
     execute if score #Magic.Shot.LackMp Temporary matches 1 run return fail
 
 # action
-    # lost
+    #lost
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] unless score $Magic.Shot.Inferno.RemovedItem Temporary matches 1.. store success score $Magic.Shot.Inferno.RemovedItem Temporary run clear @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] book{MagicBook: true} 1
-    #normal
-    execute unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
-    #just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 3.6 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
-    #un just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 2.4 assets:weapons/magics/books/inferno by @a[tag=Player.Magic.This,limit=1]
+
+    #damage
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/inferno"}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound item.shield.break player @a[distance=..1.5,limit=1]

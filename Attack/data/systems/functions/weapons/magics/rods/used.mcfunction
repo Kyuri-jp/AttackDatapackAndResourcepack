@@ -13,6 +13,7 @@
 # @within
 #   systems:weapons/magics/books/**
 #   systems:weapons/magics/rods/used
+#   assets:items/weapons/magics/books/damage/*
     #declare score_holder #Magics.Rod.Element
 
 # reset
