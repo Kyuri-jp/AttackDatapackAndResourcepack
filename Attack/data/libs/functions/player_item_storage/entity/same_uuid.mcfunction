@@ -41,7 +41,7 @@
 
 # result
     tag @e[type=armor_stand,tag=Pis.Marker,predicate=libs:player_item_storage/have_all_tag] add Pis.Marker.Here
-        execute as @e[type=armor_stand,tag=Pis.Marker] run function libs:player_item_storage/entity/remove_all_tag
+    execute as @e[type=armor_stand,tag=Pis.Marker] run function libs:player_item_storage/entity/remove_all_tag
 
 # reset
     scoreboard players reset @s Temporary

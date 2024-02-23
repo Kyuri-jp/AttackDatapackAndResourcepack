@@ -1,4 +1,6 @@
-#> tag
+#> systems:weapons/swords/freeze
+
+#> Damaged Tag
 # @within
 #   systems:weapons/swords/freeze
 #   systems:weapons/swords/additional_damage/freeze
