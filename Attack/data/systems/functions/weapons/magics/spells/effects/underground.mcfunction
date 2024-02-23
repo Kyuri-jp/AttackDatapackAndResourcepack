@@ -2,8 +2,7 @@
     execute store result score #Magic.Using.Mana Temporary run data get storage attack:settings Main.Weapons.Magics.Spells.UsingMana.Underground
 
 # mana check
-    function systems:weapons/magics/spells/effects/common/lack
-    execute if score #Magic.Spell.LackMana Temporary matches 1 run return fail
+    execute unless function systems:weapons/magics/spells/effects/common/lack run return fail
 
 # vfx
     playsound entity.ender_dragon.ambient player @s ~ ~ ~
