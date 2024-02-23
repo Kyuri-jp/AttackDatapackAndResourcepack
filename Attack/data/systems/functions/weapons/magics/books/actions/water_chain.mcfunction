@@ -13,7 +13,7 @@
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run effect give @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] slowness 20 5
 
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/water_chain"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/water_chain","BaseDamage":5}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound block.grass.break player @a[distance=..1.5,limit=1]

@@ -14,7 +14,7 @@
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run title @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] times 5t 5t 5t
 
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/flash"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/flash","BaseDamage":3}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound block.beacon.deactivate player @a[distance=..1.5,limit=1]

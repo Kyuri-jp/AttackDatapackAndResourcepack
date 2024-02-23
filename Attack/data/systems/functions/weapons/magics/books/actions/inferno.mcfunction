@@ -13,7 +13,7 @@
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] unless score $Magic.Shot.Inferno.RemovedItem Temporary matches 1.. store success score $Magic.Shot.Inferno.RemovedItem Temporary run clear @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] book{MagicBook: true} 1
 
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/inferno"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/inferno","BaseDamage":4}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound item.shield.break player @a[distance=..1.5,limit=1]

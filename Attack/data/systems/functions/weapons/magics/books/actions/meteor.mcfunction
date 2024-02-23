@@ -13,7 +13,7 @@
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {active_effects: [{duration: 1, id: "minecraft:invisibility", show_particles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: -1, Fuse: 0, Team: blueTeam}
 
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/meteor"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/meteor","BaseDamage":12}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]

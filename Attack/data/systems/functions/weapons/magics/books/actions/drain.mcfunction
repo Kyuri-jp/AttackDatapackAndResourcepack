@@ -10,7 +10,7 @@
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run effect give @a[tag=Player.Magic.This,limit=1] instant_health 1 5
 
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/drain"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/drain","BaseDamage":5}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.generic.drink player @a[distance=..1.5,limit=1]

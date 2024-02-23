@@ -20,15 +20,17 @@
     scoreboard players operation $Magic.Shot.Damage.UnJust Temporary -= $Magic.Shot.Damage.UnJust.Remove Temporary
 
 # set macro
-    $data modify storage attack:temporary DamageType set value $(DamageType)
+    $data modify storage attack:temporary Macro.DamageType set value $(DamageType)
     execute store result storage attack:temporary Macro.BaseDamage float 1 run data get storage attack:temporary Magics.Damage.Base
     execute store result storage attack:temporary Macro.JustDamage float 1 run data get storage attack:temporary Magics.Damage.Just
     execute store result storage attack:temporary Macro.UnJustDamage float 0.1 run scoreboard players get $Magic.Shot.Damage.UnJust Temporary
 
 # give damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/give with storage attack:temporary Macro
+    function systems:weapons/magics/books/common/damage/give with storage attack:temporary Macro
 
 # reset
+    data remove storage attack:temporary Magics.Damage.Base
     data remove storage attack:temporary Magics.Damage.Just
     data remove storage attack:temporary Magics.Damage.UnJust
     data remove storage attack:temporary Magics.Damage.UnJust.Remove
+    data remove storage attack:temporary Macro

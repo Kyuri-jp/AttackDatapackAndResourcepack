@@ -14,7 +14,7 @@
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] as @a[tag=Player.Magic.This,limit=1] at @s if block ^ ^ ^-1 #assets:as_air run tp @s ^ ^ ^-1
 
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/reel"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/reel","BaseDamage":6}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.enderman.teleport player @a[distance=..1.5,limit=1]

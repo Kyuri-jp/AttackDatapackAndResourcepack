@@ -7,7 +7,7 @@
 
 # action
     #damage
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/explosion"}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/explosion","BaseDamage":8}
 
 ## hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
