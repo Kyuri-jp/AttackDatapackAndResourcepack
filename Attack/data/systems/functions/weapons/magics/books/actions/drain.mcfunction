@@ -8,12 +8,9 @@
 # action
     #heal
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run effect give @a[tag=Player.Magic.This,limit=1] instant_health 1 5
-    #normal
-    execute unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas unless score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 5 assets:weapons/magics/books/drain by @a[tag=Player.Magic.This,limit=1]
-    #just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 6 assets:weapons/magics/books/drain by @a[tag=Player.Magic.This,limit=1]
-    #un just
-    execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.unJust Datas if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run damage @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] 4 assets:weapons/magics/books/drain by @a[tag=Player.Magic.This,limit=1]
+
+    #damage
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/drain","BaseDamage":5}
 
 # hit player
     execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.generic.drink player @a[distance=..1.5,limit=1]

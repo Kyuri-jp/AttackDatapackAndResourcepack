@@ -1,0 +1,30 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#Magics.Rod.Element"
+      },
+      "score": "Datas"
+    },
+    "range": {
+      "min": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#Magic.Rod.Element.Just"
+        },
+        "score": "Datas"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#Magic.Rod.Element.Just"
+        },
+        "score": "Datas"
+      }
+    }
+  }
+  

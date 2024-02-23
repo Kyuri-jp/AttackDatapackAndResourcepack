@@ -4,6 +4,7 @@
     #declare storage attack:registry
     #declare storage attack:settings
     #declare storage attack:messages
+    #declare storage attack:temporary
 
     #declare storage psi:storage
 

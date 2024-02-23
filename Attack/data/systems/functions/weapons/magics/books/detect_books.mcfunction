@@ -7,13 +7,14 @@
 #> tag
 # @within
 #   systems:weapons/magics/books/**
+#   assets:items/weapons/magics/books/damage/*
     #declare score_holder #Magic.UsingMp
     #declare score_holder #Magic.Shot.ScopeLimit
     #declare score_holder $Magic.Shot.NowScope
     #declare score_holder $Magic.Shot.Inferno.RemovedItem
     #declare score_holder #Magic.Shot.LackMp
     #declare score_holder #Magic.Rod.Element.Just
-    #declare score_holder #Magic.Rod.Element.unJust
+    #declare score_holder #Magic.Rod.Element.UnJust
 
 # init?
     scoreboard players reset $Magic.Shot.NowScope Counter
@@ -49,4 +50,4 @@
         scoreboard players reset $Magic.Shot.NowScope Counter
         scoreboard players reset #Magics.Rod.Element Datas
         scoreboard players reset #Magic.Rod.Element.Just Datas
-        scoreboard players reset #Magic.Rod.Element.unJust Datas
+        scoreboard players reset #Magic.Rod.Element.UnJust Datas
