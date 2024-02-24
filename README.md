@@ -21,4 +21,4 @@
 
 詳細については以下を参照してください
 - データパック [ReadMe-Datapack](Attack/ReadMe-Datapack.md)
-- リソースパック[ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)
+- リソースパック [ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)
