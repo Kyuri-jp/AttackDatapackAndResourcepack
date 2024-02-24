@@ -12,6 +12,7 @@
 # vfx
     particle dust_color_transition 0 0 0 1 1 1 1 ~ ~0.8 ~ 0 0 0 0.8 200
     playsound entity.ender_dragon.ambient player @s ~ ~ ~
+    playsound entity.ender_dragon.hurt player @s ~ ~ ~
 
 # damage
     execute on attacker run tag @s add Player.Sword.Attacker.End

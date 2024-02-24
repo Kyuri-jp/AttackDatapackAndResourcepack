@@ -10,6 +10,7 @@
 # vfx
     particle falling_water ~ ~1 ~ 0 0 0 0.1 500
     playsound entity.player.splash player @s ~ ~ ~
+    playsound entity.player.splash.high_speed player @s ~ ~ ~
 
 # add tag
     tag @s add Player.Sword.Damaged.Aqua

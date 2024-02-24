@@ -4,6 +4,7 @@
 # vfx
     particle sweep_attack ~ ~1 ~ 1 3 1 0.1 20
     playsound block.anvil.destroy player @s ~ ~ ~
+    playsound block.anvil.place player @s ~ ~ ~
 
 # revoke
     advancement revoke @s only assets:weapons/swords/wind

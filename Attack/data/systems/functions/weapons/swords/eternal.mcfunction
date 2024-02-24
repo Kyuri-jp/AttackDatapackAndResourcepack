@@ -9,6 +9,7 @@
 # vfx
     particle enchant ~ ~1 ~ 0 0 0 0.1 500
     playsound block.beacon.activate player @s ~ ~ ~
+    playsound block.beacon.activate player @s ~ ~ ~ 1 1.5
 
 # damage
     execute on attacker run tag @s add Player.Sword.Attacker.Eternal

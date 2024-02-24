@@ -17,6 +17,7 @@
 # vfx
     particle spit ~ ~1 ~ 0 0 0 0.1 500
     playsound entity.spider.ambient player @s ~ ~ ~
+    playsound entity.spider.hurt player @s ~ ~ ~
 
 # actions
     execute as @p[tag=Player.Sword.Damaged.Spider] at @s run function systems:weapons/swords/action/spider

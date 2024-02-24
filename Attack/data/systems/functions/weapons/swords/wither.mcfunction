@@ -9,7 +9,8 @@
 
 # vfx
     particle dust 0 0 0 1 ~ ~1 ~ 0 0 0 0.1 500
-    playsound entity.spider.ambient player @s ~ ~ ~
+    playsound entity.wither.shoot player @s ~ ~ ~
+    playsound entity.wither.hurt player @s ~ ~ ~
 
 # revoke
     advancement revoke @s only assets:weapons/swords/wither
