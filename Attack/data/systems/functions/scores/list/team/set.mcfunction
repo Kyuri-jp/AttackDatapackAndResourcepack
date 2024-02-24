@@ -1,5 +1,5 @@
-#> scores:list/team/set
-# @within scores:tick
+#> systems:scores/list/team/set
+# @within systems:wait_room/team/set
 
 # list set
     scoreboard players set @a[team=redTeam] TeamList 3

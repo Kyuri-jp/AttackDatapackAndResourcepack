@@ -25,6 +25,6 @@
     }
   },
   "rewards": {
-    "function": "scores:count/killed/add/reds_score"
+    "function": "systems:scores/count/killed/add/reds_score"
   }
 }

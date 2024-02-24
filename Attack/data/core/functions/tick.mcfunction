@@ -6,4 +6,4 @@
 
 # functions
     function systems:tick/
-    function scores:tick
+    function systems:scores/tick

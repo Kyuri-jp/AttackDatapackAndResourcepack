@@ -1,4 +1,4 @@
-#> scores:count/killed/add/blues_score
+#> systems:scores/count/killed/add/blues_score
 # @within advancement assets:killed_blue_team
 
 # add score

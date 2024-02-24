@@ -1,4 +1,4 @@
-#> scores:gui_bars/settings/reload
+#> systems:scores/gui_bars/settings/reload
 # @within systems:operator/actions/setting/modify/message
  
 
