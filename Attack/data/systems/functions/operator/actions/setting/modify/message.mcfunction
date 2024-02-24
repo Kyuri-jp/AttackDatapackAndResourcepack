@@ -14,7 +14,7 @@
     function systems:operator/actions/setting/modify/settings/over_flow
 
 # set gui bar
-    function scores:gui_bars/settings/reload
+    function systems:scores/gui_bars/settings/reload
 
 # show messages
     tellraw @s ["",{"text":"Respawn CoolDown","color":"gold"},{"text":" : ["},{"nbt":"Main.Custom.Times.Game.CoolDown","storage":"attack:settings"},{"text":"] "},{"text":"[+20]","color":"red","clickEvent":{"action":"run_command","value":"/function systems:operator/actions/setting/modify/settings/cool_down/20"}},{"text":" ","color":"red"},{"text":"[+200]","color":"red","clickEvent":{"action":"run_command","value":"/function systems:operator/actions/setting/modify/settings/cool_down/200"}},{"text":" "},{"text":"[-20]","color":"blue","clickEvent":{"action":"run_command","value":"/function systems:operator/actions/setting/modify/settings/cool_down/-20"}},{"text":" ","color":"blue"},{"text":"[-200]","color":"blue","clickEvent":{"action":"run_command","value":"/function systems:operator/actions/setting/modify/settings/cool_down/-200"}},{"text":" "},{"text":"[Reset]","color":"yellow","clickEvent":{"action":"run_command","value":"/function systems:operator/actions/setting/modify/settings/cool_down/reset"}}]

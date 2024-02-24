@@ -5,6 +5,9 @@
 # @private
     #declare tag Anchor.WaitRoom.Teleporter
 
+# set team
+function systems:wait_room/team/set/
+
 # use rod
     execute if score @s UseFungusStick matches 1.. run function systems:weapons/magics/rods/used
 

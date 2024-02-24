@@ -17,7 +17,7 @@
       }
     },
     "rewards": {
-      "function": "scores:count/killed/add/any_player_killed"
+      "function": "systems:scores/count/killed/add/any_player_killed"
     }
   }
   

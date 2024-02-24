@@ -3,10 +3,7 @@
 
 # button
     function systems:operator/items/buttons
-
-# team set
-    function systems:wait_room/team/set
-
+    
 # structure
     function systems:game/structure/set/
 

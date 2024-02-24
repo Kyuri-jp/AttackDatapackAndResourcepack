@@ -1,9 +1,9 @@
 # Scores
-スコアに関する関数が定義されています。Systemsに統合したいです。
+スコアに関する関数が定義されています。
 
 |Function名|定義|
 |----|----|
-|[`tick`](functions/tick.mcfunction)|[`scores:`](functions/)内のtick処理する関数の定義|
+|[`tick`](functions/tick.mcfunction)|[`systems:scores/`](functions/)内のtick処理する関数の定義|
 
 ### [count/](functions/count/)[killed/](functions/count/killed/)[add](functions/count/killed/add/)
 |Function名|Advancement|

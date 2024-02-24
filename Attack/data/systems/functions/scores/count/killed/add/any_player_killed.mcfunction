@@ -1,3 +1,6 @@
+#> systems:scores/count/killed/add/any_player_killed
+# @within assets:any_player_killed
+
 # add count
     scoreboard players add @s KillCounter 1
 

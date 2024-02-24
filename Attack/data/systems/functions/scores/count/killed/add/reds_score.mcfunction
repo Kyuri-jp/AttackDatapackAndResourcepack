@@ -1,4 +1,4 @@
-#> scores:count/killed/add/reds_score
+#> systems:scores/count/killed/add/reds_score
 # @within advancement assets:killed_red_team
 
 # add score

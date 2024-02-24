@@ -11,6 +11,9 @@
 ## [operator](functions/operator/)[ : About](functions/operator/About_Operator.md)
 管理者(`operator`Tag)に関する関数
 
+## [scores](functions/scores/)[ : About](functions/scores/About_Scores.md)
+スコア(適当)に関する関数
+
 ## [tick](functions/tick/)[ : About](functions/tick/About_Tick.md)
 tick処理に関する関数
 

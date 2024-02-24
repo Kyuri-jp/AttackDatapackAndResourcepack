@@ -6,10 +6,10 @@ advancementやpredicate,loot_tableが定義されています。
 # [Advancements](advancements/)
 |Advancement名|トリガー|呼び出す関数|
 |----|----|----|
-|[`any_player_killed`](advancements/any_player_killed.json)|`minecraft:player_killed_entity`|[`scores:count/killed/add/any_player_killed`](/Attack/data/scores/functions/count/killed/add/any_player_killed.mcfunction)|
+|[`any_player_killed`](advancements/any_player_killed.json)|`minecraft:player_killed_entity`|[`systems:scores/count/killed/add/any_player_killed`](/Attack/data/scores/functions/count/killed/add/any_player_killed.mcfunction)|
 |[`installed`](advancements/installed.json)|`minecraft:location`|[`core:installed/message`](/Attack/data/core/functions/installed/message.mcfunction)|
-|[`killed_red_team`](advancements/killed_red_team.json)|`minecraft:entity_killed_player`|[`scores:count/killed/add/reds_score`](/Attack/data/scores/functions/count/killed/add/reds_score.mcfunction)|
-|[`killed_blue_team`](advancements/killed_blue_team.json)|`minecraft:entity_killed_player`|[`scores:count/killed/add/blues_score`](/Attack/data/scores/functions/count/killed/add/blues_score.mcfunction)|
+|[`killed_red_team`](advancements/killed_red_team.json)|`minecraft:entity_killed_player`|[`systems:scores/count/killed/add/reds_score`](/Attack/data/scores/functions/count/killed/add/reds_score.mcfunction)|
+|[`killed_blue_team`](advancements/killed_blue_team.json)|`minecraft:entity_killed_player`|[`systems:scores/count/killed/add/blues_score`](/Attack/data/scores/functions/count/killed/add/blues_score.mcfunction)|
 
 ## [count/](advancements/count/)[items](advancements/count/items/)
 |Advancement名|トリガー|呼び出す関数|
