@@ -6,7 +6,7 @@
         tp ^ ^ ^0.5
 
     ## vfx
-        particle end_rod ~ ~ ~ 0 0 0 0 2 normal
+        particle end_rod ~ ~ ~ 0 0 0 0.01 5 normal
         #just element
         execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas run function systems:weapons/magics/books/vfx/just_element_particle
 

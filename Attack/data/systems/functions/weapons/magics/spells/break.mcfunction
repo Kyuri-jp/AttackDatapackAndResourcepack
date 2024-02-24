@@ -6,3 +6,5 @@
 
 # sound
     playsound entity.item.break player @s ~ ~ ~
+    playsound item.shield.break player @s ~ ~ ~
+    playsound block.beacon.deactivate player @s ~ ~ ~

@@ -41,5 +41,7 @@
             function systems:weapons/magics/books/detect_books
 
         # vfx
-            particle end_rod ~ ~ ~ 0 0 0 0.2 10 normal
+            particle end_rod ~ ~ ~ 0.5 0.5 0.5 0.2 20 normal
+            particle enchant ~ ~ ~ 0 0 0 0.2 10 normal
             playsound block.beacon.activate player @s ~ ~ ~ 1 1.5
+            playsound entity.firework_rocket.blast player @s ~ ~ ~ 1 1.5
