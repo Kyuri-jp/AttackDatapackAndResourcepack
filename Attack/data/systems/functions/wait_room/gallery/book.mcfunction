@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/book
+#
+# Gallery内のBookをセットします
+#
 # @within systems:wait_room/gallery/set_item_displays
 
 # set

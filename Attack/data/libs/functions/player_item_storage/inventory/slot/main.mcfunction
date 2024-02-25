@@ -1,4 +1,7 @@
 #> libs:player_item_storage/inventory/slot/main
+#
+# メインハンドのアイテムを召喚します
+#
 # @within libs:player_item_storage/inventory/summon
 
 #> tag

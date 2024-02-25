@@ -1,4 +1,8 @@
 #> systems:game/scope_over/
+#
+# フィールドの外に出てしまった際の処理
+#
+# @within systems:tick/
 
 #> score holder
 # @private
@@ -10,7 +14,7 @@
     #declare tag Anchor.ScopeOver
 
 # detect
-    execute as @a at @s if entity @s[team=!watch,team=!preparation,tag=Player.Playing,y=-38,dy=0] if entity @e[type=armor_stand,tag=Anchor.ScopeOver,distance=..40] run scoreboard players set @s ScopeOver 1
+    execute as @a at @s if entity @s[team=!Watch,team=!preparation,tag=Player.Playing,y=-38,dy=0] if entity @e[type=armor_stand,tag=Anchor.ScopeOver,distance=..40] run scoreboard players set @s ScopeOver 1
 
 # return
     execute as @a at @s if entity @s[team=preparation,tag=Player.Playing,y=-38,dy=0] if entity @e[type=armor_stand,tag=Anchor.ScopeOver,distance=..40] run effect give @s jump_boost 1 255 true

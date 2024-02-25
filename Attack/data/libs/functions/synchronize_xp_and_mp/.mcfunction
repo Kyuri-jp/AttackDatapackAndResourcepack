@@ -1,4 +1,5 @@
 #> libs:synchronize_xp_and_mp/
+# 経験値バーとMPを同期します
 
 #> SyncXM
 # @within libs:synchronize_xp_and_mp/*

@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/detect_used
+#
+# 呪文の使用を検知します
+#
 # @handles systems:tick/as_at
 
 # kill arrow

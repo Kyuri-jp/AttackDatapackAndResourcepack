@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/consume_mana
+#
+# マナを消費します
+#
 # @within
 #   systems:weapons/magics/spells/effects/common/finish
 #   systems:weapons/magics/spells/consume_mana

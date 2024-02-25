@@ -1,4 +1,11 @@
 #> systems:game/preparation/start_timer
+#
+# タイマーをスタートします
+#
+# @within
+#   systems:game/preparation/start_timer
+#   systems:game/preparation/
+#   systems:game/end/
 
 #> score holder
 # @within systems:game/*/start_timer
@@ -22,7 +29,7 @@
     ## name
         bossbar set main.timer name [{"text":"[Preparation Time]Time remaining:"},{"score":{"name":"$Timer.Preparation.Sec","objective":"Temporary"}},{"text":" seconds"}]
     ## value
-    execute store result bossbar main.timer value run scoreboard players get $Timer.Preparation Counter
+        execute store result bossbar main.timer value run scoreboard players get $Timer.Preparation Counter
 
 # reset
     scoreboard players reset $Timer.Preparation.Sec Temporary

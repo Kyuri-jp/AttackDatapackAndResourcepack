@@ -1,4 +1,5 @@
 #> libs:player_item_storage/get
+# 保存したInventoryを取得します
 
 #> tag
 # @within

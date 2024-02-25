@@ -9,8 +9,8 @@
     execute if score #Magic.Shot.LackMp Temporary matches 1 run return fail
 
 # action
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=redTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {active_effects: [{duration: 1, id: "minecraft:invisibility", show_particles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: -1, Fuse: 0, Team: redTeam}
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=blueTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {active_effects: [{duration: 1, id: "minecraft:invisibility", show_particles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: -1, Fuse: 0, Team: blueTeam}
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=RedTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {active_effects: [{duration: 1, id: "minecraft:invisibility", show_particles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: -1, Fuse: 0, Team: RedTeam}
+    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] if entity @a[team=BlueTeam,tag=Player.Magic.This,limit=1] run summon creeper ~ ~ ~ {active_effects: [{duration: 1, id: "minecraft:invisibility", show_particles: false}], CustomName: '{"text": "Meteor"}', ExplosionRadius: -1, Fuse: 0, Team: BlueTeam}
 
     #damage
     function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/meteor","BaseDamage":12}

@@ -1,4 +1,7 @@
 #> libs:player_item_storage/inventory/slot/off
+#
+# オフハンドのアイテムをセットします
+#
 # @within libs:player_item_storage/inventory/summon
 
 # get data

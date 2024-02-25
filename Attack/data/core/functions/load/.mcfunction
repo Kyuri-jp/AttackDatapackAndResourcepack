@@ -1,4 +1,7 @@
 #> core:load/
+#
+# load処理
+#
 # @within tag/function minecraft:load
 
 #> Gallery

@@ -1,3 +1,9 @@
+#> systems:game/respawn/cool_time/info
+#
+# クールダウンの情報を表示します
+#
+# @within systems:game/respawn/cool_time/count_down
+
 # count down
     execute if score @s CoolDownCounter matches 60 run tellraw @s {"text": "3 seconds to respawn...","bold": true,"color": "gold"}
     execute if score @s CoolDownCounter matches 40 run tellraw @s {"text": "2 seconds to respawn...","bold": true,"color": "gold"}

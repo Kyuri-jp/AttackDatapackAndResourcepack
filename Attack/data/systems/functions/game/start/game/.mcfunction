@@ -1,4 +1,8 @@
 #> systems:game/start/game/
+#
+# ゲームを開始します
+#
+# @within systems:game/start/
 
 #> score holder
 # @within
@@ -62,8 +66,8 @@
         effect give @a saturation 3 10
 
     ## team flag
-        tag @a[team=redTeam] add Player.Team.Red
-        tag @a[team=blueTeam] add Player.Team.Blue
+        tag @a[team=RedTeam] add Player.Team.Red
+        tag @a[team=BlueTeam] add Player.Team.Blue
 
     ## clear items
         clear @a
@@ -72,8 +76,8 @@
         tag @a add Player.Playing
 
 # watcher
-    gamemode spectator @a[team=watch]
-    team join preparation @a[team=!watch]
+    gamemode spectator @a[team=Watch]
+    team join preparation @a[team=!Watch]
 
 # setSideBar
     scoreboard objectives setdisplay sidebar Scores

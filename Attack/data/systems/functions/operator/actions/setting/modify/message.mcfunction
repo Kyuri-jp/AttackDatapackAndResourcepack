@@ -1,4 +1,10 @@
 #> systems:operator/actions/setting/modify/message
+#
+# メッセージを表示します
+#
+# @within
+#   systems:operator/actions/setting/modify/**
+#   systems:operator/buttons/actions/setting
 
 #> Time
 # @within systems:operator/actions/setting/modify/**

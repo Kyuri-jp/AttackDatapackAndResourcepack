@@ -1,4 +1,8 @@
 #> systems:game/main_game/
+#
+# ゲームを開始します
+#
+# @within systems:game/preparation/start_timer
 
 #> score holder
 # @within
@@ -15,8 +19,8 @@
     difficulty normal
 
 # team join
-    team join redTeam @a[tag=Player.Team.Red]
-    team join blueTeam @a[tag=Player.Team.Blue]
+    team join RedTeam @a[tag=Player.Team.Red]
+    team join BlueTeam @a[tag=Player.Team.Blue]
     ## tag remove
         tag @a remove Player.Team.Red
         tag @a remove Player.Team.Blue

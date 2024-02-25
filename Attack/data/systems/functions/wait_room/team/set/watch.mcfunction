@@ -1,4 +1,7 @@
 #> systems:wait_room/team/set/watch
+#
+# Watchに参加させます
+#
 # @within systems:wait_room/team/set/
 
 # sound
@@ -8,4 +11,4 @@
     tellraw @a ["",{"text":"[System] "},{"selector":"@s"},{"text":" joined "},{"text":"Watch Team","color":"gray"}]
 
 # set team
-    team join watch @s
+    team join Watch @s

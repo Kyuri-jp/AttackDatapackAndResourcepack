@@ -1,4 +1,7 @@
 #> systems:scores/count/killed/add/any_player_killed
+#
+# プレイヤーをキルした際の処理
+#
 # @within assets:any_player_killed
 
 # add count

@@ -1,3 +1,9 @@
+#> core:storage/set_values
+#
+# Storageに値を設定します
+#
+# @within core:load/
+
 # set Datas
     ## registry
         data merge storage attack:registry {Main: {Calculation: {Seconds: 20}, Const: {Thousand: 1000, Two: 2}, Weapons: {Magics: {Mp: {Max: 100, Smooth: 10}}}}}

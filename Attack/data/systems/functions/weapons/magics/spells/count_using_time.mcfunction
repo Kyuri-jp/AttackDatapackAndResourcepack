@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/count_using_time
+#
+# 呪文をチャージ時間を測定します
+#
 # @within advancement assets:count/items/using_bow
 
 # add count

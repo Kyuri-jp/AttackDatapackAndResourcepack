@@ -9,8 +9,8 @@
     particle dragon_breath ~ ~ ~ 0.2 0.2 0.2 0.2 100 normal
 
 # call
-    execute if entity @s[team=redTeam] at @a[team=blueTeam] summon wither_skeleton run team join redTeam
-    execute if entity @s[team=blueTeam] at @a[team=redTeam] summon wither_skeleton run team join blueTeam
+    execute if entity @s[team=RedTeam] at @a[team=BlueTeam] summon wither_skeleton run team join RedTeam
+    execute if entity @s[team=BlueTeam] at @a[team=RedTeam] summon wither_skeleton run team join BlueTeam
     execute at @a run data modify entity @e[type=wither_skeleton,distance=..0.01,limit=1] CustomName set value "ウィザースケルトン"
     execute at @a run data modify entity @e[type=wither_skeleton,distance=..0.01,limit=1] CustomNameVisible set value true
     execute at @a run data modify entity @e[type=wither_skeleton,distance=..0.01,limit=1] Glowing set value true

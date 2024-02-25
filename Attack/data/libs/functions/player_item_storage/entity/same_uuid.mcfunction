@@ -1,4 +1,7 @@
 #> libs:player_item_storage/entity/same_uuid
+#
+# 自身のUUIDとマッチするアーマースタンドを特定します
+#
 # @within function libs:player_item_storage/get
 
 #> lv

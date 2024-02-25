@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/spell
+#
+# Gallery内のSpellをセットします
+#
 # @within systems:wait_room/gallery/set_item_displays
 
 # set

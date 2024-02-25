@@ -1,3 +1,9 @@
+#> systems:game/died/playing
+#
+# Player.CoolDownNowタグが付いているプレイヤーに対して実行されます
+#
+# @within systems:game/died/
+
 # add tag
     tag @s add Player.CoolDownNow
 

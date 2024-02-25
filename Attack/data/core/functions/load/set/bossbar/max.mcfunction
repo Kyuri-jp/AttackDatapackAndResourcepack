@@ -1,4 +1,7 @@
 #> core:load/set/bossbar/max
+#
+# Bossbarの値を設定します
+#
 # @within function core:load/
 
 # set

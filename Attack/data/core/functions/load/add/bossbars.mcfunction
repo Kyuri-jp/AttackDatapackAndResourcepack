@@ -1,4 +1,7 @@
 #> core:load/add/bossbars
+#
+# Bossbarの追加します
+#
 # @within function core:load/
 
 # set

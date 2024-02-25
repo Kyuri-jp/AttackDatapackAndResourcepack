@@ -1,3 +1,6 @@
+#> libs:show_player_info/
+# 試合に関する情報を表示します
+
 # count mana
     function systems:weapons/magics/spells/count_mana
 

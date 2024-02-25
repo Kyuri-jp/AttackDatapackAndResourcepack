@@ -1,4 +1,5 @@
 #> systems:game/structure/set/blocks/chests/set/
+# チェストを配置します
 
 #> score holder
 # @within

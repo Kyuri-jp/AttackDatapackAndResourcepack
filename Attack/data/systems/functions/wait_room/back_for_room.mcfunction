@@ -1,4 +1,7 @@
 #> systems:wait_room/back_for_room
+#
+# 待機場所にプレイヤーを戻します
+#
 # @within systems:tick/as_at
 
 # vfx

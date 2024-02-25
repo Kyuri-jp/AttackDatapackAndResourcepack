@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/rod
+#
+# Gallery内のRodをセットします
+#
 # @within systems:wait_room/gallery/set_item_displays
 
 # set

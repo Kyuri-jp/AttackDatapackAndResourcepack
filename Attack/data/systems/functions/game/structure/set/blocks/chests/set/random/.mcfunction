@@ -1,4 +1,7 @@
 #> systems:game/structure/set/blocks/chests/set/random/
+#
+# チェストをランダムにセットします
+#
 # @within
 #   systems:game/structure/set/blocks/chests/set/
 #   systems:game/structure/set/blocks/chests/set/random/

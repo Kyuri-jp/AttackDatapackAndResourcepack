@@ -1,4 +1,7 @@
 #> systems:operator/buttons/actions/start
+#
+# Startボタンを使用した際の処理
+#
 # @within systems:operator/buttons/used
 
 #> score holder

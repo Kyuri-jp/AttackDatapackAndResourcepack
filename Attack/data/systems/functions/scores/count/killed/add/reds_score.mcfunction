@@ -1,4 +1,7 @@
 #> systems:scores/count/killed/add/reds_score
+#
+# RedTeamのスコアを加算します
+#
 # @within advancement assets:killed_red_team
 
 # add score

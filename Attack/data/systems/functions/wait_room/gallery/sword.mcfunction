@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/sword
+#
+# Gallery内のSwordをセットします
+#
 # @within systems:wait_room/gallery/set_item_displays
 
 # set

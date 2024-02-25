@@ -1,4 +1,7 @@
 #> libs:player_item_storage/inventory/summon
+#
+# アイテムを召喚します
+#
 # @within
 #   libs:player_item_storage/get
 #   libs:player_item_storage/inventory/summon

@@ -1,4 +1,6 @@
 #> libs:player_item_storage/set
+# プレイヤーのInventoryを保存します
+
 
 #> private
 # @private

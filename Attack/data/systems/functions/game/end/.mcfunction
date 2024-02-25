@@ -1,3 +1,10 @@
+#> systems:game/end/
+#
+# ゲームを終了します
+#
+# @within
+#   systems:game/end/judgment/*
+
 # data set
     data modify storage attack:booleans Main.Game.Playing set value false
 

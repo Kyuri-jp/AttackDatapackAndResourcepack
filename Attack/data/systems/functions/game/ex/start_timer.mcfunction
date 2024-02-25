@@ -1,10 +1,15 @@
 #> systems:game/ex/start_timer
+#
+# タイマーをスタートします
+#
+# @within
+#   systems:game/ex/start_timer
+#   systems:game/ex/
+#   systems:game/end/
 
 #> score holder
 # @private
     #declare score_holder $Timer.Ex.Sec
-
-
 
 # data get
     execute store result score $Const.Timer.Sec Temporary run data get storage attack:registry Main.Calculation.Seconds
@@ -20,7 +25,7 @@
     ## name
         bossbar set main.timer name [{"text":"[Exhibition Game]Time remaining:"},{"score":{"name":"$Timer.Ex.Sec","objective":"Temporary"}},{"text":" seconds"}]
     ## value
-    execute store result bossbar main.timer value run scoreboard players get $Timer.Ex Counter
+        execute store result bossbar main.timer value run scoreboard players get $Timer.Ex Counter
 
 # reset
     scoreboard players reset $Timer.Ex.Sec Temporary

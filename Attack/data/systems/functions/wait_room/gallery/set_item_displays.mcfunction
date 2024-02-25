@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/set_item_displays
+#
+# Galleryをセットします
+#
 # @within core:load/
 
 # set

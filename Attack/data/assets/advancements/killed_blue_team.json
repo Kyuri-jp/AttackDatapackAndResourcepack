@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "team": "redTeam"
+              "team": "RedTeam"
             }
           }
         ],
@@ -17,7 +17,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "team": "blueTeam"
+              "team": "BlueTeam"
             }
           }
         ]

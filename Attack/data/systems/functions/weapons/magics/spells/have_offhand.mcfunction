@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/have_offhand
+#
+# オフハンドに呪文を所持した場合の処理
+#
 # @handles systems:tick/as_at
 
 # summon null

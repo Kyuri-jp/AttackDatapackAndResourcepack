@@ -1,4 +1,5 @@
 #> systems:game/structure/set/blocks/chests/break/
+# チェストをすべて破壊し,アイテムを処理します
 
 #> tag
 # @within systems:game/structure/set/blocks/chests/*

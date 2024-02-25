@@ -1,4 +1,7 @@
 #> systems:weapons/swords/action/spider
+#
+# プレイヤーのアイテムを手に入れます
+#
 # @within systems:weapons/swords/spider
 
 # have any items in offhand
