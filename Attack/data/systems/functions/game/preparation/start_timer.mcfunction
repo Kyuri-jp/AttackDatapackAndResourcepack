@@ -1,4 +1,10 @@
 #> systems:game/preparation/start_timer
+#
+# タイマーをスタートします
+#
+# @within
+#   systems:game/preparation/start_timer
+#   systems:game/preparation/
 
 #> score holder
 # @within systems:game/*/start_timer

@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up
+#
+# 1つ上のレイヤーに下げます
+#
 # @within
 #   systems:weapons/magics/spells/effects/layer_mover
 #   systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_up

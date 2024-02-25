@@ -1,3 +1,10 @@
+#> systems:game/respawn/
+#
+# プレイヤーを復活させます
+#
+# @within systems:game/respawn/cool_time/count_down
+
+
 # set rotation
     data modify entity @e[type=armor_stand,tag=Anchor.DefaultSpawnPoint,limit=1] Rotation set from entity @s Rotation
 

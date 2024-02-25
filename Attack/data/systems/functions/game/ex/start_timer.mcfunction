@@ -1,10 +1,14 @@
 #> systems:game/ex/start_timer
+#
+# タイマーをスタートします
+#
+# @within
+#   systems:game/ex/start_timer
+#   systems:game/ex/
 
 #> score holder
 # @private
     #declare score_holder $Timer.Ex.Sec
-
-
 
 # data get
     execute store result score $Const.Timer.Sec Temporary run data get storage attack:registry Main.Calculation.Seconds

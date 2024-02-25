@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/set_data
+#
+# ItemDisplayのデータをセットします
+#
 # @within systems:wait_room/gallery/*
 
 # summon

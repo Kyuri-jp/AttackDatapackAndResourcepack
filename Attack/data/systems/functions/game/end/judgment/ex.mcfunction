@@ -1,3 +1,9 @@
+#> systems:game/end/judgment/ex
+#
+# Exマッチの場合のジャッジ
+#
+# @within systems:game/ex/start_timer
+
 # reset
     scoreboard players reset $Timer.MainGame Counter
     scoreboard players reset $Timer.Preparation Counter

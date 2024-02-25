@@ -1,4 +1,7 @@
 #> systems:wait_room/team/display/set
+#
+# 待機場所のTextDisplayをセットします
+#
 # @within core:load/
 
 execute at @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Red] run summon text_display ~ ~1 ~ {Tags:["Entity.Display.Text.Info.Team"],text:'{"interpret":true,"nbt":"Main.WaitRoom.Team.Red","storage": "attack:messages"}'}

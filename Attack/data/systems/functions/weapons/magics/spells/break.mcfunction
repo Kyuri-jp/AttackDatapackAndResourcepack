@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/break
+#
+# 呪文を破壊します
+#
 # @within systems:weapons/magics/spells/effects/common/finish
 
 # remove item

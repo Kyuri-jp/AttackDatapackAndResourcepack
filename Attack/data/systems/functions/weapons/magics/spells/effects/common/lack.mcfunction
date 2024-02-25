@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/effects/common/lack
+#
+# マナ不足をチェックします
+#
 # @within systems:weapons/magics/spells/effects/*
 
 # mana check

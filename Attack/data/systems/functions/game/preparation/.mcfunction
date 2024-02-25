@@ -1,4 +1,8 @@
 #> systems:game/preparation/
+#
+# 準備時間をスタートします
+#
+# @within systems:game/start/game/
 
 #> score holder
 # @within

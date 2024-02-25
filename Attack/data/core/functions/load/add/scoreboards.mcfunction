@@ -1,4 +1,7 @@
 #> core:load/add/scoreboards
+#
+# Scoreboardを追加します
+#
 # @within function core:load/
 
 # set

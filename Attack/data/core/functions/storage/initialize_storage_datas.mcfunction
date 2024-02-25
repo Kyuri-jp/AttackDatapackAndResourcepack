@@ -1,3 +1,9 @@
+#> core:storage/initialize_storage_datas
+#
+# Storageをinit処理します
+#
+# @within core:load/
+
 # init
     data remove storage attack:booleans Main
     data remove storage attack:registry Main

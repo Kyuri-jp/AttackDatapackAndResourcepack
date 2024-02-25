@@ -1,3 +1,11 @@
+#> systems:weapons/magics/spells/effects/actions/get_mana
+#
+# マナを手に入れます
+#
+# @within
+#   systems:weapons/magics/spells/effects/actions/get_mana
+#   systems:weapons/magics/spells/effects/mana_magnet
+
 # give
     loot give @s loot assets:weapons/spells/mana
 

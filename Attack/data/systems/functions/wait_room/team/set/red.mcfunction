@@ -1,4 +1,7 @@
 #> systems:wait_room/team/set/red
+#
+# RedTeamに参加させます
+#
 # @within systems:wait_room/team/set/
 
 # sound
@@ -8,4 +11,4 @@
     tellraw @a ["",{"text":"[System] "},{"selector":"@s"},{"text":" joined "},{"text":"Red Team","color":"red"}]
 
 # set team
-    team join redTeam @s
+    team join RedTeam @s

@@ -1,3 +1,9 @@
+#> systems:game/end/judgment/
+#
+# チームの勝敗を決めます
+#
+# @within systems:game/main_game/start_timer
+
 # reset
     scoreboard players reset $Timer.MainGame Counter
     scoreboard players reset $Timer.Preparation Counter

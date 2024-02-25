@@ -1,4 +1,7 @@
 #> core:installed/message
+#
+# インストール完了のメッセージを送信します
+#
 # @within advancement assets:installed
 
 # modify data
@@ -18,3 +21,6 @@
     tellraw @a {"text":"Datapack License : Creative Commons Zero v1.0","color":"aqua"}
     tellraw @a {"text":"Resource Pack License : MIT License","color":"aqua"}
     tellraw @a {"text":"=============================================","color":"gold","bold": true}
+
+# revoke
+    advancement revoke @a only assets:installed

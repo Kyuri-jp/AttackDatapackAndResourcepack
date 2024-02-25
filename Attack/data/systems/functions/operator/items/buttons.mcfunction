@@ -1,4 +1,7 @@
 #> systems:operator/items/buttons
+#
+# ボタンを再配置します
+#
 # @within systems:tick/
 
 #> Operator

@@ -1,3 +1,11 @@
+#> systems:game/respawn/cool_time/count_down
+#
+# タイマーをスタートします
+#
+# @within
+#   systems:game/respawn/cool_time/count_down
+#   systems:game/died/set_timer
+
 # show info
     execute as @a[tag=Player.CoolDownNow] at @s run function systems:game/respawn/cool_time/info
 

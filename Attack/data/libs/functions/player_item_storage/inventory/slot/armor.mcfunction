@@ -1,4 +1,7 @@
 #> libs:player_item_storage/inventory/slot/armor
+#
+# 防具をセットします
+#
 # @within libs:player_item_storage/inventory/summon
 
 # get

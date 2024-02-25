@@ -9,8 +9,8 @@
     particle end_rod ~ ~ ~ 1 1 1 0.5 100 normal
 
 # call
-    execute if entity @s[team=redTeam] run effect give @a[team=blueTeam] glowing 15 0 true
-    execute if entity @s[team=blueTeam] run effect give @a[team=redTeam] glowing 15 0 true
+    execute if entity @s[team=RedTeam] run effect give @a[team=BlueTeam] glowing 15 0 true
+    execute if entity @s[team=BlueTeam] run effect give @a[team=RedTeam] glowing 15 0 true
 
 # consume
     function systems:weapons/magics/spells/effects/common/finish

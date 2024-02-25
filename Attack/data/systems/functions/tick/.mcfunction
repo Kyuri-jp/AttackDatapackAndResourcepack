@@ -1,4 +1,7 @@
 #> systems:tick/
+#
+# systems内のtick処理
+#
 # @within function core:tick
 
 # button

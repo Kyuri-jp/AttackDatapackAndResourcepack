@@ -1,4 +1,9 @@
 #> libs:show_player_info/get_cool_down_time
+#
+# クールダウンの値を取得します
+#
+# @reads
+# score @s CoolDownCounter
 
 #> score holder
 # @private

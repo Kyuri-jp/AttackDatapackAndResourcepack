@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/detect_spells
+#
+# 使用した呪文を特定します
+#
 # @handles systems:tick/as_at
 
 #> score holder

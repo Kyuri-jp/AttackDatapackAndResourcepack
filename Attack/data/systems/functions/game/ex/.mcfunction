@@ -1,4 +1,8 @@
 #> systems:game/ex/
+#
+# Exゲームを開始します
+#
+# @within systems:game/end/judgment/
 
 #> score holder
 # @within

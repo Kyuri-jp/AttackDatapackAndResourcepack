@@ -1,4 +1,7 @@
 #> systems:scores/count/killed/add/blues_score
+#
+# BlueTeamのスコアを加算します
+#
 # @within advancement assets:killed_blue_team
 
 # add score

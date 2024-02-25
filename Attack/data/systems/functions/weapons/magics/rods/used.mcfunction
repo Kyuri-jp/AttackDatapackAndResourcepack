@@ -1,4 +1,7 @@
 #> systems:weapons/magics/rods/used
+#
+# 杖を使用した際の処理
+#
 # @handles systems:tick/as_at
 # @within systems:tick/as_at
 

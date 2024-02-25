@@ -9,8 +9,8 @@
     particle dust 0 0 0 1 ~ ~ ~ 1 1 1 0.5 100 normal
 
 # call
-    execute if entity @s[team=redTeam] run effect give @a[team=blueTeam] wither 10 9 true
-    execute if entity @s[team=blueTeam] run effect give @a[team=redTeam] wither 10 9 true
+    execute if entity @s[team=RedTeam] run effect give @a[team=BlueTeam] wither 10 9 true
+    execute if entity @s[team=BlueTeam] run effect give @a[team=RedTeam] wither 10 9 true
 
 # consume
     function systems:weapons/magics/spells/effects/common/finish

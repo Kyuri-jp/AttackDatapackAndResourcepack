@@ -1,4 +1,7 @@
 #> systems:operator/buttons/actions/setting
+#
+# Settingボタンを使用した際の処理
+#
 # @within systems:operator/buttons/used
 
 # reset

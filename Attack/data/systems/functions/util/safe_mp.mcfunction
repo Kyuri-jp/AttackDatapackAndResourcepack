@@ -1,4 +1,8 @@
 #> systems:util/safe_mp
+#
+# MPの整合性をチェックします
+#
+# @internal
 
 #> Private
 # @private

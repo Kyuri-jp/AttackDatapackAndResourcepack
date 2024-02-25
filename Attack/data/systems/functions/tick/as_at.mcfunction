@@ -1,4 +1,7 @@
 #> systems:tick/as_at
+#
+# as @a at @s で共通している処理
+#
 # @within systems:tick/
 
 #> tag

@@ -1,4 +1,10 @@
 #> systems:game/main_game/start_timer
+#
+# タイマーをスタートします
+#
+# @within
+#   systems:game/main_game/start_timer
+#   systems:game/main_game/
 
 #> score holder
 # @private

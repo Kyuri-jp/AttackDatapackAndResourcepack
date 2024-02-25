@@ -1,3 +1,9 @@
+#> libs:synchronize_xp_and_mp/calculate
+#
+# 割合を計算します
+#
+# @within libs:synchronize_xp_and_mp/
+
 # calculate
     scoreboard players operation $SyncMX.Percent Mp = @s Mp
     scoreboard players operation $SyncMX.Percent Mp *= #Const.1000 Temporary

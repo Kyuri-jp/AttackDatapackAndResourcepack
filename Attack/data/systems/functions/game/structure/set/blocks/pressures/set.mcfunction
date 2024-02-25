@@ -1,4 +1,9 @@
 #> systems:game/structure/set/blocks/pressures/set
+#
+# 感圧版を設置します
+#
+# @within systems:game/structure/set/
+
 
 #> tag
 # @private

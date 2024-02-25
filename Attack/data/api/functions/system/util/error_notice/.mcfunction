@@ -1,5 +1,13 @@
 #> api:system/util/error_notice/
+#
+# エラーをチャット欄に送信します
+#
 # @api
+# @input
+# storage error:info Level (error,warn,info)
+# storage error:info Path (resource path)
+# storage error:info Message
+# storage error:info StackTrace (more info)
 
 # values check
     ## exists

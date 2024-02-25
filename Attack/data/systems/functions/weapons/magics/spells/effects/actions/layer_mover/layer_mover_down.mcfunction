@@ -1,4 +1,7 @@
 #> systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_down
+#
+# 1つ下のレイヤーに下げます
+#
 # @within
 #   systems:weapons/magics/spells/effects/actions/layer_mover/is_on_ground
 #   systems:weapons/magics/spells/effects/actions/layer_mover/layer_mover_down

@@ -1,4 +1,7 @@
 #> systems:wait_room/gallery/set_size_and_rotation
+#
+# ItemDisplayのサイズや方向をセットします
+#
 # @within systems:wait_room/gallery/set_item_displays
 
 # rod

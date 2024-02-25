@@ -1,3 +1,9 @@
+#> systems:operator/buttons/used
+#
+# ボタンを使用した際の処理
+#
+# @within systems:tick/as_at
+
 # return
     execute unless score @s UseCarrotStick matches 1.. run return fail
 

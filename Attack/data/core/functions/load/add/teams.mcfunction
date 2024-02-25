@@ -1,17 +1,20 @@
 #> core:load/add/teams
+#
+# Teamを追加します
+#
 # @within function core:load/
 
 # set
     ## create
-        team add redTeam
-        team add blueTeam
-        team add watch
+        team add RedTeam
+        team add BlueTeam
+        team add Watch
         team add preparation
     ## setting
-        team modify redTeam color red
-        team modify blueTeam color blue
-        team modify watch color gray
-        team modify redTeam nametagVisibility hideForOtherTeams
-        team modify blueTeam nametagVisibility hideForOtherTeams
-        team modify watch nametagVisibility hideForOtherTeams
+        team modify RedTeam color red
+        team modify BlueTeam color blue
+        team modify Watch color gray
+        team modify RedTeam nametagVisibility hideForOtherTeams
+        team modify BlueTeam nametagVisibility hideForOtherTeams
+        team modify Watch nametagVisibility hideForOtherTeams
         team modify preparation friendlyFire false

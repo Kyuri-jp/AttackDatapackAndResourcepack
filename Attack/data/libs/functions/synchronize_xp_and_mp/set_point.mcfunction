@@ -1,3 +1,9 @@
+#> libs:synchronize_xp_and_mp/set_point
+#
+# Pointを設定します
+#
+# @within libs:synchronize_xp_and_mp/
+
 # reset point
     xp set @s 0 points
 

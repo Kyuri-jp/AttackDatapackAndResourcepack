@@ -1,5 +1,10 @@
 #> systems:operator/actions/setting/modify/settings/over_flow
+#
+# 値の整合性をチェックします
+#
 # @user
+# @within systems:operator/actions/setting/modify/message
+
 # data get
     execute store result score $Setting.Time.MainGame Temporary run data get storage attack:settings Main.Custom.Times.Game.MainGame
     execute store result score $Setting.Time.Preparation Temporary run data get storage attack:settings Main.Custom.Times.Game.Preparation

@@ -1,4 +1,7 @@
 #> systems:wait_room/team/set/
+#
+# Teamをセットします
+#
 # @within systems:tick/as_at
 
 #> tag
@@ -10,6 +13,6 @@
     #declare tag Anchor.WaitRoom.Team.Watch
 
 # sound
-    execute if entity @s[team=!redTeam] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Red,distance=..2] run function systems:wait_room/team/set/red
-    execute if entity @s[team=!blueTeam] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Blue,distance=..2] run function systems:wait_room/team/set/blue
-    execute if entity @s[team=!watch] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Watch,distance=..2] run function systems:wait_room/team/set/watch
+    execute if entity @s[team=!RedTeam] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Red,distance=..2] run function systems:wait_room/team/set/red
+    execute if entity @s[team=!BlueTeam] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Blue,distance=..2] run function systems:wait_room/team/set/blue
+    execute if entity @s[team=!Watch] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Watch,distance=..2] run function systems:wait_room/team/set/watch
