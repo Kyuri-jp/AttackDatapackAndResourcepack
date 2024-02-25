@@ -5,6 +5,7 @@
 # @within
 #   systems:game/main_game/start_timer
 #   systems:game/main_game/
+#   systems:game/end/
 
 #> score holder
 # @private
@@ -24,7 +25,7 @@
     ## name
         bossbar set main.timer name [{"text":"[Main Game]Time remaining:"},{"score":{"name":"$Timer.MainGame.Sec","objective":"Temporary"}},{"text":" seconds"}]
     ## value
-    execute store result bossbar main.timer value run scoreboard players get $Timer.MainGame Counter
+        execute store result bossbar main.timer value run scoreboard players get $Timer.MainGame Counter
 
 # reset
     scoreboard players reset $Timer.MainGame.Sec Temporary
