@@ -26,7 +26,7 @@ function systems:wait_room/team/set/
     execute run function systems:operator/buttons/used
 
 # player info
-    execute if entity @s[tag=Player.Playing] run function libs:show_player_info/
+    execute if entity @s[team=!Watch,tag=Player.Playing] run function libs:show_player_info/
 
 # sync Mp
     function libs:synchronize_xp_and_mp/
