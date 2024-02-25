@@ -12,7 +12,10 @@
     #declare tag Anchor.WaitRoom.Team.Blue
     #declare tag Anchor.WaitRoom.Team.Watch
 
-# sound
+# set
     execute if entity @s[team=!RedTeam] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Red,distance=..2] run function systems:wait_room/team/set/red
     execute if entity @s[team=!BlueTeam] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Blue,distance=..2] run function systems:wait_room/team/set/blue
     execute if entity @s[team=!Watch] if entity @e[type=armor_stand,tag=Anchor.WaitRoom.Team.Watch,distance=..2] run function systems:wait_room/team/set/watch
+
+# list
+    function systems:scores/list/team/set

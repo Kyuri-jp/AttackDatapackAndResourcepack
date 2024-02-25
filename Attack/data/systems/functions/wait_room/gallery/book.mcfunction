@@ -23,5 +23,5 @@
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
     loot spawn ~ ~ ~-8 loot assets:weapons/books/poison_drink
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
-    loot spawn ~ ~ ~-8 loot assets:weapons/books/inferno
+    loot spawn ~ ~ ~-9 loot assets:weapons/books/inferno
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data

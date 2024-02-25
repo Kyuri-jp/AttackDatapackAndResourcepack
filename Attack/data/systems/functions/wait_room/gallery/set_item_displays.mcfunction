@@ -2,7 +2,7 @@
 #
 # Galleryをセットします
 #
-# @within core:load/
+# @within core:installed/set_displays
 
 # set
     execute positioned -95.9 -24.5 32.5 run function systems:wait_room/gallery/sword

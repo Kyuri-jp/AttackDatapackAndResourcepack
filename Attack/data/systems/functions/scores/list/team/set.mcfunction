@@ -2,7 +2,7 @@
 #
 # TeamListを更新します
 #
-# @within systems:wait_room/team/set
+# @within systems:wait_room/team/set/
 # @writes
 # score @a[team=RedTeam] TeamList 3
 # score @a[team=BlueTeam] TeamList 2

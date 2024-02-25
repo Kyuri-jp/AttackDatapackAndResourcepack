@@ -11,6 +11,9 @@
 # checked
     scoreboard players set $Core.Installed.Checked Datas 1
 
+# call
+    function core:installed/set_displays
+
 # mes
     tellraw @a {"text":"=============================================","color":"gold","bold": true}
     tellraw @a {"text":"Attack!","color":"red","bold": true}
