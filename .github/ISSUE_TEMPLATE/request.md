@@ -1,10 +1,10 @@
 ---
 name: Request
 about: About
-title: ''
+title: "[Version]"
 labels: Priority Level:3, Suggestion
 assignees: ''
 
 ---
 
-Discription
+## [Minecraft Version] [DatapackVersion] [ResourcepackVersion(optional)]

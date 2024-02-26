@@ -1,10 +1,10 @@
 ---
 name: Bug Report
 about: About
-title: ''
+title: "[Version]"
 labels: Cauce:Unknown
 assignees: ''
 
 ---
 
-Discription
+## [Minecraft Version] [DatapackVersion] [ResourcepackVersion(optional)]
