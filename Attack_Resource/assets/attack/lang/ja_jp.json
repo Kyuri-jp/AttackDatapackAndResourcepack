@@ -63,7 +63,7 @@
     "item.lore.weapons.magics.spells.healMpPlus": "MPをかなり回復する",
     "item.lore.weapons.magics.spells.heal": "体力と満腹度を回復する",
     "item.lore.weapons.magics.spells.healPlus": "体力と満腹度をかなり回復する",
-    "item.lore.weapons.magics.spells.illumination": "相手プレイヤーを発行させる",
+    "item.lore.weapons.magics.spells.illumination": "相手プレイヤーを発光させる",
     "item.lore.weapons.magics.spells.invincible": "数秒間耐性10を得る",
     "item.lore.weapons.magics.spells.layerMover": "レイヤー間を移動する",
     "item.lore.weapons.magics.spells.manaMagnet": "一番近くにいる相手プレイヤーのマナを全て手に入れる",
@@ -75,7 +75,7 @@
     "item.lore.weapons.magics.spells.randomSwordChance": "ランダムな剣を手に入れる",
     "item.lore.weapons.magics.spells.rescues": "相手チームのプレイヤーに弱体化を与える",
     "item.lore.weapons.magics.spells.underground": "相手チームのプレイヤーにウィザースケルトンを召喚する",
-    "item.lore.weapons.magics.spells.witherSkeletonRemover": "相手チームのプレイヤーをウィザースケルトンを全て排除する",
+    "item.lore.weapons.magics.spells.witherSkeletonRemover": "相手チームのウィザースケルトンを全て排除する",
 
     "death.fell.scope_over": "%1$sはフィールドの外に落ちた",
     "death.attack.scope_over.player": "%1$sは%2$sによってフィールドの外に落とされた",
