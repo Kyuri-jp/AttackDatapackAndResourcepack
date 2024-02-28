@@ -4,7 +4,7 @@
 #
 # @within systems:game/start/game/
 
-#> tag
+#> Tag
 # @private
     #declare tag Anchor.Player.Respawn.Red
     #declare tag Anchor.Player.Respawn.Blue

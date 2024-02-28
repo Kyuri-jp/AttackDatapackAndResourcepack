@@ -4,7 +4,7 @@
 #
 # @within libs:player_item_storage/inventory/summon
 
-#> tag
+#> Tag
 # @private
     #declare tag Pis.Generated
 

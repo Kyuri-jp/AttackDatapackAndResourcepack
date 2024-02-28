@@ -1,6 +1,6 @@
 #> systems:weapons/swords/eternal
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/swords/eternal
 #   systems:weapons/swords/additional_damage/eternal

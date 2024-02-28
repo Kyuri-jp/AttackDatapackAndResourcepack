@@ -1,6 +1,6 @@
 #> systems:weapons/swords/end
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/swords/end
 #   systems:weapons/swords/additional_damage/end

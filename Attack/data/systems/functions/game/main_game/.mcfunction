@@ -4,7 +4,7 @@
 #
 # @within systems:game/preparation/start_timer
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:game/main_game/*
 #   systems:game/end/**

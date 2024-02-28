@@ -1,6 +1,6 @@
 #> systems:weapons/magics/spells/effects/mp_drain
 
-#> score holder
+#> Score Holder
 # @private
     #declare score_holder $Magic.Spell.MpDrain.Count
 

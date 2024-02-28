@@ -1,6 +1,6 @@
 #> systems:weapons/magics/spells/effects/mana_magnet
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:weapons/magics/spells/effects/mana_magnet
 #   systems:weapons/magics/spells/effects/actions/get_mana

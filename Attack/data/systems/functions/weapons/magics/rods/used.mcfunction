@@ -5,14 +5,14 @@
 # @handles systems:tick/as_at
 # @within systems:tick/as_at
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/magics/books/**
 #   systems:weapons/magics/rods/used
     #declare tag Player.Magic.This
     #declare tag Anchor.MagicShot
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:weapons/magics/books/**
 #   systems:weapons/magics/rods/used
