@@ -8,10 +8,10 @@
     "item.lore.weapons.magics.books.usingMp": "使用マナ : ",
     "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
 
-    "item.lore.weapons.magics.lack.mana": "マナが足りません!",
-    "item.lore.weapons.magics.lack.mp": "MPが足りません!",
+    "info.weapons.magics.lack.mana": "マナが足りません!",
+    "info.weapons.magics.lack.mp": "MPが足りません!",
 
-    "item.lore.weapons.magics.missing.book": "本を左手に持ってください",
+    "info.weapons.magics.missing.book": "本を左手に持ってください",
 
     "item.lore.weapons.magics.element.air": "空気属性",
     "item.lore.weapons.magics.element.dirt": "土属性",
