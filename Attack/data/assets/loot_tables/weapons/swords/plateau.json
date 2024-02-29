@@ -34,7 +34,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手の攻撃を一時的に無効化する",
+                  "translate": "item.lore.weapons.swords.plateau",
                   "color": "gray",
                   "italic": false
                 }

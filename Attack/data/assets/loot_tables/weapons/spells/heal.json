@@ -27,7 +27,7 @@
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.spells.heal",
                     "color": "aqua",
                     "italic": false
                   },
