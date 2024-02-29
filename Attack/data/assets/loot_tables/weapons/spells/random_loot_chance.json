@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "item.lore.weapons.magics.spells.RandomLootChance",
+                  "translate": "item.lore.weapons.magics.spells.randomLootChance",
                   "color": "gray",
                   "italic": false
                 },
