@@ -12,6 +12,9 @@
 |[`entity/remove_all_tag`](functions/player_item_storage/entity/remove_all_tag.mcfunction)|一時的に付与したTagを全て削除|
 |[`entity/same_uuid`](functions/player_item_storage/entity/same_uuid.mcfunction)|記録されたUUIDからプレイヤーを特定|
 |[`inventory/summon`](functions/player_item_storage/inventory/summon.mcfunction)|記録されたデータからアイテムを召喚|
+|[`inventory/slot/armor`](functions/player_item_storage/inventory/slot/armor.mcfunction)|防具をセット|
+|[`inventory/slot/main`](functions/player_item_storage/inventory/slot/main.mcfunction)|メインハンド,インベントリ内のアイテムを召喚|
+|[`inventory/slot/off`](functions/player_item_storage/inventory/slot/off.mcfunction)|オフハンドをセット|
 
 > 基本的に使用する関数は`set`と`get`です。他の関数はこれらの関数から自動的に呼び出されます
 
