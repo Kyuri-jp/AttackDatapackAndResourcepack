@@ -34,7 +34,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手をウィザー状態にし,ウィザースケルトンを召喚する",
+                  "translate": "item.lore.weapons.swords.wither",
                   "color": "gray",
                   "italic": false
                 }
