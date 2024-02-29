@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "相手チームのプレイヤーに弱体化を与える",
+                  "translate": "item.lore.weapons.magics.spells.rescues",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "translate": "item.lore.weapons.magics.spells.rescues",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },
