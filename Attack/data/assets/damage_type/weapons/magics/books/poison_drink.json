@@ -1,5 +1,6 @@
 {
-  "message_id": "magic.poison_drink",
+  "message_id": "magic.poisonDrink",
   "exhaustion": 0.1,
-  "scaling": "always"
+  "scaling": "never",
+  "effects": "hurt"
 }

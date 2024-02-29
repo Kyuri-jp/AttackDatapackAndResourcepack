@@ -7,11 +7,11 @@
 
 # action
     #damage
-    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/explosion","BaseDamage":8}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":explosion,"BaseDamage":8}
 
 ## hit player
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
 
 # finish
     function systems:weapons/magics/books/common/finish
