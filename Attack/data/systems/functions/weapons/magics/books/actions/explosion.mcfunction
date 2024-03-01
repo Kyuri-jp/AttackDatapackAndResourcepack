@@ -11,7 +11,7 @@
 
 ## hit player
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
-    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[distance=..1.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
 
 # finish
     function systems:weapons/magics/books/common/finish

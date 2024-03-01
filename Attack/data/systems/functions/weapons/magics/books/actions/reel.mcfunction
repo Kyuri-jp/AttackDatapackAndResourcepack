@@ -18,7 +18,7 @@
 
 # hit player
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.enderman.teleport player @a[distance=..1.5,limit=1]
-    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle dust 0.427 0.051 0.404 1 ~ ~ ~ 2 2 2 1 20 normal
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[distance=..1.5,limit=1] run particle dust 0.427 0.051 0.404 1 ~ ~ ~ 2 2 2 1 20 normal
 
 # finish
     function systems:weapons/magics/books/common/finish
