@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "連続で攻撃を与える",
+                  "translate": "item.lore.weapons.swords.aqua",
                   "color": "gray",
                   "italic": false
                 }

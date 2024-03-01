@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手の移動速度を低下させる",
+                  "translate": "item.lore.weapons.swords.frost",
                   "color": "gray",
                   "italic": false
                 }

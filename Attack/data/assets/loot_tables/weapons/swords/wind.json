@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手を高く打ち上げる",
+                  "translate": "item.lore.weapons.swords.wind",
                   "color": "gray",
                   "italic": false
                 }

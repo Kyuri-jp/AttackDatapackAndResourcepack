@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手に50%の確率で大ダメージを与える",
+                  "translate": "item.lore.weapons.swords.eternal",
                   "color": "gray",
                   "italic": false
                 }
