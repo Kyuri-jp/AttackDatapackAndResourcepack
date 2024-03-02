@@ -4,6 +4,7 @@
     #declare tag Anchor.WaitRoom.DefaultPosition
     #declare tag Player.CoolDownNow
     #declare tag Player.Playing
+    #declare tag Debug
 
 #> Score Holder
 # @public

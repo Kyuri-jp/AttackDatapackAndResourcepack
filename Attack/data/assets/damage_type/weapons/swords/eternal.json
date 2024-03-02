@@ -1,5 +1,6 @@
 {
   "message_id": "sword.adv.eternal",
   "exhaustion": 0.1,
-  "scaling": "always"
+  "scaling": "never",
+  "effects": "hurt"
 }
