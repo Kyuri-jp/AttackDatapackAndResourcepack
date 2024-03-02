@@ -11,6 +11,7 @@
 # action
     #particle
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run particle dust 0.816 1 0 2 ~ ~10 ~ 0 5 0 0.1 200 normal
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] positioned ~ ~1 ~ run function systems:weapons/magics/books/vfx/lightning/
 
     #damage
     function systems:weapons/magics/books/common/damage/ {"DamageType":"lightning","BaseDamage":10}
