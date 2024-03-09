@@ -1,7 +1,7 @@
 #> libs:player_item_storage/get
 # 保存したInventoryを取得します
 
-#> tag
+#> Tag
 # @within
 #   libs:player_item_storage/get
 #   libs:player_item_storage/entity/same_uuid

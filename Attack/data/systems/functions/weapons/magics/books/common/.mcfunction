@@ -1,10 +1,9 @@
 #> systems:weapons/magics/books/common/
 # @within systems:weapons/magics/books/actions/*
 
-#> tag
+#> Tag
 # @within systems:weapons/magics/books/common/*
     #declare tag Magics.Shot.DetectedPlayer
-
 
 # element
     function systems:weapons/magics/books/un_just

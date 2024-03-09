@@ -5,7 +5,7 @@
 # @reads
 # score @s CoolDownCounter
 
-#> score holder
+#> Score Holder
 # @private
     #declare score_holder #Player.CoolTime.Sec
 # reset

@@ -4,11 +4,11 @@
 #
 # @within systems:tick/
 
-#> score holder
+#> Score Holder
 # @private
     #declare score_holder #Player.ScopeOver.HaveAttacker
 
-#> tag
+#> Tag
 # @private
     #declare tag Player.ScopeOver.Attacker
     #declare tag Anchor.ScopeOver

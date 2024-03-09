@@ -1,7 +1,8 @@
 {
-    "message_id": "magic.water_chain",
+    "message_id": "magic.waterChain",
     "exhaustion": 0.1,
-    "scaling": "always"
+    "scaling": "never",
+    "effects": "hurt"
     
   }
   

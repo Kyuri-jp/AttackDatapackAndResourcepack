@@ -33,9 +33,9 @@
     execute if predicate assets:random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.3] at @s run setblock ^19 ^ ^ chest{LootTable: "assets:chests/items/tire_3"} keep
 
 # set anchor
-    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.1] at @s if block ^20 ^ ^ chest{LootTable: "assets:chests/items/tire_1"} positioned ^20 ^ ^ unless entity @e[type=text_display,tag=Anchor.Chest.Break,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
-    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.2] at @s if block ^29 ^ ^ chest{LootTable: "assets:chests/items/tire_2"} positioned ^29 ^ ^ unless entity @e[type=text_display,tag=Anchor.Chest.Break,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
-    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.3] at @s if block ^19 ^ ^ chest{LootTable: "assets:chests/items/tire_3"} positioned ^19 ^ ^ unless entity @e[type=text_display,tag=Anchor.Chest.Break,distance=0.01..3] run summon text_display ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
+    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.1] at @s if block ^20 ^ ^ chest{LootTable: "assets:chests/items/tire_1"} positioned ^20 ^ ^ unless entity @e[type=marker,tag=Anchor.Chest.Break,distance=0.01..3] run summon marker ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
+    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.2] at @s if block ^29 ^ ^ chest{LootTable: "assets:chests/items/tire_2"} positioned ^29 ^ ^ unless entity @e[type=marker,tag=Anchor.Chest.Break,distance=0.01..3] run summon marker ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
+    execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.3] at @s if block ^19 ^ ^ chest{LootTable: "assets:chests/items/tire_3"} positioned ^19 ^ ^ unless entity @e[type=marker,tag=Anchor.Chest.Break,distance=0.01..3] run summon marker ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}
 
 # add count
     scoreboard players add $Structure.Chest.Count Counter 1

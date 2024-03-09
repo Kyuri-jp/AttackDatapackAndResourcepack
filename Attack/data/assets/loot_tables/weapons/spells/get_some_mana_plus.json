@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "ランダムな数のマナをかなり手に入れる",
+                  "translate": "item.lore.weapons.magics.spells.getSomeManaPlus",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

@@ -4,7 +4,7 @@
 #
 # @within systems:weapons/magics/rods/used
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/magics/books/**
 #   assets:items/weapons/magics/books/damage/*

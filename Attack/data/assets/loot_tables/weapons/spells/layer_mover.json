@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "レイヤー間を移動する",
+                  "translate": "item.lore.weapons.magics.spells.layerMover",
                   "color": "gray",
                   "italic": false
                 },
@@ -37,7 +37,7 @@
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

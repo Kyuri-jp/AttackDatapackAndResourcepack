@@ -10,14 +10,14 @@
 
 # action
     #give effect
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run effect give @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] slowness 20 5
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run effect give @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] slowness 20 5
 
     #damage
-    function systems:weapons/magics/books/common/damage/ {"DamageType":"assets:weapons/magics/books/water_chain","BaseDamage":5}
+    function systems:weapons/magics/books/common/damage/ {"DamageType":"water_chain","BaseDamage":5}
 
 # hit player
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound block.grass.break player @a[distance=..1.5,limit=1]
-    execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @a[distance=..1.5,limit=1] run particle splash ~ ~ ~ 2 2 2 1 100 normal
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound block.grass.break player @a[distance=..1.5,limit=1]
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[distance=..1.5,limit=1] run particle splash ~ ~ ~ 2 2 2 1 100 normal
 
 # finish
     function systems:weapons/magics/books/common/finish

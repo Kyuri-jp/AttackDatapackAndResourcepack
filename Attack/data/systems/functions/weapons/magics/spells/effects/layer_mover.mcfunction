@@ -1,12 +1,12 @@
 #> systems:weapons/magics/spells/effects/layer_mover
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:weapons/magics/spells/effects/layer_mover
 #   systems:weapons/magics/spells/effects/actions/layer_mover/*
     #declare score_holder #Magic.Spell.LayerMover.Scope
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/magics/spells/effects/layer_mover
 #   systems:weapons/magics/spells/effects/actions/layer_mover/*

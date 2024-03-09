@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手が持っているアイテムを奪う",
+                  "translate": "item.lore.weapons.swords.spider",
                   "color": "gray",
                   "italic": false
                 }

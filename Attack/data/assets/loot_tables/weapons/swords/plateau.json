@@ -24,7 +24,6 @@
                   "name": "",
                   "amount": -1,
                   "operation": "addition",
-                  "id": "7e46e17a-c234-4df7-8cf3-b5c2fd43f848",
                   "slot": "mainhand"
                 }
               ]
@@ -34,7 +33,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手の攻撃を一時的に無効化する",
+                  "translate": "item.lore.weapons.swords.plateau",
                   "color": "gray",
                   "italic": false
                 }

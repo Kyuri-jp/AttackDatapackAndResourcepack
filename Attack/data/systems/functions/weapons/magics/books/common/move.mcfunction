@@ -11,4 +11,4 @@
         execute if score #Magics.Rod.Element Datas = #Magic.Rod.Element.Just Datas run function systems:weapons/magics/books/vfx/just_element_particle
 
     ## player detect
-        execute if entity @a[tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run tag @s add Magics.Shot.DetectedPlayer
+        execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run tag @s add Magics.Shot.DetectedPlayer

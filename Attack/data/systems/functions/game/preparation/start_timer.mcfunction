@@ -7,7 +7,7 @@
 #   systems:game/preparation/
 #   systems:game/end/
 
-#> score holder
+#> Score Holder
 # @within systems:game/*/start_timer
     #declare score_holder $Const.Timer.Sec
 

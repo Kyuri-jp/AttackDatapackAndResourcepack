@@ -7,7 +7,7 @@
 #   systems:game/ex/
 #   systems:game/end/
 
-#> score holder
+#> Score Holder
 # @private
     #declare score_holder $Timer.Ex.Sec
 

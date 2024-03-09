@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "一番近くにいるプレイヤーのMPを全て奪う",
+                  "translate": "item.lore.weapons.magics.spells.mpDrain",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

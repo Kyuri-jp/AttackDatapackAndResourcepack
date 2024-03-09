@@ -12,7 +12,7 @@
 # score #System.DelayTick.10 Counter
 # score #System.DelayTick.20 Counter
 
-#> score holder
+#> Score Holder
 # @within systems:tick/delay_tick/*
     #declare score_holder #System.DelayTick.5
     #declare score_holder #System.DelayTick.10

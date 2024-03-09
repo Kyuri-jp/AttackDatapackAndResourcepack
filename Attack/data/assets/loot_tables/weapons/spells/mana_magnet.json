@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "一番近くにいるプレイヤーのマナを全て手に入れる",
+                  "translate": "item.lore.weapons.magics.spells.manaMagnet",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

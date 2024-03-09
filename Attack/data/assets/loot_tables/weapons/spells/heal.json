@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "体力,満腹度を回復する",
+                  "translate": "item.lore.weapons.magics.spells.heal",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

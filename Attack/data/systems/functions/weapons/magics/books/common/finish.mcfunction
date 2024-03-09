@@ -1,7 +1,7 @@
 #> systems:weapons/magics/books/common/finish
 # @within systems:weapons/magics/books/actions/*
 
-#> tag
+#> Tag
 # @private
     #declare tag Magic.Shot.DetectedWall
 

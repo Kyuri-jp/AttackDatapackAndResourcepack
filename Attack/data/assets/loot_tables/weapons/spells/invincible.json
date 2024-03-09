@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "自身に耐性5を付与する",
+                  "translate": "item.lore.weapons.magics.spells.invincible",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

@@ -9,7 +9,7 @@
 # score $Count.Players.Blue Datas
 # score $Count.Players.Watch Datas
 
-#> score holder
+#> Score Holder
 # @private
     #declare score_holder $Count.Players
     #declare score_holder $Count.Players.Red

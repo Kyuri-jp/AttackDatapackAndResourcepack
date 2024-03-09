@@ -24,7 +24,6 @@
                   "name": "",
                   "amount": -3,
                   "operation": "addition",
-                  "id": "7e46e17a-c234-4df7-8cf3-b5c2fd43f848",
                   "slot": "mainhand"
                 }
               ]
@@ -34,7 +33,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "攻撃した相手の視界を奪い,低確率で超大ダメージを与える",
+                  "translate": "item.lore.weapons.swords.end",
                   "color": "gray",
                   "italic": false
                 }

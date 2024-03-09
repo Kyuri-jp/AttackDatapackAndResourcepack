@@ -4,7 +4,7 @@
 #
 # @within systems:game/end/judgment/
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:game/ex/*
 #   systems:game/end/**

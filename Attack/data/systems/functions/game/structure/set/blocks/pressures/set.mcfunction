@@ -5,7 +5,7 @@
 # @within systems:game/structure/set/
 
 
-#> tag
+#> Tag
 # @private
     #declare tag Anchor.Pressure.Placer
 

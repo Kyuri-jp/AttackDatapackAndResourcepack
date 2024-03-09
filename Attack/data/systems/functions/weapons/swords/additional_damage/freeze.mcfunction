@@ -3,7 +3,7 @@
 #   systems:weapons/swords/freeze
 #   systems:weapons/swords/additional_damage/freeze
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/swords/additional_damage/freeze
 #   systems:weapons/swords/additional_damage/reset/freeze

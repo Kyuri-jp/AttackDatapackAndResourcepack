@@ -1,13 +1,13 @@
 #> systems:game/structure/set/blocks/chests/set/
 # チェストを配置します
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:game/structure/set/blocks/chests/set/
 #   systems:game/structure/set/blocks/chests/set/random/
     #declare score_holder $Structure.Chest.Count
 
-#> tag
+#> Tag
 # @within systems:game/structure/set/blocks/chests/**
     #declare tag Anchor.Chest.Tire1
     #declare tag Anchor.Chest.Tire2

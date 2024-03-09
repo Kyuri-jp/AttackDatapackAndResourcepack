@@ -1,6 +1,6 @@
 #> systems:weapons/swords/aqua
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/swords/aqua
 #   systems:weapons/swords/additional_damage/aqua

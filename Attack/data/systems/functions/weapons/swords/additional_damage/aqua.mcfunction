@@ -3,7 +3,7 @@
 #   systems:weapons/swords/additional_damage/aqua
 #   systems:weapons/swords/aqua
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/swords/additional_damage/aqua
 #   systems:weapons/swords/additional_damage/reset/aqua

@@ -21,13 +21,13 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "デバフをすべて解除する",
+                  "translate": "item.lore.weapons.magics.spells.effectRestore",
                   "color": "gray",
                   "italic": false
                 },
                 [
                   {
-                    "text": "使用マナ : ",
+                    "translate": "item.lore.weapons.magics.books.usingMp",
                     "color": "aqua",
                     "italic": false
                   },

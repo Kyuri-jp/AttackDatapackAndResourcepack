@@ -5,14 +5,14 @@
 # @handles systems:tick/as_at
 # @within systems:tick/as_at
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/magics/books/**
 #   systems:weapons/magics/rods/used
     #declare tag Player.Magic.This
     #declare tag Anchor.MagicShot
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:weapons/magics/books/**
 #   systems:weapons/magics/rods/used
@@ -24,7 +24,7 @@
 
 # message
     ## no book
-        execute unless predicate assets:items/weapons/magics/books/any_books run return run tellraw @s {"translate":"item.lore.weapons.magics.missing.book","bold":true}
+        execute unless predicate assets:items/weapons/magics/books/any_books run return run tellraw @s {"translate":"info.weapons.magics.missing.book","bold":true}
 
         # set tag
             tag @s add Player.Magic.This

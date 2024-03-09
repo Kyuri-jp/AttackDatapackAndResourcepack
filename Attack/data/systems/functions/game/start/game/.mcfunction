@@ -4,13 +4,13 @@
 #
 # @within systems:game/start/
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:game/start/game/
 #   systems:game/start/game/set_player_id
     #declare score_holder $Player.ID
 
-#> tag
+#> Tag
 # @within
 #   systems:game/start/game/
 #   systems:game/main_game/

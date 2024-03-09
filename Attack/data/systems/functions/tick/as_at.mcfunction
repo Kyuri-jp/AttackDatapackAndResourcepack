@@ -4,7 +4,7 @@
 #
 # @within systems:tick/
 
-#> tag
+#> Tag
 # @private
     #declare tag Anchor.WaitRoom.Teleporter
 

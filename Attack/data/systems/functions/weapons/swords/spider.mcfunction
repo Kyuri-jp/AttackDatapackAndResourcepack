@@ -1,6 +1,6 @@
 #> systems:weapons/swords/spider
 
-#> tag
+#> Tag
 # @within
 #   systems:weapons/swords/spider
 #   systems:weapons/swords/action/spider

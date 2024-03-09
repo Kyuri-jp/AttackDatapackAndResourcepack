@@ -4,7 +4,7 @@
 #
 # @within systems:operator/buttons/used
 
-#> score holder
+#> Score Holder
 # @within
 #   systems:operator/buttons/actions/start
 #   systems:game/start/
