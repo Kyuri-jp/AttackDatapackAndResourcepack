@@ -25,6 +25,13 @@
                   "amount": -1.5,
                   "operation": "addition",
                   "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 6,
+                  "operation": "addition",
+                  "slot": "mainhand"
                 }
               ]
             },
