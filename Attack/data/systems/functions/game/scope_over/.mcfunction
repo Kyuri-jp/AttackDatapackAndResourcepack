@@ -26,8 +26,8 @@
 # kill
     execute as @a[scores={ScopeOver=1}] run gamerule showDeathMessages false
     execute as @a[scores={ScopeOver=1}] run kill @s
-    execute unless score #Player.ScopeOver.HaveAttacker Temporary matches 1.. as @a[scores={ScopeOver=1}] run tellraw @a {"translate":"death.fell.scope_over","with": [{"selector":"@s"}]}
-    execute if score #Player.ScopeOver.HaveAttacker Temporary matches 1.. as @a[scores={ScopeOver=1}] run tellraw @a {"translate":"death.attack.scopre_over","with": [{"selector":"@s"},{"selector":"@a[tag=Player.ScopeOver.Attacker]"}]}
+    execute unless score #Player.ScopeOver.HaveAttacker Temporary matches 0 as @a[scores={ScopeOver=1}] run tellraw @a {"translate":"death.fell.scope_over","with": [{"selector":"@s"}]}
+    execute if score #Player.ScopeOver.HaveAttacker Temporary matches 1 as @a[scores={ScopeOver=1}] run tellraw @a {"translate":"death.attack.scopre_over","with": [{"selector":"@s"},{"selector":"@a[tag=Player.ScopeOver.Attacker,limit=1]"}]}
     execute as @a[scores={ScopeOver=1}] run gamerule showDeathMessages true
 
 # reset
