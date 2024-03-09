@@ -17,5 +17,5 @@
     function libs:player_item_storage/inventory/summon
 
 # reset
-    kill @e[type=armor_stand,tag=Pis.Marker.Here,limit=1]
+    kill @e[type=marker,tag=Pis.Marker.Here,limit=1]
     tag @s remove Pis.This
