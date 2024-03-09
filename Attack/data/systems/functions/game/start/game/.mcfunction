@@ -87,7 +87,7 @@
     tp @a @e[type=armor_stand,tag=Anchor.DefaultSpawnPoint,limit=1]
 
 # giveItems
-    execute as @a at @s run loot give @s loot assets:chests/items/tire_1
+    loot give @s loot assets:spells/random_loot_chance
 
 # set flag
     data modify storage attack:booleans Main.Game.Playing set value true
