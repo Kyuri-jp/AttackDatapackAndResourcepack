@@ -11,7 +11,7 @@
 
 # breakChests
     ## normal chest
-        execute as @e[type=text_display,tag=Anchor.Chest.Break] at @s run fill ~3 ~ ~3 ~-3 ~ ~-3 air replace chest
+        execute as @e[type=marker,tag=Anchor.Chest.Break] at @s run fill ~3 ~ ~3 ~-3 ~ ~-3 air replace chest
 
 
     ## fix chest
@@ -20,7 +20,7 @@
 
 # removeItems
     ## add tag
-        execute as @e[type=item] at @s if entity @e[type=text_display,tag=Anchor.Chest.Break,distance=..3] run tag @s add Entity.Item.Remove
+        execute as @e[type=item] at @s if entity @e[type=marker,tag=Anchor.Chest.Break,distance=..3] run tag @s add Entity.Item.Remove
         execute as @e[type=item] at @s if entity @e[type=armor_stand,tag=Anchor.Chest.Tire4,distance=..3] run tag @s add Entity.Item.Remove
         execute as @e[type=item] at @s if entity @e[type=armor_stand,tag=Anchor.Chest.Tire5,distance=..3] run tag @s add Entity.Item.Remove
     ## kill
@@ -28,4 +28,4 @@
             kill @e[type=item,tag=Entity.Item.Remove]
         
         #anchors
-            kill @e[type=text_display,tag=Anchor.Chest.Break]
+            kill @e[type=marker,tag=Anchor.Chest.Break]
