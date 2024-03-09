@@ -3,6 +3,7 @@
 # エラーをチャット欄に送信します
 #
 # @api
+    #declare function api:system/util/error_notice/
 # @input
 # storage error:info Level (error,warn,info)
 # storage error:info Path (resource path)
@@ -34,3 +35,6 @@
     data remove storage error:info Path
     data remove storage error:info Message
     data remove storage error:info StackTrace
+
+# return true
+    return 1
