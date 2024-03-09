@@ -5,8 +5,8 @@
       "conditions": {
         "player": [],
         "damage": {
-          "taken":{
-            "min": 7
+          "taken": {
+            "min": 6
           },
           "source_entity": {
             "equipment": {

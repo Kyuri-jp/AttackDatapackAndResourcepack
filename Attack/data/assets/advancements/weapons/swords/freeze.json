@@ -6,7 +6,7 @@
         "player": [],
         "damage": {
           "taken": {
-            "min": 7
+            "min": 6
           },
           "source_entity": {
             "equipment": {
