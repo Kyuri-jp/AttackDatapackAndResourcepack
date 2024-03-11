@@ -87,7 +87,7 @@
     tp @a @e[type=armor_stand,tag=Anchor.DefaultSpawnPoint,limit=1]
 
 # giveItems
-    loot give @s loot assets:spells/random_loot_chance
+    loot give @a loot assets:spells/random_loot_chance
 
 # set flag
     data modify storage attack:booleans Main.Game.Playing set value true
