@@ -17,9 +17,6 @@
     execute as @a[tag=Player.Sword.Damaged.Aqua] at @s run particle falling_water ~ ~1 ~ 0 0 0 0.1 500
     execute as @a[tag=Player.Sword.Damaged.Aqua] at @s run playsound entity.player.splash player @s ~ ~ ~
 
-# remove tag
-    tag @p[tag=Player.Sword.Attacker.Aqua,limit=1] remove Player.Sword.Attacker.Aqua
-
 # add Counter
     scoreboard players add @a[tag=Player.Sword.Damaged.Aqua] Counter 1
 
