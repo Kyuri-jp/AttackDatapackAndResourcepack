@@ -6,7 +6,6 @@
 #   systems:game/start/
 #   systems:operator/buttons/actions/start
 
-
 # count down
     execute if score $Timer.GameStart Counter matches 100 run tellraw @a {"text": "5 seconds to start...","color": "gold"}
     execute if score $Timer.GameStart Counter matches 80 run tellraw @a {"text": "4 seconds to start...","color": "gold"}
