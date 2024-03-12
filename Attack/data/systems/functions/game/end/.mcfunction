@@ -23,6 +23,8 @@
     scoreboard players reset $Timer.Preparation Counter
     scoreboard players reset $Timer.MainGame Counter
     scoreboard players reset $Timer.Ex Counter
+    scoreboard objectives remove TeamList
+    scoreboard objectives add TeamList dummy {"text": "|Teams|","bold": true,"color": "gold"}
 
 # diff
     difficulty peaceful

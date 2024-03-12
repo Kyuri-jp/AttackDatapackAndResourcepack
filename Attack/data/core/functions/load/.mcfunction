@@ -11,6 +11,10 @@
 #   assets:installed
     #declare score_holder $Core.Installed.Checked
 
+# return
+    execute if data storage attack:booleans {Main:{Game:{Playing:1b}}} run data merge storage error:info {Level:info,Path:"core:load/",Message:"ゲーム中の再読み込みを検知しました。以降の処理を中断します",StackTrace:"Detected reloading in playing game."}
+    execute if data storage attack:booleans {Main:{Game:{Playing:1b}}} run return run function api:system/util/error_notice/
+
 # reset
     data modify storage attack:booleans Main.Core.Installed set value 0b
     data modify storage attack:booleans Main.Core.PlayerJoindBeforeInstalled set value 0b
