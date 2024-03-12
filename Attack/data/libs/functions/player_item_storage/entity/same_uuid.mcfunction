@@ -46,7 +46,7 @@
     tag @e[type=marker,tag=Pis.Marker,predicate=libs:player_item_storage/have_all_tag] add Pis.Marker.Here
 
     #error
-    execute unless entity @e[type=marker,tag=Pis.Marker,tag=Pis.Marker.Here] run data merge storage error:info {Level:warn,Path:"libs:player_item_storage/entity/same_uuid",Info:"UUIDが一致するMarkerが見つかりませんでした",StackTrace:"UUID matched Marker not found."}
+    execute unless entity @e[type=marker,tag=Pis.Marker,tag=Pis.Marker.Here] run data merge storage error:info {Level:warn,Path:"libs:player_item_storage/entity/same_uuid",Message:"UUIDが一致するMarkerが見つかりませんでした",StackTrace:"UUID matched Marker not found."}
     execute unless entity @e[type=marker,tag=Pis.Marker,tag=Pis.Marker.Here] run function api:system/util/error_notice/
 
     execute as @e[type=marker,tag=Pis.Marker] run function libs:player_item_storage/entity/remove_all_tag

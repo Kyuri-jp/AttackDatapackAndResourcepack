@@ -8,7 +8,7 @@
     #declare tag Pis.Marker
 
 # check player
-    execute unless entity @s[type=player] run data merge storage error:info {Level:warn,Path:"libs:player_item_storage/set",Info:"実行者がプレイヤーではありません",StackTrace:"Executor isn't player."}
+    execute unless entity @s[type=player] run data merge storage error:info {Level:warn,Path:"libs:player_item_storage/set",Message:"実行者がプレイヤーではありません",StackTrace:"Executor isn't player."}
     execute unless entity @s[type=player] run function api:system/util/error_notice/
 
 # summon storage
