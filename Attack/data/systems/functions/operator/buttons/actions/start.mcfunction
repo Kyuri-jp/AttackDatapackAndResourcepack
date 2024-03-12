@@ -10,6 +10,9 @@
 #   systems:operator/buttons/actions/start
     #declare score_holder $Timer.GameStart
 
+# reset
+    scoreboard players reset @s UseCarrotStick
+
 # api
     function api:player/player_count
 
@@ -27,7 +30,6 @@
     execute unless score $Count.Players Datas = $Count.Players.Team Datas run return run function api:system/util/error_notice/
 
 # reset
-    scoreboard players reset @s UseCarrotStick
     scoreboard players set $Timer.GameStart Counter 120
     ## set chests
         function systems:game/structure/set/blocks/chests/
