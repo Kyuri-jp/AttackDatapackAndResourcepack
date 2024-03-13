@@ -15,7 +15,6 @@
     scoreboard objectives add Datas dummy {"text": "適当なデータ"}
     scoreboard objectives add AttackerID dummy {"text": "攻撃者のplayerID"}
     scoreboard objectives add PlayerID dummy {"text": "プレイヤーごとの固有ID"}
-    scoreboard objectives add ScopeOver dummy {"text": "event:フィールド外"}
     scoreboard objectives add ManaCounter dummy {"text": "マナ数"}
     scoreboard objectives add Counter dummy {"text": "カウンター"}
     scoreboard objectives add CoolDownCounter dummy {"text": "クールダウン専用カウンター"}

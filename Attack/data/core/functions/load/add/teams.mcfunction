@@ -9,7 +9,7 @@
         team add RedTeam
         team add BlueTeam
         team add Watch
-        team add preparation
+        team add Preparation
     ## setting
         team modify RedTeam color red
         team modify BlueTeam color blue
@@ -17,4 +17,4 @@
         team modify RedTeam nametagVisibility hideForOtherTeams
         team modify BlueTeam nametagVisibility hideForOtherTeams
         team modify Watch nametagVisibility hideForOtherTeams
-        team modify preparation friendlyFire false
+        team modify Preparation friendlyFire false

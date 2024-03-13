@@ -77,7 +77,7 @@
 
 # watcher
     gamemode spectator @a[team=Watch]
-    team join preparation @a[team=!Watch]
+    team join Preparation @a[team=!Watch]
 
 # setSideBar
     scoreboard objectives setdisplay sidebar Scores
