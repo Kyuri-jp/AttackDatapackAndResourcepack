@@ -15,4 +15,4 @@
     gamerule fireDamage true
     gamerule freezeDamage true
     gamerule spawnRadius 0
-    gamerule doFireTick false
+    gamerule doFireTick true
