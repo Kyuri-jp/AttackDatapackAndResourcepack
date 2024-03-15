@@ -16,5 +16,5 @@
 # scope over
     function systems:game/scope_over/
 
-# Mp heal
+# delay tick
     function systems:tick/delay_tick/

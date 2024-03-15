@@ -6,4 +6,4 @@
 
 scoreboard players reset #System.DelayTick.10 Counter
 
-function systems:events/tick/10tick/auto_mp_heal
+execute as @a run function systems:events/tick/10tick/auto_mp_heal

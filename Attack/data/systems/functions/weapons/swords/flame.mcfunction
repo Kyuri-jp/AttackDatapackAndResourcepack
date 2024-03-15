@@ -1,5 +1,5 @@
 # action
-    summon small_fireball ~ ~ ~0.619 {Motion:[0.0,0.0,-5.0]}
+    setblock ~ ~ ~ fire[age=15] keep
 
 # vfx
     particle small_flame ~ ~ ~ 0 0 0 0.1 500

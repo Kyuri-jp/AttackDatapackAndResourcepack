@@ -58,6 +58,7 @@
         scoreboard players reset @a AttackerID
 
     ## init Mp
+        execute store result score @s MpMax run data get storage attack:registry Main.Weapons.Mp.Max
         execute store result score @s Mp run data get storage attack:registry Main.Weapons.Mp.Max
 
     ## heal
@@ -77,7 +78,7 @@
 
 # watcher
     gamemode spectator @a[team=Watch]
-    team join preparation @a[team=!Watch]
+    team join Preparation @a[team=!Watch]
 
 # setSideBar
     scoreboard objectives setdisplay sidebar Scores

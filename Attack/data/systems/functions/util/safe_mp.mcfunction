@@ -4,15 +4,8 @@
 #
 # @internal
 
-#> Private
-# @private
-    #declare score_holder #Magics.Mp.Max
-
-# get data
-    execute store result score #Magics.Mp.Max Temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Max
+# max
+    execute if score @s MpMax matches 0 store result score @s MpMax run data get storage attack:registry Main.Weapons.Magics.Mp.Max
 
 # set
-    execute if score @s Mp > #Magics.Mp.Max Temporary run scoreboard players operation @s Mp = #Magics.Mp.Max Temporary
-
-# reset
-    scoreboard players reset #Magics.Mp.Max Temporary
+    execute if score @s Mp > @s MpMax run scoreboard players operation @s Mp = @s MpMax
