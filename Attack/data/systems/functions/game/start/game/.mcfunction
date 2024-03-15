@@ -58,6 +58,7 @@
         scoreboard players reset @a AttackerID
 
     ## init Mp
+        execute store result score @s MpMax run data get storage attack:registry Main.Weapons.Mp.Max
         execute store result score @s Mp run data get storage attack:registry Main.Weapons.Mp.Max
 
     ## heal

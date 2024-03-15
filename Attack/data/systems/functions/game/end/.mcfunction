@@ -34,7 +34,8 @@
     scoreboard players reset RedTeamScore Scores
     scoreboard players reset BlueTeamScore Scores
     scoreboard players reset @a
-    scoreboard players set @a Mp 0
+    execute store result score @s MpMax run data get storage attack:registry Main.Weapons.Mp.Max
+    execute store result score @s Mp run data get storage attack:registry Main.Weapons.Mp.Max
     clear @a
     effect clear @a
     effect give @a instant_health 2 20

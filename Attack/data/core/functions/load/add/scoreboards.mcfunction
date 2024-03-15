@@ -11,6 +11,7 @@
     scoreboard objectives add UseFungusStick used:warped_fungus_on_a_stick {"text": "event:キノコ棒の使用"}
     scoreboard objectives add UseBow dummy {"text": "event:弓の使用"}
     scoreboard objectives add Mp dummy {"text": "Magic Point(MP)"}
+    scoreboard objectives add MpMax dummy {"text": "MPの最大値"}
     scoreboard objectives add Temporary dummy {"text": "一時スコア"}
     scoreboard objectives add Datas dummy {"text": "適当なデータ"}
     scoreboard objectives add AttackerID dummy {"text": "攻撃者のplayerID"}
