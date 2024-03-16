@@ -7,6 +7,7 @@ Main
 |
 ├ Const
 |   ├ Thousand : Int
+|   ├ Fifty : Int
 |   └ Two : Int
 |
 ├ Sys
