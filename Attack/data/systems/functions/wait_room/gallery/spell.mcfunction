@@ -49,3 +49,9 @@
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
     loot spawn ~-2 ~2 ~-1 loot assets:weapons/spells/random_book_chance
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~-2 ~2 ~-2 loot assets:weapons/spells/transaction
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~-2 ~2 ~-3 loot assets:weapons/spells/mp_efficiency
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data
+    loot spawn ~-2 ~2 ~-4 loot assets:weapons/spells/mp_efficiency_plus
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/set_data

@@ -33,12 +33,15 @@
     execute if predicate assets:items/weapons/magics/spells/random_rod_chance run function systems:weapons/magics/spells/effects/random_rod_chance
     execute if predicate assets:items/weapons/magics/spells/random_spell_chance run function systems:weapons/magics/spells/effects/random_spell_chance
     execute if predicate assets:items/weapons/magics/spells/random_book_chance run function systems:weapons/magics/spells/effects/random_book_chance
+    execute if predicate assets:items/weapons/magics/spells/transaction run function systems:weapons/magics/spells/effects/transaction
+    execute if predicate assets:items/weapons/magics/spells/mp_efficiency run function systems:weapons/magics/spells/effects/mp_efficiency
+    execute if predicate assets:items/weapons/magics/spells/mp_efficiency_plus run function systems:weapons/magics/spells/effects/mp_efficiency_plus
 
 # reset
     scoreboard players reset #Magic.Using.Mana Temporary
     scoreboard players reset #Magic.Mana.Count Temporary
     scoreboard players reset #Magic.Spell.LackMana Temporary
     scoreboard players reset #Magic.Mana.Count Counter
-
+    
 # mana count
     function systems:weapons/magics/spells/count_mana
