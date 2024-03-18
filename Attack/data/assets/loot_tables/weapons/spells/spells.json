@@ -107,6 +107,21 @@
           "weight": 5,
           "type": "minecraft:loot_table",
           "name": "assets:weapons/spells/random_spell_chance"
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/transaction"
+        },
+        {
+          "weight": 6,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/mp_efficiency"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:loot_table",
+          "name": "assets:weapons/spells/mp_efficiency_plus"
         }
       ]
     },

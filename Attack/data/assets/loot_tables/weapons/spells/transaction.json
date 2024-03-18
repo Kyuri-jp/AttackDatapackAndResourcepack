@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Transaction",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.lore.weapons.magics.spells.transaction",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "item.lore.weapons.magics.books.usingMp",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "Main.Weapons.Magics.Spells.UsingMana.Transaction",
+                    "storage": "attack:settings",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:4,Spell:true,SpellTag:Transaction,CustomModelData:1,Unbreakable:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

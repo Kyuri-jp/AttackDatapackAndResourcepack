@@ -9,6 +9,7 @@
     "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
 
     "info.weapons.magics.lack.mana": "マナが足りません!",
+    "info.weapons.magics.lack.enoughMana": "十分なマナがありません!",
     "info.weapons.magics.lack.mp": "MPが足りません!",
 
     "info.weapons.magics.missing.book": "本を左手に持ってください",
@@ -68,12 +69,15 @@
     "item.lore.weapons.magics.spells.layerMover": "レイヤー間を移動する",
     "item.lore.weapons.magics.spells.manaMagnet": "一番近くにいる相手プレイヤーのマナを全て手に入れる",
     "item.lore.weapons.magics.spells.mpDrain": "一番近くにいる相手プレイヤーのMPを全て手に入れる",
+    "item.lore.weapons.magics.spells.mpEfficiency": "MPの最大値を上昇させる",
+    "item.lore.weapons.magics.spells.mpEfficiencyPlus": "MPの最大値をかなり上昇させる",
     "item.lore.weapons.magics.spells.randomBookChance": "ランダムな本を手に入れる",
     "item.lore.weapons.magics.spells.randomLootChance": "ランダムな宝箱の中身を手に入れる",
     "item.lore.weapons.magics.spells.randomRodChance": "ランダムな杖を手に入れる",
     "item.lore.weapons.magics.spells.randomSpellChance": "ランダムな呪文を手に入れる",
     "item.lore.weapons.magics.spells.randomSwordChance": "ランダムな剣を手に入れる",
     "item.lore.weapons.magics.spells.rescues": "相手チームのプレイヤーに弱体化を与える",
+    "item.lore.weapons.magics.spells.transaction": "持っているマナの50%をMPの最大値に加算する",
     "item.lore.weapons.magics.spells.underground": "相手チームのプレイヤーにウィザースケルトンを召喚する",
     "item.lore.weapons.magics.spells.witherSkeletonRemover": "相手チームのウィザースケルトンを全て排除する",
 
