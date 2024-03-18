@@ -9,13 +9,16 @@
     execute if score #Magic.Shot.LackMp Temporary matches 1 run return fail
 
 # action
+    #particle
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] positioned ~ ~1 ~ run function systems:weapons/magics/books/vfx/water_chain/
+
     #give effect
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run effect give @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] slowness 20 5
 
     #damage
     function systems:weapons/magics/books/common/damage/ {"DamageType":"water_chain","BaseDamage":5}
 
-# hit player
+# vfx
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound block.grass.break player @a[distance=..1.5,limit=1]
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[distance=..1.5,limit=1] run particle splash ~ ~ ~ 2 2 2 1 100 normal
 

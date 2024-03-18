@@ -6,10 +6,13 @@
     execute if score #Magic.Shot.LackMp Temporary matches 1 run return fail
 
 # action
+    #particle
+    execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] positioned ~ ~1 ~ run function systems:weapons/magics/books/vfx/explosion/
+
     #damage
     function systems:weapons/magics/books/common/damage/ {"DamageType":explosion,"BaseDamage":8}
 
-## hit player
+# vfx
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] run playsound entity.lightning_bolt.impact player @a[distance=..1.5,limit=1]
     execute if entity @e[type=#assets:can_give_damage,tag=!Player.Magic.This,distance=..1.5,sort=nearest,limit=1] at @e[distance=..1.5,limit=1] run particle explosion ~ ~ ~ 1 1 1 1 5 normal
 
