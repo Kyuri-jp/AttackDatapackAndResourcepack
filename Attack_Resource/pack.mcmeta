@@ -1,7 +1,7 @@
 {
   "pack": {
     "pack_format": 22,
-    "description": "Attack!'s Resource Pack.\nLicense is MIT License\nVersion 0.1.0\nMade by Kyuri"
+    "description": "Attack!'s Resource Pack.\nLicense is MIT License\nVersion 0.1.1\nMade by Kyuri"
   },
   "ifYouCustom":{
     "write->":"\nCustomed by [your name]",
