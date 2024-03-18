@@ -8,6 +8,9 @@
 # @private
     #declare tag Anchor.WaitRoom.Teleporter
 
+# debug
+    execute if entity @s[tag=Debug] run function systems:util/debug
+
 # set team
     function systems:wait_room/team/set/
 
