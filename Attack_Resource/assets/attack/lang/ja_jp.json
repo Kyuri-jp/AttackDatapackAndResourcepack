@@ -77,7 +77,7 @@
     "item.lore.weapons.magics.spells.randomSpellChance": "ランダムな呪文を手に入れる",
     "item.lore.weapons.magics.spells.randomSwordChance": "ランダムな剣を手に入れる",
     "item.lore.weapons.magics.spells.rescues": "相手チームのプレイヤーに弱体化を与える",
-    "item.lore.weapons.magics.spells.transaction": "持っているマナの50%をMPの最大値に加算する",
+    "item.lore.weapons.magics.spells.transaction": "マナをすべて消費し、持っているマナの50%をMPの最大値に加算する",
     "item.lore.weapons.magics.spells.underground": "相手チームのプレイヤーにウィザースケルトンを召喚する",
     "item.lore.weapons.magics.spells.witherSkeletonRemover": "相手チームのウィザースケルトンを全て排除する",
 
