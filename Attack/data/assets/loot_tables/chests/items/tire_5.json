@@ -67,7 +67,7 @@
       ]
     },
     {
-      "rolls": 4,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:loot_table",
