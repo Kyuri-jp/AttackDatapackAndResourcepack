@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手の移動速度をかなり低下させる",
+                  "translate": "item.lore.weapons.magics.books.waterChain",
                   "color": "gray",
                   "italic": false
                 },

@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手を爆発させる",
+                  "translate": "item.lore.weapons.magics.books.explosion",
                   "color": "gray",
                   "italic": false
                 },

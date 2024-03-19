@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手に向かって自身を引き寄せる",
+                  "translate": "item.lore.weapons.magics.books.reel",
                   "color": "gray",
                   "italic": false
                 },
