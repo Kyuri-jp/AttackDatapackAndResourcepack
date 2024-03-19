@@ -91,9 +91,9 @@
     "death.attack.magic.inferno.item": "%1$sは%2$sによって燃やされてしまった",
     "death.attack.magic.lightning.item": "%1$sは%2$sによって雷に打たれた",
     "death.attack.magic.meteor.item": "%1$sは%2$sによって吹き飛ばされた",
-    "death.attack.magic.poison_drink.item": "%1$sは%2$sによって毒殺された",
+    "death.attack.magic.poisonDrink.item": "%1$sは%2$sによって毒殺された",
     "death.attack.magic.reel.item": "%1$sは%2$sに背後を取られた",
-    "death.attack.magic.water_chain.item": "%1$sは%2$sに身動きを封じられた",
+    "death.attack.magic.waterChain.item": "%1$sは%2$sに身動きを封じられた",
 
     "death.attack.sword.adv.aqua.item": "%1$sは%2$sが放った水に溺れた",
     "death.attack.sword.adv.end.item": "%1$sは%2$sの邪気に飲み込まれた",
