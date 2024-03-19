@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手が持っている本を1つ焼く",
+                  "translate": "item.lore.weapons.magics.books.inferno",
                   "color": "gray",
                   "italic": false
                 },

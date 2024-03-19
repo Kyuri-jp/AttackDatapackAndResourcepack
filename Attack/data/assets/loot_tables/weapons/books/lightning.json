@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手に雷を落とす",
+                  "translate": "item.lore.weapons.magics.books.lightning",
                   "color": "gray",
                   "italic": false
                 },

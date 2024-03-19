@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手に強い衝撃と爆発を起こす",
+                  "translate": "item.lore.weapons.magics.books.meteor",
                   "color": "gray",
                   "italic": false
                 },

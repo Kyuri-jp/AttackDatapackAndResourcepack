@@ -35,7 +35,7 @@
                   }
                 ],
                 {
-                  "text": "当たった相手を強い毒状態にする",
+                  "translate": "item.lore.weapons.magics.books.poisonDrink",
                   "color": "gray",
                   "italic": false
                 },
