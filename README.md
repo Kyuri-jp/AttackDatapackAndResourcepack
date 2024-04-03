@@ -22,15 +22,13 @@
 
 |Mod|Version|
 |----|----|
-|Fabric|0.15.7|
+|Fabric|0.15.9|
 |||
-|Architectury|2.5.1+mc1.20.3|
+|Architectury|11.1.17|
+|Axiom|2.7.0|
 |Bad Packets|0.6.1|
 |Balm|9.0.6|
-|Cloth Config v13|13.0.121|
-|EntityCulling|1.6.3.1|
-|Fabric API|0.96.4+1.20.4|
-|Fabtic Language Kotlin|1.10.18+kotlin.1.9.22|
+|EntityCulling|1.6.4|
 |FerriteCore|6.0.3|
 |Indium|1.0.30+mc1.20.4|
 |Iris|1.6.17|
