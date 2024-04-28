@@ -1,10 +1,10 @@
-#> systems:weapons/swords/freeze
+#> systems:weapons/swords/ability/freeze
 
 #> Damaged Tag
 # @within
-#   systems:weapons/swords/freeze
-#   systems:weapons/swords/additional_damage/freeze
-#   systems:weapons/swords/additional_damage/reset/freeze
+#   systems:weapons/swords/ability/freeze
+#   systems:weapons/swords/ability/additional_damage/freeze
+#   systems:weapons/swords/ability/additional_damage/reset/freeze
     #declare tag Player.Sword.Damaged.Freeze
 
 # vfx
@@ -17,7 +17,7 @@
     execute on attacker run scoreboard players operation @p[tag=Player.Sword.Damaged.Freeze,limit=1] AttackerID = @s PlayerID
 
 # damage
-    function systems:weapons/swords/additional_damage/freeze
+    function systems:weapons/swords/ability/additional_damage/freeze
 
 # revoke
     advancement revoke @s only assets:weapons/swords/freeze

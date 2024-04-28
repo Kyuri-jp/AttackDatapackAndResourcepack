@@ -1,9 +1,9 @@
-#> systems:weapons/swords/spider
+#> systems:weapons/swords/ability/spider
 
 #> Tag
 # @within
-#   systems:weapons/swords/spider
-#   systems:weapons/swords/action/spider
+#   systems:weapons/swords/ability/spider
+#   systems:weapons/swords/ability/action/spider
     #declare tag Player.Sword.Attacker.Spider
     #declare tag Player.Sword.Damaged.Spider
 
@@ -20,7 +20,7 @@
     playsound entity.spider.hurt player @s ~ ~ ~
 
 # actions
-    execute as @p[tag=Player.Sword.Damaged.Spider] at @s run function systems:weapons/swords/action/spider
+    execute as @p[tag=Player.Sword.Damaged.Spider] at @s run function systems:weapons/swords/ability/action/spider
 
 # revoke
     advancement revoke @s only assets:weapons/swords/spider

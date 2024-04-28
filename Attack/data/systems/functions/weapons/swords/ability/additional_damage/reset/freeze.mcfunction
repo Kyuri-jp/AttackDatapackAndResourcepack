@@ -1,5 +1,5 @@
-#> systems:weapons/swords/additional_damage/reset/freeze
-# @within systems:weapons/swords/additional_damage/freeze
+#> systems:weapons/swords/ability/additional_damage/reset/freeze
+# @within systems:weapons/swords/ability/additional_damage/freeze
 
 # reset
     attribute @s generic.movement_speed base set 0.1

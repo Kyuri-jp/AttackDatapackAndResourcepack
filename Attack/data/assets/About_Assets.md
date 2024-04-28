@@ -19,7 +19,7 @@ advancementやpredicate,loot_tableが定義されています。
 ## [weapons/](advancements/weapons/)[swords](advancements/weapons/swords/)
 |Advancement名|トリガー|呼び出す関数|
 |----|----|----|
-|[`{sword name}`](advancements/weapons/swords/)|`minecraft:entity_hurt_player`|[`systems:weapons/swords/{sword name}`](/Attack/data/systems/functions/weapons/swords/)|
+|[`{sword name}`](advancements/weapons/swords/)|`minecraft:entity_hurt_player`|[`systems:weapons/swords/ability/{sword name}`](/Attack/data/systems/functions/weapons/swords/)|
 
 # [DamageType](damage_type/)
 ## [weapons/](damage_type/weapons/)[magics/](damage_type/weapons/magics/)[books](damage_type/weapons/magics/books/)

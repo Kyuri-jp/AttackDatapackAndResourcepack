@@ -1,9 +1,9 @@
-#> systems:weapons/swords/end
+#> systems:weapons/swords/ability/end
 
 #> Tag
 # @within
-#   systems:weapons/swords/end
-#   systems:weapons/swords/additional_damage/end
+#   systems:weapons/swords/ability/end
+#   systems:weapons/swords/ability/additional_damage/end
     #declare tag Player.Sword.Attacker.End
 
 # action
@@ -16,7 +16,7 @@
 
 # damage
     execute on attacker run tag @s add Player.Sword.Attacker.End
-    execute if predicate assets:items/weapons/swords/random/end run function systems:weapons/swords/additional_damage/end
+    execute if predicate assets:items/weapons/swords/random/end run function systems:weapons/swords/ability/additional_damage/end
 
 # reset
     scoreboard players reset @s AttackerID

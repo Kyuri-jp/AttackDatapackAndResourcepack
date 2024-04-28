@@ -1,5 +1,5 @@
-#> systems:weapons/swords/additional_damage/reset/aqua
-# @within systems:weapons/swords/additional_damage/aqua
+#> systems:weapons/swords/ability/additional_damage/reset/aqua
+# @within systems:weapons/swords/ability/additional_damage/aqua
 
 # reset
     scoreboard players reset @s Counter

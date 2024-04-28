@@ -1,10 +1,10 @@
-#> systems:weapons/swords/aqua
+#> systems:weapons/swords/ability/aqua
 
 #> Tag
 # @within
-#   systems:weapons/swords/aqua
-#   systems:weapons/swords/additional_damage/aqua
-#   systems:weapons/swords/additional_damage/reset/aqua
+#   systems:weapons/swords/ability/aqua
+#   systems:weapons/swords/ability/additional_damage/aqua
+#   systems:weapons/swords/ability/additional_damage/reset/aqua
     #declare tag Player.Sword.Damaged.Aqua
 
 # vfx
@@ -17,7 +17,7 @@
     execute on attacker run scoreboard players operation @p[tag=Player.Sword.Damaged.Aqua,limit=1] AttackerID = @s PlayerID
 
 # damage
-    function systems:weapons/swords/additional_damage/aqua
+    function systems:weapons/swords/ability/additional_damage/aqua
 
 # revoke
     advancement revoke @s only assets:weapons/swords/aqua

@@ -1,8 +1,8 @@
-#> systems:weapons/swords/action/spider
+#> systems:weapons/swords/ability/action/spider
 #
 # プレイヤーのアイテムを手に入れます
 #
-# @within systems:weapons/swords/spider
+# @within systems:weapons/swords/ability/spider
 
 # have any items in offhand
     execute as @p[tag=Player.Sword.Attacker.Spider,limit=1] unless predicate assets:dont_have_any_items_of_off_hand run return fail

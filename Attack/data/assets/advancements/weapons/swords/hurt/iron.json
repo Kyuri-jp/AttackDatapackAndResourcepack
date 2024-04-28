@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "wooden": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "assets:advancements/weapons/swords/have_sword"
+            }
+          ],
+          "damage": {
+            "dealt": {
+              "min": 6
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "systems:weapons/swords/detect_swords"
+    }
+  }
+  

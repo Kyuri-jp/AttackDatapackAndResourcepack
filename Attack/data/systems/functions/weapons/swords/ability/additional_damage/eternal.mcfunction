@@ -1,5 +1,5 @@
-#> systems:weapons/swords/additional_damage/eternal
-# @within systems:weapons/swords/eternal
+#> systems:weapons/swords/ability/additional_damage/eternal
+# @within systems:weapons/swords/ability/eternal
 
 # damage and vfx
     particle end_rod ~ ~1 ~ 0 0 0 0.1 500

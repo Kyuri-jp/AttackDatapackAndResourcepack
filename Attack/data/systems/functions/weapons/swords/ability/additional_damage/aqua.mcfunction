@@ -1,12 +1,12 @@
-#> systems:weapons/swords/additional_damage/aqua
+#> systems:weapons/swords/ability/additional_damage/aqua
 # @within
-#   systems:weapons/swords/additional_damage/aqua
-#   systems:weapons/swords/aqua
+#   systems:weapons/swords/ability/additional_damage/aqua
+#   systems:weapons/swords/ability/aqua
 
 #> Tag
 # @within
-#   systems:weapons/swords/additional_damage/aqua
-#   systems:weapons/swords/additional_damage/reset/aqua
+#   systems:weapons/swords/ability/additional_damage/aqua
+#   systems:weapons/swords/ability/additional_damage/reset/aqua
     #declare tag Player.Sword.Attacker.Aqua
 
 # attacker detect
@@ -21,7 +21,7 @@
     scoreboard players add @a[tag=Player.Sword.Damaged.Aqua] Counter 1
 
 # recall
-    execute as @a[tag=Player.Sword.Damaged.Aqua,limit=1] unless score @s Counter matches 5.. run schedule function systems:weapons/swords/additional_damage/aqua 1t
+    execute as @a[tag=Player.Sword.Damaged.Aqua,limit=1] unless score @s Counter matches 5.. run schedule function systems:weapons/swords/ability/additional_damage/aqua 1t
 
 # reset
-    execute as @a[tag=Player.Sword.Damaged.Aqua,limit=1] if score @s Counter matches 5.. run function systems:weapons/swords/additional_damage/reset/aqua
+    execute as @a[tag=Player.Sword.Damaged.Aqua,limit=1] if score @s Counter matches 5.. run function systems:weapons/swords/ability/additional_damage/reset/aqua

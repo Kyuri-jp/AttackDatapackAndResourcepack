@@ -1,9 +1,9 @@
-#> systems:weapons/swords/eternal
+#> systems:weapons/swords/ability/eternal
 
 #> Tag
 # @within
-#   systems:weapons/swords/eternal
-#   systems:weapons/swords/additional_damage/eternal
+#   systems:weapons/swords/ability/eternal
+#   systems:weapons/swords/ability/additional_damage/eternal
     #declare tag Player.Sword.Attacker.Eternal
 
 # vfx
@@ -13,7 +13,7 @@
 
 # damage
     execute on attacker run tag @s add Player.Sword.Attacker.Eternal
-    execute if predicate assets:items/weapons/swords/random/eternal run function systems:weapons/swords/additional_damage/eternal
+    execute if predicate assets:items/weapons/swords/random/eternal run function systems:weapons/swords/ability/additional_damage/eternal
 
 # reset
     scoreboard players reset @s AttackerID
