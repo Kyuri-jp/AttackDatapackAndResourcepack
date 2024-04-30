@@ -6,5 +6,3 @@
     playsound block.glass.break player @s ~ ~ ~
     playsound block.glass.break player @s ~ ~ ~ 1 2
 
-# revoke
-    advancement revoke @s only assets:weapons/swords/frost

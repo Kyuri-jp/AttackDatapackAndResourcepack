@@ -19,5 +19,3 @@
 # damage
     function systems:weapons/swords/ability/additional_damage/freeze
 
-# revoke
-    advancement revoke @s only assets:weapons/swords/freeze

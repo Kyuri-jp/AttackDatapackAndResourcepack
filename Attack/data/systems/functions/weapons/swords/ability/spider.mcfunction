@@ -22,9 +22,6 @@
 # actions
     execute as @p[tag=Player.Sword.Damaged.Spider] at @s run function systems:weapons/swords/ability/action/spider
 
-# revoke
-    advancement revoke @s only assets:weapons/swords/spider
-
 # remove tags
     tag @s remove Player.Sword.Damaged.Spider
     execute on attacker run tag @s remove Player.Sword.Attacker.Spider

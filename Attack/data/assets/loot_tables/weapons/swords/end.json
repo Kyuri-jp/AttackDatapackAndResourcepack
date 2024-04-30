@@ -48,7 +48,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:2,HideFlags:6,SwordTag:End}"
+              "tag": "{Unbreakable:true,CustomModelData:2,HideFlags:6,Sword:true,SwordTag:End}"
             }
           ]
         }

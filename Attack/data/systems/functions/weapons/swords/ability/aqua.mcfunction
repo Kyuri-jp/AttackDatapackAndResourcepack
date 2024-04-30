@@ -18,6 +18,3 @@
 
 # damage
     function systems:weapons/swords/ability/additional_damage/aqua
-
-# revoke
-    advancement revoke @s only assets:weapons/swords/aqua

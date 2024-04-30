@@ -6,7 +6,7 @@
           "player": [
             {
               "condition": "minecraft:reference",
-              "name": "assets:advancements/weapons/swords/have_sword"
+              "name": "assets:items/weapons/swords/adv_ref/have_sword"
             }
           ],
           "damage": {

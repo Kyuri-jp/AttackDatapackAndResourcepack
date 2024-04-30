@@ -9,6 +9,3 @@
 # vfx
     particle dust 0 0.741 0.184 1 ~ ~1 ~ 0 0 0 0.5 10
     playsound block.beacon.activate player @s ~ ~ ~ 1 0.5
-
-# revoke
-    advancement revoke @s only assets:weapons/swords/photon

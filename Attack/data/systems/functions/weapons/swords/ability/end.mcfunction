@@ -21,6 +21,3 @@
 # reset
     scoreboard players reset @s AttackerID
     tag @p[tag=Player.Sword.Attacker.End] remove Player.Sword.Attacker.End
-
-# revoke
-    advancement revoke @s only assets:weapons/swords/end
