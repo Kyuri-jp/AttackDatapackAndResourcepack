@@ -41,7 +41,7 @@
             data modify entity @e[type=armor_stand,tag=Anchor.MagicShot,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
         # books
-            function systems:weapons/magics/books/detect_books
+            function systems:weapons/magics/books/book_selector
 
         # vfx
             particle end_rod ~ ~ ~ 0.5 0.5 0.5 0.2 20 normal

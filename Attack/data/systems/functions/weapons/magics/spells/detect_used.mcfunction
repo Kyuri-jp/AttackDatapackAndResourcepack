@@ -11,7 +11,7 @@
     execute unless score @s UseBow matches 20.. run loot give @s[gamemode=!creative] loot assets:weapons/spells/mana
 
 # enough charge
-    execute if score @s UseBow matches 20.. run function systems:weapons/magics/spells/detect_spells
+    execute if score @s UseBow matches 20.. run function systems:weapons/magics/spells/spell_selector
 
 # reset
     scoreboard players reset @s UseBow

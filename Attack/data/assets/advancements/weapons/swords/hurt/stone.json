@@ -18,7 +18,7 @@
       }
     },
     "rewards": {
-      "function": "systems:weapons/swords/detect_swords"
+      "function": "systems:weapons/swords/sword_selector"
     }
   }
   
