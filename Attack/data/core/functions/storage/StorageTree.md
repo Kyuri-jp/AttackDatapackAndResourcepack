@@ -40,11 +40,11 @@ Main
 |       ├ Rods
 |       |   └ Scope : Int
 |       |       └ UsingMp
-|       |           └　[BookName] : Int
+|       |           └　[BookName : Int
 |       |
 |       └ Spells
 |           └ UsingMana
-|               └ [SpellName] : Int
+|               └ [SpellName : Int
 ```
 
 # Messages

@@ -19,11 +19,10 @@
 # About modification
 DatapackのLicenseはCC0なので自由に改造,再配布をしていただいて構いません。ただし,無改造のままでの配布はお控えください。
 
-**CC0は私が著作者であることを放棄するわけではありません。**
 > 再配布する場合はforkをしてくださると見つけやすいので助かります。
 
 ResourcePackのLicenseはMIT Licenseなので改造,再配布をしていただいて構いません。だたし,著作権を明記することを忘れないでください。
-**`Copyright (c) 2024 Kyuri`**
+**`Copyright(c) 2024 Kyuri`**
 
 # Cautions on modification
 データパックを改造する場合は以下のことに注意してください
