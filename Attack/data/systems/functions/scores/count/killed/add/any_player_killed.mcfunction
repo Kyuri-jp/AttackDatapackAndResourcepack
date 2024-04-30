@@ -8,7 +8,7 @@
     scoreboard players add @s KillCounter 1
 
 # give mana
-    loot give @s[tag=Player.Playing] loot assets:spells/get_some_mana
+    loot give @s[tag=Player.Playing] loot assets:weapons/spells/get/get_some_mana
 
 # give mp
     scoreboard players add @s[tag=Player.Playing] Mp 20

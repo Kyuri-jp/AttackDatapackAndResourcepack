@@ -10,7 +10,7 @@
 # @within
 #   systems:weapons/swords/common/marker_move
 #   systems:weapons/swords/common/detect_victim
-#   systems:weapons/swords/detect_swords
+#   systems:weapons/swords/sword_selector
     #declare tag Entity.Sword.Victim
 
 # move

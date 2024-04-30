@@ -4,7 +4,7 @@
 #
 # @within
 #   systems:weapons/swords/common/detect_victim
-#   systems:weapons/swords/detect_swords
+#   systems:weapons/swords/sword_selector
 
 #> Marker Tag
 # @private

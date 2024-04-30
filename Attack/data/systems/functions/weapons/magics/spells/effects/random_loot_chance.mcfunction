@@ -9,7 +9,7 @@
     particle composter ~ ~ ~ 1 1 1 0.5 200 normal
 
 # call
-    loot give @s loot assets:spells/random_loot_chance
+    loot give @s loot assets:weapons/spells/get/random_loot_chance
 
 # consume
     function systems:weapons/magics/spells/effects/common/finish
