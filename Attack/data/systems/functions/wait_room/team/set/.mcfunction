@@ -7,7 +7,7 @@
 #> Tag
 # @within
 #   systems:wait_room/team/set/
-#   systems:wait_room/team/display/set
+#   systems:wait_room/team/display/
     #declare tag Anchor.WaitRoom.Team.Red
     #declare tag Anchor.WaitRoom.Team.Blue
     #declare tag Anchor.WaitRoom.Team.Watch

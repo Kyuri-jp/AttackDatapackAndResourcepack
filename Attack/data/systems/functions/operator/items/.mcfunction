@@ -1,4 +1,4 @@
-#> systems:operator/items/buttons
+#> systems:operator/items/
 #
 # ボタンを再配置します
 #

@@ -1,8 +1,8 @@
-#> systems:wait_room/gallery/set_data
+#> systems:wait_room/gallery/properties/set_data
 #
 # ItemDisplayのデータをセットします
 #
-# @within systems:wait_room/gallery/*
+# @within systems:wait_room/gallery/items/*
 
 # summon
     execute positioned as @e[type=item,sort=nearest,limit=1] run summon item_display ~ ~ ~ {CustomNameVisible:true,item:{Count:1b},Tags:["Entity.Display.Item.Gallery"]}

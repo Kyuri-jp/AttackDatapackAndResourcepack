@@ -1,8 +1,8 @@
-#> systems:wait_room/gallery/set_size_and_rotation
+#> systems:wait_room/gallery/properties/set_size_and_rotation
 #
 # ItemDisplayのサイズや方向をセットします
 #
-# @within systems:wait_room/gallery/set_item_displays
+# @within systems:wait_room/gallery/properties/set_item_displays
 
 # rod
     execute as @e[type=item_display,tag=Entity.Display.Item.Gallery] if data entity @s {item:{tag:{Rod:true}}} run data modify entity @s transformation.scale set value [0.5f,0.5f,0.5f]

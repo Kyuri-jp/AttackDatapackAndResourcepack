@@ -1,4 +1,4 @@
-#> systems:wait_room/team/display/set
+#> systems:wait_room/team/display/
 #
 # 待機場所のTextDisplayをセットします
 #

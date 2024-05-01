@@ -7,17 +7,17 @@
 #> Gallery
 # @within
 #   core:installed/set_displays
-#   systems:wait_room/gallery/*
+#   systems:wait_room/gallery/properties/*
     #declare tag Entity.Display.Item.Gallery
 
 #> Text
 # @within
 #   core:installed/set_displays
-#   systems:wait_room/team/display/set
+#   systems:wait_room/team/display/
     #declare tag Entity.Display.Text.Info.Team
 
 # set displays
     kill @e[type=item_display,tag=Entity.Display.Item.Gallery]
     kill @e[type=text_display,tag=Entity.Display.Text.Info.Team]
-    function systems:wait_room/gallery/set_item_displays
-    function systems:wait_room/team/display/set
+    function systems:wait_room/gallery/properties/set_item_displays
+    function systems:wait_room/team/display/

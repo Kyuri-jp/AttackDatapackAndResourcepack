@@ -1,4 +1,4 @@
-#> core:storage/set_values
+#> core:storage/
 #
 # Storageに値を設定します
 #
