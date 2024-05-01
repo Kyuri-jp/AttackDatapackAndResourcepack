@@ -28,6 +28,5 @@ Storageについては[こちら](functions/storage/About_Storages.md)
 |Function名|定義|
 |----|----|
 |`copy_default_settings`|`attack:setting`の`Main.Default`を`Main.Custom`としてコピーする|
-|`create_storages`|Storageの作成|
 |`initialize_storage_datas`|Storageの初期化|
-|`set_values`|Storageの値を定義|
+|`.mcfunction`|Storageの値を定義|

@@ -33,5 +33,5 @@
 ## items
 |Function名|定義|
 |----|----|
-|`buttons`|ボタンをセットします|
+|`.mcfunction`|ボタンをセットします|
 
