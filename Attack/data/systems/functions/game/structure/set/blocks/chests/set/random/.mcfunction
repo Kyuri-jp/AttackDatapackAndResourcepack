@@ -28,9 +28,9 @@
     execute as @e[type=armor_stand,tag=Anchor.Chest.Placer] run data modify entity @s Rotation set from entity @e[type=armor_stand,tag=Anchor.Chest.Placer.Base,limit=1] Rotation
 
 # set chests
-    execute if predicate assets:random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.1] at @s run setblock ^20 ^ ^ chest{LootTable: "assets:chests/items/tire_1"} keep
-    execute if predicate assets:random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.2] at @s run setblock ^29 ^ ^ chest{LootTable: "assets:chests/items/tire_2"} keep
-    execute if predicate assets:random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.3] at @s run setblock ^19 ^ ^ chest{LootTable: "assets:chests/items/tire_3"} keep
+    execute if predicate assets:structures/chest/random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.1] at @s run setblock ^20 ^ ^ chest{LootTable: "assets:chests/items/tire_1"} keep
+    execute if predicate assets:structures/chest/random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.2] at @s run setblock ^29 ^ ^ chest{LootTable: "assets:chests/items/tire_2"} keep
+    execute if predicate assets:structures/chest/random_set as @e[type=armor_stand,tag=Anchor.Chest.Placer.3] at @s run setblock ^19 ^ ^ chest{LootTable: "assets:chests/items/tire_3"} keep
 
 # set anchor
     execute as @e[type=armor_stand,tag=Anchor.Chest.Placer.1] at @s if block ^20 ^ ^ chest{LootTable: "assets:chests/items/tire_1"} positioned ^20 ^ ^ unless entity @e[type=marker,tag=Anchor.Chest.Break,distance=0.01..3] run summon marker ~ ~ ~ {Tags: ["Anchor.Chest.Break"]}

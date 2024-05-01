@@ -37,7 +37,7 @@
 
 # set scores,storage
     function core:storage/initialize_storage_datas
-    function core:storage/set_values
+    function core:storage/
     function core:load/set/bossbar/max
 
 # end
