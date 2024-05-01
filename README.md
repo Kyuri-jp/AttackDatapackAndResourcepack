@@ -13,7 +13,7 @@
 
 ## DevEnv
 ### Mods
-> テストプレイはバニラでしています
+> *テストプレイはバニラで行っています*
 >
 > 動作に影響しそうなModのみ掲載しています
 
@@ -37,10 +37,10 @@
 |Sodium Extra|0.5.4+mc1.20.4-build.116|
 
 # License
-[Datapack](Attack) : [Creative Commons Zero v1](Attack/licence.txt)
+[Datapack](Attack) : [Creative Commons Zero v1](Attack/Licence)
 
-[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/licence.txt)
+[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/Licence)
 
 詳細については以下を参照してください
-- データパック [ReadMe-Datapack](Attack/ReadMe-Datapack.md)
-- リソースパック [ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)
+- Datapack [ReadMe-Datapack](Attack/ReadMe-Datapack.md)
+- Resourcepack [ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)
