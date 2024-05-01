@@ -45,6 +45,6 @@ ResourcePackのLicenseはMIT Licenseなので改造,再配布をしていただ�
 [Data Pack Generators](https://misode.github.io/)
 
 # License
-[Datapack](Attack) : [Creative Commons Zero v1](Attack/licence.txt)
+[Datapack](Attack) : [Creative Commons Zero v1](Attack/Licence)
 
-[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/licence.txt)
+[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/Licence)

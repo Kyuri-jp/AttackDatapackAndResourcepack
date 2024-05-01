@@ -23,6 +23,6 @@ Model,Texture : Blockbench
 Texture : Paint3D
 
 # License
-[Datapack](attack) : [Creative Commons Zero v1](attack/licence.txt)
+[Datapack](attack) : [Creative Commons Zero v1](attack/Licence)
 
-[ResourcePack](attack_resource) : [MIT License](attack_resource/licence.txt)
+[ResourcePack](attack_resource) : [MIT License](attack_resource/Licence)
