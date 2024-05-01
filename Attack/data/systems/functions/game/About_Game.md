@@ -14,7 +14,7 @@
 |`judgment/`|
 |`judgment/ex`|勝敗判定(exhibition game)|
 
-# ex
+# ex,main_game,preparation
 |Function名|定義|
 |----|----|
 |`.mcfunction`|タイマーを設定(以下の関数を呼び出す)|
@@ -33,8 +33,10 @@
 |Function名|定義|
 |----|----|
 |`.mcfunction`|フィールドの外に落下した時に呼び出される|
+|`detect`|攻撃者を特定します|
+|`preparation`|準備中にフィールド外に落下した時に呼び出される|
 
-# start(start/
+# start
 |Function名|定義|
 |----|----|
 |`.mcfunction`他の関数を呼び出す|

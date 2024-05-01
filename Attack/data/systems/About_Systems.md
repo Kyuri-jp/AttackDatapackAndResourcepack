@@ -22,6 +22,3 @@ tick処理に関する関数
 
 ## [wait_room](functions/wait_room/) : [About](functions/wait_room/About_WaitRoom.md)
 準備部屋に関する関数
-
-## [weapons](functions/weapons/) : [About](functions/weapons/About_Weapons.md)
-武器,魔法に関する関数
