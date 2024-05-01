@@ -17,21 +17,13 @@
 |[util](data/util/)|[About_Util.md](data/util/About_Util.md)|
 
 # About modification
-DatapackのLicenseはCC0なので自由に改造,再配布をしていただいて構いません。ただし,無改造のままでの配布はお控えください。
-
-**CC0は私が著作者であることを放棄するわけではありません。**
+DatapackのLicenseはCC0なので自由に改造,再配布をしていただいて構いません。
 > 再配布する場合はforkをしてくださると見つけやすいので助かります。
-
-ResourcePackのLicenseはMIT Licenseなので改造,再配布をしていただいて構いません。だたし,著作権を明記することを忘れないでください。
-**`Copyright (c) 2024 Kyuri`**
 
 # Cautions on modification
 データパックを改造する場合は以下のことに注意してください
 - `attack:registry`の`Main.Sys.DatapackVersion` `Main.Sys.ResourcepackVersion`は改造版であることが分かるように変更すること
   > 変更は改造した要素だけで構いません。
-- 無改造での状態での再配布はお控えください
-- 著作権表記は不必要ですが,「原作者:Kyuri」等の情報を書いてくださると作者が喜びます。
-- 自作発言はお控えください。
 
 # Environment
 ## Code Editor
@@ -46,6 +38,5 @@ ResourcePackのLicenseはMIT Licenseなので改造,再配布をしていただ�
 [Data Pack Generators](https://misode.github.io/)
 
 # License
-[Datapack](Attack) : [Creative Commons Zero v1](Attack/Licence)
-
-[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/Licence)
+このデータパックは[Creative Commons Zero](Licence)の下で配布されます
+> This Datapack is distributed under CC0.

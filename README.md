@@ -24,17 +24,14 @@
 |Architectury|11.1.17|
 |Axiom|2.7.0|
 |Bad Packets|0.6.1|
-|Balm|9.0.6|
+|Balm|9.0.7|
 |EntityCulling|1.6.4|
 |FerriteCore|6.0.3|
 |Indium|1.0.30+mc1.20.4|
-|Iris|1.6.17|
 |Krypton|0.2.6|
 |LazyDFU|0.1.3|
 |Lithium|0.12.1|
 |Memory Leak Fix|1.1.5|
-|Sodium|0.5.8+mc1.20.4|
-|Sodium Extra|0.5.4+mc1.20.4-build.116|
 
 # License
 [Datapack](Attack) : [Creative Commons Zero v1](Attack/Licence)
