@@ -4,8 +4,7 @@
 マインクラフトのマップであるAttack!のリソースパックです
 
 # About modification
-ResourcepackのLicenseはMIT Licenseなので改造,再配布をしていただいて構いません。だたし,著作権を明記することを忘れないでください。
-`Copyright (c) 2024 Kyuri`
+ResourcepackのLicenseはMIT Licenseなので改造,再配布をしていただいて構いません。だ
 > 再配布する場合はforkをしてくださると見つけやすいので助かります。
 
 # Cautions on modification
