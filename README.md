@@ -37,6 +37,7 @@
 [Datapack](Attack) : [Creative Commons Zero v1](Attack/Licence)
 
 [ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/Licence)
+> Copyright (c) 2024 Kyuri
 
 詳細については以下を参照してください
 - Datapack [ReadMe-Datapack](Attack/ReadMe-Datapack.md)

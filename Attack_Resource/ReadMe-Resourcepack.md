@@ -20,3 +20,5 @@ Texture : Paint3D
 # License
 このリソースパックは[MIT License](Licence)の下で配布されます
 > This Resourcepack is distributed under MIT License.
+> 
+> Copyright (c) 2024 Kyuri
