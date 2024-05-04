@@ -28,6 +28,7 @@
 
 # bossbar
     function core:load/add/bossbars
+    function systems:scores/gui_bars/settings/reload
 
 # teams
     function core:load/add/teams
