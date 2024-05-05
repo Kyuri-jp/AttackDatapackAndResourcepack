@@ -13,8 +13,5 @@
 # as at
     execute as @a at @s run function systems:tick/as_at
 
-# scope over
-    function systems:game/scope_over/
-
 # delay tick
     function systems:tick/delay_tick/
