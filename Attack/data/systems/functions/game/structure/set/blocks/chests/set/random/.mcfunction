@@ -20,6 +20,19 @@
 #   systems:game/structure/set/blocks/chests/break/
     #declare tag Anchor.Chest.Break
 
+# error
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.Base] run data merge storage error:info {Level:error,Path:"systems:game/structure/set/blocks/chests/set/random/",Message:"Anchor.Chest.Placer.Baseがありません",StackTrace:"Anchor.Chest.Placer.Base is not found."}
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.Base] run return run function api:system/util/error_notice/
+
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.1] run data merge storage error:info {Level:error,Path:"systems:game/structure/set/blocks/chests/set/random/",Message:"Anchor.Chest.Placer.1がありません",StackTrace:"Anchor.Chest.Placer.1 is not found."}
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.1] run return run function api:system/util/error_notice/
+
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.2] run data merge storage error:info {Level:error,Path:"systems:game/structure/set/blocks/chests/set/random/",Message:"Anchor.Chest.Placer.2がありません",StackTrace:"Anchor.Chest.Placer.2 is not found."}
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.2] run return run function api:system/util/error_notice/
+
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.3] run data merge storage error:info {Level:error,Path:"systems:game/structure/set/blocks/chests/set/random/",Message:"Anchor.Chest.Placer.3がありません",StackTrace:"Anchor.Chest.Placer.3 is not found."}
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Placer.3] run return run function api:system/util/error_notice/
+
 # return
     execute if score $Structure.Chest.Count Counter matches 720.. run return 0
 
@@ -40,5 +53,5 @@
 # add count
     scoreboard players add $Structure.Chest.Count Counter 1
 
-# re call
+# recall
     function systems:game/structure/set/blocks/chests/set/random/

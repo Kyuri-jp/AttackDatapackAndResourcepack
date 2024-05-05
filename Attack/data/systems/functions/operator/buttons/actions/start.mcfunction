@@ -17,6 +17,9 @@
     function api:player/player_count
 
 # notice
+    execute unless score $Count.Players Datas = $Count.Players.Team Datas run data merge storage error:info {Level: warn, Path: "systems:operator/buttons/actions/start", Message: "チームを選択していないプレイヤーがいます", StackTrace: "There is a player who has not selected a team."}
+    execute unless score $Count.Players Datas = $Count.Players.Team Datas run return run function api:system/util/error_notice/
+
     execute if score $Count.Players Datas = $Count.Players.Red Datas run data merge storage error:info {Level: warn, Path: "systems:operator/buttons/actions/start", Message: "Red Teamのみでゲームを開始しようとしています", StackTrace: "You'll start game with only Red Team."}
     execute if score $Count.Players Datas = $Count.Players.Red Datas run return run function api:system/util/error_notice/
 
@@ -26,8 +29,11 @@
     execute if score $Count.Players Datas = $Count.Players.Watch Datas run data merge storage error:info {Level: warn, Path: "systems:operator/buttons/actions/start", Message: "観戦者のみでゲームを開始しようとしています", StackTrace: "You'll start game with only watcher."}
     execute if score $Count.Players Datas = $Count.Players.Watch Datas run return run function api:system/util/error_notice/
 
-    execute unless score $Count.Players Datas = $Count.Players.Team Datas run data merge storage error:info {Level: warn, Path: "systems:operator/buttons/actions/start", Message: "チームを選択していないプレイヤーがいます", StackTrace: "There is a player who has not selected a team."}
-    execute unless score $Count.Players Datas = $Count.Players.Team Datas run return run function api:system/util/error_notice/
+    execute unless score $Count.Players.Red Datas matches ..0 run data merge storage error:info {Level: warn, Path: "systems:operator/buttons/actions/start", Message: "Red Teamにプレイヤーか1人も加入していません", StackTrace: "No players or members on the Red Team."}
+    execute unless score $Count.Players.Red Datas matches ..0 run return run function api:system/util/error_notice/
+
+    execute unless score $Count.Players.Blue Datas matches ..0 run data merge storage error:info {Level: warn, Path: "systems:operator/buttons/actions/start", Message: "Blue Teamにプレイヤーか1人も加入していません", StackTrace: "No players or members on the Blue Team."}
+    execute unless score $Count.Players.Blue Datas matches ..0 run return run function api:system/util/error_notice/
 
 # reset
     scoreboard players set $Timer.GameStart Counter 120

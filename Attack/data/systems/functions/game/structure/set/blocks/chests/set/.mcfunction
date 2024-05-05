@@ -15,6 +15,13 @@
     #declare tag Anchor.Chest.Tire4
     #declare tag Anchor.Chest.Tire5
 
+# error
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Tire4] run data merge storage error:info {Level:error,Path:"systems:game/structure/set/blocks/chests/set/",Message:"Anchor.Chest.Tire4がありません",StackTrace:"Anchor.Chest.Tire4 is not found."}
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Tire4] run return run function api:system/util/error_notice/
+
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Tire5] run data merge storage error:info {Level:error,Path:"systems:game/structure/set/blocks/chests/set/",Message:"Anchor.Chest.Tire5がありません",StackTrace:"Anchor.Chest.Tire5 is not found."}
+    execute unless entity @e[type=armor_stand,tag=Anchor.Chest.Tire5] run return run function api:system/util/error_notice/
+
 # set fix chests
     execute at @e[type=armor_stand,tag=Anchor.Chest.Tire4] run setblock ~ ~ ~ chest{LootTable:"assets:chests/items/tire_4"}
     execute at @e[type=armor_stand,tag=Anchor.Chest.Tire5] run setblock ~ ~ ~ chest{LootTable:"assets:chests/items/tire_5"}
