@@ -19,7 +19,7 @@
 
 |Mod|Version|
 |----|----|
-|Fabric|0.15.10|
+|Fabric|0.15.11|
 |||
 |Architectury|11.1.17|
 |Axiom|2.7.0|
