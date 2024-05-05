@@ -41,6 +41,9 @@
     function core:storage/
     function core:load/set/bossbar/max
 
+# set world spawn
+    execute at @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition,limit=1] run setworldspawn ~ ~ ~
+
 # end
     execute store result score $Core.Installed.Checked Datas run data get storage attack:booleans Main.Core.PlayerJoindBeforeInstalled
     data modify storage attack:booleans Main.Core.Installed set value 1b
