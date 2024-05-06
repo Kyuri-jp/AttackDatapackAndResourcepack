@@ -17,7 +17,7 @@
     tp @s ^ ^ ^0.5
 
 # detect player
-    execute as @e[type=#assets:can_give_damage,tag=!Player.Attacker.This,distance=..0.5] store result score @s AttackerID on attacker run scoreboard players get @s PlayerID
+    execute as @e[type=#assets:can_give_damage,tag=!Player.Attacker.This,distance=..2] store result score @s AttackerID on attacker run scoreboard players get @s PlayerID
     execute as @e[type=#assets:can_give_damage] if score @s AttackerID = @a[tag=Player.Attacker.This,limit=1] PlayerID run tag @s add Entity.Sword.Victim
 
 # return

@@ -11,6 +11,14 @@
 #   systems:weapons/swords/common/marker_move
     #declare tag Player.Attacker.This
 
+# revoke
+# 先にrevokeしないとCommand Chain Limitが来たら次使えなくなる
+    advancement revoke @s only assets:weapons/swords/hurt/wooden
+    advancement revoke @s only assets:weapons/swords/hurt/stone
+    advancement revoke @s only assets:weapons/swords/hurt/iron
+    advancement revoke @s only assets:weapons/swords/hurt/diamond
+    advancement revoke @s only assets:weapons/swords/hurt/netherite
+
 # set
     tag @s add Player.Attacker.This
 
@@ -37,10 +45,3 @@
 # reset
     tag @s remove Player.Attacker.This
     tag @e[tag=Entity.Sword.Victim] remove Entity.Sword.Victim
-
-# revoke
-    advancement revoke @s only assets:weapons/swords/hurt/wooden
-    advancement revoke @s only assets:weapons/swords/hurt/stone
-    advancement revoke @s only assets:weapons/swords/hurt/iron
-    advancement revoke @s only assets:weapons/swords/hurt/diamond
-    advancement revoke @s only assets:weapons/swords/hurt/netherite
