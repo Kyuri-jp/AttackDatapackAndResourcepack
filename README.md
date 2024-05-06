@@ -22,7 +22,6 @@
 |Fabric|0.15.11|
 |||
 |Architectury|11.1.17|
-|Axiom|2.7.0|
 |Bad Packets|0.6.1|
 |Balm|9.0.7|
 |EntityCulling|1.6.4|
