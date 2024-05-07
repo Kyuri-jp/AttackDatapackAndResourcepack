@@ -23,7 +23,7 @@
     tag @s add Player.Attacker.This
 
 # detect victim
-    execute as @e[type=#assets:can_give_damage,distance=0.01..] at @s run function systems:weapons/swords/common/detect_victim
+    function systems:weapons/swords/common/detect_victim
 
 # detect sword
     execute if predicate assets:items/weapons/swords/aqua as @e[type=#assets:can_give_damage,tag=Entity.Sword.Victim,limit=1] at @s run function systems:weapons/swords/ability/aqua
