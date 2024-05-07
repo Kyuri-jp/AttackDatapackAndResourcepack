@@ -23,7 +23,7 @@
 |||
 |Architectury|11.1.17|
 |Bad Packets|0.6.1|
-|Balm|9.0.7|
+|Balm|9.0.8|
 |EntityCulling|1.6.4|
 |FerriteCore|6.0.3|
 |Indium|1.0.30+mc1.20.4|
