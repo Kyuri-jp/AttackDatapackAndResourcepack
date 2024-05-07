@@ -28,7 +28,6 @@
 
 # bossbar
     function core:load/add/bossbars
-    function systems:scores/gui_bars/settings/reload
 
 # teams
     function core:load/add/teams
@@ -40,6 +39,7 @@
     function core:storage/initialize_storage_datas
     function core:storage/
     function core:load/set/bossbar/max
+    function systems:scores/gui_bars/settings/reload
 
 # set world spawn
     execute at @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition,limit=1] run setworldspawn ~ ~ ~
