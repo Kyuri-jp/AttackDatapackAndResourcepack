@@ -19,6 +19,10 @@
     advancement revoke @s only assets:weapons/swords/hurt/diamond
     advancement revoke @s only assets:weapons/swords/hurt/netherite
 
+# remove tag
+# ChainLimit用
+    tag @s remove Player.Attacker.This
+
 # set
     tag @s add Player.Attacker.This
 
