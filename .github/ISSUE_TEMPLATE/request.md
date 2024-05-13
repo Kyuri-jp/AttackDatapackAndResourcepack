@@ -1,6 +1,6 @@
 ---
 name: Request
-about: About
+about: 新機能の提案など
 title: "[Version]"
 labels: Priority Level:3, Suggestion
 assignees: ''

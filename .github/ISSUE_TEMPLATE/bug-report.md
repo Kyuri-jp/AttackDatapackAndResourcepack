@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: About
+about: バグ報告等
 title: "[Version]"
 labels: Cauce:Unknown
 assignees: ''
