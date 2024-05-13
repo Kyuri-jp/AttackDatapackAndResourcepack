@@ -37,8 +37,12 @@
 
 # set scores,storage
     function core:storage/initialize_storage_datas
-    function core:storage/set_values
+    function core:storage/
     function core:load/set/bossbar/max
+    function systems:scores/gui_bars/settings/reload
+
+# set world spawn
+    execute at @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition,limit=1] run setworldspawn ~ ~ ~
 
 # end
     execute store result score $Core.Installed.Checked Datas run data get storage attack:booleans Main.Core.PlayerJoindBeforeInstalled

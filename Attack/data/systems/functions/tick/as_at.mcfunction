@@ -11,6 +11,9 @@
 # debug
     execute if entity @s[tag=Debug] run function systems:util/debug
 
+# scope over
+    function systems:game/scope_over/
+
 # set team
     function systems:wait_room/team/set/
 

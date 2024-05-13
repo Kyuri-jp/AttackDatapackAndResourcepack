@@ -16,7 +16,7 @@
     #declare damage_type assets:weapons/magics/books/water_chain
 
 #> Damage Type (Sword)
-# @within systems:weapons/swords/**
+# @within systems:weapons/swords/ability/**
     #declare damage_type assets:weapons/swords/aqua
     #declare damage_type assets:weapons/swords/end
     #declare damage_type assets:weapons/swords/eternal

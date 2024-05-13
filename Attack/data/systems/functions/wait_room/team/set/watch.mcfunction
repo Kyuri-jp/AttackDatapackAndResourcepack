@@ -12,3 +12,7 @@
 
 # set team
     team join Watch @s
+
+# reshow scoreboard
+    scoreboard objectives setdisplay sidebar TeamList
+

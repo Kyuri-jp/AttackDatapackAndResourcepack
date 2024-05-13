@@ -22,3 +22,4 @@
     scoreboard objectives add KillCounter dummy {"text": "キル数"}
     scoreboard objectives add DeathCounter deathCount {"text": "デス数カウンター"}
     scoreboard objectives add DeathDetecter deathCount {"text": "event:プレイヤーが死亡した時"}
+    scoreboard objectives add DamageTaken minecraft.custom:damage_taken {"text": "受けたダメージの計測"}

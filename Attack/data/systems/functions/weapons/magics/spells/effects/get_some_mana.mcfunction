@@ -9,7 +9,7 @@
     particle witch ~ ~ ~ 1 1 1 0.5 200 normal
 
 # call
-    loot give @s loot assets:spells/get_some_mana
+    loot give @s loot assets:weapons/spells/get/get_some_mana
 
 # consume
     function systems:weapons/magics/spells/effects/common/finish

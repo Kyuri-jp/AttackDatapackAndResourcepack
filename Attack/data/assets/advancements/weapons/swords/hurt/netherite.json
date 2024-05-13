@@ -1,0 +1,37 @@
+{
+    "criteria": {
+      "wooden": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "assets:items/weapons/swords/adv_ref/have_sword"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:netherite_sword"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "damage": {
+            "dealt": {
+              "min": 8
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "systems:weapons/swords/sword_selector"
+    }
+  }
+  

@@ -21,3 +21,8 @@
 |`StackTrace`|String|適当なスタックトレース(詳細)|
 
 > Storage`error:info`に`Level` `Path` `Message` `StackTrace`を保存してから呼び出してください
+
+## Sphere Particle
+|Function名|定義|
+|----|----|
+|`api:system/util/sphere_particle/`|円形にパーティクルを表示する|

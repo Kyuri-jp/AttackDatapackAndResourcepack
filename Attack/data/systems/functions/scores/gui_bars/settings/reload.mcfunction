@@ -2,7 +2,9 @@
 #
 # Bossbar setting.gui群の値を更新します
 #
-# @within systems:operator/actions/setting/modify/message
+# @within
+#   systems:operator/actions/setting/modify/message
+#   core:load/
  
 # reload
     execute store result bossbar settings.gui.preparation_time value run data get storage attack:settings Main.Custom.Times.Game.Preparation

@@ -13,34 +13,31 @@
 
 ## DevEnv
 ### Mods
-> テストプレイはバニラでしています
+> *テストプレイはバニラで行っています*
 >
 > 動作に影響しそうなModのみ掲載しています
 
 |Mod|Version|
 |----|----|
-|Fabric|0.15.10|
+|Fabric|0.15.11|
 |||
 |Architectury|11.1.17|
-|Axiom|2.7.0|
 |Bad Packets|0.6.1|
-|Balm|9.0.6|
+|Balm|9.0.8|
 |EntityCulling|1.6.4|
 |FerriteCore|6.0.3|
 |Indium|1.0.30+mc1.20.4|
-|Iris|1.6.17|
 |Krypton|0.2.6|
 |LazyDFU|0.1.3|
 |Lithium|0.12.1|
 |Memory Leak Fix|1.1.5|
-|Sodium|0.5.8+mc1.20.4|
-|Sodium Extra|0.5.4+mc1.20.4-build.116|
 
 # License
-[Datapack](Attack) : [Creative Commons Zero v1](Attack/licence.txt)
+[Datapack](Attack) : [Creative Commons Zero v1](Attack/Licence)
 
-[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/licence.txt)
+[ResourcePack](Attack_Resource) : [MIT License](Attack_Resource/Licence)
+> Copyright (c) 2024 Kyuri
 
 詳細については以下を参照してください
-- データパック [ReadMe-Datapack](Attack/ReadMe-Datapack.md)
-- リソースパック [ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)
+- Datapack [ReadMe-Datapack](Attack/ReadMe-Datapack.md)
+- Resourcepack [ReadMe-Resourcepack](Attack_Resource/ReadMe-Resourcepack.md)

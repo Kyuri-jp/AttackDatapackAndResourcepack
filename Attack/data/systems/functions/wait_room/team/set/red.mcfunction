@@ -12,3 +12,6 @@
 
 # set team
     team join RedTeam @s
+
+# reshow scoreboard
+    scoreboard objectives setdisplay sidebar TeamList
