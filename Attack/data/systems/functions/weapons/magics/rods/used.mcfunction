@@ -31,10 +31,13 @@
 
         # emelemnts
             scoreboard players set #Magics.Rod.Element Datas 0
-            execute if predicate assets:items/weapons/magics/rods/air_rod run scoreboard players set #Magics.Rod.Element Datas 1
-            execute if predicate assets:items/weapons/magics/rods/dirt_rod run scoreboard players set #Magics.Rod.Element Datas 2
-            execute if predicate assets:items/weapons/magics/rods/fire_rod run scoreboard players set #Magics.Rod.Element Datas 3
-            execute if predicate assets:items/weapons/magics/rods/water_rod run scoreboard players set #Magics.Rod.Element Datas 4
+            execute if predicate assets:items/weapons/magics/rods/just/air run scoreboard players set #Magics.Rod.Element Datas 1
+            execute if predicate assets:items/weapons/magics/rods/just/dirt run scoreboard players set #Magics.Rod.Element Datas 2
+            execute if predicate assets:items/weapons/magics/rods/just/fire run scoreboard players set #Magics.Rod.Element Datas 3
+            execute if predicate assets:items/weapons/magics/rods/just/water run scoreboard players set #Magics.Rod.Element Datas 4
+
+            data modify storage attack:temporary Magics.Rod.JustDamageRate set from entity @s SelectedItem.tag.JustDamageRate
+            data modify storage attack:temporary Magics.Rod.UnJustDamageRate set from entity @s SelectedItem.tag.UnJustDamageRate
 
         # summon
             execute anchored eyes run summon armor_stand ^ ^ ^ {Invisible: true, Marker: true, Tags: ["Anchor.MagicShot"]}
