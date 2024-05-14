@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,Rod:true,RodTag:BasicRod}"
+              "tag": "{CustomModelData:1,Rod:true,RodTag:BasicRod,JustElement:None,JustDamageRate:0,UnJustDamageRate:0}"
             }
           ]
         }

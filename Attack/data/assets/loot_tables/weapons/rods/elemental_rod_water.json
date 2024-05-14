@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5,Rod:true,RodTag:WaterRod}"
+              "tag": "{CustomModelData:5,Rod:true,RodTag:WaterRod,JustElement:Water,JustDamageRate:0.2,UnJustDamageRate:0.2}"
             }
           ]
         }

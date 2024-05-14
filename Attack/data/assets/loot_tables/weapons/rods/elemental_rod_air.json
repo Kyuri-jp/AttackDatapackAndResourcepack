@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,Rod:true,RodTag:AirRod}"
+              "tag": "{CustomModelData:2,Rod:true,RodTag:AirRod,JustElement:Air,JustDamageRate:0.2,UnJustDamageRate:0.2}"
             }
           ]
         }
