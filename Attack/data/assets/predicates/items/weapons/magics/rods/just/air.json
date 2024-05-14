@@ -7,17 +7,14 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "items": [
-              "minecraft:carrot_on_a_stick"
-            ],
-            "nbt": "{ButtonTag:Start}"
+            "nbt": "{JustElement:Air}"
           }
         }
       }
     },
     {
       "condition": "minecraft:reference",
-      "name": "assets:is_sneaking"
+      "name": "assets:items/weapons/magics/rods/is_rod"
     }
   ]
 }

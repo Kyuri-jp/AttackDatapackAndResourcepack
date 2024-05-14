@@ -5,14 +5,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Basic Rod",
-                "color": "green",
+                "text": "Setting",
+                "color": "blue",
                 "italic": false
               }
             },
@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "item.lore.weapons.magics.rods.basicRod",
+                  "translate": "item.lore.operator.items.setting",
                   "color": "gray",
                   "italic": false
                 }
@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,Rod:true,RodTag:BasicRod,JustElement:None,JustDamageRate:0,UnJustDamageRate:0}"
+              "tag": "{ButtonTag:Setting,CustomModelData:2}"
             }
           ]
         }

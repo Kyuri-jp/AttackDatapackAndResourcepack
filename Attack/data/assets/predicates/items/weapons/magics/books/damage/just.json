@@ -6,24 +6,24 @@
         "type": "minecraft:fixed",
         "name": "#Magics.Rod.Element"
       },
-      "score": "Datas"
+      "score": "Temporary"
     },
     "range": {
       "min": {
         "type": "minecraft:score",
         "target": {
           "type": "minecraft:fixed",
-          "name": "#Magic.Rod.Element.Just"
+          "name": "#Magics.Book.Element"
         },
-        "score": "Datas"
+        "score": "Temporary"
       },
       "max": {
         "type": "minecraft:score",
         "target": {
           "type": "minecraft:fixed",
-          "name": "#Magic.Rod.Element.Just"
+          "name": "#Magics.Book.Element"
         },
-        "score": "Datas"
+        "score": "Temporary"
       }
     }
   }

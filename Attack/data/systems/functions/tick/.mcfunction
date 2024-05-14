@@ -4,9 +4,6 @@
 #
 # @within function core:tick
 
-# button
-    function systems:operator/items/
-    
 # structure
     function systems:game/structure/set/
 

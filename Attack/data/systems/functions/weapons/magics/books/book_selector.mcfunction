@@ -13,7 +13,7 @@
     #declare score_holder $Magic.Shot.NowScope
     #declare score_holder $Magic.Shot.Inferno.RemovedItem
     #declare score_holder #Magic.Shot.LackMp
-    #declare score_holder #Magic.Rod.Element.Just
+    #declare score_holder #Magics.Book.Element
     #declare score_holder #Magic.Rod.Element.UnJust
 
 # init?
@@ -48,6 +48,6 @@
         scoreboard players reset $Magic.Shot.Inferno.RemovedItem Temporary
         scoreboard players reset #Magic.Shot.LackMp Temporary
         scoreboard players reset $Magic.Shot.NowScope Counter
-        scoreboard players reset #Magics.Rod.Element Datas
-        scoreboard players reset #Magic.Rod.Element.Just Datas
-        scoreboard players reset #Magic.Rod.Element.UnJust Datas
+        scoreboard players reset #Magics.Rod.Element Temporary
+        scoreboard players reset #Magics.Book.Element Temporary
+        scoreboard players reset #Magic.Rod.Element.UnJust Temporary
