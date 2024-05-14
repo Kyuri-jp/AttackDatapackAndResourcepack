@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,Rod:true,RodTag:FireRod}"
+              "tag": "{CustomModelData:4,Rod:true,RodTag:FireRod,JustElement:Fire,JustDamageRate:0.2,UnJustDamageRate:0.2}"
             }
           ]
         }
