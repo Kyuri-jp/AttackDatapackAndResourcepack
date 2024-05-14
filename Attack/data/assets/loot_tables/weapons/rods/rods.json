@@ -11,22 +11,22 @@
           {
             "weight": 8,
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/elemental_rod_air"
+            "name": "assets:weapons/rods/elemental/elemental_rod_air"
           },
           {
             "weight": 8,
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/elemental_rod_dirt"
+            "name": "assets:weapons/rods/elemental/elemental_rod_dirt"
           },
           {
             "weight": 8,
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/elemental_rod_fire"
+            "name": "assets:weapons/rods/elemental/elemental_rod_fire"
           },
           {
             "weight": 8,
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/elemental_rod_water"
+            "name": "assets:weapons/rods/elemental/elemental_rod_water"
           }
         ]
       }
