@@ -48,6 +48,6 @@
         scoreboard players reset $Magic.Shot.Inferno.RemovedItem Temporary
         scoreboard players reset #Magic.Shot.LackMp Temporary
         scoreboard players reset $Magic.Shot.NowScope Counter
-        scoreboard players reset #Magics.Rod.Element Datas
-        scoreboard players reset #Magics.Book.Element Datas
-        scoreboard players reset #Magic.Rod.Element.UnJust Datas
+        scoreboard players reset #Magics.Rod.Element Temporary
+        scoreboard players reset #Magics.Book.Element Temporary
+        scoreboard players reset #Magic.Rod.Element.UnJust Temporary
