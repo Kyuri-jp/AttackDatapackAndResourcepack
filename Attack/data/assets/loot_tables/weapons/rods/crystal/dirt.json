@@ -11,8 +11,8 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Air Crystal Rod",
-                "color": "aqua",
+                "text": "Dirt Crystal Rod",
+                "color": "gold",
                 "italic": false
               }
             },
@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "item.lore.weapons.magics.rods.crystal.air",
+                  "translate": "item.lore.weapons.magics.rods.crystal.dirt",
                   "color": "gray",
                   "italic": false
                 },
@@ -29,10 +29,10 @@
                   "translate": "item.lore.weapons.magics.element.info.damage",
                   "with": [
                       {
-                          "translate": "item.lore.weapons.magics.element.air"
+                          "translate": "item.lore.weapons.magics.element.dirt"
                       },
                       {
-                        "text": "+30%"
+                        "text": "+40%"
                       }
                   ],
                   "color": "blue",
@@ -42,7 +42,7 @@
                   "translate": "item.lore.weapons.magics.element.info.damage",
                   "with": [
                     {
-                        "translate": "item.lore.weapons.magics.element.dirt"
+                        "translate": "item.lore.weapons.magics.element.air"
                     },
                     {
                       "text": "-50%"
@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6,Rod:true,RodTag:CrystalAirRod,JustElement:Air,JustDamageRate:0.3,UnJustDamageRate:0.5}"
+              "tag": "{CustomModelData:7,Rod:true,RodTag:CrystalDirtRod,JustElement:Dirt,JustDamageRate:0.4,UnJustDamageRate:0.5}"
             }
           ]
         }

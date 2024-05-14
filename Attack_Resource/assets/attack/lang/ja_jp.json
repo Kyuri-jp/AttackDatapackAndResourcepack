@@ -61,6 +61,10 @@
     "item.lore.weapons.magics.rods.elemental.extend.dirt": "さらに土の力を秘めた特別な杖",
     "item.lore.weapons.magics.rods.elemental.extend.fire": "さらに火の力を秘めた特別な杖",
     "item.lore.weapons.magics.rods.elemental.extend.water": "さらに水の力を秘めた特別な杖",
+    "item.lore.weapons.magics.rods.crystal.air": "空気の力を秘めた結晶で作られている特別な杖",
+    "item.lore.weapons.magics.rods.crystal.dirt": "土の力を秘めた結晶で作られている特別な杖",
+    "item.lore.weapons.magics.rods.crystal.fire": "火の力を秘めた結晶で作られている特別な杖",
+    "item.lore.weapons.magics.rods.crystal.water": "水の力を秘めた結晶で作られている特別な杖",
 
     "item.lore.weapons.magics.spells.chestReload": "配置されているチェストを再設置する",
     "item.lore.weapons.magics.spells.debility": "相手チームのプレイヤーを衰弱状態にする",
