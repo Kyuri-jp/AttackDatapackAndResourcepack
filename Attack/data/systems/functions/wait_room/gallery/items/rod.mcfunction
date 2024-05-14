@@ -15,3 +15,19 @@
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
     loot spawn ~ ~ ~-4 loot assets:weapons/rods/elemental/water
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~ ~ ~-5 loot assets:weapons/rods/elemental/extend/air
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~ ~ ~-6 loot assets:weapons/rods/elemental/extend/dirt
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~ ~ ~-7 loot assets:weapons/rods/elemental/extend/fire
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~ ~ ~-8 loot assets:weapons/rods/elemental/extend/water
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~ ~ ~-9 loot assets:weapons/rods/crystal/air
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~ loot assets:weapons/rods/crystal/dirt
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~-1 loot assets:weapons/rods/crystal/fire
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~-2 loot assets:weapons/rods/crystal/water
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data

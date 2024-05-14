@@ -9,6 +9,10 @@
       {"predicate": {"custom_model_data":2}, "model": "attack:item/weapons/magics/rods/elemental/air"},
       {"predicate": {"custom_model_data":3}, "model": "attack:item/weapons/magics/rods/elemental/dirt"},
       {"predicate": {"custom_model_data":4}, "model": "attack:item/weapons/magics/rods/elemental/fire"},
-      {"predicate": {"custom_model_data":5}, "model": "attack:item/weapons/magics/rods/elemental/water"}
+      {"predicate": {"custom_model_data":5}, "model": "attack:item/weapons/magics/rods/elemental/water"},
+      {"predicate": {"custom_model_data":6}, "model": "attack:item/weapons/magics/rods/crystal/air"},
+      {"predicate": {"custom_model_data":7}, "model": "attack:item/weapons/magics/rods/crystal/dirt"},
+      {"predicate": {"custom_model_data":8}, "model": "attack:item/weapons/magics/rods/crystal/fire"},
+      {"predicate": {"custom_model_data":9}, "model": "attack:item/weapons/magics/rods/crystal/water"}
     ]
   }

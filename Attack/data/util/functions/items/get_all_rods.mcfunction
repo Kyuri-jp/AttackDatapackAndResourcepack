@@ -3,3 +3,11 @@ loot give @s loot assets:weapons/rods/elemental/air
 loot give @s loot assets:weapons/rods/elemental/dirt
 loot give @s loot assets:weapons/rods/elemental/fire
 loot give @s loot assets:weapons/rods/elemental/water
+loot give @s loot assets:weapons/rods/elemental/extend/air
+loot give @s loot assets:weapons/rods/elemental/extend/dirt
+loot give @s loot assets:weapons/rods/elemental/extend/fire
+loot give @s loot assets:weapons/rods/elemental/extend/water
+loot give @s loot assets:weapons/rods/crystal/air
+loot give @s loot assets:weapons/rods/crystal/dirt
+loot give @s loot assets:weapons/rods/crystal/fire
+loot give @s loot assets:weapons/rods/crystal/water
