@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Extend Water Elemental Rod",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.lore.weapons.magics.rods.elemental.extend.water",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.water"
+                      },
+                      {
+                        "text": "+60%"
+                      }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.fire"
+                    },
+                    {
+                      "text": "-60%"
+                    }
+                ],
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,Enchantments:[{}],Rod:true,RodTag:ExWaterRod,JustElement:Water,JustDamageRate:0.6,UnJustDamageRate:0.6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
