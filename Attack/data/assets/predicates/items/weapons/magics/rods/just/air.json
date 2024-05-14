@@ -7,9 +7,6 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "items": [
-              "minecraft:carrot_on_a_stick"
-            ],
             "nbt": "{JustElement:Air}"
           }
         }
