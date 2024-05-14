@@ -4,8 +4,8 @@
 #   systems:weapons/magics/books/actions/*
 
 # set
-    execute if score #Magic.Book.Element Datas matches 0 run scoreboard players set #Magic.Rod.Element.UnJust Datas 0
-    execute if score #Magic.Book.Element Datas matches 1 run scoreboard players set #Magic.Rod.Element.UnJust Datas 2
-    execute if score #Magic.Book.Element Datas matches 2 run scoreboard players set #Magic.Rod.Element.UnJust Datas 1
-    execute if score #Magic.Book.Element Datas matches 3 run scoreboard players set #Magic.Rod.Element.UnJust Datas 4
-    execute if score #Magic.Book.Element Datas matches 4 run scoreboard players set #Magic.Rod.Element.UnJust Datas 3
+    execute if score #Magic.Book.Element Temporary matches 0 run scoreboard players set #Magic.Rod.Element.UnJust Temporary 0
+    execute if score #Magic.Book.Element Temporary matches 1 run scoreboard players set #Magic.Rod.Element.UnJust Temporary 2
+    execute if score #Magic.Book.Element Temporary matches 2 run scoreboard players set #Magic.Rod.Element.UnJust Temporary 1
+    execute if score #Magic.Book.Element Temporary matches 3 run scoreboard players set #Magic.Rod.Element.UnJust Temporary 4
+    execute if score #Magic.Book.Element Temporary matches 4 run scoreboard players set #Magic.Rod.Element.UnJust Temporary 3

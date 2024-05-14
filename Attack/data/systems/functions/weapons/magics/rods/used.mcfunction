@@ -30,11 +30,11 @@
             tag @s add Player.Magic.This
 
         # emelemnts
-            scoreboard players set #Magics.Rod.Element Datas 0
-            execute if predicate assets:items/weapons/magics/rods/just/air run scoreboard players set #Magics.Rod.Element Datas 1
-            execute if predicate assets:items/weapons/magics/rods/just/dirt run scoreboard players set #Magics.Rod.Element Datas 2
-            execute if predicate assets:items/weapons/magics/rods/just/fire run scoreboard players set #Magics.Rod.Element Datas 3
-            execute if predicate assets:items/weapons/magics/rods/just/water run scoreboard players set #Magics.Rod.Element Datas 4
+            scoreboard players set #Magics.Rod.Element Temporary 0
+            execute if predicate assets:items/weapons/magics/rods/just/air run scoreboard players set #Magics.Rod.Element Temporary 1
+            execute if predicate assets:items/weapons/magics/rods/just/dirt run scoreboard players set #Magics.Rod.Element Temporary 2
+            execute if predicate assets:items/weapons/magics/rods/just/fire run scoreboard players set #Magics.Rod.Element Temporary 3
+            execute if predicate assets:items/weapons/magics/rods/just/water run scoreboard players set #Magics.Rod.Element Temporary 4
 
             data modify storage attack:temporary Magics.Rod.JustDamageRate set from entity @s SelectedItem.tag.JustDamageRate
             data modify storage attack:temporary Magics.Rod.UnJustDamageRate set from entity @s SelectedItem.tag.UnJustDamageRate

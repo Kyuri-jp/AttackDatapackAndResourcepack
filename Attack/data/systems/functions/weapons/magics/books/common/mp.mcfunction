@@ -8,7 +8,7 @@
     ## enough mp
         execute unless score $Magic.Shot.NowScope Counter matches 1.. if score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary run scoreboard players operation @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp -= #Magic.UsingMp Temporary
         #just
-        execute unless score $Magic.Shot.NowScope Counter matches 1.. if score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary if score #Magics.Rod.Element Datas = #Magic.Book.Element Datas as @a[tag=Player.Magic.This,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/vfx/just_element_sound
+        execute unless score $Magic.Shot.NowScope Counter matches 1.. if score @a[tag=Player.Magic.This,sort=nearest,limit=1] Mp >= #Magic.UsingMp Temporary if score #Magics.Rod.Element Temporary = #Magic.Book.Element Temporary as @a[tag=Player.Magic.This,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/vfx/just_element_sound
 
 # call
     function systems:weapons/magics/books/common/move

@@ -2,13 +2,13 @@
 # @within systems:weapons/magics/books/common/mp
 
 #air
-    execute if score #Magic.Book.Element Datas matches 1 run playsound entity.player.attack.sweep player @s ~ ~ ~
+    execute if score #Magic.Book.Element Temporary matches 1 run playsound entity.player.attack.sweep player @s ~ ~ ~
 
 #dirt
-    execute if score #Magic.Book.Element Datas matches 2 run playsound block.stone.break player @s ~ ~ ~ 5
+    execute if score #Magic.Book.Element Temporary matches 2 run playsound block.stone.break player @s ~ ~ ~ 5
 
 #fire
-    execute if score #Magic.Book.Element Datas matches 3 run playsound entity.blaze.shoot player @s ~ ~ ~
+    execute if score #Magic.Book.Element Temporary matches 3 run playsound entity.blaze.shoot player @s ~ ~ ~
 
 #water
-    execute if score #Magic.Book.Element Datas matches 4 run playsound entity.player.splash player @s ~ ~ ~ 5
+    execute if score #Magic.Book.Element Temporary matches 4 run playsound entity.player.splash player @s ~ ~ ~ 5
