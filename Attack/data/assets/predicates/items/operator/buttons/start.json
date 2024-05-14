@@ -1,14 +1,23 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "mainhand": {
-        "items": [
-          "minecraft:carrot_on_a_stick"
-        ],
-        "nbt": "{ButtonTag:Start}"
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{ButtonTag:Start}"
+          }
+        }
       }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "assets:is_sneaking"
     }
-  }
+  ]
 }
