@@ -31,3 +31,11 @@
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
     loot spawn ~-1 ~1 ~-2 loot assets:weapons/rods/crystal/water
     execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~-3 loot assets:weapons/rods/crystal/extend/air
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~-4 loot assets:weapons/rods/crystal/extend/dirt
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~-5 loot assets:weapons/rods/crystal/extend/fire
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data
+    loot spawn ~-1 ~1 ~-6 loot assets:weapons/rods/crystal/extend/water
+    execute positioned as @e[type=item,sort=nearest,limit=1] run function systems:wait_room/gallery/properties/set_data

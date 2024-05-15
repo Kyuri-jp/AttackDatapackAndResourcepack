@@ -11,3 +11,7 @@ loot give @s loot assets:weapons/rods/crystal/air
 loot give @s loot assets:weapons/rods/crystal/dirt
 loot give @s loot assets:weapons/rods/crystal/fire
 loot give @s loot assets:weapons/rods/crystal/water
+loot give @s loot assets:weapons/rods/crystal/extend/air
+loot give @s loot assets:weapons/rods/crystal/extend/dirt
+loot give @s loot assets:weapons/rods/crystal/extend/fire
+loot give @s loot assets:weapons/rods/crystal/extend/water
