@@ -14,7 +14,7 @@
     scoreboard players reset @s UseCarrotStick
 
 # reject
-    execute unless function systems:operator/buttons/actions/start/rejecter run return fail
+    execute unless function systems:operator/buttons/actions/start/rejecter run return run function api:system/util/error_notice/
 
 # reset
     scoreboard players set $Timer.GameStart Counter 120
