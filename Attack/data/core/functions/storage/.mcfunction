@@ -6,7 +6,7 @@
 
 # set Datas
     ## registry
-        data merge storage attack:registry {Main: {Calculation: {Seconds: 20}, Const: {Thousand: 1000, Fifty: 50, Two: 2}, Weapons: {Magics: {Mp: {Max: 100, Smooth: 10}}}}}
+        data merge storage attack:registry {Main: {Calculation: {Seconds: 20,Minutes:60,Hours:60}, Const: {Thousand: 1000, Fifty: 50, Two: 2}, Weapons: {Magics: {Mp: {Max: 100, Smooth: 10}}}}}
         data merge storage attack:registry {Main: {Sys: {DataPackVersion: 1.1.3-beta, ResourcePackVersion: 0.1.3}}}
 
     ## settings
