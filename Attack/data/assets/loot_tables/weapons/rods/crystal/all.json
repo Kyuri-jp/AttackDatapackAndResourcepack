@@ -5,19 +5,28 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/crystal/extend/air"
+            "name": "assets:weapons/rods/crystal/air",
+            "weight": 10
           },
           {
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/crystal/extend/dirt"
+            "name": "assets:weapons/rods/crystal/dirt",
+            "weight": 10
           },
           {
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/crystal/extend/fire"
+            "name": "assets:weapons/rods/crystal/fire",
+            "weight": 10
           },
           {
             "type": "minecraft:loot_table",
-            "name": "assets:weapons/rods/crystal/extend/water"
+            "name": "assets:weapons/rods/crystal/water",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/extend/all",
+            "weight": 5
           }
         ]
       }
