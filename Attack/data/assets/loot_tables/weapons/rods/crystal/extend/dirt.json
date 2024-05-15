@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:7,Rod:true,RodTag:ExCrystalDirtRod,JustElement:Dirt,JustDamageRate:0.6,UnJustDamageRate:0.8}"
+              "tag": "{CustomModelData:7,Enchantments:[{}],Rod:true,RodTag:ExCrystalDirtRod,JustElement:Dirt,JustDamageRate:0.6,UnJustDamageRate:0.8}"
             }
           ]
         }
