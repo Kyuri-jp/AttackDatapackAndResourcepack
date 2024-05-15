@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Extend Water Crystal Rod",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.lore.weapons.magics.rods.crystal.extend.water",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.water"
+                      },
+                      {
+                        "text": "+40%"
+                      }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.fire"
+                    },
+                    {
+                      "text": "-50%"
+                    }
+                ],
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:9,Rod:true,RodTag:ExCrystalWaterRod,JustElement:Water,JustDamageRate:0.6,UnJustDamageRate:0.8}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

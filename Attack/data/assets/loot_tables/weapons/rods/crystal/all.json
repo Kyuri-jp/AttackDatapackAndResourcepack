@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/extend/air"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/extend/dirt"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/extend/fire"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/extend/water"
+          }
+        ]
+      }
+    ]
+  }
+  
