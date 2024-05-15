@@ -3,7 +3,9 @@
     "ui.gui.settingBar.preparationTime": "準備時間",
     "ui.gui.settingBar.exTime": "追加試合時間",
     "ui.gui.settingBar.cdTime": "クールダウン時間",
-    "ui.gui.gameTimeBar": "[%1$s]残り時間:%2$s秒",
+    "ui.gui.gameTimeBar.sec": "[%1$s]Time remaining : %2$s sec",
+    "ui.gui.gameTimeBar.min": "[%1$s]Time remaining : %2$s min %3$s sec",
+    "ui.gui.gameTimeBar.h": "[%1$s]Time remaining : %2$s h %3$s min %4$s sec",
 
     "item.lore.weapons.magics.books.usingMp": "使用マナ : ",
     "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
