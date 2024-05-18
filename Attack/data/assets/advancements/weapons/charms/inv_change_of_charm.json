@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "InvChange": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "assets:items/weapons/charms/adv_ref/wear_any_charms"
+            }
+          ],
+          "items": [
+            {
+              "nbt": "{Charm:true}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "systems:weapons/charms/selector/"
+    }
+  }
+  
