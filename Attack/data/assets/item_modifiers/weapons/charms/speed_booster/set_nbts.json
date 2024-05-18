@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{color:3918079},CharmTag:SpeedBooster}"
+  },
+  {
+    "function": "minecraft:reference",
+    "name": "assets:weapons/charms/common/leather/colored"
+  }
+]
