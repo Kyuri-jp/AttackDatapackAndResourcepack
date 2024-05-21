@@ -48,7 +48,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,MagicBook:true,Element:None,BookTag:Flash}"
+              "tag": "{Element:None,BookTag:Flash}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/magics/books/set_tags"
             }
           ]
         }
