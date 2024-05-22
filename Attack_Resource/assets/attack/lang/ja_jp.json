@@ -3,9 +3,7 @@
     "ui.gui.settingBar.preparationTime": "準備時間",
     "ui.gui.settingBar.exTime": "追加試合時間",
     "ui.gui.settingBar.cdTime": "クールダウン時間",
-    "ui.gui.gameTimeBar.sec": "[%1$s]Time remaining : %2$s sec",
-    "ui.gui.gameTimeBar.min": "[%1$s]Time remaining : %2$s min %3$s sec",
-    "ui.gui.gameTimeBar.h": "[%1$s]Time remaining : %2$s h %3$s min %4$s sec",
+    "ui.gui.gameTimeBar": "[%1$s]残り時間:%2$s秒",
 
     "item.lore.weapons.magics.books.usingMp": "使用マナ : ",
     "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
@@ -23,13 +21,6 @@
     "item.lore.weapons.magics.element.none": "無属性",
 
     "item.lore.weapons.magics.element.info.damage": "%1$s%2$s ",
-
-    "item.lore.operator.items.start": "スニークをしながらアイテムを使用するとゲームを開始できる",
-    "item.lore.operator.items.setting": "ゲームの設定を変更できる",
-
-    "item.lore.weapons.charms.healthManager": "最大体力を少しだけ増加させる",
-    "item.lore.weapons.charms.speedBooster": "移動速度を増加させる",
-    "item.lore.weapons.charms.assassin": "攻撃速度が上昇するが与えるダメージが少なくなる",
 
     "item.lore.weapons.swords.aqua": "連続で攻撃を与える",
     "item.lore.weapons.swords.end": "攻撃した相手の視界を奪い,低確率で超大ダメージを与える",
@@ -63,18 +54,6 @@
     "item.lore.weapons.magics.rods.elemental.dirt": "土の力を秘めた特別な杖",
     "item.lore.weapons.magics.rods.elemental.fire": "火の力を秘めた特別な杖",
     "item.lore.weapons.magics.rods.elemental.water": "水の力を秘めた特別な杖",
-    "item.lore.weapons.magics.rods.elemental.extend.air": "より強い空気の力を秘めた特別な杖",
-    "item.lore.weapons.magics.rods.elemental.extend.dirt": "より強いさらに土の力を秘めた特別な杖",
-    "item.lore.weapons.magics.rods.elemental.extend.fire": "より強いさらに火の力を秘めた特別な杖",
-    "item.lore.weapons.magics.rods.elemental.extend.water": "より強いさらに水の力を秘めた特別な杖",
-    "item.lore.weapons.magics.rods.crystal.air": "空気の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.dirt": "土の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.fire": "火の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.water": "水の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.extend.air": "より強い空気の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.extend.dirt": "より強い土の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.extend.fire": "より強い火の力を秘めた結晶で作られている特別な杖",
-    "item.lore.weapons.magics.rods.crystal.extend.water": "より強い水の力を秘めた結晶で作られている特別な杖",
 
     "item.lore.weapons.magics.spells.chestReload": "配置されているチェストを再設置する",
     "item.lore.weapons.magics.spells.debility": "相手チームのプレイヤーを衰弱状態にする",
