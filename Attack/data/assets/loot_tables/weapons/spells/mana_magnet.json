@@ -43,7 +43,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:4,Spell:true,SpellTag:ManaMagnet,CustomModelData:1,Unbreakable:true}"
+              "tag": "{SpellTag:ManaMagnet}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/magics/spells/set_tags"
             }
           ]
         }
