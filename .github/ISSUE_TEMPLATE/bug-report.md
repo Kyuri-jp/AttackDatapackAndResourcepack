@@ -19,7 +19,7 @@ assignees: ''
 
 |Env|Version|
 |----|----|
-|Minecraft||
+|Minecraft|1.20.4|
 |Forge|None|
 |Fabric|None|
 |Quilt|None|
