@@ -1,10 +1,11 @@
 ---
 name: Request
-about: About
-title: "[Version]"
+about: 新機能の提案など
+title: ''
 labels: Priority Level:3, Suggestion
 assignees: ''
 
 ---
 
-## [Minecraft Version] [DatapackVersion] [ResourcepackVersion(optional)]
+# 概要
+<!-- 新機能等の概要を記入してください -->
