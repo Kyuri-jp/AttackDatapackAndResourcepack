@@ -1,0 +1,3 @@
+files:
+  - source: /Attack_Resource/assets/attack/lang/ja_jp.json
+    translation: /Attack_Resource/assets/attack/lang/%locale%.json
