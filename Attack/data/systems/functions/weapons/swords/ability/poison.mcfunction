@@ -1,5 +1,5 @@
 # action
-    effect give @s poison 4 0 false
+    effect give @s poison 7 0 false
 
 # vfx
     particle effect ~ ~ ~ 0 0 0 0.1 500

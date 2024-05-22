@@ -11,8 +11,8 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Elemental Rod [Fire]",
-                "color": "red",
+                "text": "Dirt Crystal Rod",
+                "color": "gold",
                 "italic": false
               }
             },
@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "item.lore.weapons.magics.rods.elemental.fire",
+                  "translate": "item.lore.weapons.magics.rods.crystal.dirt",
                   "color": "gray",
                   "italic": false
                 },
@@ -29,10 +29,10 @@
                   "translate": "item.lore.weapons.magics.element.info.damage",
                   "with": [
                       {
-                          "translate": "item.lore.weapons.magics.element.fire"
+                          "translate": "item.lore.weapons.magics.element.dirt"
                       },
                       {
-                        "text": "+20%"
+                        "text": "+40%"
                       }
                   ],
                   "color": "blue",
@@ -42,10 +42,10 @@
                   "translate": "item.lore.weapons.magics.element.info.damage",
                   "with": [
                     {
-                        "translate": "item.lore.weapons.magics.element.water"
+                        "translate": "item.lore.weapons.magics.element.air"
                     },
                     {
-                      "text": "-20%"
+                      "text": "-50%"
                     }
                 ],
                   "color": "red",
@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,Rod:true,RodTag:FireRod}"
+              "tag": "{CustomModelData:7,Rod:true,RodTag:CrystalDirtRod,JustElement:Dirt,JustDamageRate:0.4,UnJustDamageRate:0.5}"
             }
           ]
         }

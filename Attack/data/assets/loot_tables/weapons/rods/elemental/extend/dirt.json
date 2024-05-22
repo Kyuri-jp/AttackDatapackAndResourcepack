@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Elemental Rod [Dirt]",
+                "text": "Extend Dirt Elemental Rod",
                 "color": "gold",
                 "italic": false
               }
@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "item.lore.weapons.magics.rods.elemental.dirt",
+                  "translate": "item.lore.weapons.magics.rods.elemental.extend.dirt",
                   "color": "gray",
                   "italic": false
                 },
@@ -32,7 +32,7 @@
                           "translate": "item.lore.weapons.magics.element.dirt"
                       },
                       {
-                        "text": "+20%"
+                        "text": "+40%"
                       }
                   ],
                   "color": "blue",
@@ -45,7 +45,7 @@
                         "translate": "item.lore.weapons.magics.element.air"
                     },
                     {
-                      "text": "-20%"
+                      "text": "-40%"
                     }
                 ],
                   "color": "red",
@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,Rod:true,RodTag:DirtRod}"
+              "tag": "{CustomModelData:3,Enchantments:[{}],Rod:true,RodTag:ExDirtRod,JustElement:Dirt,JustDamageRate:0.4,UnJustDamageRate:0.4}"
             }
           ]
         }

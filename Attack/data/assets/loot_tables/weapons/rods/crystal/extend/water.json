@@ -11,7 +11,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Elemental Rod [Water]",
+                "text": "Extend Water Crystal Rod",
                 "color": "blue",
                 "italic": false
               }
@@ -21,7 +21,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "item.lore.weapons.magics.rods.elemental.air",
+                  "translate": "item.lore.weapons.magics.rods.crystal.extend.water",
                   "color": "gray",
                   "italic": false
                 },
@@ -32,7 +32,7 @@
                           "translate": "item.lore.weapons.magics.element.water"
                       },
                       {
-                        "text": "+20%"
+                        "text": "+60%"
                       }
                   ],
                   "color": "blue",
@@ -45,7 +45,7 @@
                         "translate": "item.lore.weapons.magics.element.fire"
                     },
                     {
-                      "text": "-20%"
+                      "text": "-80%"
                     }
                 ],
                   "color": "red",
@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5,Rod:true,RodTag:WaterRod}"
+              "tag": "{CustomModelData:9,Enchantments:[{}],Rod:true,RodTag:ExCrystalWaterRod,JustElement:Water,JustDamageRate:0.6,UnJustDamageRate:0.8}"
             }
           ]
         }

@@ -6,7 +6,7 @@
         "type": "minecraft:fixed",
         "name": "#Magics.Rod.Element"
       },
-      "score": "Datas"
+      "score": "Temporary"
     },
     "range": {
       "min": {
@@ -15,7 +15,7 @@
           "type": "minecraft:fixed",
           "name": "#Magic.Rod.Element.UnJust"
         },
-        "score": "Datas"
+        "score": "Temporary"
       },
       "max": {
         "type": "minecraft:score",
@@ -23,7 +23,7 @@
           "type": "minecraft:fixed",
           "name": "#Magic.Rod.Element.UnJust"
         },
-        "score": "Datas"
+        "score": "Temporary"
       }
     }
   }
