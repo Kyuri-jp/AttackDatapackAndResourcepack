@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/health_manager/head"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/health_manager/chest"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/health_manager/legs"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/health_manager/feet"
+          }
+        ]
+      }
+    ]
+  }
+  

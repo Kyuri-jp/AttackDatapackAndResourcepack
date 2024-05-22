@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Fire Crystal Rod",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.lore.weapons.magics.rods.crystal.fire",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.fire"
+                      },
+                      {
+                        "text": "+40%"
+                      }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.water"
+                    },
+                    {
+                      "text": "-50%"
+                    }
+                ],
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8,Rod:true,RodTag:CrystalFireRod,JustElement:Fire,JustDamageRate:0.4,UnJustDamageRate:0.5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

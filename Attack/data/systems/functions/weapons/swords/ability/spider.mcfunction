@@ -12,7 +12,7 @@
     execute on attacker run tag @s add Player.Sword.Attacker.Spider
 
 # action
-    effect give @s poison 2 0 false
+    effect give @s poison 3 4 false
 
 # vfx
     particle spit ~ ~1 ~ 0 0 0 0.1 500

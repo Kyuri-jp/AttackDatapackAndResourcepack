@@ -48,7 +48,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,MagicBook:true,Element:Dirt,BookTag:Reel}"
+              "tag": "{Element:Dirt,BookTag:Reel}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/magics/books/set_tags"
             }
           ]
         }

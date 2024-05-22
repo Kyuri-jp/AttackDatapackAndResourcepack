@@ -43,7 +43,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:4,Spell:true,SpellTag:HealPlus,CustomModelData:1,Unbreakable:true}"
+              "tag": "{SpellTag:HealPlus}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/magics/spells/set_tags"
             }
           ]
         }

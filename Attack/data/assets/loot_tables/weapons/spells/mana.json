@@ -8,8 +8,16 @@
           "name": "minecraft:arrow",
           "functions": [
             {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Mana",
+                "italic": false
+              }
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\": \"Mana\",\"italic\": false}'},Mana:true,CustomModelData:1}"
+              "tag": "{Mana:true,CustomModelData:1}"
             }
           ]
         }

@@ -29,7 +29,8 @@
     execute if predicate assets:items/weapons/magics/spells/have_spell_in_off_hand run function systems:weapons/magics/spells/have_offhand
 
 # button
-    execute run function systems:operator/buttons/used
+    function systems:operator/items/
+    execute if score @s UseCarrotStick matches 1.. run function systems:operator/buttons/used
 
 # player info
     execute if entity @s[team=!Watch,tag=Player.Playing] run function libs:show_player_info/

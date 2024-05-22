@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{Unbreakable:true}"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "assets:weapons/charms/common/any/set_tag"
+    }
+  ]
+  
