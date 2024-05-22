@@ -29,7 +29,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:1,HideFlags:6,Sword:true,SwordTag:Eternal}"
+              "tag": "{CustomModelData:1,SwordTag:Eternal}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/swords/set_tags"
             }
           ]
         }

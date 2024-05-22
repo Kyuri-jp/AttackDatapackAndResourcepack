@@ -13,7 +13,7 @@
     execute as @a if score @s PlayerID = @a[tag=Player.Sword.Damaged.Aqua,limit=1] AttackerID run tag @s add Player.Sword.Attacker.Aqua
 
 # damage and vfx
-    execute as @a[tag=Player.Sword.Damaged.Aqua] at @s run damage @s 0.2 assets:weapons/swords/aqua by @p[tag=Player.Sword.Attacker.Aqua,distance=0.01..]
+    execute as @a[tag=Player.Sword.Damaged.Aqua] at @s run damage @s 1 assets:weapons/swords/aqua by @p[tag=Player.Sword.Attacker.Aqua,distance=0.01..]
     execute as @a[tag=Player.Sword.Damaged.Aqua] at @s run particle falling_water ~ ~1 ~ 0 0 0 0.1 500
     execute as @a[tag=Player.Sword.Damaged.Aqua] at @s run playsound entity.player.splash player @s ~ ~ ~
 

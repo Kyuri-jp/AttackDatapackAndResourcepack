@@ -48,7 +48,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:3,HideFlags:6,Sword:true,SwordTag:Magnet}"
+              "tag": "{CustomModelData:3,SwordTag:Magnet}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/swords/set_tags"
             }
           ]
         }
