@@ -27,6 +27,10 @@
     "item.lore.operator.items.start": "スニークをしながらアイテムを使用するとゲームを開始できる",
     "item.lore.operator.items.setting": "ゲームの設定を変更できる",
 
+    "item.lore.weapons.charms.healthManager": "最大体力を少しだけ増加させる",
+    "item.lore.weapons.charms.speedBooster": "移動速度を増加させる",
+    "item.lore.weapons.charms.assassin": "攻撃速度が上昇するが与えるダメージが少なくなる",
+
     "item.lore.weapons.swords.aqua": "連続で攻撃を与える",
     "item.lore.weapons.swords.end": "攻撃した相手の視界を奪い,低確率で超大ダメージを与える",
     "item.lore.weapons.swords.eternal": "攻撃した相手に50%の確率で大ダメージを与える",

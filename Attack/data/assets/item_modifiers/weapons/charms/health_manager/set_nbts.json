@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{color:16728128},CharmTag:HealthManager}"
+  },
+  {
+    "function": "minecraft:reference",
+    "name": "assets:weapons/charms/common/leather/colored"
+  }
+]
