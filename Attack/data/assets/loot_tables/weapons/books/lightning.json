@@ -48,7 +48,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,MagicBook:true,Element:Air,BookTag:Lightning}"
+              "tag": "{Element:Air,BookTag:Lightning}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/magics/books/set_tags"
             }
           ]
         }
