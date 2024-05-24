@@ -13,6 +13,12 @@
     #declare tag Player.ScopeOver.Attacker
     #declare tag Anchor.ScopeOver
 
+# return
+    execute if entity @s[advancements={assets:common/system/impossible}] run return fail
+
+# grant
+    advancement grant @s only assets:common/system/impossible
+
 # teleport
     tp @s ~ ~1 ~
 

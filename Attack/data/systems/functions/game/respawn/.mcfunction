@@ -25,3 +25,6 @@
 
     ## give items
         execute positioned as @s run function libs:player_item_storage/get
+
+    ## revoke
+        advancement revoke @s only assets:common/system/impossible
