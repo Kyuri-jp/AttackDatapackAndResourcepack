@@ -30,7 +30,7 @@
     difficulty peaceful
 
 # playerReset
-    advancement revoke @s only assets:common/system/impossible  
+    advancement revoke @a only assets:common/system/impossible  
     gamemode adventure @a
     scoreboard players reset RedTeamScore Scores
     scoreboard players reset BlueTeamScore Scores
