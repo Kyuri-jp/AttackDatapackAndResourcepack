@@ -7,6 +7,7 @@
 # @within
 #   systems:weapons/swords/ability/additional_damage/aqua
 #   systems:weapons/swords/ability/additional_damage/reset/aqua
+#   systems:weapons/swords/ability/additional_damage/reset/tag_remover
     #declare tag Player.Sword.Attacker.Aqua
 
 # attacker detect
