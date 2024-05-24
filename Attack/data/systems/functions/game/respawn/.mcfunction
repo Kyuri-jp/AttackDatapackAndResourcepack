@@ -24,7 +24,7 @@
         scoreboard players reset @s CoolDownCounter
 
     ## give items
-        execute positioned as @s run function libs:player_item_storage/get
+        execute positioned as @s positioned ~ ~2 ~ run function libs:player_item_storage/get
 
     ## revoke
         advancement revoke @s only assets:common/system/impossible
