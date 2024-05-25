@@ -14,7 +14,7 @@
     #declare tag Anchor.ScopeOver
 
 # return
-    execute if entity @s[advancements={assets:common/system/impossible}] run return fail
+    execute if entity @s[advancements={assets:common/system/impossible=true}] run return fail
 
 # grant
     advancement grant @s only assets:common/system/impossible
