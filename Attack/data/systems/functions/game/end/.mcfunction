@@ -30,6 +30,7 @@
     difficulty peaceful
 
 # playerReset
+    advancement revoke @a only assets:common/system/impossible  
     gamemode adventure @a
     scoreboard players reset RedTeamScore Scores
     scoreboard players reset BlueTeamScore Scores
@@ -43,6 +44,9 @@
     execute at @e[type=armor_stand,tag=Anchor.WaitRoom.DefaultPosition] run spawnpoint @a ~ ~ ~
     tag @a remove Player.Playing
     tag @a remove Player.CoolDownNow
+    team leave @a[team=Preparation]
+    team join RedTeam @a[tag=Player.Team.Red]
+    team join BlueTeam @a[tag=Player.Team.Blue]
 
 # entities
     kill @e[type=armor_stand,tag=Pis.Marker]

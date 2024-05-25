@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/assassin/ref",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/health_manager/ref",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/speed_booster/ref",
+            "weight": 7
+          }
+        ]
+      }
+    ]
+  }
+  

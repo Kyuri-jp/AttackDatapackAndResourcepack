@@ -12,6 +12,10 @@
 # remove Counter
     scoreboard players remove @a[tag=Player.CoolDownNow] CoolDownCounter 1
 
+# give items
+    execute as @a[tag=Player.CoolDownNow] if score @s CoolDownCounter matches 1 positioned as @s run function libs:player_item_storage/get
+    
+
 # rebone
     execute as @a[tag=Player.CoolDownNow] if score @s CoolDownCounter matches ..0 run function systems:game/respawn/
 

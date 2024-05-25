@@ -11,6 +11,7 @@
 #   systems:weapons/swords/common/marker_move
 #   systems:weapons/swords/common/detect_victim
 #   systems:weapons/swords/sword_selector
+#   systems:weapons/swords/common/tag_remover
     #declare tag Entity.Sword.Victim
 
 # move

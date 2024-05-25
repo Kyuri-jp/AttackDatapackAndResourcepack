@@ -6,31 +6,23 @@
     "ui.gui.gameTimeBar.sec": "[%1$s]Time remaining : %2$s sec",
     "ui.gui.gameTimeBar.min": "[%1$s]Time remaining : %2$s min %3$s sec",
     "ui.gui.gameTimeBar.h": "[%1$s]Time remaining : %2$s h %3$s min %4$s sec",
-
     "item.lore.weapons.magics.books.usingMp": "使用マナ : ",
     "item.lore.weapons.magics.spells.usingMana": "使用MP : ",
-
     "info.weapons.magics.lack.mana": "マナが足りません!",
     "info.weapons.magics.lack.enoughMana": "十分なマナがありません!",
     "info.weapons.magics.lack.mp": "MPが足りません!",
-
     "info.weapons.magics.missing.book": "本を左手に持ってください",
-
     "item.lore.weapons.magics.element.air": "空気属性",
     "item.lore.weapons.magics.element.dirt": "土属性",
     "item.lore.weapons.magics.element.fire": "火属性",
     "item.lore.weapons.magics.element.water": "水属性",
     "item.lore.weapons.magics.element.none": "無属性",
-
     "item.lore.weapons.magics.element.info.damage": "%1$s%2$s ",
-
     "item.lore.operator.items.start": "スニークをしながらアイテムを使用するとゲームを開始できる",
     "item.lore.operator.items.setting": "ゲームの設定を変更できる",
-
     "item.lore.weapons.charms.healthManager": "最大体力を少しだけ増加させる",
     "item.lore.weapons.charms.speedBooster": "移動速度を増加させる",
     "item.lore.weapons.charms.assassin": "攻撃速度が上昇するが与えるダメージが少なくなる",
-
     "item.lore.weapons.swords.aqua": "連続で攻撃を与える",
     "item.lore.weapons.swords.end": "攻撃した相手の視界を奪い,低確率で超大ダメージを与える",
     "item.lore.weapons.swords.eternal": "攻撃した相手に50%の確率で大ダメージを与える",
@@ -46,7 +38,6 @@
     "item.lore.weapons.swords.spider": "攻撃した相手の武器を奪う",
     "item.lore.weapons.swords.wind": "攻撃した相手を上に吹き飛ばす",
     "item.lore.weapons.swords.wither": "攻撃した相手をウィザー状態にし,ウィザースケルトンを召喚する",
-
     "item.lore.weapons.magics.books.dark": "当たった相手を暗闇状態にする",
     "item.lore.weapons.magics.books.drain": "当たった相手の体力を奪い取る",
     "item.lore.weapons.magics.books.explosion": "当たった相手を爆発させる",
@@ -57,7 +48,6 @@
     "item.lore.weapons.magics.books.poisonDrink": "当たった相手を強い毒状態にする",
     "item.lore.weapons.magics.books.reel": "当たった相手に向かって自身を引き寄せる",
     "item.lore.weapons.magics.books.waterChain": "当たった相手の移動速度をかなり低下させる",
-
     "item.lore.weapons.magics.rods.basicRod": "一般的な無属性の杖",
     "item.lore.weapons.magics.rods.elemental.air": "空気の力を秘めた特別な杖",
     "item.lore.weapons.magics.rods.elemental.dirt": "土の力を秘めた特別な杖",
@@ -75,7 +65,6 @@
     "item.lore.weapons.magics.rods.crystal.extend.dirt": "より強い土の力を秘めた結晶で作られている特別な杖",
     "item.lore.weapons.magics.rods.crystal.extend.fire": "より強い火の力を秘めた結晶で作られている特別な杖",
     "item.lore.weapons.magics.rods.crystal.extend.water": "より強い水の力を秘めた結晶で作られている特別な杖",
-
     "item.lore.weapons.magics.spells.chestReload": "配置されているチェストを再設置する",
     "item.lore.weapons.magics.spells.debility": "相手チームのプレイヤーを衰弱状態にする",
     "item.lore.weapons.magics.spells.effectRestore": "デバフをすべて解除する",
@@ -101,10 +90,8 @@
     "item.lore.weapons.magics.spells.transaction": "マナをすべて消費し、持っているマナの50%をMPの最大値に加算する",
     "item.lore.weapons.magics.spells.underground": "相手チームのプレイヤーにウィザースケルトンを召喚する",
     "item.lore.weapons.magics.spells.witherSkeletonRemover": "相手チームのウィザースケルトンを全て排除する",
-
     "death.fell.scope_over": "%1$sはフィールドの外に落ちた",
     "death.attack.scope_over.player": "%1$sは%2$sによってフィールドの外に落とされた",
-
     "death.attack.magic.dark.item": "%1$sは%2$sが放った闇に飲み込まれた",
     "death.attack.magic.drain.item": "%1$sは%2$sに生気を吸い取られた",
     "death.attack.magic.explosion.item": "%1$sは%2$sに跡形もなく爆破された",
@@ -115,7 +102,6 @@
     "death.attack.magic.poisonDrink.item": "%1$sは%2$sによって毒殺された",
     "death.attack.magic.reel.item": "%1$sは%2$sに背後を取られた",
     "death.attack.magic.waterChain.item": "%1$sは%2$sに身動きを封じられた",
-
     "death.attack.sword.adv.aqua.item": "%1$sは%2$sが放った水に溺れた",
     "death.attack.sword.adv.end.item": "%1$sは%2$sの邪気に飲み込まれた",
     "death.attack.sword.adv.eternal.item": "%1$sは%2$sによって封印された",

@@ -7,6 +7,7 @@
 # @within
 #   systems:weapons/swords/ability/additional_damage/freeze
 #   systems:weapons/swords/ability/additional_damage/reset/freeze
+#   systems:weapons/swords/ability/additional_damage/reset/tag_remover
     #declare tag Player.Sword.Attacker.Freeze
 
 # attacker detect
