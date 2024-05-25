@@ -29,7 +29,11 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:true,CustomModelData:2,HideFlags:6,Sword:true,SwordTag:Spider}"
+              "tag": "{CustomModelData:2,SwordTag:Spider}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/swords/set_tags"
             }
           ]
         }

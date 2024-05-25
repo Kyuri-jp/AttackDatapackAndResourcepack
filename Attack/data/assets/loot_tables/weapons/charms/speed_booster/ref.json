@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/speed_booster/head"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/speed_booster/chest"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/speed_booster/legs"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/charms/speed_booster/feet"
+          }
+        ]
+      }
+    ]
+  }
+  

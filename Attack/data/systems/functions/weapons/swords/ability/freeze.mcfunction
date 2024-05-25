@@ -5,6 +5,7 @@
 #   systems:weapons/swords/ability/freeze
 #   systems:weapons/swords/ability/additional_damage/freeze
 #   systems:weapons/swords/ability/additional_damage/reset/freeze
+#   systems:weapons/swords/ability/additional_damage/reset/tag_remover
     #declare tag Player.Sword.Damaged.Freeze
 
 # vfx

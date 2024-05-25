@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Fire Elemental Rod",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.lore.weapons.magics.rods.elemental.fire",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.fire"
+                      },
+                      {
+                        "text": "+20%"
+                      }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.water"
+                    },
+                    {
+                      "text": "-20%"
+                    }
+                ],
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,Rod:true,RodTag:FireRod,JustElement:Fire,JustDamageRate:0.2,UnJustDamageRate:0.2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

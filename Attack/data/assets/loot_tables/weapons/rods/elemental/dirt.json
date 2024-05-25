@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Dirt Elemental Rod",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.lore.weapons.magics.rods.elemental.dirt",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                      {
+                          "translate": "item.lore.weapons.magics.element.dirt"
+                      },
+                      {
+                        "text": "+20%"
+                      }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "translate": "item.lore.weapons.magics.element.info.damage",
+                  "with": [
+                    {
+                        "translate": "item.lore.weapons.magics.element.air"
+                    },
+                    {
+                      "text": "-20%"
+                    }
+                ],
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,Rod:true,RodTag:DirtRod,JustElement:Dirt,JustDamageRate:0.2,UnJustDamageRate:0.2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

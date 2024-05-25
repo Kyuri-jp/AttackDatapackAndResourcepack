@@ -7,6 +7,7 @@
 # @within
 #   systems:weapons/swords/ability/additional_damage/freeze
 #   systems:weapons/swords/ability/additional_damage/reset/freeze
+#   systems:weapons/swords/ability/additional_damage/reset/tag_remover
     #declare tag Player.Sword.Attacker.Freeze
 
 # attacker detect
@@ -16,7 +17,7 @@
     attribute @s generic.movement_speed base set 0
 
 # damage
-    execute as @a[tag=Player.Sword.Damaged.Freeze] at @s run damage @s 0.1 assets:weapons/swords/freeze by @p[tag=Player.Sword.Attacker.Freeze,distance=0.01..]
+    execute as @a[tag=Player.Sword.Damaged.Freeze] at @s run damage @s 1 assets:weapons/swords/freeze by @p[tag=Player.Sword.Attacker.Freeze,distance=0.01..]
 
 # add count
     scoreboard players add @a[tag=Player.Sword.Damaged.Freeze] Counter 1

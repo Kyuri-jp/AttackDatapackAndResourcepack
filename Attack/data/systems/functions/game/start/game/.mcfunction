@@ -14,6 +14,7 @@
 # @within
 #   systems:game/start/game/
 #   systems:game/main_game/
+#   systems:game/end/
     #declare tag Player.Team.Red
     #declare tag Player.Team.Blue
 

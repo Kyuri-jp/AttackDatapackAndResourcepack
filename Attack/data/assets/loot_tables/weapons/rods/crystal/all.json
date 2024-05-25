@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/air",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/dirt",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/fire",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/water",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "assets:weapons/rods/crystal/extend/all",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

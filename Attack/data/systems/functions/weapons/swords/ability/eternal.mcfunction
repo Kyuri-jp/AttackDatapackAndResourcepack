@@ -4,6 +4,7 @@
 # @within
 #   systems:weapons/swords/ability/eternal
 #   systems:weapons/swords/ability/additional_damage/eternal
+#   systems:weapons/swords/ability/additional_damage/reset/tag_remover
     #declare tag Player.Sword.Attacker.Eternal
 
 # vfx

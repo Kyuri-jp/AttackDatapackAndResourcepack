@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{HideFlags:70}"
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "assets:weapons/charms/common/any/ref_armor"
+    }
+  ]
+  

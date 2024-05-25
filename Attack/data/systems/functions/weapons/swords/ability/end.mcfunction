@@ -4,6 +4,7 @@
 # @within
 #   systems:weapons/swords/ability/end
 #   systems:weapons/swords/ability/additional_damage/end
+#   systems:weapons/swords/ability/additional_damage/reset/tag_remover
     #declare tag Player.Sword.Attacker.End
 
 # action
