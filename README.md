@@ -6,7 +6,7 @@
 ![stars](https://img.shields.io/github/stars/Kyuri-jp/AttackDatapackAndResourcepack)
 ![forks](https://img.shields.io/github/forks/Kyuri-jp/AttackDatapackAndResourcepack)
 
-![attack](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/assets/107470858/6d898546-001b-4045-b3e6-1e0e74d58438)
+[![attack](https://github.com/Kyuri-jp/AttackDatapackAndResourcepack/assets/107470858/6d898546-001b-4045-b3e6-1e0e74d58438)](https://youtu.be/NhmQ6trRFHM)
 
 # About
 マインクラフトの配布マップ Attack! のベースデータパックとリソースパックです。
