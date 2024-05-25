@@ -1,0 +1,12 @@
+loot give @s loot assets:weapons/charms/assassin/chest
+loot give @s loot assets:weapons/charms/assassin/feet
+loot give @s loot assets:weapons/charms/assassin/head
+loot give @s loot assets:weapons/charms/assassin/legs
+loot give @s loot assets:weapons/charms/health_manager/chest
+loot give @s loot assets:weapons/charms/health_manager/feet
+loot give @s loot assets:weapons/charms/health_manager/head
+loot give @s loot assets:weapons/charms/health_manager/legs
+loot give @s loot assets:weapons/charms/speed_booster/chest
+loot give @s loot assets:weapons/charms/speed_booster/feet
+loot give @s loot assets:weapons/charms/speed_booster/head
+loot give @s loot assets:weapons/charms/speed_booster/legs
