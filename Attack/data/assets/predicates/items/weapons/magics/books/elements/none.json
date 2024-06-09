@@ -4,9 +4,6 @@
     "predicate": {
       "equipment": {
         "offhand": {
-          "items": [
-            "minecraft:book"
-          ],
           "nbt": "{Element:None}"
         }
       }

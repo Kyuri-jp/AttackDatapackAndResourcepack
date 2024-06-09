@@ -18,7 +18,7 @@
 # get data
     execute store result score #Magics.Mp.Max Temporary run scoreboard players get @s MpMax
     execute store result score $SyncXM.Bar.Smooth Temporary run data get storage attack:registry Main.Weapons.Magics.Mp.Smooth
-    execute store result score #Const.1000 Temporary run data get storage attack:registry Main.Const.Thousand
+    execute store result score #Const.1000 Temporary run data get storage attack:registry Main.Const.1000
 
 # get point
     ## levels reset

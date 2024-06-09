@@ -27,7 +27,7 @@
                     "color": "aqua"
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.Lightning",
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.Lightning",
                     "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,

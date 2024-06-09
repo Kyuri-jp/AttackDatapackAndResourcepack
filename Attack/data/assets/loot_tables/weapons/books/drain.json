@@ -27,7 +27,7 @@
                     "color": "aqua"
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.Drain",
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.Drain",
                     "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,

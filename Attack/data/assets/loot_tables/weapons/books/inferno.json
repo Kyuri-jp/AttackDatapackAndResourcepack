@@ -27,7 +27,7 @@
                     "color": "aqua"
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.Inferno",
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.Inferno",
                     "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,

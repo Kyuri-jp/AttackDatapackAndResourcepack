@@ -11,8 +11,8 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Magic Book [Water Chain]",
-                "color": "blue",
+                "text": "Magic Book [Apocalypse]",
+                "color": "white",
                 "italic": false
               }
             },
@@ -27,7 +27,7 @@
                     "color": "aqua"
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Books.UsingMp.WaterChain",
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.Apocalypse",
                     "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,
@@ -35,12 +35,12 @@
                   }
                 ],
                 {
-                  "translate": "item.lore.weapons.magics.books.waterChain",
+                  "translate": "item.lore.weapons.magics.books.apocalypse",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "水属性",
+                  "text": "無属性",
                   "color": "blue",
                   "italic": false
                 }
@@ -48,7 +48,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Element:Water,BookTag:WaterChain}"
+              "tag": "{Element:None,BookTag:Apocalypse}"
             },
             {
               "function": "minecraft:reference",

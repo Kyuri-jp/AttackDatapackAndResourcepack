@@ -38,6 +38,7 @@
         execute if predicate assets:items/weapons/magics/books/reel as @e[type=armor_stand,tag=Anchor.MagicShot,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/reel
         execute if predicate assets:items/weapons/magics/books/poison_drink as @e[type=armor_stand,tag=Anchor.MagicShot,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/poison_drink
         execute if predicate assets:items/weapons/magics/books/inferno as @e[type=armor_stand,tag=Anchor.MagicShot,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/inferno
+        execute if predicate assets:items/weapons/magics/books/apocalypse as @e[type=armor_stand,tag=Anchor.MagicShot,sort=nearest,limit=1] at @s run function systems:weapons/magics/books/actions/apocalypse
 
     # remove tag
         tag @s remove Player.Magic.This
