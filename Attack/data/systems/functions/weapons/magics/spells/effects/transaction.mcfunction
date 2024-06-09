@@ -12,7 +12,7 @@
     execute if score @s ManaCounter matches ..1 run return fail
 
 # data get
-    execute store result score #Const.Two Temporary run data get storage attack:registry Main.Const.Two
+    execute store result score #Const.Two Temporary run data get storage attack:registry Main.Const.2
     scoreboard players operation #Magic.Spell.Transaction.AddMp Temporary = @s ManaCounter
     scoreboard players operation #Magic.Spell.Transaction.AddMp Temporary /= #Const.Two Temporary
 

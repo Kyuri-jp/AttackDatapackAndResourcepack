@@ -10,7 +10,7 @@
     #declare score_holder #Const.Fifty
 
 # get data
-    execute store result score #Const.Fifty Temporary run data get storage attack:registry Main.Const.Fifty
+    execute store result score #Const.Fifty Temporary run data get storage attack:registry Main.Const.50
 
 # heal mp
     scoreboard players operation #Player.HealMp Temporary = @s MpMax
