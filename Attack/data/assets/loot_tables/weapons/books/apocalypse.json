@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Magic Book [Apocalypse]",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "item.lore.weapons.magics.books.usingMp",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.Apocalypse",
+                    "storage": "attack:settings",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.lore.weapons.magics.books.apocalypse",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "無属性",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Element:None,BookTag:Apocalypse}"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "assets:weapons/magics/books/set_tags"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
