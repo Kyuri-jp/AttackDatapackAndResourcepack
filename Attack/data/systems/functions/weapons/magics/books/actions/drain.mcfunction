@@ -1,5 +1,5 @@
 # get using mp
-    execute store result score #Magic.UsingMp Temporary run data get storage attack:settings Main.Weapons.Magics.Rods.UsingMp.Drain
+    execute store result score #Magic.UsingMp Temporary run data get storage attack:settings Main.Weapons.Magics.Books.UsingMp.Drain
 
 # call common pros
     function systems:weapons/magics/books/common/

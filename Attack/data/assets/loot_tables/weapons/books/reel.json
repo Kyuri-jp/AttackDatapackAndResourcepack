@@ -27,7 +27,7 @@
                     "color": "aqua"
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.Reel",
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.Reel",
                     "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,

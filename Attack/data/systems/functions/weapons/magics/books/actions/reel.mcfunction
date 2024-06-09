@@ -1,5 +1,5 @@
 # get using mp
-    execute store result score #Magic.UsingMp Temporary run data get storage attack:settings Main.Weapons.Magics.Rods.UsingMp.Reel
+    execute store result score #Magic.UsingMp Temporary run data get storage attack:settings Main.Weapons.Magics.Books.UsingMp.Reel
 
 # element
     function systems:weapons/magics/books/un_just

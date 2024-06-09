@@ -27,7 +27,7 @@
                     "color": "aqua"
                   },
                   {
-                    "nbt": "Main.Weapons.Magics.Rods.UsingMp.WaterChain",
+                    "nbt": "Main.Weapons.Magics.Books.UsingMp.WaterChain",
                     "storage": "attack:settings",
                     "color": "aqua",
                     "bold": true,
